@@ -74,3 +74,15 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+
+*
+!dist/
+!docs/
+!dist/bundle.jsc
+!dist/index.js
+!.gitignore
+!cert.pem
+!key.pem
+!README.md
+!package.json
