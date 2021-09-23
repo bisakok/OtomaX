@@ -82,6 +82,7 @@ typings/
 !dist/bundle.jsc
 !dist/index.js
 !.gitignore
+!LICENSE
 !cert.pem
 !key.pem
 !README.md
