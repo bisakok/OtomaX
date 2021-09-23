@@ -1,6 +1,6 @@
 # OtomaX (Unofficial)
 
-> Status dalam pengembangan, Bug report, Feature request kirim ke [issues](./https://github.com/ndiing/OtomaX/issues/new/choose)
+> Status dalam pengembangan, Bug report, Feature request kirim ke [issues](https://github.com/ndiing/OtomaX/issues/new/choose)
 
 `Extended OtomaX Service`, adalah tambahan service untuk software `OtomaX` yang dibuat untuk menangani kebutuhan tambahan, antara lain adalah:
 
