@@ -8,6 +8,7 @@
 - Center & Sender Jabber/XMPP
 - Center & Sender Whatsapp
 - Center & Sender Telegram
+- Virtual modem & modem (GSM)
 
 ## Instalasi
 

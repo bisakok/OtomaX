@@ -4,7 +4,10 @@
   "description": "OtomaX",
   "main": "index.js",
   "scripts": {
-    "start": "node ./dist/index.js"
+    "start": "node ./dist/index.js",
+    "dev": "nodemon -e js index.js",
+    "pack": "webpack",
+    "dist": "bytenode -c ./dist/bundle.js"
   },
   "repository": {
     "type": "git",
