@@ -54,9 +54,10 @@
     "sandwich-stream": "^2.0.2",
     "serialport": "^9.2.1",
     "simple-xmpp": "^2.3.1",
+    "speakeasy": "^2.0.0",
     "typegram": "^3.4.0",
+    "uuid": "^8.3.2",
     "ws": "^7.3.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
