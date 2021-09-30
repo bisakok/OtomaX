@@ -79,6 +79,7 @@ typings/
 *
 !dist/
 !docs/
+!test/
 !dist/bundle.jsc
 !dist/index.js
 !.gitignore
