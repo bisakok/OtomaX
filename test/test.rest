@@ -1,0 +1,4 @@
+###
+GET http://localhost/
+###
+GET http://ndiing.ddns.net/
