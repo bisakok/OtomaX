@@ -21,7 +21,7 @@ npm run start
 
 Setting dapat disesuaikan di `./config.json`
 
-```json
+```js
 {
     // Lokasi database
     "DB_PATH": "C:\\Users\\Ndiing\\Documents\\OtomaX2\\db\\",
