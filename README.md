@@ -143,7 +143,7 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
 
-#### Live/Stream Callback
+#### Live/Stream
 
 -   [`GET /:id_sesi/event`]() - Live/Stream `Open`,`Close`,`ConnectionPhoneChange`,`Qr`,`Inbox`,`Outbox`
 
@@ -160,7 +160,7 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
 
-#### Live/Stream Callback
+#### Live/Stream
 
 -   [`GET /:id_sesi/event`]() - Live/Stream `Start`,`Contact`,`Inbox`,`Open`,`Outbox`
 
@@ -177,7 +177,7 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
 
-#### Live/Stream Callback
+#### Live/Stream
 
 -   [`GET /:id_sesi/event`]() - Live/Stream `Online`,`Inbox`,`Error`,`Subscribe`,`Open`,`Outbox`
 
