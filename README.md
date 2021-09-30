@@ -191,12 +191,12 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 
 Contoh penggunaan terdapat pada folder `./test`, dapat dicoba dengan addon `REST Client` pada `VS Code`
 
--   [jabber.rest](./test/jabber.rest) - Penggunaan jabber
--   [whatsapp.rest](./test/whatsapp.rest) - Penggunaan Whatsapp
--   [telegram.rest](./test/telegram.rest) - Penggunaan Telegram
--   [otomax.rest](./test/otomax.rest) - Penggunaan API `auth`,`common`,`internal`, dan `extenal`
--   [otomax1.rest](./test/otomax1.rest) - Penggunaan HTTP Request `GET`
--   [otomax2.rest](./test/otomax2.rest) - Penggunaan HTTP Request `POST` dengan `JSON`
--   [otomax3.rest](./test/otomax3.rest) - Penggunaan HTTP Request `POST` dengan `XML`
--   [test.html](./test/test.html) - Penggunan dengan `SSE`
--   [test.rest](./test/test.rest) - System test > `health check`
+-   [`./jabber.rest`](./test/jabber.rest) - Penggunaan jabber
+-   [`./whatsapp.rest`](./test/whatsapp.rest) - Penggunaan Whatsapp
+-   [`./telegram.rest`](./test/telegram.rest) - Penggunaan Telegram
+-   [`./otomax.rest`](./test/otomax.rest) - Penggunaan API `auth`,`common`,`internal`, dan `extenal`
+-   [`./otomax1.rest`](./test/otomax1.rest) - Penggunaan HTTP Request `GET`
+-   [`./otomax2.rest`](./test/otomax2.rest) - Penggunaan HTTP Request `POST` dengan `JSON`
+-   [`./otomax3.rest`](./test/otomax3.rest) - Penggunaan HTTP Request `POST` dengan `XML`
+-   [`./test.html`](./test/test.html) - Penggunan dengan `SSE`
+-   [`./test.rest`](./test/test.rest) - System test > `health check`
