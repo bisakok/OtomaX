@@ -138,41 +138,65 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 
 ### Whatsapp (Center dan Sender)
 
+#### Manajemen sesi
+
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
+
+#### Live/Stream Callback
+
 -   [`GET /:id_sesi/event`]() - Live/Stream `Open`,`Close`,`ConnectionPhoneChange`,`Qr`,`Inbox`,`Outbox`
+
+#### Koneksi dan Kirim pesan
+
 -   [`POST /:id_sesi/connect`]() - Membuat koneksi ke Whatsapp
 -   [`GET /:id_sesi/outbox`]() - Kirim pesan
 -   [`POST /:id_sesi/outbox`]() - Kirim pesan
 
 ### Telegram (Center dan Sender)
 
+#### Manajemen sesi
+
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
+
+#### Live/Stream Callback
+
 -   [`GET /:id_sesi/event`]() - Live/Stream `Start`,`Contact`,`Inbox`,`Open`,`Outbox`
+
+#### Koneksi dan Kirim pesan
+
 -   [`POST /:id_sesi/connect`]() - Membuat koneksi ke Telegram
 -   [`GET /:id_sesi/outbox`]() - Kirim pesan
 -   [`POST /:id_sesi/outbox`]() - Kirim pesan
 
 ### Jabber (Center dan Sender)
 
+#### Manajemen sesi
+
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
+
+#### Live/Stream Callback
+
 -   [`GET /:id_sesi/event`]() - Live/Stream `Online`,`Inbox`,`Error`,`Subscribe`,`Open`,`Outbox`
+
+#### Koneksi dan Kirim pesan
+
 -   [`POST /:id_sesi/connect`]() - Membuat koneksi ke Jabber
 -   [`GET /:id_sesi/outbox`]() - Kirim pesan
 -   [`POST /:id_sesi/outbox`]() - Kirim pesan
 
-## Example
+## Contoh
 
-Contoh penggunaan terdapat pada folder `./test`
+Contoh penggunaan terdapat pada folder `./test`, dapat dicoba dengan addon `REST Client` pada `VS Code`
 
 -   [jabber.rest](./test/jabber.rest) - Penggunaan jabber
 -   [whatsapp.rest](./test/whatsapp.rest) - Penggunaan Whatsapp
 -   [telegram.rest](./test/telegram.rest) - Penggunaan Telegram
--   [otomax.rest](./test/otomax.rest) - Penggunaan HTTP Request `GET`
--   [otomax1.rest](./test/otomax1.rest) - Penggunaan HTTP Request `POST` dengan `JSON`
--   [otomax2.rest](./test/otomax2.rest) - Penggunaan HTTP Request `POST` dengan `XML`
--   [otomax3.rest](./test/otomax3.rest) - Penggunaan API `auth`,`common`,`internal`, dan `extenal`
+-   [otomax.rest](./test/otomax.rest) - Penggunaan API `auth`,`common`,`internal`, dan `extenal`
+-   [otomax1.rest](./test/otomax1.rest) - Penggunaan HTTP Request `GET`
+-   [otomax2.rest](./test/otomax2.rest) - Penggunaan HTTP Request `POST` dengan `JSON`
+-   [otomax3.rest](./test/otomax3.rest) - Penggunaan HTTP Request `POST` dengan `XML`
 -   [test.html](./test/test.html) - Penggunan dengan `SSE`
 -   [test.rest](./test/test.rest) - System test > `health check`
