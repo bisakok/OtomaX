@@ -25,19 +25,19 @@ Setting dapat disesuaikan di `./config.json`
 {
     // Lokasi database
     "DB_PATH": "C:\\Users\\Ndiing\\Documents\\OtomaX2\\db\\",
-    
+
     // Lokasi data
     "DATA_PATH": "C:\\Users\\Ndiing\\Documents\\OtomaX2\\data",
-    
+
     // RSA Private Key (Tidak untuk dibagikan)
     "PRIVATE_KEY": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIEpAIBAAKCAQEA85H0st4fHtcYUmWwsnjQCvb4ZIMDmp7i05JkXaO6xRhJsopi\r\nWyqkc72aGpnLTcwI2ZQyraidrIcRDoZmO6TCLj3q3XiZQOu/8Ww8ZJ6bodnZIbAm\r\noDoBjAEV2iv1yz/ugdKI416ww4OxwHpdjTWjNPEY2ON8MrAJbRTQM8SBOd/LWo5R\r\nJNV6nva+lETRTLauNV2dE7fv4+aarz80AxUJ+miYRbdFHvax2TI4qK6LqANmTpHn\r\ntfuUPKZLjyg7PXyhlR6dtdmb3ny0tAeEvqSX05VUO+gh5b8Tgn3U6xX0RLfsrpk4\r\n+eWYqglRXd5tabCZqG84kT1xziOOcG0EBR5kYwIDAQABAoIBAA3DJndg05NThf1J\r\n36UF7INiFwDe4jo/VgOsVt1vneL7D1b2OL5791TO1sFABVu89pcMp5xmVZpk+1K9\r\nx1MBaTNhrj6bTNV9PJgwjG0HBTYs7/bWVChjfqjhetGcAERetWRCeBeYxxYU/9sn\r\nTtfmuvUH1maS2/alObMfJPB33vFdFo/YxAdOvBI46TR9d3QdKep95dTLFb2RtgIj\r\nw7q9FKb52oZ6mgYBqEqg+yQI2ps7EsmdWGobp33nIaKHIEMebbWEVrHtqg6+J03X\r\nOmsqrTjAdHULJDEc4vdPkBSrXFz1mbszQCTvaXx1r7nQ9J8IRMvQEe3xlhCldacx\r\nslPI+akCgYEA/vtzC8UNqn8Cvv6AosP5vma86DeAYHXSpADoHCZNVQoOvYlUGIaZ\r\nhPn8qbewmNGoTHj0kt1wQcmSkxd8uhHA9dsITh+pyocPUcYSiQSawJ4JvInbP0Ds\r\n1JHp2NPBgWJe7y8FYBHlMhSZnaJBv9nZfbIWAsShyJzJFQTzXN/V7UUCgYEA9IrY\r\nW9ZcNzSOV9cerlI37Cq52T7gNU3mXWxVcWyXFEUBDYaX0aSfYlx1qSRKBRUmoKpl\r\nrV/DjhKpkGTQKN7ykwzWElD1rYCdtQ9hb22jxfcj8pI1LHXf3BDToRiLMzC/QnAX\r\nzHMPGNFc4pIEEibD+KEvimrRciWQhAVpGBNtAYcCgYAaHDeYsfIHToBCfJ9Bi53s\r\nYGrhwKU1u3r5blpWX5m1ppUB1ak15bqcwlicLII58+YvBofM7j4Ljo+i3lnYV+8R\r\nff9ouJdTdOcdsZG+VClgpg5LLzazUHuv/M0cdfqvvBoKlh8PymVU7oUYfkALXEyI\r\nMY9Nc0M53sw8icg973HhnQKBgQDpknjHdz7LR/qxsfpPHJ7nh4POGf1DTK29DA2s\r\nccD4DlTMG4OFLU1DQPbtYIkGw8YKbdcCO1boq7CkB3a/ovtlMzyBcCzI1PFNkGxL\r\nZxinrL/8IGSDm+7/Hl9VHsFOWsBD8Bb7I+cGmGq0yizzPW2vXB2xgweclH6taxGP\r\nenaCnwKBgQCC/jZ4YkZ5QZJvFg7G5LXIzqpFGLOkgPwLeNwi3F+S9Eg1HpxIoo+r\r\nGZEipOFLAS9oD6eC2VgYKwW3/KREUzBjtaLoYAxgBnArvPnMtpm9MoGznkb0rSJH\r\nxkJU+f5z4uDmhXynaKJqMNgTG4kINv4JoAwV7FFy2DIQmIVh3BgWpg==\r\n-----END RSA PRIVATE KEY-----\r\n",
-    
+
     // RSA Public Key (Digunakan untuk client)
     "PUBLIC_KEY": "-----BEGIN CERTIFICATE-----\r\nMIIDETCCAfkCFGI8N0cFpKrexVykZRbYn/EObEX2MA0GCSqGSIb3DQEBCwUAMEUx\r\nCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRl\r\ncm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMjEwOTI3MTA0NjAyWhcNNDkwMjExMTA0\r\nNjAyWjBFMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UE\r\nCgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOC\r\nAQ8AMIIBCgKCAQEA85H0st4fHtcYUmWwsnjQCvb4ZIMDmp7i05JkXaO6xRhJsopi\r\nWyqkc72aGpnLTcwI2ZQyraidrIcRDoZmO6TCLj3q3XiZQOu/8Ww8ZJ6bodnZIbAm\r\noDoBjAEV2iv1yz/ugdKI416ww4OxwHpdjTWjNPEY2ON8MrAJbRTQM8SBOd/LWo5R\r\nJNV6nva+lETRTLauNV2dE7fv4+aarz80AxUJ+miYRbdFHvax2TI4qK6LqANmTpHn\r\ntfuUPKZLjyg7PXyhlR6dtdmb3ny0tAeEvqSX05VUO+gh5b8Tgn3U6xX0RLfsrpk4\r\n+eWYqglRXd5tabCZqG84kT1xziOOcG0EBR5kYwIDAQABMA0GCSqGSIb3DQEBCwUA\r\nA4IBAQB2+EFc6dsb7EplEtBTpf5e/aIgoVrhFrmeyehSHxatj7qwWbPa/m5tNvXC\r\nL07IT4P6LpYojkyQTF/Wm+twg0DW3I3KRxLe6leJEq7nE2o0eLHINP29qN0gQfvG\r\ntMuYvB/6cYQMkP/uO1/pJX08/3fmj8bRKNeLHrAXnsaMx7bir2l7bFvShVsqYlE5\r\nGxic6MWTTuFKsqzwYqOZf2ohOJHkU2oWB1F7eedgmgwQoW/Klq7JfxR3MSnFmdYe\r\nmg+k1x5ex1fESChFvKE1YqOJsupDO9dBtD66OscasLXwkTkxTzzp7jXp3oSZm91Z\r\nOPWkY/ZBV6CuBtm49/sI1WUP1gMw\r\n-----END CERTIFICATE-----\r\n",
-    
+
     // Port untuk akses http
     "HTTP_PORT": 80,
-    
+
     // Port untuk akses https
     "HTTPS_PORT": 443,
 
@@ -48,7 +48,7 @@ Setting dapat disesuaikan di `./config.json`
     // AES Private Key, Iv (Digunakan untuk client)
     "PUBLIC_AES_KEY": "f3f7d30b2f70bcced978f7cd8a3a3fab",
     "PUBLIC_AES_IV": "b54bcef421c71602",
-    
+
     // Koneksi ke SQL Server yang digunakan OtomaX
     "OTOMAX_USER": "",
     "OTOMAX_PASSWORD": "",
@@ -141,7 +141,7 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
 -   [`GET /:id_sesi/event`]() - Live/Stream `Open`,`Close`,`ConnectionPhoneChange`,`Qr`,`Inbox`,`Outbox`
--   [`POST /:id_sesi/connect`]() - Membuat koneksi ke whatsapp
+-   [`POST /:id_sesi/connect`]() - Membuat koneksi ke Whatsapp
 -   [`GET /:id_sesi/outbox`]() - Kirim pesan
 -   [`POST /:id_sesi/outbox`]() - Kirim pesan
 
@@ -150,7 +150,7 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
 -   [`GET /:id_sesi/event`]() - Live/Stream `Start`,`Contact`,`Inbox`,`Open`,`Outbox`
--   [`POST /:id_sesi/connect`]() - Membuat koneksi ke whatsapp
+-   [`POST /:id_sesi/connect`]() - Membuat koneksi ke Telegram
 -   [`GET /:id_sesi/outbox`]() - Kirim pesan
 -   [`POST /:id_sesi/outbox`]() - Kirim pesan
 
@@ -159,6 +159,20 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 -   [`GET /`]() - Menampilkan semua sesi yang di koneksikan
 -   [`DELETE /:id_sesi`]() - hapus sesi dengan id
 -   [`GET /:id_sesi/event`]() - Live/Stream `Online`,`Inbox`,`Error`,`Subscribe`,`Open`,`Outbox`
--   [`POST /:id_sesi/connect`]() - Membuat koneksi ke whatsapp
+-   [`POST /:id_sesi/connect`]() - Membuat koneksi ke Jabber
 -   [`GET /:id_sesi/outbox`]() - Kirim pesan
 -   [`POST /:id_sesi/outbox`]() - Kirim pesan
+
+## Example
+
+Contoh penggunaan terdapat pada folder `./test`
+
+-   [jabber.rest](./test/jabber.rest) - Penggunaan jabber
+-   [whatsapp.rest](./test/whatsapp.rest) - Penggunaan Whatsapp
+-   [telegram.rest](./test/telegram.rest) - Penggunaan Telegram
+-   [otomax.rest](./test/otomax.rest) - Penggunaan HTTP Request `GET`
+-   [otomax1.rest](./test/otomax1.rest) - Penggunaan HTTP Request `POST` dengan `JSON`
+-   [otomax2.rest](./test/otomax2.rest) - Penggunaan HTTP Request `POST` dengan `XML`
+-   [otomax3.rest](./test/otomax3.rest) - Penggunaan API `auth`,`common`,`internal`, dan `extenal`
+-   [test.html](./test/test.html) - Penggunan dengan `SSE`
+-   [test.rest](./test/test.rest) - System test > `health check`
