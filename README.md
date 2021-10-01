@@ -200,6 +200,8 @@ Digunakan untuk mengolah proses yang digunakan untuk server
 
 ## Contoh
 
+#### REST API
+
 Contoh penggunaan terdapat pada folder `./test`, dapat dicoba dengan addon `REST Client` pada `VS Code`
 
 -   [`./jabber.rest`](./test/jabber.rest) - Penggunaan jabber
@@ -211,3 +213,161 @@ Contoh penggunaan terdapat pada folder `./test`, dapat dicoba dengan addon `REST
 -   [`./otomax3.rest`](./test/otomax3.rest) - Penggunaan HTTP Request `POST` dengan `XML`
 -   [`./test.html`](./test/test.html) - Penggunan dengan `SSE`
 -   [`./test.rest`](./test/test.rest) - System test > `health check`
+
+#### Request Code
+
+Contoh `http`
+
+```js
+POST /api/v1/sign HTTP/1.1
+Content-Type: application/json
+Host: ndiing.ddns.net
+Content-Length: 49
+
+{"pengirim":"+6281935155404","tipe_pengirim":"S"}
+```
+
+```js
+POST /api/v1/verify HTTP/1.1
+User-Agent: vscode-restclient
+Content-Type: application/json
+Host: ndiing.ddns.net
+Content-Length: 64
+
+{"kode":"7aceed5e-21b2-4fde-b914-45d981b9f6c7","token":"172241"}
+```
+
+Contoh `java`
+
+```js
+OkHttpClient client = new OkHttpClient();
+
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "{\"pengirim\":\"+6281935155404\",\"tipe_pengirim\":\"S\"}");
+Request request = new Request.Builder()
+  .url("http://ndiing.ddns.net/api/v1/sign")
+  .post(body)
+  .addHeader("content-type", "application/json")
+  .build();
+
+Response response = client.newCall(request).execute();
+```
+
+```js
+OkHttpClient client = new OkHttpClient();
+
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "{\"kode\":\"7aceed5e-21b2-4fde-b914-45d981b9f6c7\",\"token\":\"172241\"}");
+Request request = new Request.Builder()
+  .url("http://ndiing.ddns.net/api/v1/verify")
+  .post(body)
+  .addHeader("user-agent", "vscode-restclient")
+  .addHeader("content-type", "application/json")
+  .build();
+
+Response response = client.newCall(request).execute();
+```
+
+Contoh `javascript`
+
+```js
+fetch("http://ndiing.ddns.net/api/v1/sign", {
+  "method": "POST",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "pengirim": "+6281935155404",
+    "tipe_pengirim": "S"
+  }
+})
+.then(response => {
+  console.log(response);
+})
+.catch(err => {
+  console.error(err);
+});
+```
+
+```js
+fetch("http://ndiing.ddns.net/api/v1/verify", {
+  "method": "POST",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "kode": "7aceed5e-21b2-4fde-b914-45d981b9f6c7",
+    "token": "172241"
+  }
+})
+.then(response => {
+  console.log(response);
+})
+.catch(err => {
+  console.error(err);
+});
+```
+
+Contoh `php`
+
+```php
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, [
+  CURLOPT_URL => "http://ndiing.ddns.net/api/v1/sign",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "POST",
+  CURLOPT_POSTFIELDS => "{\"pengirim\":\"+6281935155404\",\"tipe_pengirim\":\"S\"}",
+  CURLOPT_HTTPHEADER => [
+    "content-type: application/json"
+  ],
+]);
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
+```
+
+```php
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, [
+  CURLOPT_URL => "http://ndiing.ddns.net/api/v1/verify",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "POST",
+  CURLOPT_POSTFIELDS => "{\"kode\":\"7aceed5e-21b2-4fde-b914-45d981b9f6c7\",\"token\":\"172241\"}",
+  CURLOPT_HTTPHEADER => [
+    "content-type: application/json"
+  ],
+]);
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
+```
