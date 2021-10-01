@@ -97,11 +97,11 @@ Setting dapat disesuaikan di `./config.json`
 
 #### Setting OtomaX
 
-1. Konfigurasi webhook pada aplikasi OtomaX
+Konfigurasi webhook pada aplikasi OtomaX
 
 ![otomax-webhook](./docs/otomax-webhook.jpg)
 
-2. Konfigurasi sms sender pada aplikasi OtomaX
+Konfigurasi sms sender pada aplikasi OtomaX
 
 ![otomax-sms](./docs/otomax-sms.jpg)
 
