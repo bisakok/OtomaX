@@ -1,7 +1,7 @@
 {
   "name": "otomax",
   "version": "1.0.0",
-  "description": "> Status dalam pengembangan, Bug report, Feature request kirim ke [issues](https://github.com/ndiing/OtomaX/issues/new/choose)",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",

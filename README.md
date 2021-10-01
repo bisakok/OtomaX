@@ -1,5 +1,8 @@
 # Extended OtomaX Software
 
+![GitHub all releases](https://img.shields.io/github/downloads/ndiing/OtomaX/total?label=Download)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ndiing/OtomaX?label=Version)
+
 > Status dalam pengembangan, `Bug report` dan `Feature request` dapat dikirim ke [Issues](https://github.com/ndiing/OtomaX/issues/new/choose).
 
 ## Pemasangan
