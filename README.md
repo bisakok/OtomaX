@@ -23,10 +23,10 @@ Setting dapat disesuaikan di `./config.json`
 ```js
 {
     // Lokasi database
-    "DB_PATH": "C:\\Users\\Ndiing\\Documents\\OtomaX2\\db\\",
+    "DB_PATH": "C:\\Users\\Ndiing\\Documents\\OtomaX\\db\\",
 
     // Lokasi data
-    "DATA_PATH": "C:\\Users\\Ndiing\\Documents\\OtomaX2\\data",
+    "DATA_PATH": "C:\\Users\\Ndiing\\Documents\\OtomaX\\data",
 
     // RSA Private Key (Tidak untuk dibagikan)
     "PRIVATE_KEY": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIEpAIBAAKCAQEA85H0st4fHtcYUmWwsnjQCvb4ZIMDmp7i05JkXaO6xRhJsopi\r\nWyqkc72aGpnLTcwI2ZQyraidrIcRDoZmO6TCLj3q3XiZQOu/8Ww8ZJ6bodnZIbAm\r\noDoBjAEV2iv1yz/ugdKI416ww4OxwHpdjTWjNPEY2ON8MrAJbRTQM8SBOd/LWo5R\r\nJNV6nva+lETRTLauNV2dE7fv4+aarz80AxUJ+miYRbdFHvax2TI4qK6LqANmTpHn\r\ntfuUPKZLjyg7PXyhlR6dtdmb3ny0tAeEvqSX05VUO+gh5b8Tgn3U6xX0RLfsrpk4\r\n+eWYqglRXd5tabCZqG84kT1xziOOcG0EBR5kYwIDAQABAoIBAA3DJndg05NThf1J\r\n36UF7INiFwDe4jo/VgOsVt1vneL7D1b2OL5791TO1sFABVu89pcMp5xmVZpk+1K9\r\nx1MBaTNhrj6bTNV9PJgwjG0HBTYs7/bWVChjfqjhetGcAERetWRCeBeYxxYU/9sn\r\nTtfmuvUH1maS2/alObMfJPB33vFdFo/YxAdOvBI46TR9d3QdKep95dTLFb2RtgIj\r\nw7q9FKb52oZ6mgYBqEqg+yQI2ps7EsmdWGobp33nIaKHIEMebbWEVrHtqg6+J03X\r\nOmsqrTjAdHULJDEc4vdPkBSrXFz1mbszQCTvaXx1r7nQ9J8IRMvQEe3xlhCldacx\r\nslPI+akCgYEA/vtzC8UNqn8Cvv6AosP5vma86DeAYHXSpADoHCZNVQoOvYlUGIaZ\r\nhPn8qbewmNGoTHj0kt1wQcmSkxd8uhHA9dsITh+pyocPUcYSiQSawJ4JvInbP0Ds\r\n1JHp2NPBgWJe7y8FYBHlMhSZnaJBv9nZfbIWAsShyJzJFQTzXN/V7UUCgYEA9IrY\r\nW9ZcNzSOV9cerlI37Cq52T7gNU3mXWxVcWyXFEUBDYaX0aSfYlx1qSRKBRUmoKpl\r\nrV/DjhKpkGTQKN7ykwzWElD1rYCdtQ9hb22jxfcj8pI1LHXf3BDToRiLMzC/QnAX\r\nzHMPGNFc4pIEEibD+KEvimrRciWQhAVpGBNtAYcCgYAaHDeYsfIHToBCfJ9Bi53s\r\nYGrhwKU1u3r5blpWX5m1ppUB1ak15bqcwlicLII58+YvBofM7j4Ljo+i3lnYV+8R\r\nff9ouJdTdOcdsZG+VClgpg5LLzazUHuv/M0cdfqvvBoKlh8PymVU7oUYfkALXEyI\r\nMY9Nc0M53sw8icg973HhnQKBgQDpknjHdz7LR/qxsfpPHJ7nh4POGf1DTK29DA2s\r\nccD4DlTMG4OFLU1DQPbtYIkGw8YKbdcCO1boq7CkB3a/ovtlMzyBcCzI1PFNkGxL\r\nZxinrL/8IGSDm+7/Hl9VHsFOWsBD8Bb7I+cGmGq0yizzPW2vXB2xgweclH6taxGP\r\nenaCnwKBgQCC/jZ4YkZ5QZJvFg7G5LXIzqpFGLOkgPwLeNwi3F+S9Eg1HpxIoo+r\r\nGZEipOFLAS9oD6eC2VgYKwW3/KREUzBjtaLoYAxgBnArvPnMtpm9MoGznkb0rSJH\r\nxkJU+f5z4uDmhXynaKJqMNgTG4kINv4JoAwV7FFy2DIQmIVh3BgWpg==\r\n-----END RSA PRIVATE KEY-----\r\n",
