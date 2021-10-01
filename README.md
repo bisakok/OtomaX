@@ -10,13 +10,9 @@
 Pastikan komputer sudah terpasang [nodejs](https://nodejs.org/en/download/).
 
 ```bash
-// 1
 git clone https://github.com/ndiing/OtomaX.git
-// 2
 cd OtomaX
-// 3
 npm i
-//4
 npm run start
 ```
 
