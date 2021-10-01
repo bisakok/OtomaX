@@ -218,7 +218,7 @@ Contoh penggunaan terdapat pada folder `./test`, dapat dicoba dengan addon `REST
 
 Contoh `http`
 
-```js
+```bash
 POST /api/v1/sign HTTP/1.1
 Content-Type: application/json
 Host: ndiing.ddns.net
@@ -227,7 +227,7 @@ Content-Length: 49
 {"pengirim":"+6281935155404","tipe_pengirim":"S"}
 ```
 
-```js
+```bash
 POST /api/v1/verify HTTP/1.1
 User-Agent: vscode-restclient
 Content-Type: application/json
@@ -239,7 +239,7 @@ Content-Length: 64
 
 Contoh `java`
 
-```js
+```java
 OkHttpClient client = new OkHttpClient();
 
 MediaType mediaType = MediaType.parse("application/json");
@@ -253,7 +253,7 @@ Request request = new Request.Builder()
 Response response = client.newCall(request).execute();
 ```
 
-```js
+```java
 OkHttpClient client = new OkHttpClient();
 
 MediaType mediaType = MediaType.parse("application/json");
