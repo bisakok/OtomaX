@@ -1,4 +1,4 @@
-# Extended OtomaX Software
+# Otomax Web Server
 
 ![GitHub all releases](https://img.shields.io/github/downloads/ndiing/OtomaX/total?label=Download)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ndiing/OtomaX?label=Version)
