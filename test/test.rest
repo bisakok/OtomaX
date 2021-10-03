@@ -1,4 +1,9 @@
+
 ###
 GET http://localhost/
+
+###
+GET http://localhost/api/v2/inbox
+
 ###
 GET http://ndiing.ddns.net/

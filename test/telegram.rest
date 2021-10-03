@@ -13,8 +13,20 @@ Content-Type: application/json
     "token":"2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"
 }
 
+
+
+
+
+
 ### Kirim Pesan
 GET http://localhost/api/telegram/v1/id-sesi-1/outbox?pengirim=1344008938&pesan=pesan
+### Kirim Pesan
+GET http://localhost/api/telegram/v1/id-sesi-1/outbox?pengirim=[to]&pesan=[message]
+
+
+
+
+
 
 ### Event [Start,Contact,Inbox,Open,Outbox]
 GET http://localhost/api/telegram/v1/id-sesi-1/event
