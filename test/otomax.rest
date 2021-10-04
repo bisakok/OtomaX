@@ -78,11 +78,11 @@ GET http://localhost/api/v2/inbox?&pesan=sal.1234
 
 
 ### Outbox
-GET http://localhost/api/v2/outbox?pengirim=http://localhost/api/whatsapp/v1/sesi-1/outbox&pesan=data
+GET http://localhost/api/v2/outbox?tipe_penerima=W&pesan=data
 ### Outbox
-GET http://localhost/api/v2/outbox?pengirim=http://localhost/api/telegram/v1/sesi-1/outbox&pesan=data
+GET http://localhost/api/v2/outbox?tipe_penerima=G&pesan=data
 ### Outbox
-GET http://localhost/api/v2/outbox?pengirim=http://localhost/api/jabber/v1/sesi-1/outbox&pesan=data
+GET http://localhost/api/v2/outbox?tipe_penerima=Y&pesan=data
 
 
 
@@ -1918,7 +1918,7 @@ Content-Type: application/json
 
 {
     "kodeproduk": "TEST5",
-    "counter": "1",
+    "counter": "12",
     "tujuan": "6281935155111",
     "pin": "1234"
 }
@@ -1931,8 +1931,6 @@ Content-Type: application/xml
 <counter>1</counter>
 <tujuan>6281935155111</tujuan>
 <pin>1234</pin>
-
-
 
 
 
@@ -3225,7 +3223,7 @@ Content-Type: application/json
 POST http://localhost/api/v2/ubah-report-url
 Content-Type: application/xml
 
-<newurl>http://ndiing.ddns.net/report</newurl>
+<newurl>http://localhost/api/v2/test</newurl>
 <pin>1234</pin>
 
 
