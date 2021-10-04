@@ -1,4 +1,11 @@
 ### 
+GET http://localhost/
+
+
+
+
+
+### 
 GET http://localhost/api/telegram/v2
 
 
@@ -23,7 +30,7 @@ Content-Type: application/json
     "token": "1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0"
 }
 
-###
+### Koneksi ke telegram
 POST http://localhost/api/telegram/v2/connect
 Content-Type: application/json
 
@@ -32,7 +39,7 @@ Content-Type: application/json
     "token": "2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"
 }
 
-###
+### Koneksi ke telegram
 POST http://localhost/api/telegram/v2/connect
 Content-Type: application/json
 
