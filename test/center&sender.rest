@@ -1,0 +1,115 @@
+### 
+GET http://localhost/api/telegram/v2
+
+
+
+
+
+
+### Kirim Pesan
+GET http://localhost/api/telegram/v2/outbox?penerima=1344008938&pesan=test
+
+
+
+
+
+
+### Koneksi ke telegram
+POST http://localhost/api/telegram/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "ndiing_bot",
+    "token": "1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0"
+}
+
+###
+POST http://localhost/api/telegram/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "api_otomax_bot",
+    "token": "2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"
+}
+
+###
+POST http://localhost/api/telegram/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "ndiing_center_1_bot",
+    "token": "2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"
+}
+
+
+
+
+
+
+### 
+GET http://localhost/api/whatsapp/v2
+
+
+
+
+
+
+### Kirim Pesan
+GET http://localhost/api/whatsapp/v2/outbox?penerima=6281935155404@s.whatsapp.net&pesan=test
+
+
+
+
+
+
+### Koneksi ke whatsapp
+POST http://localhost/api/whatsapp/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "6281938064470"
+}
+
+
+
+
+
+
+### 
+GET http://localhost/api/jabber/v2
+
+
+
+
+
+
+### Kirim Pesan
+GET http://localhost/api/jabber/v2/outbox?penerima=ndiing2@jabb.im&pesan=test
+
+
+
+
+
+
+### Koneksi ke jabber
+POST http://localhost/api/jabber/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "ndiing",
+    "jid": "ndiing@jabb.im",
+    "password": "S2N#Wcm8rnKbpsg",
+    "host": "jabb.im"
+}
+
+### Koneksi ke jabber
+POST http://localhost/api/jabber/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "ndiing_center_1",
+    "jid": "ndiing_center_1@jabb.im",
+    "password": "@8d.yAkRiMA7Qpj",
+    "host": "jabb.im"
+}
+
