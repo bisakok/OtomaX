@@ -6,5 +6,6 @@
 [![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=http%3A%2F%2Fndiing.ddns.net)]()
 [![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fndiing.ddns.net)]()
 [![GitHub last commit](https://img.shields.io/github/last-commit/ndiing/otomax)]()
+[![GitHub](https://img.shields.io/github/license/ndiing/otomax)]()
 
 > Status dalam pengembangan, `Laporan bug` & `Permintaan fitur`, dapat di kirim ke [Masalah](https://github.com/ndiing/OtomaX/issues/new/choose)

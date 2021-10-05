@@ -424,7 +424,7 @@ Content-Type: application/x-www-form-urlencoded
 &pin=1234
 
 ### Cek saldo akhir (json)
-POST http://localhost/api/v2/cek-saldo
+POST http://localhost/api/v2/cek-saldo?pengirim=%2B6282322766601
 Content-Type: application/json
 
 {
@@ -432,7 +432,7 @@ Content-Type: application/json
 }
 
 ### Cek saldo akhir (xml)
-POST http://localhost/api/v2/cek-saldo
+POST http://localhost/api/v2/cek-saldo?pengirim=%2B6281935155404
 Content-Type: application/xml
 
 <pin>1234</pin>
