@@ -52,7 +52,9 @@
     "typegram": "^3.4.0",
     "ws": "^7.3.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+   
+  },
   "directories": {
     "lib": "lib",
     "test": "test"
