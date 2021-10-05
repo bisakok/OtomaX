@@ -65,7 +65,7 @@ GET http://localhost/api/v2/mutasi?&kode_reseller=N5700006
 
 
 ### Inbox
-GET http://localhost/api/v2/inbox?&pesan=sal.1234
+GET http://localhost/api/v2/inbox?&pesan=cs.
 
 
 
