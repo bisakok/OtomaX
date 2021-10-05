@@ -101,6 +101,7 @@ GET http://localhost/api/v2/outbox?tipe_penerima=Y&penerima=1344008938&pesan=dat
 
 
 
+
 ### Aktifkan downline/reseller
 GET http://localhost/api/v2/aktifkan-dl?&kodereseller=N5700006&pin=1234
 

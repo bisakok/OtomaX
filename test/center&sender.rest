@@ -174,4 +174,6 @@ GET http://localhost/api/whatsapp/v2/outbox?penerima=[to]&pesan=[message]&pengir
 
 
 ###
+GET http://localhost/
+###
 GET http://localhost/events
