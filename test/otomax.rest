@@ -77,12 +77,14 @@ GET http://localhost/api/v2/inbox?&pesan=sal.1234
 
 
 
-### Outbox
-GET http://localhost/api/v2/outbox?tipe_penerima=W&pesan=data
-### Outbox
-GET http://localhost/api/v2/outbox?tipe_penerima=G&pesan=data
-### Outbox
-GET http://localhost/api/v2/outbox?tipe_penerima=Y&pesan=data
+### Outbox (SMS)
+GET http://localhost/api/v2/outbox?tipe_penerima=S&penerima=6281935155404&pesan=data
+### Outbox (Whatsapp)
+GET http://localhost/api/v2/outbox?tipe_penerima=W&penerima=6281935155404&pesan=data
+### Outbox (Jabber)
+GET http://localhost/api/v2/outbox?tipe_penerima=G&penerima=ndiing2@jabb.im&pesan=data
+### Outbox (Telegram)
+GET http://localhost/api/v2/outbox?tipe_penerima=Y&penerima=1344008938&pesan=data
 
 
 
@@ -1918,7 +1920,7 @@ Content-Type: application/json
 
 {
     "kodeproduk": "TEST5",
-    "counter": "12",
+    "counter": "21",
     "tujuan": "6281935155111",
     "pin": "1234"
 }
