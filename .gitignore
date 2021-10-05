@@ -83,6 +83,7 @@ typings/
 !test/
 !test/*
 !dist/bundle.jsc
+!dist/bundle.js
 !dist/index.js
 !.gitignore
 !LICENSE
