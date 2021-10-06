@@ -80,7 +80,7 @@ rm csr.pem
 
 ## Tutorial
 
-Koleksi `HTTP REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
+Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
 -   **[<code>HTTP</code> /test/jabber.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
 -   **[<code>HTTP</code> /test/otomax-request-json.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-json.rest)**
