@@ -67,7 +67,16 @@ Setting [config.json]()
 
 ```
 
-> Pastikan `RsaKey`,`SecretKey` dan `SecretIv` dibuat dan digunakan untuk server sendiri, tidak boleh dibagikan ke siapapun. 
+Untuk membuat sertifikat yang ditandatangani sendiri, jalankan yang berikut di shell Anda:
+
+```bash
+openssl genrsa -out key.pem
+openssl req -new -key key.pem -out csr.pem
+openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
+rm csr.pem
+```
+
+> Pastikan `RsaKey(key.pem)`, `SecretKey(16bit/32karakter)` dan `SecretIv(8bit/16karakter)` dibuat dan digunakan untuk server sendiri, tidak boleh dibagikan ke siapapun. 
 
 ## Tutorial
 
