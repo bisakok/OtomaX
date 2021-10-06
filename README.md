@@ -17,7 +17,7 @@ npm run start
 
 ## Tutorial
 
-Kami menyediakan koleksi `HTTP REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
+Koleksi `HTTP REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
 - [<code>HTTP</code> jabber.rest](./test/jabber.rest)
 - [<code>HTTP</code> otomax-request-json.rest](./test/otomax-request-json.rest)
