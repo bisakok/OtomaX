@@ -10,6 +10,8 @@ Nama | Keterangan
 --- | ---
 `:id` | pengirim/id sesi yang digunakan
 
+## Example
+
 ### Request
 
 ```http
