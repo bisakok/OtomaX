@@ -22,6 +22,7 @@ Laporan bug, Permintaan fitur, atau Jelaskan tujuan masalah ini [di sini](https:
 ## API Versioning
 
 Bagian pertama dari jalur URI menentukan versi API yang ingin Anda akses dalam format `v{version_number}`.
+
 Misalnya, versi 1 API (terbaru) dapat diakses melalui:
 
 ```bash
