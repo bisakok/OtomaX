@@ -1,6 +1,6 @@
 {
   "name": "otomax",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "[![GitHub package.json version](https://img.shields.io/github/package-json/v/ndiing/otomax)](https://github.com/ndiing/OtomaX/releases)\r [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/ndiing/otomax)](https://github.com/ndiing/OtomaX/releases)",
   "main": "dist/index.js",
   "scripts": {
