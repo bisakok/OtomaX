@@ -1,6 +1,6 @@
 # OtomaX Web Server
 
-## Overview
+## Gambaran
 
 Software Pulsa OtomaX
 
@@ -15,11 +15,11 @@ npm i
 npm run start
 ```
 
-## Support
+## Dukungan
 
 Laporan bug, Permintaan fitur, atau Jelaskan tujuan masalah ini [di sini](https://github.com/ndiing/OtomaX/issues/new/choose).
 
-## API Versioning
+## Versi API
 
 Bagian pertama dari jalur URI menentukan versi API yang ingin Anda akses dalam format `v{version_number}`.
 
@@ -29,7 +29,7 @@ Misalnya, versi 1 API (terbaru) dapat diakses melalui:
 https://localhost/api/v1/
 ```
 
-## Resources
+## Sumber daya
 
 Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
