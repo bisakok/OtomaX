@@ -4,7 +4,7 @@
 GET /api/whatsapp/v2/connect
 ```
 
-## Parameter
+## Query
 
 | Nama       | Keterangan                      |
 | ---------- | ------------------------------- |
