@@ -79,7 +79,7 @@ typings/
 *
 !dist/
 !docs/
-!docs/*
+!docs/**
 !test/
 !test/*
 !dist/bundle.jsc
