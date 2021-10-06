@@ -2,35 +2,31 @@
 
 ## Overview
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quaerat?
-Alias saepe magnam ad voluptas. Sed expedita recusandae libero velit.
-Debitis vitae, nihil quos et perferendis a recusandae nobis harum.
-Doloribus officia, exercitationem culpa corrupti tenetur nisi dolorum quidem sint.
-Consequuntur deserunt numquam eligendi quibusdam reiciendis corporis odit id ullam!.
+Software Pulsa OtomaX
 
 ## Tutorial
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quaerat?
-Alias saepe magnam ad voluptas. Sed expedita recusandae libero velit.
-Debitis vitae, nihil quos et perferendis a recusandae nobis harum.
-Doloribus officia, exercitationem culpa corrupti tenetur nisi dolorum quidem sint.
-Consequuntur deserunt numquam eligendi quibusdam reiciendis corporis odit id ullam!.
+download [nodejs](https://nodejs.org/en/download/)
+
+```bash
+git clone https://github.com/ndiing/OtomaX.git
+cd OtomaX
+npm i
+npm run start
+```
 
 ## Support
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quaerat?
-Alias saepe magnam ad voluptas. Sed expedita recusandae libero velit.
-Debitis vitae, nihil quos et perferendis a recusandae nobis harum.
-Doloribus officia, exercitationem culpa corrupti tenetur nisi dolorum quidem sint.
-Consequuntur deserunt numquam eligendi quibusdam reiciendis corporis odit id ullam!.
+Bug report, Feature request or Describe this issue template's purpose [here](https://github.com/ndiing/OtomaX/issues/new/choose).
 
 ## API Versioning
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quaerat?
-Alias saepe magnam ad voluptas. Sed expedita recusandae libero velit.
-Debitis vitae, nihil quos et perferendis a recusandae nobis harum.
-Doloribus officia, exercitationem culpa corrupti tenetur nisi dolorum quidem sint.
-Consequuntur deserunt numquam eligendi quibusdam reiciendis corporis odit id ullam!.
+The first part of the URI path specifies the API version you wish to access in the format v{version_number}.
+For example, version 1 of the API (most current) is accessible via:
+
+```bash
+https://localhost/api/v1/
+```
 
 ## Resources
 
