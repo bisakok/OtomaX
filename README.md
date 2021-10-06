@@ -49,7 +49,7 @@ https://localhost/api/v1/
 
 Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
-### [whatsapp]()
+### [Whatsapp]()
 
 -   **[<code>GET</code> /api/whatsapp/v2](./docs/api/whatsapp/v2/get.md)**
 -   **[<code>DELETE</code> /api/whatsapp/v2/:id]()**
@@ -58,7 +58,7 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>POST</code> /api/whatsapp/v2/outbox]()**
 -   **[<code>GET</code> /api/whatsapp/v2/outbox]()**
 
-### [telegram]()
+### [Telegram]()
 
 -   **[<code>GET</code> /api/telegram/v2]()**
 -   **[<code>DELETE</code> /api/telegram/v2/:id]()**
@@ -67,7 +67,7 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>POST</code> /api/telegram/v2/outbox]()**
 -   **[<code>GET</code> /api/telegram/v2/outbox]()**
 
-### [jabber]()
+### [Jabber]()
 
 -   **[<code>GET</code> /api/jabber/v2]()**
 -   **[<code>DELETE</code> /api/jabber/v2/:id]()**
@@ -76,7 +76,7 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>POST</code> /api/jabber/v2/outbox]()**
 -   **[<code>GET</code> /api/jabber/v2/outbox]()**
 
-### [otomax a]()
+### [Otomax A]()
 
 -   **[<code>POST</code> /api/v2/sign]()**
 -   **[<code>POST</code> /api/v2/login]()**
@@ -85,7 +85,7 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>DELETE</code> /api/v2/revoke/:kode]()**
 -   **[<code>GET</code> /api/v2/session]()**
 
-### [otomax b]()
+### [Otomax B]()
 
 -   **[<code>GET</code> /api/v2/reseller]()**
 -   **[<code>GET</code> /api/v2/pengirim]()**
@@ -96,14 +96,14 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>GET</code> /api/v2/mutasi]()**
 -   **[<code>GET</code> /api/v2/format]()**
 
-### [otomax c]()
+### [Otomax C]()
 
 -   **[<code>GET</code> /api/v2/test]()**
 -   **[<code>GET</code> /api/v2/events]()**
 -   **[<code>GET</code> /api/v2/outbox]()**
 -   **[<code>POST</code> /api/v2/outbox/callback]()**
 
-### [otomax d]()
+### [Otomax D]()
 
 -   **[<code>POST</code> /api/v2/:path]()**
 -   **[<code>GET</code> /api/v2/:path]()**
