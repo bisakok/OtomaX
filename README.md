@@ -113,12 +113,12 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 Whatsapp center & sender
 
--   **[<code>GET</code> /api/whatsapp/v2](./docs/api/whatsapp/v2/get.md)**
--   **[<code>DELETE</code> /api/whatsapp/v2/:id]()**
--   **[<code>POST</code> /api/whatsapp/v2/connect]()**
--   **[<code>GET</code> /api/whatsapp/v2/connect]()**
--   **[<code>POST</code> /api/whatsapp/v2/outbox]()**
--   **[<code>GET</code> /api/whatsapp/v2/outbox]()**
+-   **[<code>GET</code> /api/whatsapp/v2](./docs/whatsapp/v2/GET-Daftar-koneksi.md)**
+-   **[<code>DELETE</code> /api/whatsapp/v2/:id](./docs/whatsapp/v2/DELETE-Hapus-koneksi.md)**
+-   **[<code>POST</code> /api/whatsapp/v2/connect](./docs/whatsapp/v2/GET-Buat-koneksi.md)**
+-   **[<code>GET</code> /api/whatsapp/v2/connect](./docs/whatsapp/v2/POST-Buat-koneksi.md)**
+-   **[<code>POST</code> /api/whatsapp/v2/outbox](./docs/whatsapp/v2/GET-Kirim-pesan.md)**
+-   **[<code>GET</code> /api/whatsapp/v2/outbox](./docs/whatsapp/v2/POST-Kirim-pesan.md)**
 
 ### [Telegram]()
 
