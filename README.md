@@ -70,6 +70,8 @@ Setting [config.json]()
 
 ```
 
+> Pastikan `RsaKey`,`SecretKey` dan `SecretIv` dibuat dan digunakan untuk server sendiri, tidak boleh dibagikan ke siapapun. 
+
 ## Tutorial
 
 Koleksi `HTTP REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
