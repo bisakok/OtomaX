@@ -19,14 +19,14 @@ npm run start
 
 Koleksi `HTTP REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
-- [<code>HTTP</code> jabber.rest](./test/jabber.rest)
-- [<code>HTTP</code> otomax-request-json.rest](./test/otomax-request-json.rest)
-- [<code>HTTP</code> otomax-request-urlencoded.rest](./test/otomax-request-urlencoded.rest)
-- [<code>HTTP</code> otomax-request-xml.rest](./test/otomax-request-xml.rest)
-- [<code>HTTP</code> otomax-request.rest](./test/otomax-request.rest)
-- [<code>HTTP</code> otomax.rest](./test/otomax.rest)
-- [<code>HTTP</code> telegram.rest](./test/telegram.rest)
-- [<code>HTTP</code> whatsapp.rest](./test/whatsapp.rest)
+- [<code>HTTP</code> /test/jabber.rest](./test/jabber.rest)
+- [<code>HTTP</code> /test/otomax-request-json.rest](./test/otomax-request-json.rest)
+- [<code>HTTP</code> /test/otomax-request-urlencoded.rest](./test/otomax-request-urlencoded.rest)
+- [<code>HTTP</code> /test/otomax-request-xml.rest](./test/otomax-request-xml.rest)
+- [<code>HTTP</code> /test/otomax-request.rest](./test/otomax-request.rest)
+- [<code>HTTP</code> /test/otomax.rest](./test/otomax.rest)
+- [<code>HTTP</code> /test/telegram.rest](./test/telegram.rest)
+- [<code>HTTP</code> /test/whatsapp.rest](./test/whatsapp.rest)
 
 ## Dukungan
 
