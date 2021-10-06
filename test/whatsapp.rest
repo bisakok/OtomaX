@@ -1,0 +1,67 @@
+# Daftar koneksi
+### Request
+GET http://localhost/api/whatsapp/v2/
+
+# Hapus koneksi
+### Request
+DELETE http://localhost/api/whatsapp/v2/ndiing
+
+# Buat koneksi
+### Request
+GET http://localhost/api/whatsapp/v2/connect?pengirim=6283845311393
+
+# Buat koneksi
+### Request
+POST http://localhost/api/whatsapp/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "6283845311393"
+}
+
+# Kirim pesan
+### Request
+GET http://localhost/api/whatsapp/v2/outbox?penerima=6281935155404&pesan=Lorem+ipsum+dolor+sit%2C+amet+consectetur+adipisicing+elit.+Est%2C+ipsa%3F&pengirim=6283845311393
+
+# Kirim pesan
+### Request
+POST http://localhost/api/whatsapp/v2/outbox
+Content-Type: application/json
+
+{
+    "penerima": "6281935155404",
+    "pesan": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, ipsa?",
+    "pengirim": "6283845311393"
+}
+
+
+
+
+
+
+# Buat koneksi
+### Request
+GET http://localhost/api/whatsapp/v2/connect?pengirim=6283845311393
+
+# Buat koneksi
+### Request
+POST http://localhost/api/whatsapp/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "6283845311393"
+}
+
+
+# Buat koneksi
+### Request
+GET http://localhost/api/whatsapp/v2/connect?pengirim=6281938064470
+
+# Buat koneksi
+### Request
+POST http://localhost/api/whatsapp/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "6281938064470"
+}

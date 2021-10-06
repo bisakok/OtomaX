@@ -1,0 +1,71 @@
+# Daftar koneksi
+### Request
+GET http://localhost/api/telegram/v2/
+
+# Hapus koneksi
+### Request
+DELETE http://localhost/api/telegram/v2/ndiing
+
+# Buat koneksi
+### Request
+GET http://localhost/api/telegram/v2/connect?pengirim=ndiing_center_1_bot&token=2049367740%3AAAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms
+
+# Buat koneksi
+### Request
+POST http://localhost/api/telegram/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "ndiing_center_1_bot",
+    "token": "2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"
+}
+
+# Kirim pesan
+### Request
+GET http://localhost/api/telegram/v2/outbox?penerima=1344008938&pesan=Lorem+ipsum+dolor+sit%2C+amet+consectetur+adipisicing+elit.+Est%2C+ipsa%3F&pengirim=ndiing_center_1_bot
+
+# Kirim pesan
+### Request
+POST http://localhost/api/telegram/v2/outbox
+Content-Type: application/json
+
+{
+    "penerima": "1344008938",
+    "pesan": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, ipsa?",
+    "pengirim": "ndiing_center_1_bot"
+}
+
+
+
+
+
+
+# Buat koneksi
+### Request
+GET http://localhost/api/telegram/v2/connect?pengirim=ndiing_center_1_bot&token=2049367740%3AAAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms
+
+# Buat koneksi
+### Request
+POST http://localhost/api/telegram/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "ndiing_center_1_bot",
+    "token": "2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"
+}
+
+
+# Buat koneksi
+### Request
+GET http://localhost/api/telegram/v2/connect?pengirim=api_otomax_bot&token=2049378584%3AAAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4
+
+# Buat koneksi
+### Request
+POST http://localhost/api/telegram/v2/connect
+Content-Type: application/json
+
+{
+    "pengirim": "api_otomax_bot",
+    "token": "2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"
+}
+

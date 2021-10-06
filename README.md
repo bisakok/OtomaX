@@ -4,7 +4,7 @@
 
 Software Pulsa OtomaX
 
-## Tutorial
+## Instalasi
 
 download [nodejs](https://nodejs.org/en/download/)
 
@@ -14,6 +14,19 @@ cd OtomaX
 npm i
 npm run start
 ```
+
+## Tutorial
+
+Kami menyediakan koleksi `HTTP REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
+
+- [<code>HTTP</code> Contoh jabber](./test/jabber.rest)
+- [<code>HTTP</code> Contoh otomax request json](./test/otomax-request-json.rest)
+- [<code>HTTP</code> Contoh otomax request urlencoded](./test/otomax-request-urlencoded.rest)
+- [<code>HTTP</code> Contoh otomax request xml](./test/otomax-request-xml.rest)
+- [<code>HTTP</code> Contoh otomax request](./test/otomax-request.rest)
+- [<code>HTTP</code> Contoh otomax](./test/otomax.rest)
+- [<code>HTTP</code> Contoh telegram](./test/telegram.rest)
+- [<code>HTTP</code> Contoh whatsapp](./test/whatsapp.rest)
 
 ## Dukungan
 
