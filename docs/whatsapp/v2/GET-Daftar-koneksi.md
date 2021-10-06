@@ -41,5 +41,3 @@ GET http://localhost/api/whatsapp/v2/
   }
 }
 ```
-
-> Data yang sebenarnya lebih panjang, kami potong alasan personal
