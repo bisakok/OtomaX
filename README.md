@@ -17,12 +17,12 @@ npm run start
 
 ## Support
 
-Bug report, Feature request or Describe this issue template's purpose [here](https://github.com/ndiing/OtomaX/issues/new/choose).
+Laporan bug, Permintaan fitur, atau Jelaskan tujuan masalah ini [di sini](https://github.com/ndiing/OtomaX/issues/new/choose).
 
 ## API Versioning
 
-The first part of the URI path specifies the API version you wish to access in the format v{version_number}.
-For example, version 1 of the API (most current) is accessible via:
+Bagian pertama dari jalur URI menentukan versi API yang ingin Anda akses dalam format `v{version_number}`.
+Misalnya, versi 1 API (terbaru) dapat diakses melalui:
 
 ```bash
 https://localhost/api/v1/
@@ -30,7 +30,7 @@ https://localhost/api/v1/
 
 ## Resources
 
-For a description of the available resources see the [Resource Overview]().
+Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [whatsapp]()
 
