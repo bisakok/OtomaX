@@ -105,11 +105,11 @@ GET http://localhost/api/v2/operator?pengirim=%2B6281935155404&kode_reseller=OX0
 
 # data produk
 ###
-GET http://localhost/api/v2/produk?pengirim=%2B6281935155404
+GET http://localhost/api/v2/produk?pengirim=%2B6281935155404&kode_operator=TEST
 
 # data produk (downline)
 ###
-GET http://localhost/api/v2/produk?pengirim=%2B6281935155404&kode_reseller=OX0004
+GET http://localhost/api/v2/produk?pengirim=%2B6281935155404&kode_reseller=OX0004&kode_operator=TEST
 
 # data mutasi
 ###
@@ -188,3 +188,18 @@ Content-Type: application/json
     "address": "Pacitan",
     "pin": "1234"
 }
+
+
+
+
+
+
+# Web SMS Sender
+
+# http://localhost/api/jabber/v2/outbox?pengirim=xxx&penerima=[to]&pesan=[message]
+# http://localhost/api/whatsapp/v2/outbox?pengirim=xxx&penerima=[to]&pesan=[message]
+# http://localhost/api/telegram/v2/outbox?pengirim=xxx&penerima=[to]&pesan=[message]
+
+# http://localhost/api/jabber/v2/outbox?penerima=[to]&pesan=[message]
+# http://localhost/api/whatsapp/v2/outbox?penerima=[to]&pesan=[message]
+# http://localhost/api/telegram/v2/outbox?penerima=[to]&pesan=[message]
