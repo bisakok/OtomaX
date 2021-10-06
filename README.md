@@ -1,5 +1,8 @@
 # OtomaX Web Server
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ndiing/otomax)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ndiing/otomax)
+
 ## Gambaran
 
 Software Pulsa OtomaX
