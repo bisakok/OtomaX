@@ -111,6 +111,8 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Whatsapp]()
 
+Whatsapp center & sender
+
 -   **[<code>GET</code> /api/whatsapp/v2](./docs/api/whatsapp/v2/get.md)**
 -   **[<code>DELETE</code> /api/whatsapp/v2/:id]()**
 -   **[<code>POST</code> /api/whatsapp/v2/connect]()**
@@ -119,6 +121,8 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>GET</code> /api/whatsapp/v2/outbox]()**
 
 ### [Telegram]()
+
+Telegram center & sender
 
 -   **[<code>GET</code> /api/telegram/v2]()**
 -   **[<code>DELETE</code> /api/telegram/v2/:id]()**
@@ -129,6 +133,8 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Jabber]()
 
+Jabber center & sender
+
 -   **[<code>GET</code> /api/jabber/v2]()**
 -   **[<code>DELETE</code> /api/jabber/v2/:id]()**
 -   **[<code>POST</code> /api/jabber/v2/connect]()**
@@ -138,6 +144,8 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Otomax A]()
 
+Otomax Authentication & authorization
+
 -   **[<code>POST</code> /api/v2/sign]()**
 -   **[<code>POST</code> /api/v2/login]()**
 -   **[<code>POST</code> /api/v2/refresh]()**
@@ -146,6 +154,8 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>GET</code> /api/v2/session]()**
 
 ### [Otomax B]()
+
+Otomax common request
 
 -   **[<code>GET</code> /api/v2/reseller]()**
 -   **[<code>GET</code> /api/v2/pengirim]()**
@@ -158,12 +168,16 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Otomax C]()
 
+Otomax internal request
+
 -   **[<code>GET</code> /api/v2/test]()**
 -   **[<code>GET</code> /api/v2/events]()**
 -   **[<code>GET</code> /api/v2/outbox]()**
 -   **[<code>POST</code> /api/v2/outbox/callback]()**
 
 ### [Otomax D]()
+
+Otomax request inbox
 
 -   **[<code>POST</code> /api/v2/:path]()**
 -   **[<code>GET</code> /api/v2/:path]()**
