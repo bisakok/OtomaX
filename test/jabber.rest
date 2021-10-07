@@ -1,3 +1,12 @@
+### Request
+GET http://localhost/
+cookie: lux_uid=163360139883186780
+
+
+
+
+
+
 # Daftar koneksi
 ### Request
 GET http://localhost/api/jabber/v2/

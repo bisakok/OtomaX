@@ -188,18 +188,3 @@ Content-Type: application/json
     "address": "Pacitan",
     "pin": "1234"
 }
-
-
-
-
-
-
-# Web SMS Sender
-
-# http://localhost/api/jabber/v2/outbox?pengirim=xxx&penerima=[to]&pesan=[message]
-# http://localhost/api/whatsapp/v2/outbox?pengirim=xxx&penerima=[to]&pesan=[message]
-# http://localhost/api/telegram/v2/outbox?pengirim=xxx&penerima=[to]&pesan=[message]
-
-# http://localhost/api/jabber/v2/outbox?penerima=[to]&pesan=[message]
-# http://localhost/api/whatsapp/v2/outbox?penerima=[to]&pesan=[message]
-# http://localhost/api/telegram/v2/outbox?penerima=[to]&pesan=[message]
