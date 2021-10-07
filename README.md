@@ -82,14 +82,14 @@ rm csr.pem
 
 Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
--   **[<code>HTTP</code> /test/whatsapp.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
--   **[<code>HTTP</code> /test/telegram.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
--   **[<code>HTTP</code> /test/jabber.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
--   **[<code>HTTP</code> /test/otomax.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
--   **[<code>HTTP</code> /test/otomax-request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
--   **[<code>HTTP</code> /test/otomax-request-json.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-json.rest)**
--   **[<code>HTTP</code> /test/otomax-request-urlencoded.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-urlencoded.rest)**
--   **[<code>HTTP</code> /test/otomax-request-xml.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
+-   **[<code>HTTP</code> Whatsapp](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
+-   **[<code>HTTP</code> Telegram](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
+-   **[<code>HTTP</code> Jabber](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
+-   **[<code>HTTP</code> Otomax](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
+-   **[<code>HTTP</code> Otomax Inbox ](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
+-   **[<code>HTTP</code> Otomax Inbox (JSON)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-json.rest)**
+-   **[<code>HTTP</code> Otomax Inbox (URLENCODED)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-urlencoded.rest)**
+-   **[<code>HTTP</code> Otomax Inbox (XML)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
 
 ## Dukungan
 
