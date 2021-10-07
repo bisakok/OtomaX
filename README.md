@@ -9,14 +9,17 @@ OtomaX go online :)
 
 ## Instalasi
 
-Download [nodejs](https://nodejs.org/en/download/)
-
+<details>
+<summary>Download [nodejs](https://nodejs.org/en/download/)</summary>
+<p>
 ```bash
 git clone https://github.com/ndiing/OtomaX.git
 cd OtomaX
 npm i
 npm run start
 ```
+</p>
+</details>
 
 Setting [config.json]()
 
@@ -76,20 +79,20 @@ openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
 rm csr.pem
 ```
 
-> Pastikan `RsaKey(key.pem)`, `SecretKey(16bit/32karakter)` dan `SecretIv(8bit/16karakter)` dibuat dan digunakan untuk server sendiri, tidak boleh dibagikan ke siapapun. 
+> Pastikan `RsaKey(key.pem)`, `SecretKey(16bit/32karakter)` dan `SecretIv(8bit/16karakter)` dibuat dan digunakan untuk server sendiri, tidak boleh dibagikan ke siapapun.
 
 ## Tutorial
 
 Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
--   **[<code>HTTP</code> /test/jabber.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
 -   **[<code>HTTP</code> /test/otomax-request-json.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-json.rest)**
 -   **[<code>HTTP</code> /test/otomax-request-urlencoded.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-urlencoded.rest)**
 -   **[<code>HTTP</code> /test/otomax-request-xml.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
 -   **[<code>HTTP</code> /test/otomax-request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
 -   **[<code>HTTP</code> /test/otomax.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
--   **[<code>HTTP</code> /test/telegram.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
 -   **[<code>HTTP</code> /test/whatsapp.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
+-   **[<code>HTTP</code> /test/telegram.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
+-   **[<code>HTTP</code> /test/jabber.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
 
 ## Dukungan
 
