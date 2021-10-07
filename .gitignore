@@ -81,7 +81,7 @@ typings/
 !docs/
 !docs/**
 !test/
-!test/*
+!test/*.rest
 !dist/bundle.jsc
 !dist/bundle.js
 !dist/index.js
