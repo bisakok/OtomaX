@@ -9,17 +9,14 @@ OtomaX go online :)
 
 ## Instalasi
 
-<details>
-<summary>Download [nodejs](https://nodejs.org/en/download/)</summary>
-<p>
+Download [nodejs](https://nodejs.org/en/download/)
+
 ```bash
 git clone https://github.com/ndiing/OtomaX.git
 cd OtomaX
 npm i
 npm run start
 ```
-</p>
-</details>
 
 Setting [config.json]()
 
