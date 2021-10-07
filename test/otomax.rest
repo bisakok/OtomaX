@@ -1,6 +1,6 @@
 # sign
 ###
-POST http://localhost/api/v2/sign
+POST http://ndiing.ddns.net/api/v2/sign
 Content-Type: application/json
 
 {
@@ -9,45 +9,45 @@ Content-Type: application/json
 
 # login
 ###
-POST http://localhost/api/v2/login
+POST http://ndiing.ddns.net/api/v2/login
 Content-Type: application/json
 
 {
-    "kode": "8ceefde2-ac23-4918-8b83-b938a21e73d7",
-    "token": "585051"
+    "kode": "ec38ca10-fd3a-498b-f3d4-490920ef96c3",
+    "token": "680859"
 }
 
 # refresh
 ###
-POST http://localhost/api/v2/refresh
+POST http://ndiing.ddns.net/api/v2/refresh
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTY0NDA4YjIyNGRlOTkyODYxMjM3NzVjMWQ3YjQ2ODBiOTYxYmVhODY5N2UzOGRjZmI4NmI5OWM1ZTE0Y2MyZWQwOTNjZDAxNTRiY2I5YjYwODdhZjQ5NzNjNTc4ODRjOWU2NzE2ZmQwMWNmNzVhN2E0MDZhM2EyMmUyZDM3MWE0NDdkOTUxODEyNDQyYmQ0OWNjNzBmY2QzOWJjZWFlM2JhMWVjNTFhODYzNTQwYWM5MGUzNDg0Yjc5ZTYzNTYwNWE1YzQwMGVkYTM3ZTI1MTIwYTJmMTc3N2ZhZTNmY2U5.YmFlMDc5Y2FhNDVhNGIwOGIwMmIzOWIxNzdjNzE4YzRhNjU2MzQ5ZjYzYjExNGFiOGFkNTk5MmU2NDEwYTQ1Yw==
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTNhMGE1NzlkYTQ0ZWE2N2U3MjY4MGYzY2I4ZTU1MzZkMDRmOGY1ZDZlMjc1YmQ0NjM5NzYyYTZmMWY4MzFhODA5ZDUxZDJkNDg1MzZmM2Q5NTAxM2RkODA2NzAwNjJjNWMzMThiNjk3MjAwNzdhMjI2MzFiOWYwMWQwN2FlZjQwN2E0NGE5ZTAyYzRmYWM5ODU5MWQ4NWMzYmU3MmI4MDk3YzIyZDMwMjI1MzdhY2VmYTcwY2ZjMjI1MmJkMTNiYzkyYzZhYTc1OTQzNWQxOGNiY2QwYmQ4MjhhZDE4Yzk5.NDY5NGIxN2RhYjc1MmQ2MDdjY2JjYTU3OGEwNWNmYzEyYzVjMGZhY2YwYTM1MGQyMTI3YzczYTY3ZDJkOWU5Yw==
 
 {
-    "kode": "8ceefde2-ac23-4918-8b83-b938a21e73d7",
-    "token": "ZjBjMGU2MDU0MWNmM2ExMzMzMzA3YTcyMjI4MWM4Y2ZiZTA3MjdhY2NiZDNhMDc3MTU5YjNmN2M4Yjk3MTRmNA=="
+    "kode": "ec38ca10-fd3a-498b-f3d4-490920ef96c3",
+    "token": "ZDYwMzNmN2FhNjIwYzVhYjUzMzdkYmY2Yzk5MGI5MWQyZTA0MDBlYmE3NTYyMzViNjZkYmYwNTc1ZTJjMzY1ZQ=="
 }
 
 # custom
 ###
-POST http://localhost/api/v2/custom
+POST http://ndiing.ddns.net/api/v2/custom
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTY0NDA4YjIyNGRlOTkyODYxMjM3NzVjMWQ3YjQ2ODBiOTYxYmVhODY5N2UzOGRjZmI4NmI5OWM1ZTE0Y2MyZWQwOTNjZDAxNTRiY2I5YjYwODdhZjQ5NzNjNTc4ODRjOWU2NzE2ZmQwMWNmNzVhN2E0MDZhM2EyMmUyZDM3MWE0NDdkOTUxODEyNDQyYmQ0OWNjNzBmY2QzOWJjZWFlM2JhMWVjNTFhODYzNTQwYWM5MGUzNDg0Yjc5ZTYzNTYwNWE1YzQwMGVkYTM3ZTI1MTIwYTJmMTc3N2ZhZTNmY2U5.YmFlMDc5Y2FhNDVhNGIwOGIwMmIzOWIxNzdjNzE4YzRhNjU2MzQ5ZjYzYjExNGFiOGFkNTk5MmU2NDEwYTQ1Yw==
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTNhMGE1NzlkYTQ0ZWE2N2U3MjY4MGYzY2I4ZTU1MzZkMDRmOGY1ZDZlMjc1YmQ0NjM5NzYyYTZmMWY4MzFhODA5ZDUxZDJkNDg1MzZmM2Q5NTAxM2RkODA2NzAwNjJjNWMzMThiNjk3MjAwNzdhMjI2MzFiOWYwMWQwN2FlZjQwN2E0NGE5ZTAyYzRmYWM5ODU5MWQ4NWMzYmU3MmI4MDk3YzIyZDMwMjI1MzdhY2VmYTcwY2ZjMjI1MmJkMTNiYzkyYzZhYTc1OTQzNWQxOGNiY2QwYmQ4MjhhZDE4Yzk5.NDY5NGIxN2RhYjc1MmQ2MDdjY2JjYTU3OGEwNWNmYzEyYzVjMGZhY2YwYTM1MGQyMTI3YzczYTY3ZDJkOWU5Yw==
 
 {
-    "kode": "8ceefde2-ac23-4918-8b83-b938a21e73d7",
-    "token": "ZjBjMGU2MDU0MWNmM2ExMzMzMzA3YTcyMjI4MWM4Y2ZiZTA3MjdhY2NiZDNhMDc3MTU5YjNmN2M4Yjk3MTRmNA=="
+    "kode": "ec38ca10-fd3a-498b-f3d4-490920ef96c3",
+    "token": "ZDYwMzNmN2FhNjIwYzVhYjUzMzdkYmY2Yzk5MGI5MWQyZTA0MDBlYmE3NTYyMzViNjZkYmYwNTc1ZTJjMzY1ZQ=="
 }
 
 # revoke
 ###
-DELETE http://localhost/api/v2/revoke/:kode
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTY0NDA4YjIyNGRlOTkyODYxMjM3NzVjMWQ3YjQ2ODBiOTYxYmVhODY5N2UzOGRjZmI4NmI5OWM1ZTE0Y2MyZWQwOTNjZDAxNTRiY2I5YjYwODdhZjQ5NzNjNTc4ODRjOWU2NzE2ZmQwMWNmNzVhN2E0MDZhM2EyMmUyZDM3MWE0NDdkOTUxODEyNDQyYmQ0OWNjNzBmY2QzOWJjZWFlM2JhMWVjNTFhODYzNTQwYWM5MGUzNDg0Yjc5ZTYzNTYwNWE1YzQwMGVkYTM3ZTI1MTIwYTJmMTc3N2ZhZTNmY2U5.YmFlMDc5Y2FhNDVhNGIwOGIwMmIzOWIxNzdjNzE4YzRhNjU2MzQ5ZjYzYjExNGFiOGFkNTk5MmU2NDEwYTQ1Yw==
+DELETE http://ndiing.ddns.net/api/v2/revoke/:kode
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTNhMGE1NzlkYTQ0ZWE2N2U3MjY4MGYzY2I4ZTU1MzZkMDRmOGY1ZDZlMjc1YmQ0NjM5NzYyYTZmMWY4MzFhODA5ZDUxZDJkNDg1MzZmM2Q5NTAxM2RkODA2NzAwNjJjNWMzMThiNjk3MjAwNzdhMjI2MzFiOWYwMWQwN2FlZjQwN2E0NGE5ZTAyYzRmYWM5ODU5MWQ4NWMzYmU3MmI4MDk3YzIyZDMwMjI1MzdhY2VmYTcwY2ZjMjI1MmJkMTNiYzkyYzZhYTc1OTQzNWQxOGNiY2QwYmQ4MjhhZDE4Yzk5.NDY5NGIxN2RhYjc1MmQ2MDdjY2JjYTU3OGEwNWNmYzEyYzVjMGZhY2YwYTM1MGQyMTI3YzczYTY3ZDJkOWU5Yw==
 
 # session
 ###
-GET http://localhost/api/v2/session
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTY0NDA4YjIyNGRlOTkyODYxMjM3NzVjMWQ3YjQ2ODBiOTYxYmVhODY5N2UzOGRjZmI4NmI5OWM1ZTE0Y2MyZWQwOTNjZDAxNTRiY2I5YjYwODdhZjQ5NzNjNTc4ODRjOWU2NzE2ZmQwMWNmNzVhN2E0MDZhM2EyMmUyZDM3MWE0NDdkOTUxODEyNDQyYmQ0OWNjNzBmY2QzOWJjZWFlM2JhMWVjNTFhODYzNTQwYWM5MGUzNDg0Yjc5ZTYzNTYwNWE1YzQwMGVkYTM3ZTI1MTIwYTJmMTc3N2ZhZTNmY2U5.YmFlMDc5Y2FhNDVhNGIwOGIwMmIzOWIxNzdjNzE4YzRhNjU2MzQ5ZjYzYjExNGFiOGFkNTk5MmU2NDEwYTQ1Yw==
+GET http://ndiing.ddns.net/api/v2/session
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwOWJiNDZiYjhkMWM0MGRhNDJkYzM1NWU1ZjY4N2Y0ZTVjMjkyNjZjZGE0OGJhYTZkMTU1OTJmMjE4YmQ5M2E3N2Y3ZDRkYjAxMTEzM2Q5ODRlYTdmNmY3MWYyYzkwNGNmY2QyOWRmMDgzNzczNGVhMDI0MzFiMGNmODllZmQ3MDgxMDRkMmNiMTgzMmRmZTBiNTBmZTVlYzM0NmY4ODc3M2I1MmJhN2M4YTcxNzg2ZmU3NGFiMWQ5MGVjNTM5ZmM1MWY3M2I1Yjk1ZjZlYjU2YzBkY2QxNGVmMjk3ZTRhYWY0MDM5YzFiMmNlODc2YzE0OTNhMGE1NzlkYTQ0ZWE2N2U3MjY4MGYzY2I4ZTU1MzZkMDRmOGY1ZDZlMjc1YmQ0NjM5NzYyYTZmMWY4MzFhODA5ZDUxZDJkNDg1MzZmM2Q5NTAxM2RkODA2NzAwNjJjNWMzMThiNjk3MjAwNzdhMjI2MzFiOWYwMWQwN2FlZjQwN2E0NGE5ZTAyYzRmYWM5ODU5MWQ4NWMzYmU3MmI4MDk3YzIyZDMwMjI1MzdhY2VmYTcwY2ZjMjI1MmJkMTNiYzkyYzZhYTc1OTQzNWQxOGNiY2QwYmQ4MjhhZDE4Yzk5.NDY5NGIxN2RhYjc1MmQ2MDdjY2JjYTU3OGEwNWNmYzEyYzVjMGZhY2YwYTM1MGQyMTI3YzczYTY3ZDJkOWU5Yw==
 
 
 
@@ -56,7 +56,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.NzU5ZTg0NjMwYjc5ZjMwO
 
 # data reseller
 ###
-GET http://localhost/api/v2/reseller?access_token=784547ad-74fe-4eb8-88c8-216c976c0dc6
+GET http://ndiing.ddns.net/api/v2/reseller?access_token=4b72f6c4-75a4-4960-8bc6-6b70af4c0b18
 
 
 
@@ -65,59 +65,59 @@ GET http://localhost/api/v2/reseller?access_token=784547ad-74fe-4eb8-88c8-216c97
 
 # data reseller
 ###
-GET http://localhost/api/v2/reseller?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/reseller?pengirim=%2B6281935155404
 
 # data reseller (downline)
 ###
-GET http://localhost/api/v2/reseller?pengirim=%2B6281935155404&kode_reseller=OX0004
+GET http://ndiing.ddns.net/api/v2/reseller?pengirim=%2B6281935155404&kode_reseller=OX0004
 
 # data pengirim
 ###
-GET http://localhost/api/v2/pengirim?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/pengirim?pengirim=%2B6281935155404
 
 # data pengirim (downline)
 ###
-GET http://localhost/api/v2/pengirim?pengirim=%2B6281935155404&kode_reseller=OX0004
+GET http://ndiing.ddns.net/api/v2/pengirim?pengirim=%2B6281935155404&kode_reseller=OX0004
 
 # data downline
 ###
-GET http://localhost/api/v2/downline?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/downline?pengirim=%2B6281935155404
 
 # data downline (downline)
 ###
-GET http://localhost/api/v2/downline?pengirim=%2B6281935155404&kode_reseller=OX0004
+GET http://ndiing.ddns.net/api/v2/downline?pengirim=%2B6281935155404&kode_reseller=OX0004
 
 # data level
 ###
-GET http://localhost/api/v2/level?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/level?pengirim=%2B6281935155404
 
 # data level (downline)
 ###
-GET http://localhost/api/v2/level?pengirim=%2B6281935155404&kode_reseller=OX0004
+GET http://ndiing.ddns.net/api/v2/level?pengirim=%2B6281935155404&kode_reseller=OX0004
 
 # data operator
 ###
-GET http://localhost/api/v2/operator?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/operator?pengirim=%2B6281935155404
 
 # data operator (downline)
 ###
-GET http://localhost/api/v2/operator?pengirim=%2B6281935155404&kode_reseller=OX0004
+GET http://ndiing.ddns.net/api/v2/operator?pengirim=%2B6281935155404&kode_reseller=OX0004
 
 # data produk
 ###
-GET http://localhost/api/v2/produk?pengirim=%2B6281935155404&kode_operator=TEST
+GET http://ndiing.ddns.net/api/v2/produk?pengirim=%2B6281935155404&kode_operator=TEST
 
 # data produk (downline)
 ###
-GET http://localhost/api/v2/produk?pengirim=%2B6281935155404&kode_reseller=OX0004&kode_operator=TEST
+GET http://ndiing.ddns.net/api/v2/produk?pengirim=%2B6281935155404&kode_reseller=OX0004&kode_operator=TEST
 
 # data mutasi
 ###
-GET http://localhost/api/v2/mutasi?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/mutasi?pengirim=%2B6281935155404
 
 # data mutasi (downline)
 ###
-GET http://localhost/api/v2/mutasi?pengirim=%2B6281935155404&kode_reseller=OX0004
+GET http://ndiing.ddns.net/api/v2/mutasi?pengirim=%2B6281935155404&kode_reseller=OX0004
 
 
 
@@ -126,7 +126,7 @@ GET http://localhost/api/v2/mutasi?pengirim=%2B6281935155404&kode_reseller=OX000
 
 # format
 ###
-GET http://localhost/api/v2/format?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/format?pengirim=%2B6281935155404
 
 
 
@@ -135,19 +135,19 @@ GET http://localhost/api/v2/format?pengirim=%2B6281935155404
 
 # test
 ###
-GET http://localhost/api/v2/test?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/test?pengirim=%2B6281935155404
 
 # events
 ###
-GET http://localhost/api/v2/events?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/events?pengirim=%2B6281935155404
 
 # outbox
 ###
-GET http://localhost/api/v2/outbox?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/outbox?pengirim=%2B6281935155404
 
 # outbox callback
 ###
-POST http://localhost/api/v2/outbox/callback?pengirim=%2B6281935155404
+POST http://ndiing.ddns.net/api/v2/outbox/callback?pengirim=%2B6281935155404
 Content-Type: application/json
 
 {}
@@ -159,11 +159,11 @@ Content-Type: application/json
 
 # inbox
 ###
-GET http://localhost/api/v2/:path?pengirim=%2B6281935155404
+GET http://ndiing.ddns.net/api/v2/:path?pengirim=%2B6281935155404
 
 # inbox
 ###
-POST http://localhost/api/v2/:path?pengirim=%2B6281935155404
+POST http://ndiing.ddns.net/api/v2/:path?pengirim=%2B6281935155404
 Content-Type: application/json
 
 {}
@@ -175,11 +175,11 @@ Content-Type: application/json
 
 # Registration of non member
 ### Request
-GET http://localhost/api/v2/daftar-non-member?pengirim=%2B6281935155404&name=Ndiing&address=Pacitan&pin=1234
+GET http://ndiing.ddns.net/api/v2/daftar-non-member?pengirim=%2B6281935155404&name=Ndiing&address=Pacitan&pin=1234
 
 # Registration of non member
 ### Request
-GET http://localhost/api/v2/daftar-non-member
+GET http://ndiing.ddns.net/api/v2/daftar-non-member
 Content-Type: application/json
 
 {
