@@ -5,7 +5,7 @@
 
 ## Gambaran
 
-Software Pulsa OtomaX
+OtomaX go online :)
 
 ## Instalasi
 
