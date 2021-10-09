@@ -1,0 +1,5 @@
+###
+GET http://localhost/api/mitratokopedia/v1/
+
+###
+DELETE http://localhost/api/mitratokopedia/v1/session1
