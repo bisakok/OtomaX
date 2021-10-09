@@ -12,7 +12,7 @@ GET http://localhost/api/v2/batal-transfer-saldo?pengirim=%2B6281935155404&koder
 
 # Cek harga produk
 ### Request
-GET http://localhost/api/v2/cek-harga?pengirim=%2B6281935155404&kodeproduk=TEST5
+GET http://localhost/api/v2/cek-harga?pengirim=%2B6281935155404&kodeproduk=etoll
 
 # Check downline's markup
 ### Request
