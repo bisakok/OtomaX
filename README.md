@@ -71,23 +71,23 @@ Setting [config.json]()
 
 Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
-### [Center & Sender]()
+### [Center]()
 
--   **[<code>REST</code> Whatsapp](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
--   **[<code>REST</code> Telegram](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
--   **[<code>REST</code> Jabber](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
+-   **[<code>Contoh</code> Whatsapp](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
+-   **[<code>Contoh</code> Telegram](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
+-   **[<code>Contoh</code> Jabber](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
 
 ### [System]()
 
--   **[<code>REST</code> Otomax](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
--   **[<code>REST</code> Otomax Inbox ](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
--   **[<code>REST</code> Otomax Inbox (JSON)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-json.rest)**
--   **[<code>REST</code> Otomax Inbox (URLENCODED)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-urlencoded.rest)**
--   **[<code>REST</code> Otomax Inbox (XML)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
+-   **[<code>Contoh</code> Otomax](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
+-   **[<code>Contoh</code> Otomax Inbox ](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
+-   **[<code>Contoh</code> Otomax Inbox (JSON)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-json.rest)**
+-   **[<code>Contoh</code> Otomax Inbox (URLENCODED)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-urlencoded.rest)**
+-   **[<code>Contoh</code> Otomax Inbox (XML)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
 
 ### [IP Client]()
 
--   **[<code>REST</code> Mitra Tokopedia](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/mitratokopedia.rest)**
+-   **[<code>Contoh</code> Mitra Tokopedia](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/mitratokopedia.rest)**
 
 ## Dukungan
 
