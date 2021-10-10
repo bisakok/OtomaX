@@ -82,14 +82,15 @@ rm csr.pem
 
 Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
--   **[<code>Center&Sender</code> Whatsapp](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
--   **[<code>Center&Sender</code> Telegram](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
--   **[<code>Center&Sender</code> Jabber](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
+-   **[<code>I/O</code> Whatsapp](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
+-   **[<code>I/O</code> Telegram](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
+-   **[<code>I/O</code> Jabber](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
 -   **[<code>Core</code> Otomax](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
 -   **[<code>Core</code> Otomax Inbox ](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
 -   **[<code>Core</code> Otomax Inbox (JSON)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-json.rest)**
 -   **[<code>Core</code> Otomax Inbox (URLENCODED)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-urlencoded.rest)**
 -   **[<code>Core</code> Otomax Inbox (XML)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
+-   **[<code>IP/C</code> Mitra Tokopedia](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/mitratokopedia.rest)**
 
 ## Dukungan
 
