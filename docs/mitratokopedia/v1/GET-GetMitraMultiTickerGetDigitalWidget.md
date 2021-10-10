@@ -1,4 +1,7 @@
 # GetMitraMultiTickerGetDigitalWidget
+
+Lihat daftar nama kategori mitra tokopedia
+
 ```
 GET /api/mitratokopedia/v1/GetMitraMultiTickerGetDigitalWidget
 ```

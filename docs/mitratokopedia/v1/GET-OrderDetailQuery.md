@@ -1,4 +1,7 @@
 # OrderDetailQuery
+
+Lihat status transaksi dengan kode permintaan transaksi
+
 ```
 GET /api/mitratokopedia/v1/OrderDetailQuery
 ```

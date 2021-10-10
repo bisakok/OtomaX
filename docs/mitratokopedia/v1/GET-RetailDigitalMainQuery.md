@@ -1,4 +1,7 @@
 # RetailDigitalMainQuery
+
+Lihat daftar produk/kode
+
 ```
 GET /api/mitratokopedia/v1/RetailDigitalMainQuery
 ```

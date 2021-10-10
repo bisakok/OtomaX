@@ -1,4 +1,7 @@
 # OTPValidate
+
+Konfirmasi OTP login yang di terima di SMS
+
 ```
 GET /api/mitratokopedia/v1/OTPValidate
 ```

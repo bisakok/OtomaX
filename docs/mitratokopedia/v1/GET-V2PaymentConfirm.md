@@ -1,6 +1,8 @@
 
 # V2PaymentConfirm
 
+Kirim transaksi/permintaan transaksi
+
 ```
 GET /api/mitratokopedia/v1/V2PaymentConfirm
 ```

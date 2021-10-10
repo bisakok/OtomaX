@@ -1,4 +1,7 @@
 # GetPromoList
+
+Lihat promo tersedia pada kategori pilihan
+
 ```
 GET /api/mitratokopedia/v1/GetPromoList
 ```

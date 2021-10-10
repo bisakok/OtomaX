@@ -1,4 +1,7 @@
 # OTPRequestQuery
+
+Request otp untuk transaksi pertama kali
+
 ```
 GET /api/mitratokopedia/v1/OTPRequestQuery
 ```

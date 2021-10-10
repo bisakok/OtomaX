@@ -1,4 +1,7 @@
 # OTPRequest
+
+Request otp login
+
 ```
 GET http://localhost/api/mitratokopedia/v1/OTPRequest
 ```
