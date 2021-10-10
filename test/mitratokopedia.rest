@@ -13,8 +13,8 @@ GET http://localhost/api/mitratokopedia/v1/OTPRequest
 ### OTPValidate
 ### Request
 GET http://localhost/api/mitratokopedia/v1/OTPValidate
-?pengirim=code
-&msisdn=963802
+?pengirim=session1
+&code=963802
 
 ### GetMitraMultiTickerGetDigitalWidget
 ### Request
