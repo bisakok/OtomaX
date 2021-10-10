@@ -136,47 +136,58 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Otomax]()
 
--   1
+#### Auth
 
-    -   **[<code>POST</code> /api/v2/sign]()**
-    -   **[<code>POST</code> /api/v2/login]()**
-    -   **[<code>POST</code> /api/v2/refresh]()**
-    -   **[<code>POST</code> /api/v2/custom]()**
-    -   **[<code>DELETE</code> /api/v2/revoke/:kode]()**
-    -   **[<code>GET</code> /api/v2/session]()**
+-   **[<code>POST</code> /api/v2/sign]()**
+-   **[<code>POST</code> /api/v2/login]()**
+-   **[<code>POST</code> /api/v2/refresh]()**
+-   **[<code>POST</code> /api/v2/custom]()**
+-   **[<code>DELETE</code> /api/v2/revoke/:kode]()**
+-   **[<code>GET</code> /api/v2/session]()**
 
--   2
+#### Common
 
-    -   **[<code>GET</code> /api/v2/reseller]()**
-    -   **[<code>GET</code> /api/v2/pengirim]()**
-    -   **[<code>GET</code> /api/v2/downline]()**
-    -   **[<code>GET</code> /api/v2/level]()**
-    -   **[<code>GET</code> /api/v2/operator]()**
-    -   **[<code>GET</code> /api/v2/produk]()**
-    -   **[<code>GET</code> /api/v2/mutasi]()**
-    -   **[<code>GET</code> /api/v2/format]()**
+-   **[<code>GET</code> /api/v2/reseller]()**
+-   **[<code>GET</code> /api/v2/pengirim]()**
+-   **[<code>GET</code> /api/v2/downline]()**
+-   **[<code>GET</code> /api/v2/level]()**
+-   **[<code>GET</code> /api/v2/operator]()**
+-   **[<code>GET</code> /api/v2/produk]()**
+-   **[<code>GET</code> /api/v2/mutasi]()**
+-   **[<code>GET</code> /api/v2/format]()**
 
--   3
+#### Sys
 
-    -   **[<code>GET</code> /api/v2/test]()**
-    -   **[<code>GET</code> /api/v2/events]()**
-    -   **[<code>GET</code> /api/v2/outbox]()**
-    -   **[<code>POST</code> /api/v2/outbox/callback]()**
+-   **[<code>GET</code> /api/v2/test]()**
+-   **[<code>GET</code> /api/v2/events]()**
+-   **[<code>GET</code> /api/v2/outbox]()**
+-   **[<code>POST</code> /api/v2/outbox/callback]()**
 
--   4
+#### Req
 
-    -   **[<code>POST</code> /api/v2/:path]()**
-    -   **[<code>GET</code> /api/v2/:path]()**
+-   **[<code>POST</code> /api/v2/:path]()**
+-   **[<code>GET</code> /api/v2/:path]()**
 
 ### [Mitra Tokopedia]()
 
+#### Auth
+
 -   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequest]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/OTPValidate]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequestQuery]()**
+
+#### Data
+
 -   **[<code>GET</code> /api/mitratokopedia/v1/GetMitraMultiTickerGetDigitalWidget]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/RetailDigitalMainQuery]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/GetPromoList]()**
+
+#### Trx
+
 -   **[<code>GET</code> /api/mitratokopedia/v1/V13Enquiry]()**
--   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequestQuery]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/V2PaymentConfirm]()**
+
+#### Cek
+
 -   **[<code>GET</code> /api/mitratokopedia/v1/OrderDetailQuery]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/GetUOHOrderList]()**
