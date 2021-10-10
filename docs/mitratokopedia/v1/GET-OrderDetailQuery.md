@@ -8,10 +8,10 @@ GET /api/mitratokopedia/v1/OrderDetailQuery
 
 ## Query
 
-Nama | Keterangan
---- | ---
-`pengirim` | ID Sesi yang digunakan
-`paymentId` | 
+| Nama        | Keterangan             |
+| ----------- | ---------------------- |
+| `pengirim`  | ID Sesi yang digunakan |
+| `paymentId` |
 
 ## Example
 

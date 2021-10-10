@@ -5,14 +5,18 @@ Lihat promo tersedia pada kategori pilihan
 ```
 GET /api/mitratokopedia/v1/GetPromoList
 ```
+
 ## Query
-Nama | Keterangan
---- | ---
-`pengirim` | Sesi id pengguna saat ini
-`category_id` | 
+
+| Nama          | Keterangan                |
+| ------------- | ------------------------- |
+| `pengirim`    | Sesi id pengguna saat ini |
+| `category_id` |
 
 ## Example
+
 ### Request
+
 ```
 GET http://localhost/api/mitratokopedia/v1/GetPromoList
 ?pengirim=session1

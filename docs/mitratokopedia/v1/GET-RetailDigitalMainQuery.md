@@ -5,14 +5,18 @@ Lihat daftar produk/kode
 ```
 GET /api/mitratokopedia/v1/RetailDigitalMainQuery
 ```
+
 ## Query
-Nama | Keterangan
---- | ---
-`pengirim` | Sesi ID yang digunakan saat ini
-`category_id` | 
+
+| Nama          | Keterangan                      |
+| ------------- | ------------------------------- |
+| `pengirim`    | Sesi ID yang digunakan saat ini |
+| `category_id` |
 
 ## Example
+
 ### Request
+
 ```
 GET http://localhost/api/mitratokopedia/v1/RetailDigitalMainQuery
 ?pengirim=session1

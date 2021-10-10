@@ -1,4 +1,3 @@
-
 # V2PaymentConfirm
 
 Kirim transaksi/permintaan transaksi
@@ -9,18 +8,18 @@ GET /api/mitratokopedia/v1/V2PaymentConfirm
 
 ## Query
 
-Nama | Keternagan
---- | ---
-`pengirim` | ID Sesi yang digunakan
-`gateway_code` | 
-`code` | Diisi jika transaksi membutuhkan kode OTP pertama kali
-`category_id` | 
-`voucher_code` | Diisi jika transaksi menggunakan kode promo
-`client_number` | 
-`operator_id` | 
-`transactionAmount` | 
-`product_id` | 
-`is_pulsa_trx` | 
+| Nama                | Keternagan                                             |
+| ------------------- | ------------------------------------------------------ |
+| `pengirim`          | ID Sesi yang digunakan                                 |
+| `gateway_code`      |
+| `code`              | Diisi jika transaksi membutuhkan kode OTP pertama kali |
+| `category_id`       |
+| `voucher_code`      | Diisi jika transaksi menggunakan kode promo            |
+| `client_number`     |
+| `operator_id`       |
+| `transactionAmount` |
+| `product_id`        |
+| `is_pulsa_trx`      |
 
 ## Example
 
