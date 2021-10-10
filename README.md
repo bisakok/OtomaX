@@ -185,3 +185,23 @@ Otomax request inbox
 
 -   **[<code>POST</code> /api/v2/:path]()**
 -   **[<code>GET</code> /api/v2/:path]()**
+
+### [Mitra Tokopedia]()
+
+API Mitra Tokopedia
+
+- **[<code>GET</code> /api/mitratokopedia/v2/OTPRequest]()**
+- **[<code>GET</code> /api/mitratokopedia/v2/OTPValidate]()**
+
+- **[<code>GET</code> /api/mitratokopedia/v2/GetMitraMultiTickerGetDigitalWidget]()**
+- **[<code>GET</code> /api/mitratokopedia/v2/RetailDigitalMainQuery]()**
+- **[<code>GET</code> /api/mitratokopedia/v2/GetPromoList]()**
+
+- **[<code>GET</code> /api/mitratokopedia/v2/V13Enquiry]()**
+
+- **[<code>GET</code> /api/mitratokopedia/v2/OTPRequestQuery]()**
+
+- **[<code>GET</code> /api/mitratokopedia/v2/V2PaymentConfirm]()**
+
+- **[<code>GET</code> /api/mitratokopedia/v2/OrderDetailQuery]()**
+- **[<code>GET</code> /api/mitratokopedia/v2/GetUOHOrderList]()**
