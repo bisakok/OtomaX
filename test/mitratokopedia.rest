@@ -50,13 +50,13 @@ GET http://localhost/api/mitratokopedia/v1/OTPRequestQuery
 
 
 
-### V2PaymentConfirm
+### V2PaymentConfirm gateway_code=SALDOMITRA,MITRAVA
 ### Request
 GET http://localhost/api/mitratokopedia/v1/V2PaymentConfirm
 ?pengirim=session1
 &trxid=192
 &gateway_code=MITRAVA
-&code=111670
+&code=
 &category_id=1
 &voucher_code=
 &client_number=087758437457
