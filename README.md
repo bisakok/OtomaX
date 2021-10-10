@@ -5,7 +5,7 @@
 
 ## Gambaran
 
-![https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/Screenshot.jpg]()
+[![](https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/Screenshot.jpg)]()
 
 ## Instalasi
 
