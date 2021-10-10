@@ -73,15 +73,11 @@ Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar AP
 
 ### [Center & Sender]()
 
-Module inbox dan outbox
-
 -   **[<code>REST</code> Whatsapp](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
 -   **[<code>REST</code> Telegram](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
 -   **[<code>REST</code> Jabber](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
 
 ### [System]()
-
-Module utama OtomaX
 
 -   **[<code>REST</code> Otomax](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
 -   **[<code>REST</code> Otomax Inbox ](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
@@ -90,8 +86,6 @@ Module utama OtomaX
 -   **[<code>REST</code> Otomax Inbox (XML)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
 
 ### [IP Client]()
-
-Module transaksi
 
 -   **[<code>REST</code> Mitra Tokopedia](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/mitratokopedia.rest)**
 
@@ -115,8 +109,6 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Whatsapp]()
 
-Whatsapp center & sender
-
 -   **[<code>GET</code> /api/whatsapp/v2](./docs/whatsapp/v2/GET-Daftar-koneksi.md)**
 -   **[<code>DELETE</code> /api/whatsapp/v2/:id](./docs/whatsapp/v2/DELETE-Hapus-koneksi.md)**
 -   **[<code>POST</code> /api/whatsapp/v2/connect](./docs/whatsapp/v2/GET-Buat-koneksi.md)**
@@ -125,8 +117,6 @@ Whatsapp center & sender
 -   **[<code>GET</code> /api/whatsapp/v2/outbox](./docs/whatsapp/v2/POST-Kirim-pesan.md)**
 
 ### [Telegram]()
-
-Telegram center & sender
 
 -   **[<code>GET</code> /api/telegram/v2]()**
 -   **[<code>DELETE</code> /api/telegram/v2/:id]()**
@@ -137,8 +127,6 @@ Telegram center & sender
 
 ### [Jabber]()
 
-Jabber center & sender
-
 -   **[<code>GET</code> /api/jabber/v2]()**
 -   **[<code>DELETE</code> /api/jabber/v2/:id]()**
 -   **[<code>POST</code> /api/jabber/v2/connect]()**
@@ -146,9 +134,7 @@ Jabber center & sender
 -   **[<code>POST</code> /api/jabber/v2/outbox]()**
 -   **[<code>GET</code> /api/jabber/v2/outbox]()**
 
-### [Otomax A]()
-
-Otomax Authentication & authorization
+### [Otomax]()
 
 -   **[<code>POST</code> /api/v2/sign]()**
 -   **[<code>POST</code> /api/v2/login]()**
@@ -156,10 +142,6 @@ Otomax Authentication & authorization
 -   **[<code>POST</code> /api/v2/custom]()**
 -   **[<code>DELETE</code> /api/v2/revoke/:kode]()**
 -   **[<code>GET</code> /api/v2/session]()**
-
-### [Otomax B]()
-
-Otomax common request
 
 -   **[<code>GET</code> /api/v2/reseller]()**
 -   **[<code>GET</code> /api/v2/pengirim]()**
@@ -170,33 +152,23 @@ Otomax common request
 -   **[<code>GET</code> /api/v2/mutasi]()**
 -   **[<code>GET</code> /api/v2/format]()**
 
-### [Otomax C]()
-
-Otomax internal request
-
 -   **[<code>GET</code> /api/v2/test]()**
 -   **[<code>GET</code> /api/v2/events]()**
 -   **[<code>GET</code> /api/v2/outbox]()**
 -   **[<code>POST</code> /api/v2/outbox/callback]()**
-
-### [Otomax D]()
-
-Otomax request inbox
 
 -   **[<code>POST</code> /api/v2/:path]()**
 -   **[<code>GET</code> /api/v2/:path]()**
 
 ### [Mitra Tokopedia]()
 
-API Mitra Tokopedia
-
--   **[<code>GET</code> /api/mitratokopedia/v2/OTPRequest]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/OTPValidate]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/GetMitraMultiTickerGetDigitalWidget]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/RetailDigitalMainQuery]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/GetPromoList]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/V13Enquiry]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/OTPRequestQuery]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/V2PaymentConfirm]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/OrderDetailQuery]()**
--   **[<code>GET</code> /api/mitratokopedia/v2/GetUOHOrderList]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequest]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OTPValidate]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/GetMitraMultiTickerGetDigitalWidget]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/RetailDigitalMainQuery]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/GetPromoList]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/V13Enquiry]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequestQuery]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/V2PaymentConfirm]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OrderDetailQuery]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/GetUOHOrderList]()**
