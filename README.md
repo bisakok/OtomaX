@@ -172,22 +172,22 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ####
 
--   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequest]()**
--   **[<code>GET</code> /api/mitratokopedia/v1/OTPValidate]()**
--   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequestQuery]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequest](./docs/mitratokopedia/v1/GET-OTPRequest.md)**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OTPValidate](./docs/mitratokopedia/v1/GET-OTPValidate.md)**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequestQuery](./docs/mitratokopedia/v1/GET-OTPRequestQuery.md)**
 
 ####
 
--   **[<code>GET</code> /api/mitratokopedia/v1/GetMitraMultiTickerGetDigitalWidget]()**
--   **[<code>GET</code> /api/mitratokopedia/v1/RetailDigitalMainQuery]()**
--   **[<code>GET</code> /api/mitratokopedia/v1/GetPromoList]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/GetMitraMultiTickerGetDigitalWidget](./docs/mitratokopedia/v1/GET-GetMitraMultiTickerGetDigitalWidget.md)**
+-   **[<code>GET</code> /api/mitratokopedia/v1/RetailDigitalMainQuery](./docs/mitratokopedia/v1/GET-RetailDigitalMainQuery.md)**
+-   **[<code>GET</code> /api/mitratokopedia/v1/GetPromoList](./docs/mitratokopedia/v1/GET-GetPromoList.md)**
 
 ####
 
--   **[<code>GET</code> /api/mitratokopedia/v1/V13Enquiry]()**
--   **[<code>GET</code> /api/mitratokopedia/v1/V2PaymentConfirm]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/V13Enquiry](./docs/mitratokopedia/v1/GET-V13Enquiry.md)**
+-   **[<code>GET</code> /api/mitratokopedia/v1/V2PaymentConfirm](./docs/mitratokopedia/v1/GET-V2PaymentConfirm.md)**
 
 ####
 
--   **[<code>GET</code> /api/mitratokopedia/v1/OrderDetailQuery]()**
--   **[<code>GET</code> /api/mitratokopedia/v1/GetUOHOrderList]()**
+-   **[<code>GET</code> /api/mitratokopedia/v1/OrderDetailQuery](./docs/mitratokopedia/v1/GET-OrderDetailQuery.md)**
+-   **[<code>GET</code> /api/mitratokopedia/v1/GetUOHOrderList](./docs/mitratokopedia/v1/GET-GetUOHOrderList.md)**
