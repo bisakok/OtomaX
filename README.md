@@ -136,37 +136,37 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Otomax]()
 
-#### 1
+-   1
 
--   **[<code>POST</code> /api/v2/sign]()**
--   **[<code>POST</code> /api/v2/login]()**
--   **[<code>POST</code> /api/v2/refresh]()**
--   **[<code>POST</code> /api/v2/custom]()**
--   **[<code>DELETE</code> /api/v2/revoke/:kode]()**
--   **[<code>GET</code> /api/v2/session]()**
+    -   **[<code>POST</code> /api/v2/sign]()**
+    -   **[<code>POST</code> /api/v2/login]()**
+    -   **[<code>POST</code> /api/v2/refresh]()**
+    -   **[<code>POST</code> /api/v2/custom]()**
+    -   **[<code>DELETE</code> /api/v2/revoke/:kode]()**
+    -   **[<code>GET</code> /api/v2/session]()**
 
-#### 2
+-   2
 
--   **[<code>GET</code> /api/v2/reseller]()**
--   **[<code>GET</code> /api/v2/pengirim]()**
--   **[<code>GET</code> /api/v2/downline]()**
--   **[<code>GET</code> /api/v2/level]()**
--   **[<code>GET</code> /api/v2/operator]()**
--   **[<code>GET</code> /api/v2/produk]()**
--   **[<code>GET</code> /api/v2/mutasi]()**
--   **[<code>GET</code> /api/v2/format]()**
+    -   **[<code>GET</code> /api/v2/reseller]()**
+    -   **[<code>GET</code> /api/v2/pengirim]()**
+    -   **[<code>GET</code> /api/v2/downline]()**
+    -   **[<code>GET</code> /api/v2/level]()**
+    -   **[<code>GET</code> /api/v2/operator]()**
+    -   **[<code>GET</code> /api/v2/produk]()**
+    -   **[<code>GET</code> /api/v2/mutasi]()**
+    -   **[<code>GET</code> /api/v2/format]()**
 
-#### 3
+-   3
 
--   **[<code>GET</code> /api/v2/test]()**
--   **[<code>GET</code> /api/v2/events]()**
--   **[<code>GET</code> /api/v2/outbox]()**
--   **[<code>POST</code> /api/v2/outbox/callback]()**
+    -   **[<code>GET</code> /api/v2/test]()**
+    -   **[<code>GET</code> /api/v2/events]()**
+    -   **[<code>GET</code> /api/v2/outbox]()**
+    -   **[<code>POST</code> /api/v2/outbox/callback]()**
 
-#### 4
+-   4
 
--   **[<code>POST</code> /api/v2/:path]()**
--   **[<code>GET</code> /api/v2/:path]()**
+    -   **[<code>POST</code> /api/v2/:path]()**
+    -   **[<code>GET</code> /api/v2/:path]()**
 
 ### [Mitra Tokopedia]()
 
