@@ -14,7 +14,7 @@ GET http://localhost/api/mitratokopedia/v1/OTPRequest
 ### Request
 GET http://localhost/api/mitratokopedia/v1/OTPValidate
 ?pengirim=session1
-&code=963802
+&code=788741
 
 ### GetMitraMultiTickerGetDigitalWidget
 ### Request
@@ -45,19 +45,30 @@ GET http://localhost/api/mitratokopedia/v1/V13Enquiry
 GET http://localhost/api/mitratokopedia/v1/OTPRequestQuery
 ?pengirim=session1
 
+
+
+
+
+
 ### V2PaymentConfirm
 ### Request
 GET http://localhost/api/mitratokopedia/v1/V2PaymentConfirm
 ?pengirim=session1
+&trxid=192
 &gateway_code=MITRAVA
-&code=
+&code=111670
 &category_id=1
-&voucher_code=KECILUNTUNG
+&voucher_code=
 &client_number=087758437457
 &operator_id=5
 &transactionAmount=5750
 &product_id=1135
 &is_pulsa_trx=true
+
+
+
+
+
 
 ### OrderDetailQuery
 ### Request
