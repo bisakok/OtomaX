@@ -11,6 +11,7 @@ GET /api/mitratokopedia/v1/V2PaymentConfirm
 | Nama                | Keternagan                                             |
 | ------------------- | ------------------------------------------------------ |
 | `pengirim`          | ID Sesi yang digunakan                                 |
+| `trxid`             | trxid otomax                                           |
 | `gateway_code`      |
 | `code`              | Diisi jika transaksi membutuhkan kode OTP pertama kali |
 | `category_id`       |

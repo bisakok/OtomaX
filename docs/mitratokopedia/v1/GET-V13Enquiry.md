@@ -11,6 +11,7 @@ GET /api/mitratokopedia/v1/V13Enquiry
 | Nama            | Keterangan             |
 | --------------- | ---------------------- |
 | `pengirim`      | ID sesi yang digunakan |
+| `trxid`         | trxid otomax           |
 | `client_number` | Isi dengan tujuan      |
 | `product_id`    | Isi dengan kode produk |
 
