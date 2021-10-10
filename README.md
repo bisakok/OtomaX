@@ -136,7 +136,7 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 
 ### [Otomax]()
 
-#### Auth
+####
 
 -   **[<code>POST</code> /api/v2/sign]()**
 -   **[<code>POST</code> /api/v2/login]()**
@@ -145,7 +145,7 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>DELETE</code> /api/v2/revoke/:kode]()**
 -   **[<code>GET</code> /api/v2/session]()**
 
-#### Common
+####
 
 -   **[<code>GET</code> /api/v2/reseller]()**
 -   **[<code>GET</code> /api/v2/pengirim]()**
@@ -156,38 +156,38 @@ Untuk deskripsi sumber daya yang tersedia, [lihat Ikhtisar Sumber Daya]().
 -   **[<code>GET</code> /api/v2/mutasi]()**
 -   **[<code>GET</code> /api/v2/format]()**
 
-#### Sys
+####
 
 -   **[<code>GET</code> /api/v2/test]()**
 -   **[<code>GET</code> /api/v2/events]()**
 -   **[<code>GET</code> /api/v2/outbox]()**
 -   **[<code>POST</code> /api/v2/outbox/callback]()**
 
-#### Req
+####
 
 -   **[<code>POST</code> /api/v2/:path]()**
 -   **[<code>GET</code> /api/v2/:path]()**
 
 ### [Mitra Tokopedia]()
 
-#### Auth
+####
 
 -   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequest]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/OTPValidate]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/OTPRequestQuery]()**
 
-#### Data
+####
 
 -   **[<code>GET</code> /api/mitratokopedia/v1/GetMitraMultiTickerGetDigitalWidget]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/RetailDigitalMainQuery]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/GetPromoList]()**
 
-#### Trx
+####
 
 -   **[<code>GET</code> /api/mitratokopedia/v1/V13Enquiry]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/V2PaymentConfirm]()**
 
-#### Cek
+####
 
 -   **[<code>GET</code> /api/mitratokopedia/v1/OrderDetailQuery]()**
 -   **[<code>GET</code> /api/mitratokopedia/v1/GetUOHOrderList]()**
