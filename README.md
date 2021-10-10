@@ -71,13 +71,17 @@ Setting [config.json]()
 
 Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar API.
 
-### [Center&Sender]()
+### [Center & Sender]()
+
+Module inbox dan outbox
 
 -   **[<code>REST</code> Whatsapp](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/whatsapp.rest)**
 -   **[<code>REST</code> Telegram](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/telegram.rest)**
 -   **[<code>REST</code> Jabber](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/jabber.rest)**
 
 ### [System]()
+
+Module utama OtomaX
 
 -   **[<code>REST</code> Otomax](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax.rest)**
 -   **[<code>REST</code> Otomax Inbox ](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request.rest)**
@@ -86,6 +90,8 @@ Koleksi `REST` dengan serangkaian permintaan yang memperkenalkan konsep dasar AP
 -   **[<code>REST</code> Otomax Inbox (XML)](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/otomax-request-xml.rest)**
 
 ### [IP Client]()
+
+Module transaksi
 
 -   **[<code>REST</code> Mitra Tokopedia](https://raw.githubusercontent.com/ndiing/OtomaX/main/test/mitratokopedia.rest)**
 
