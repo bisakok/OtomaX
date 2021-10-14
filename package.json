@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "dev": "SET NODE_DEV=TRUE&&nodemon -e js index.js",
+    "dev": "set NODE_DEV=true&&nodemon -e js index.js",
     "pack": "webpack",
     "dist": "bytenode -c dist/bundle.js",
     "build": "npm run pack && npm run dist"
