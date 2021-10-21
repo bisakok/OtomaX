@@ -1,0 +1,26 @@
+### POST
+POST http://localhost/api/example/v1/
+Content-Type: application/json
+
+{"user":"name","pass":"word"}
+
+### POST
+POST http://localhost/api/example/v1/
+Content-Type: application/x-www-form-urlencoded
+
+user=name&pass=word
+
+### POST
+POST http://localhost/api/example/v1/
+Content-Type: application/x-www-form-urlencoded
+
+user=name&pass=word&user=name&pass=word
+
+### GET
+GET http://localhost/api/example/v1/
+
+### PATCH
+PATCH http://localhost/api/example/v1/1
+
+### DELETE
+DELETE http://localhost/api/example/v1/1

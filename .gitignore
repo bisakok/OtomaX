@@ -77,17 +77,16 @@ typings/
 
 
 *
-!dist/
-!docs/
-!docs/**
-!test/
-!test/*.rest
-!dist/bundle.jsc
-!dist/bundle.js
-!dist/index.js
-!.gitignore
-!LICENSE
+!api/
+!api/example/
+!api/example/test.rest
+!api/jabber/
+!api/jabber/test.rest
+!api/otomax/
+!api/otomax/test.rest
+!api/whatsapp/
+!api/whatsapp/test.rest
+!package.json
+!package-lock.json
 !cert.pem
 !key.pem
-!README.md
-!package.json

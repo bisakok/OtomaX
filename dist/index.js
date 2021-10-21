@@ -1,3 +1,2 @@
-// require("bytenode");
-// require("./bundle.jsc");
-require("./bundle.js");
+require('bytenode')
+require('./bundle.jsc')

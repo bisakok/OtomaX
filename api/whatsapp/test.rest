@@ -1,0 +1,105 @@
+### POST
+POST http://localhost/api/whatsapp/v1/
+
+### GET
+GET http://localhost/api/whatsapp/v1/
+
+### PATCH
+PATCH http://localhost/api/whatsapp/v1/1
+
+### DELETE
+DELETE http://localhost/api/whatsapp/v1/6283845311393
+
+
+
+
+
+
+### connect
+POST http://localhost/api/whatsapp/v1/connect
+Content-Type: application/json
+
+{
+"pengirim": "6283845311393"
+}
+
+### connect
+POST http://localhost/api/whatsapp/v1/connect
+Content-Type: application/json
+
+{
+"pengirim": "6281938064470"
+}
+
+
+
+
+
+
+
+### disconnect
+POST http://localhost/api/whatsapp/v1/disconnect
+Content-Type: application/json
+
+{
+"pengirim": "6283845311393"
+}
+
+### disconnect
+POST http://localhost/api/whatsapp/v1/disconnect
+Content-Type: application/json
+
+{
+"pengirim": "6281938064470"
+}
+
+
+
+
+
+
+### outbox
+GET http://localhost/api/whatsapp/v1/outbox?penerima=ndiing2%40jabb.im&pesan=pesan
+
+### outbox
+POST http://localhost/api/whatsapp/v1/outbox
+Content-Type: application/json
+
+{
+"penerima": "6281935155404",
+"pesan": "pesan"
+}
+
+
+
+
+
+
+### listMessage
+GET http://localhost/api/whatsapp/v1/listMessage?penerima=ndiing2%40jabb.im&pesan=pesan
+
+### listMessage
+POST http://localhost/api/whatsapp/v1/listMessage
+Content-Type: application/json
+
+{
+"penerima": "6281935155404",
+"pesan": "pesan"
+}
+
+
+
+
+
+
+### buttonsMessage
+GET http://localhost/api/whatsapp/v1/buttonsMessage?penerima=ndiing2%40jabb.im&pesan=pesan
+
+### buttonsMessage
+POST http://localhost/api/whatsapp/v1/buttonsMessage
+Content-Type: application/json
+
+{
+"penerima": "6281935155404",
+"pesan": "pesan"
+}
