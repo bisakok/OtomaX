@@ -10,7 +10,8 @@ GET /api/otomax/v1/produk
 
 Name | Default | Description
 --- | --- | ---
-`kode_operator` | | Isi kode operator
+`kode_operator` | null | Isi kode operator
+`kode_reseller` | null | Isi kode reseller untuk melihat data downline
 
 ## [Example]()
 

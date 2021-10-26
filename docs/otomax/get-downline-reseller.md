@@ -4,6 +4,14 @@
 GET /api/otomax/v1/downline-reseller
 ```
 
+## [Options]()
+
+### [Params]()
+
+Name | Default | Description
+--- | --- | ---
+`kode_reseller` | null | Isi kode reseller untuk melihat data downline
+
 ## [Example]()
 
 ### [Request]()
