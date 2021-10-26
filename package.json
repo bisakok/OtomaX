@@ -4,8 +4,8 @@
   "description": "## [API]() - [**<code>API</code>** /api/example]() - [**<code>API</code>** /api/otomax]()",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "set NODE_ENV=development&&nodemon index.js",
+    "start": "node --no-warnings index.js",
+    "dev": "set NODE_ENV=development&&nodemon --no-warnings index.js",
     "docs": "node docs/index.js"
   },
   "keywords": [],
