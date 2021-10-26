@@ -1,5 +1,9 @@
 # [Post Jabber Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 POST /api/jabber/v1/
 ```

@@ -1,5 +1,9 @@
 # [Patch Jabber Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 PATCH /api/jabber/v1/:_id
 ```

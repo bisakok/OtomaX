@@ -1,5 +1,9 @@
 # [Delete Jabber Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 DELETE /api/jabber/v1/:_id
 ```

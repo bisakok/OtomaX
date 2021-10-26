@@ -1,5 +1,9 @@
 # [Get Jabber Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 GET /api/jabber/v1/:_id?
 ```

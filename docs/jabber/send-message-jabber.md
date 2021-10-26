@@ -1,5 +1,9 @@
 # [Send Message Jabber]()
 
+<!--
+@category Common
+-->
+
 ```bash
 POST http://localhost/api/jabber/v1/send-message
 ```
