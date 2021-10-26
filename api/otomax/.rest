@@ -65,18 +65,19 @@ GET http://localhost/api/otomax/v1/mutasi?tanggal_awal=2021-01-01T00%3A00%3A00&t
 
 
 ### Inbox
-GET http://localhost/api/otomax/v1/inbox
-?penerima=
-&pengirim=%2B6281935155404
-&tipe_pengirim=S
-&pesan=sal.1234
+GET http://localhost/api/otomax/v1/inbox?penerima=&pengirim=%2B6281935155404&tipe_pengirim=S&pesan=sal.1234
 
 ### Outbox
-GET http://localhost/api/otomax/v1/outbox
-?pengirim=
-&penerima=%2B6281935155404
-&tipe_penerima=S
-&pesan=sal.1234
+GET http://localhost/api/otomax/v1/outbox?pengirim=&penerima=%2B6281935155404&tipe_penerima=S&pesan=sal.1234
+
+
+
+
+
+
+
+
+
 
 ### Inbox
 POST http://localhost/api/otomax/v1/inbox
@@ -89,6 +90,15 @@ POST http://localhost/api/otomax/v1/outbox
 Content-Type: application/json
 
 {"pengirim":"","penerima":"+6281935155404","tipe_penerima":"S","pesan":"sal.1234"}
+
+
+
+
+
+
+
+
+
 
 ### Inbox
 POST http://localhost/api/otomax/v1/inbox
