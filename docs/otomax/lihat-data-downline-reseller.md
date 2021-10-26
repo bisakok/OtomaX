@@ -1,5 +1,7 @@
 # [Lihat Data Downline Reseller]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/downline-reseller
 ```

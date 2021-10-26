@@ -1,5 +1,7 @@
 # [Lihat Data Produk]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/produk
 ```

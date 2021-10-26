@@ -1,5 +1,9 @@
 # [Debug Report]()
 
+<!-- 
+@category Internal
+-->
+
 ```bash
 GET /api/otomax/v1/report
 ```

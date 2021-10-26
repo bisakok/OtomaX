@@ -1,5 +1,9 @@
 # [Debug Web Sms Sender]()
 
+<!-- 
+@category Internal
+-->
+
 ```bash
 GET /api/otomax/v1/web-sms-sender
 ```

@@ -1,5 +1,7 @@
 # [Post Otomax]()
 
+<!-- @category Session -->
+
 ```bash
 POST /api/otomax/v1/
 ```

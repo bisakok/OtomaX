@@ -1,5 +1,7 @@
 # [Lihat Data Level]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/level
 ```

@@ -1,5 +1,7 @@
 # [Lihat Data Downline Level]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/downline-level
 ```

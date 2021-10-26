@@ -1,5 +1,7 @@
 # [Delete Otomax]()
 
+<!-- @category Session -->
+
 ```bash
 DELETE /api/otomax/v1/:_id
 ```

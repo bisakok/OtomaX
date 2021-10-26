@@ -1,5 +1,7 @@
 # [Lihat Data Pengirim]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/pengirim
 ```

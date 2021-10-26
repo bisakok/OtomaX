@@ -1,5 +1,7 @@
 # [Patch Otomax]()
 
+<!-- @category Session -->
+
 ```bash
 PATCH /api/otomax/v1/:_id
 ```

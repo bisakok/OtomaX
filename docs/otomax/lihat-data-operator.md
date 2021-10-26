@@ -1,5 +1,7 @@
 # [Lihat Data Operator]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/operator
 ```

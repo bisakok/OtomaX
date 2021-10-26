@@ -1,5 +1,9 @@
 # [Debug Ip Client]()
 
+<!-- 
+@category Internal
+-->
+
 ```bash
 GET /api/otomax/v1/ip-client
 ```

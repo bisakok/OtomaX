@@ -1,5 +1,9 @@
 # [Handle Outbox Callback]()
 
+<!-- 
+@category Internal
+-->
+
 ```bash
 GET /api/otomax/v1/outbox-callback
 ```

@@ -1,5 +1,7 @@
 # [Lihat Data Reseller]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/reseller
 ```

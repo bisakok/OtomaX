@@ -1,5 +1,9 @@
 # [Post Outbox]()
 
+<!-- 
+@category Internal
+-->
+
 ```bash
 GET /api/otomax/v1/outbox
 ```

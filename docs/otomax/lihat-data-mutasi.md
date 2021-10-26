@@ -1,5 +1,7 @@
 # [Lihat Data Mutasi]()
 
+<!-- @category Common -->
+
 ```bash
 GET /api/otomax/v1/mutasi
 ```
