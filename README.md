@@ -18,6 +18,9 @@
 - [**<code>GET</code>** Get Jabber](./docs/jabber/get-jabber.md)
 - [**<code>PATCH</code>** Patch Jabber](./docs/jabber/patch-jabber.md)
 - [**<code>DELETE</code>** Delete Jabber](./docs/jabber/delete-jabber.md)
+- [**<code>POST</code>** Connect Jabber](./docs/jabber/connect-jabber.md)
+- [**<code>POST</code>** Disconnect Jabber](./docs/jabber/disconnect-jabber.md)
+- [**<code>POST</code>** Send Message Jabber](./docs/jabber/send-message-jabber.md)
 
 ### [otomax]()
 - [**<code>POST</code>** Post Otomax](./docs/otomax/post-otomax.md)
@@ -30,10 +33,16 @@
 - [**<code>GET</code>** Get Telegram](./docs/telegram/get-telegram.md)
 - [**<code>PATCH</code>** Patch Telegram](./docs/telegram/patch-telegram.md)
 - [**<code>DELETE</code>** Delete Telegram](./docs/telegram/delete-telegram.md)
+- [**<code>POST</code>** Connect Telegram](./docs/telegram/connect-telegram.md)
+- [**<code>POST</code>** Disconnect Telegram](./docs/telegram/disconnect-telegram.md)
+- [**<code>POST</code>** Send Message Telegram](./docs/telegram/send-message-telegram.md)
 
 ### [whatsapp]()
 - [**<code>POST</code>** Post Whatsapp](./docs/whatsapp/post-whatsapp.md)
 - [**<code>GET</code>** Get Whatsapp](./docs/whatsapp/get-whatsapp.md)
 - [**<code>PATCH</code>** Patch Whatsapp](./docs/whatsapp/patch-whatsapp.md)
 - [**<code>DELETE</code>** Delete Whatsapp](./docs/whatsapp/delete-whatsapp.md)
+- [**<code>POST</code>** Connect Whatsapp](./docs/whatsapp/connect-whatsapp.md)
+- [**<code>POST</code>** Disconnect Whatsapp](./docs/whatsapp/disconnect-whatsapp.md)
+- [**<code>POST</code>** Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)
 
