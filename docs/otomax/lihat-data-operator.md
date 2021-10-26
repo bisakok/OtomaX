@@ -1,7 +1,7 @@
-# [Get Mutasi]()
+# [Lihat Data Operator]()
 
 ```bash
-GET /api/otomax/v1/mutasi
+GET /api/otomax/v1/operator
 ```
 
 ## [Options]()
@@ -17,7 +17,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/mutasi
+GET http://localhost/api/otomax/v1/operator
 ```
 
 ### [Response]()

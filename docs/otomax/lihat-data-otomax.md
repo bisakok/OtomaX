@@ -1,7 +1,7 @@
-# [Get Whatsapp]()
+# [Lihat Data Otomax]()
 
 ```bash
-GET /api/whatsapp/v1/:_id?
+GET /api/otomax/v1/:_id?
 ```
 
 ## [Options]()
@@ -17,7 +17,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/whatsapp/v1/
+GET http://localhost/api/otomax/v1/
 ```
 
 ### [Response]()

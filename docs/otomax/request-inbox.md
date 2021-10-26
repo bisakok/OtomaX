@@ -1,7 +1,7 @@
-# [Handle Report]()
+# [Request Inbox]()
 
 ```bash
-GET /api/otomax/v1/report
+GET /api/otomax/v1/inbox
 ```
 
 ## [Example]()
@@ -9,7 +9,7 @@ GET /api/otomax/v1/report
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/report
+GET http://localhost/api/otomax/v1/inbox
 ```
 
 ### [Response]()

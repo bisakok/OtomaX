@@ -1,7 +1,7 @@
-# [Get Level]()
+# [Lihat Data Mutasi]()
 
 ```bash
-GET /api/otomax/v1/level
+GET /api/otomax/v1/mutasi
 ```
 
 ## [Options]()
@@ -17,7 +17,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/level
+GET http://localhost/api/otomax/v1/mutasi
 ```
 
 ### [Response]()

@@ -1,7 +1,7 @@
-# [Get Pengirim]()
+# [Lihat Data Produk]()
 
 ```bash
-GET /api/otomax/v1/pengirim
+GET /api/otomax/v1/produk
 ```
 
 ## [Options]()
@@ -10,6 +10,7 @@ GET /api/otomax/v1/pengirim
 
 Name | Default | Description
 --- | --- | ---
+`kode_operator` | null | Isi kode operator
 `kode_reseller` | null | Isi kode reseller untuk melihat data downline
 
 ## [Example]()
@@ -17,7 +18,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/pengirim
+GET http://localhost/api/otomax/v1/produk?kode_operator=TEST
 ```
 
 ### [Response]()

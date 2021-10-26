@@ -1,4 +1,4 @@
-# [Get Downline Reseller]()
+# [Lihat Data Downline Reseller]()
 
 ```bash
 GET /api/otomax/v1/downline-reseller

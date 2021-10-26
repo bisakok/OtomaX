@@ -1,7 +1,7 @@
-# [Get Downline Level]()
+# [Lihat Data Pengirim]()
 
 ```bash
-GET /api/otomax/v1/downline-level
+GET /api/otomax/v1/pengirim
 ```
 
 ## [Options]()
@@ -17,7 +17,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/downline-level
+GET http://localhost/api/otomax/v1/pengirim
 ```
 
 ### [Response]()

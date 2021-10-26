@@ -1,7 +1,7 @@
-# [Get Produk]()
+# [Lihat Data Level]()
 
 ```bash
-GET /api/otomax/v1/produk
+GET /api/otomax/v1/level
 ```
 
 ## [Options]()
@@ -10,7 +10,6 @@ GET /api/otomax/v1/produk
 
 Name | Default | Description
 --- | --- | ---
-`kode_operator` | null | Isi kode operator
 `kode_reseller` | null | Isi kode reseller untuk melihat data downline
 
 ## [Example]()
@@ -18,7 +17,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/produk?kode_operator=TEST
+GET http://localhost/api/otomax/v1/level
 ```
 
 ### [Response]()

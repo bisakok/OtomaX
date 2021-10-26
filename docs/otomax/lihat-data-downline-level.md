@@ -1,7 +1,7 @@
-# [Get Operator]()
+# [Lihat Data Downline Level]()
 
 ```bash
-GET /api/otomax/v1/operator
+GET /api/otomax/v1/downline-level
 ```
 
 ## [Options]()
@@ -17,7 +17,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/operator
+GET http://localhost/api/otomax/v1/downline-level
 ```
 
 ### [Response]()

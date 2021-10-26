@@ -24,7 +24,7 @@
 
 ### [otomax](#)
 - **[<code>POST</code> Post Otomax](./docs/otomax/post-otomax.md)**
-- **[<code>GET</code> Get Otomax](./docs/otomax/get-otomax.md)**
+- **[<code>GET</code> Lihat Data Otomax](./docs/otomax/lihat-data-otomax.md)**
 - **[<code>PATCH</code> Patch Otomax](./docs/otomax/patch-otomax.md)**
 - **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
 - **[<code>GET</code> Debug Report](./docs/otomax/debug-report.md)**
@@ -32,15 +32,15 @@
 - **[<code>GET</code> Debug Ip Client](./docs/otomax/debug-ip-client.md)**
 - **[<code>GET</code> Post Outbox](./docs/otomax/post-outbox.md)**
 - **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
-- **[<code>GET</code> Post Inbox](./docs/otomax/post-inbox.md)**
-- **[<code>GET</code> Get Reseller](./docs/otomax/get-reseller.md)**
-- **[<code>GET</code> Get Pengirim](./docs/otomax/get-pengirim.md)**
-- **[<code>GET</code> Get Downline Reseller](./docs/otomax/get-downline-reseller.md)**
-- **[<code>GET</code> Get Level](./docs/otomax/get-level.md)**
-- **[<code>GET</code> Get Downline Level](./docs/otomax/get-downline-level.md)**
-- **[<code>GET</code> Get Operator](./docs/otomax/get-operator.md)**
-- **[<code>GET</code> Get Produk](./docs/otomax/get-produk.md)**
-- **[<code>GET</code> Get Mutasi](./docs/otomax/get-mutasi.md)**
+- **[<code>GET</code> Request Inbox](./docs/otomax/request-inbox.md)**
+- **[<code>GET</code> Lihat Data Reseller](./docs/otomax/lihat-data-reseller.md)**
+- **[<code>GET</code> Lihat Data Pengirim](./docs/otomax/lihat-data-pengirim.md)**
+- **[<code>GET</code> Lihat Data Downline Reseller](./docs/otomax/lihat-data-downline-reseller.md)**
+- **[<code>GET</code> Lihat Data Level](./docs/otomax/lihat-data-level.md)**
+- **[<code>GET</code> Lihat Data Downline Level](./docs/otomax/lihat-data-downline-level.md)**
+- **[<code>GET</code> Lihat Data Operator](./docs/otomax/lihat-data-operator.md)**
+- **[<code>GET</code> Lihat Data Produk](./docs/otomax/lihat-data-produk.md)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
 
 ### [telegram](#)
 - **[<code>POST</code> Post Telegram Session](./docs/telegram/post-telegram-session.md)**

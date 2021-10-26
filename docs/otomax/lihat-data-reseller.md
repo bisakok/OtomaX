@@ -1,4 +1,4 @@
-# [Get Reseller]()
+# [Lihat Data Reseller]()
 
 ```bash
 GET /api/otomax/v1/reseller
