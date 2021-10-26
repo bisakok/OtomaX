@@ -10,10 +10,6 @@
 - **[<code>REST</code> /api/whatsapp/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/whatsapp/request.rest)**
 
 ## [API](#)
-- **[<code>API</code> /api/jabber](#)**
-- **[<code>API</code> /api/otomax](#)**
-- **[<code>API</code> /api/telegram](#)**
-- **[<code>API</code> /api/whatsapp](#)**
 
 ### [jabber](#)
 ####
