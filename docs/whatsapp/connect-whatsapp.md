@@ -8,6 +8,9 @@
 POST http://localhost/api/whatsapp/v1/connect
 ```
 
+![](./docs/images/api-wa-id.png)
+![](./docs/images/otomax-wa-label.png)
+
 ## [Options]()
 
 ### [Params]()
