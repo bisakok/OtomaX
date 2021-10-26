@@ -27,11 +27,6 @@
 - **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
 ### [otomax](#)
 ####
-- **[<code>POST</code> Post Otomax](./docs/otomax/post-otomax.md)**
-- **[<code>GET</code> Lihat Data Otomax](./docs/otomax/lihat-data-otomax.md)**
-- **[<code>PATCH</code> Patch Otomax](./docs/otomax/patch-otomax.md)**
-- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
-####
 - **[<code>GET</code> Debug Report](./docs/otomax/debug-report.md)**
 - **[<code>GET</code> Debug Web Sms Sender](./docs/otomax/debug-web-sms-sender.md)**
 - **[<code>GET</code> Debug Ip Client](./docs/otomax/debug-ip-client.md)**
