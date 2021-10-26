@@ -1,6 +1,6 @@
 # [Delete Otomax]()
 
-```http
+```bash
 DELETE /api/otomax/v1/:_id
 ```
 
@@ -16,7 +16,7 @@ Name | Default | Description
 
 ### [Request]()
 
-```http
+```bash
 DELETE http://localhost/api/otomax/v1/1
 ```
 

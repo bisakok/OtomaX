@@ -1,6 +1,6 @@
 # [Get Otomax]()
 
-```http
+```bash
 GET /api/otomax/v1/:_id?
 ```
 
@@ -16,7 +16,7 @@ Name | Default | Description
 
 ### [Request]()
 
-```http
+```bash
 GET http://localhost/api/otomax/v1/
 ```
 

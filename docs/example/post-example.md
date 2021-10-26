@@ -1,6 +1,6 @@
 # [Post Example]()
 
-```http
+```bash
 POST /api/example/v1/
 ```
 
@@ -8,7 +8,7 @@ POST /api/example/v1/
 
 ### [Request]()
 
-```http
+```bash
 POST http://localhost/api/example/v1/
 Content-Type: application/json
 

@@ -1,6 +1,6 @@
 # [Post Otomax]()
 
-```http
+```bash
 POST /api/otomax/v1/
 ```
 
@@ -8,7 +8,7 @@ POST /api/otomax/v1/
 
 ### [Request]()
 
-```http
+```bash
 POST http://localhost/api/otomax/v1/
 Content-Type: application/json
 

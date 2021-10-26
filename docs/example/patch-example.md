@@ -1,6 +1,6 @@
 # [Patch Example]()
 
-```http
+```bash
 PATCH /api/example/v1/:_id
 ```
 
@@ -16,7 +16,7 @@ Name | Default | Description
 
 ### [Request]()
 
-```http
+```bash
 PATCH http://localhost/api/example/v1/1
 Content-Type: application/json
 

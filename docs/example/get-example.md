@@ -1,6 +1,6 @@
 # [Get Example]()
 
-```http
+```bash
 GET /api/example/v1/:_id?
 ```
 
@@ -16,7 +16,7 @@ Name | Default | Description
 
 ### [Request]()
 
-```http
+```bash
 GET http://localhost/api/example/v1/
 ```
 
