@@ -79,4 +79,4 @@ api/*/*.js
 data
 lib
 index.js
-*.json
+wa.json
