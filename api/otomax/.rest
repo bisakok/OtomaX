@@ -1,0 +1,100 @@
+### Post Otomax
+POST http://localhost/api/otomax/v1/
+Content-Type: application/x-www-form-urlencoded
+
+_id=123456&user=name&pass=word
+
+### Get Otomax
+GET http://localhost/api/otomax/v1/    
+
+### Patch Otomax
+PATCH http://localhost/api/otomax/v1/1
+Content-Type: application/json
+
+{ "_id": "123456", "user":"name", "pass":"word" }
+
+### Delete Otomax
+DELETE http://localhost/api/otomax/v1/123456
+
+
+
+
+
+
+
+
+
+
+### Web SMS Sender
+GET http://localhost/api/otomax/v1/web-sms-sender?code=[code]&to=[to]&to2=[to2]&message=[message]&msg=[msg]
+
+### Reseller
+GET http://localhost/api/otomax/v1/reseller
+
+### Pengirim
+GET http://localhost/api/otomax/v1/pengirim
+
+### Downline Reseller
+GET http://localhost/api/otomax/v1/downline-reseller
+
+### Level
+GET http://localhost/api/otomax/v1/level
+
+### Downline Level
+GET http://localhost/api/otomax/v1/downline-level
+
+### Operator
+GET http://localhost/api/otomax/v1/operator
+
+### Produk
+GET http://localhost/api/otomax/v1/produk?kode_operator=TEST
+
+### Mutasi
+GET http://localhost/api/otomax/v1/mutasi?tanggal_awal=2021-01-01T00%3A00%3A00&tanggal_akhir=2021-10-25T23%3A59%3A59&jenis=T&page=1&limit=5
+
+
+
+
+
+
+
+
+
+
+### Inbox
+GET http://localhost/api/otomax/v1/inbox
+?penerima=
+&pengirim=%2B6281935155404
+&tipe_pengirim=S
+&pesan=sal.1234
+
+### Outbox
+GET http://localhost/api/otomax/v1/outbox
+?pengirim=
+&penerima=%2B6281935155404
+&tipe_penerima=S
+&pesan=sal.1234
+
+### Inbox
+POST http://localhost/api/otomax/v1/inbox
+Content-Type: application/json
+
+{"penerima":"","pengirim":"+6281935155404","tipe_pengirim":"S","pesan":"sal.1234"}
+
+### Outbox
+POST http://localhost/api/otomax/v1/outbox
+Content-Type: application/json
+
+{"pengirim":"","penerima":"+6281935155404","tipe_penerima":"S","pesan":"sal.1234"}
+
+### Inbox
+POST http://localhost/api/otomax/v1/inbox
+Content-Type: application/json
+
+{"pengirim":"+6281935155404","pesan":"sal.1234"}
+
+### Outbox
+POST http://localhost/api/otomax/v1/outbox
+Content-Type: application/json
+
+{"penerima":"+6281935155404","pesan":"sal.1234"}
