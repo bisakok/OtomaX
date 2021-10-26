@@ -17,53 +17,53 @@
 
 ### [jabber](#)
 ####
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
+- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
+- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
+- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
+- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
+- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
+- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
+- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
 ### [otomax](#)
 ####
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
+- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
+- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
+- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
+- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
+- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
+- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
+- **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
 ####
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
+- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
+- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
+- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
+- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
+- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
+- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
+- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
 ####
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
+- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
 ### [telegram](#)
 ####
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
+- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
+- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
+- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
+- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
+- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
+- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
+- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
 ### [whatsapp](#)
 ####
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
-- **[<code>undefined</code> undefined](undefined)**
+- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
+- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
+- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
+- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
+- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
+- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
+- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
