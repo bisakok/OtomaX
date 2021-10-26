@@ -27,9 +27,9 @@
 - **[<code>GET</code> Get Otomax](./docs/otomax/get-otomax.md)**
 - **[<code>PATCH</code> Patch Otomax](./docs/otomax/patch-otomax.md)**
 - **[<code>DELETE</code> Delete Otomax](./docs/otomax/delete-otomax.md)**
-- **[<code>GET</code> Handle Report](./docs/otomax/handle-report.md)**
-- **[<code>GET</code> Handle Web Sms Sender](./docs/otomax/handle-web-sms-sender.md)**
-- **[<code>GET</code> Handle Ip Client](./docs/otomax/handle-ip-client.md)**
+- **[<code>GET</code> Debug Report](./docs/otomax/debug-report.md)**
+- **[<code>GET</code> Debug Web Sms Sender](./docs/otomax/debug-web-sms-sender.md)**
+- **[<code>GET</code> Debug Ip Client](./docs/otomax/debug-ip-client.md)**
 - **[<code>GET</code> Post Outbox](./docs/otomax/post-outbox.md)**
 - **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
 - **[<code>GET</code> Post Inbox](./docs/otomax/post-inbox.md)**
