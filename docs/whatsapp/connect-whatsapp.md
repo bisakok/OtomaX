@@ -7,18 +7,20 @@
 ```bash
 POST http://localhost/api/whatsapp/v1/connect
 ```
-
-<figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/api-wa-id.png"
-         alt="Session ID API">
-    <figcaption>An Session ID API</figcaption>
-</figure>
-
-<figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-wa-label.png"
-         alt="OtomaX WA Label">
-    <figcaption>An OtomaX WA Label</figcaption>
-</figure>
+<p>
+    <figure>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/api-wa-id.png"
+             alt="Session ID API">
+        <figcaption><b>Session ID API</b></figcaption>
+    </figure>
+</p>
+<p>
+    <figure>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-wa-label.png"
+             alt="OtomaX WA Label">
+        <figcaption><b>OtomaX WA Label</b></figcaption>
+    </figure>
+</p>
 
 ## [Options]()
 
