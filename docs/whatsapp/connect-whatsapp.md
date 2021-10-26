@@ -8,6 +8,8 @@
 POST http://localhost/api/whatsapp/v1/connect
 ```
 
+## [Steps]()
+
 <p>
     <figure>
         <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/api-wa-id.png" alt="Session ID API" />
