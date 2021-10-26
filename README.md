@@ -4,7 +4,7 @@ OtomaX - Orisinil Topup Machine Web Server.
 
 ## [Installation]()
 
-Pastikan komputer sudah terpasang [nodejs](https://nodejs.org/en/download/).
+Pastikan komputer sudah terpasang [nodejs](https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi).
 dengan minimal database [SQL Server 2016 (13.x)](https://go.microsoft.com/fwlink/?linkid=866662).
 
 ```bash
