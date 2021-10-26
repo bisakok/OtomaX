@@ -75,22 +75,8 @@ typings/
 # FuseBox cache
 .fusebox/
 
-
-*
-!dist/*.js
-!dist/*.jsc
-!api/
-!api/example/
-!api/example/test.rest
-!api/jabber/
-!api/jabber/test.rest
-!api/otomax/
-!api/otomax/*.rest
-!api/whatsapp/
-!api/whatsapp/test.rest
-!api/telegram/
-!api/telegram/test.rest
-!package.json
-!package-lock.json
-!cert.pem
-!key.pem
+api/*/*.js
+data
+lib
+index.js
+*.json
