@@ -1,5 +1,9 @@
 # [Delete Telegram Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 DELETE /api/telegram/v1/:_id
 ```

@@ -1,5 +1,9 @@
 # [Post Whatsapp Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 POST /api/whatsapp/v1/
 ```

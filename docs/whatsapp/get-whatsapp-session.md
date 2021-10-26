@@ -1,5 +1,9 @@
 # [Get Whatsapp Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 GET /api/whatsapp/v1/:_id?
 ```

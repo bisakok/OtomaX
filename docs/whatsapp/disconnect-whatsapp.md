@@ -1,5 +1,9 @@
 # [Disconnect Whatsapp]()
 
+<!--
+@category Common
+-->
+
 ```bash
 POST http://localhost/api/whatsapp/v1/disconnect
 ```

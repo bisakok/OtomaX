@@ -1,5 +1,9 @@
 # [Connect Whatsapp]()
 
+<!--
+@category Common
+-->
+
 ```bash
 POST http://localhost/api/whatsapp/v1/connect
 ```

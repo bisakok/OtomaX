@@ -1,5 +1,9 @@
 # [Send Message Telegram]()
 
+<!--
+@category Common
+-->
+
 ```bash
 POST http://localhost/api/telegram/v1/send-message
 ```

@@ -1,5 +1,9 @@
 # [Patch Whatsapp Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 PATCH /api/whatsapp/v1/:_id
 ```

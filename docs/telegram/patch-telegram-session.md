@@ -1,5 +1,9 @@
 # [Patch Telegram Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 PATCH /api/telegram/v1/:_id
 ```

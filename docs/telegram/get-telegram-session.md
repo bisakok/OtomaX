@@ -1,5 +1,9 @@
 # [Get Telegram Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 GET /api/telegram/v1/:_id?
 ```

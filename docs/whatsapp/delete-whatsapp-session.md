@@ -1,5 +1,9 @@
 # [Delete Whatsapp Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 DELETE /api/whatsapp/v1/:_id
 ```

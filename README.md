@@ -53,6 +53,7 @@
 - **[<code>GET</code> Get Telegram Session](./docs/telegram/get-telegram-session.md)**
 - **[<code>PATCH</code> Patch Telegram Session](./docs/telegram/patch-telegram-session.md)**
 - **[<code>DELETE</code> Delete Telegram Session](./docs/telegram/delete-telegram-session.md)**
+####
 - **[<code>POST</code> Connect Telegram](./docs/telegram/connect-telegram.md)**
 - **[<code>POST</code> Disconnect Telegram](./docs/telegram/disconnect-telegram.md)**
 - **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
@@ -62,6 +63,7 @@
 - **[<code>GET</code> Get Whatsapp Session](./docs/whatsapp/get-whatsapp-session.md)**
 - **[<code>PATCH</code> Patch Whatsapp Session](./docs/whatsapp/patch-whatsapp-session.md)**
 - **[<code>DELETE</code> Delete Whatsapp Session](./docs/whatsapp/delete-whatsapp-session.md)**
+####
 - **[<code>POST</code> Connect Whatsapp](./docs/whatsapp/connect-whatsapp.md)**
 - **[<code>POST</code> Disconnect Whatsapp](./docs/whatsapp/disconnect-whatsapp.md)**
 - **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**

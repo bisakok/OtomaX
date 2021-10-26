@@ -1,5 +1,9 @@
 # [Post Telegram Session]()
 
+<!--
+@category Session
+-->
+
 ```bash
 POST /api/telegram/v1/
 ```

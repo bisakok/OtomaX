@@ -1,5 +1,9 @@
 # [Disconnect Telegram]()
 
+<!--
+@category Common
+-->
+
 ```bash
 POST http://localhost/api/telegram/v1/disconnect
 ```
