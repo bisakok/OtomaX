@@ -41,7 +41,7 @@
 - [**<code>GET</code>** Get Downline Level](./docs/otomax/get-downline-level.md)
 - [**<code>GET</code>** Get Operator](./docs/otomax/get-operator.md)
 - [**<code>GET</code>** Get Produk](./docs/otomax/get-produk.md)
-- [**<code>GET</code>** Get Mutas](./docs/otomax/get-mutas.md)
+- [**<code>GET</code>** Get Mutasi](./docs/otomax/get-mutasi.md)
 
 ### [telegram]()
 - [**<code>POST</code>** Post Telegram](./docs/telegram/post-telegram.md)
