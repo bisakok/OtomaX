@@ -1,17 +1,10 @@
 # [OtomaX Web Server](#)
 
 ## [API](#)
-- **[<code>API</code> /api/example](#)**
 - **[<code>API</code> /api/jabber](#)**
 - **[<code>API</code> /api/otomax](#)**
 - **[<code>API</code> /api/telegram](#)**
 - **[<code>API</code> /api/whatsapp](#)**
-
-### [example](#)
-- **[<code>POST</code> Post Example](./docs/example/post-example.md)**
-- **[<code>GET</code> Get Example](./docs/example/get-example.md)**
-- **[<code>PATCH</code> Patch Example](./docs/example/patch-example.md)**
-- **[<code>DELETE</code> Delete Example](./docs/example/delete-example.md)**
 
 ### [jabber](#)
 - **[<code>POST</code> Post Jabber Session](./docs/jabber/post-jabber-session.md)**
