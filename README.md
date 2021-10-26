@@ -5,14 +5,14 @@
 - [**<code>API</code>** /api/otomax]()
 
 ### [example]()
-- [**<code>POST</code>** /api/example/v1/](./docs/example/post-example.md)
-- [**<code>GET</code>** /api/example/v1/:_id?](./docs/example/get-example.md)
-- [**<code>PATCH</code>** /api/example/v1/:_id](./docs/example/patch-example.md)
-- [**<code>DELETE</code>** /api/example/v1/:_id](./docs/example/delete-example.md)
+- [**<code>POST</code>** Post Example](./docs/example/post-example.md)
+- [**<code>GET</code>** Get Example](./docs/example/get-example.md)
+- [**<code>PATCH</code>** Patch Example](./docs/example/patch-example.md)
+- [**<code>DELETE</code>** Delete Example](./docs/example/delete-example.md)
 
 ### [otomax]()
-- [**<code>POST</code>** /api/otomax/v1/](./docs/otomax/post-otomax.md)
-- [**<code>GET</code>** /api/otomax/v1/:_id?](./docs/otomax/get-otomax.md)
-- [**<code>PATCH</code>** /api/otomax/v1/:_id](./docs/otomax/patch-otomax.md)
-- [**<code>DELETE</code>** /api/otomax/v1/:_id](./docs/otomax/delete-otomax.md)
+- [**<code>POST</code>** Post Otomax](./docs/otomax/post-otomax.md)
+- [**<code>GET</code>** Get Otomax](./docs/otomax/get-otomax.md)
+- [**<code>PATCH</code>** Patch Otomax](./docs/otomax/patch-otomax.md)
+- [**<code>DELETE</code>** Delete Otomax](./docs/otomax/delete-otomax.md)
 
