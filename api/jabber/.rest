@@ -31,8 +31,6 @@ Content-Type: application/json
 
 {"_id":"ndiing","jid":"ndiing@jabb.im","password":"S2N#Wcm8rnKbpsg","host":"jabb.im","port":5222}
 
-# {"_id":"ndiing_center_1", "jid":"ndiing_center_1@jabb.im","password":"@8d.yAkRiMA7Qpj","host":"jabb.im","port":5222}
-
 ###
 POST http://localhost/api/jabber/v1/disconnect
 Content-Type: application/json
@@ -44,6 +42,34 @@ POST http://localhost/api/jabber/v1/send-message
 Content-Type: application/json
 
 { "_id": "ndiing", "penerima": "ndiing2@jabb.im", "pesan": "pesan" }
+
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/jabber/v1/connect
+Content-Type: application/json
+
+{"_id":"ndiing_center_1", "jid":"ndiing_center_1@jabb.im","password":"@8d.yAkRiMA7Qpj","host":"jabb.im","port":5222}
+
+###
+POST http://localhost/api/jabber/v1/disconnect
+Content-Type: application/json
+
+{ "_id": "ndiing_center_1" }
+
+###
+POST http://localhost/api/jabber/v1/send-message
+Content-Type: application/json
+
+{ "_id": "ndiing_center_1", "penerima": "ndiing2@jabb.im", "pesan": "pesan" }
 
 
 

@@ -31,8 +31,6 @@ Content-Type: application/json
 
 { "_id": "6281938064470" }
 
-# { "_id": "+6283845311393" }
-
 ###
 POST http://localhost/api/whatsapp/v1/disconnect
 Content-Type: application/json
@@ -44,6 +42,34 @@ POST http://localhost/api/whatsapp/v1/send-message
 Content-Type: application/json
 
 { "_id": "6281938064470", "penerima": "6281935155404", "pesan": "pesan" }
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/whatsapp/v1/connect
+Content-Type: application/json
+
+{ "_id": "+6283845311393" }
+
+
+###
+POST http://localhost/api/whatsapp/v1/disconnect
+Content-Type: application/json
+
+{ "_id": "6283845311393" }
+
+###
+POST http://localhost/api/whatsapp/v1/send-message
+Content-Type: application/json
+
+{ "_id": "6283845311393", "penerima": "6281935155404", "pesan": "pesan" }
 
 
 
