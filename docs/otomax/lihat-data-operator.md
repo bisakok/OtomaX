@@ -25,5 +25,51 @@ GET http://localhost/api/otomax/v1/operator
 ### [Response]()
 
 ```json
-{"code":200,"message":"OK","data":[]}
+{
+  "code": 200,
+  "message": "OK",
+  "data": [
+    {
+      "kode": "AON",
+      "nama": "THREE AON"
+    },
+    {
+      "kode": "AXD",
+      "nama": "AXIS DATA"
+    },
+    {
+      "kode": "D",
+      "nama": "DANA"
+    },
+    {
+      "kode": "DI",
+      "nama": "ISAT DATA"
+    },
+    {
+      "kode": "E",
+      "nama": "E TOLL"
+    },
+    {
+      "kode": "GOJEK",
+      "nama": "GOJEK"
+    },
+    {
+      "kode": "GOPAY",
+      "nama": "GOPAY"
+    },
+    {
+      "kode": "GRAB",
+      "nama": "GRAB"
+    },
+    {
+      "kode": "I",
+      "nama": "ISAT"
+    },
+    {
+      "kode": "L",
+      "nama": "LINKAJA"
+    },
+    ...
+  ]
+}
 ```

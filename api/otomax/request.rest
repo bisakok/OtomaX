@@ -41,28 +41,28 @@ GET http://localhost/api/otomax/v1/report
 
 
 ### Reseller
-GET http://localhost/api/otomax/v1/reseller
+GET http://localhost/api/otomax/v1/reseller?pengirim=%2B6281935155404
 
 ### Pengirim
-GET http://localhost/api/otomax/v1/pengirim
+GET http://localhost/api/otomax/v1/pengirim?pengirim=%2B6281935155404
 
 ### Downline Reseller
-GET http://localhost/api/otomax/v1/downline-reseller
+GET http://localhost/api/otomax/v1/downline-reseller?pengirim=%2B6281935155404
 
 ### Level
-GET http://localhost/api/otomax/v1/level
+GET http://localhost/api/otomax/v1/level?pengirim=%2B6281935155404
 
 ### Downline Level
-GET http://localhost/api/otomax/v1/downline-level
+GET http://localhost/api/otomax/v1/downline-level?pengirim=%2B6281935155404
 
 ### Operator
-GET http://localhost/api/otomax/v1/operator
+GET http://localhost/api/otomax/v1/operator?pengirim=%2B6281935155404
 
 ### Produk
-GET http://localhost/api/otomax/v1/produk?kode_operator=TEST
+GET http://localhost/api/otomax/v1/produk?pengirim=%2B6281935155404&kode_operator=TEST
 
 ### Mutasi
-GET http://localhost/api/otomax/v1/mutasi?tanggal_awal=2021-01-01T00%3A00%3A00&tanggal_akhir=2021-10-25T23%3A59%3A59&jenis=T&page=1&limit=5
+GET http://localhost/api/otomax/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-01-01T00%3A00%3A00&tanggal_akhir=2021-10-25T23%3A59%3A59&jenis=T&page=1&limit=5
 
 
 
