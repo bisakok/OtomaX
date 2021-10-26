@@ -1,0 +1,59 @@
+### Post Telegram
+POST http://localhost/api/telegram/v1/
+Content-Type: application/x-www-form-urlencoded
+
+_id=123456&user=name&pass=word
+
+### Get Telegram
+GET http://localhost/api/telegram/v1/    
+
+### Patch Telegram
+PATCH http://localhost/api/telegram/v1/1
+Content-Type: application/json
+
+{ "_id": "123456", "user":"name", "pass":"word" }
+
+### Delete Telegram
+DELETE http://localhost/api/telegram/v1/123456
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/telegram/v1/connect
+Content-Type: application/json
+
+{ "_id": "ndiing_bot", "token": "1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0" }
+
+###
+POST http://localhost/api/telegram/v1/disconnect
+Content-Type: application/json
+
+{ "_id": "ndiing_bot" }
+
+###
+POST http://localhost/api/telegram/v1/send-message
+Content-Type: application/json
+
+{ "_id": "ndiing_bot", "penerima": 1344008938, "pesan": "pesan" }
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/telegram/v1/send-message
+Content-Type: application/json
+
+{ "penerima": 1344008938, "pesan": "pesan" }
