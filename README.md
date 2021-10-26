@@ -1,5 +1,18 @@
 # [OtomaX Web Server](#)
 
+OtomaX - Orisinil Topup Machine Web Server.
+
+## [Installation]()
+
+Pastikan komputer/PC sudah di install [nodejs](https://nodejs.org/en/download/).
+
+```bash
+git clone https://github.com/ndiing/OtomaX.git
+cd OtomaX
+npm install
+npm run start
+```
+
 
 ## [Example](#)
 ####
