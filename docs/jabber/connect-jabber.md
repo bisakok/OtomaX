@@ -8,6 +8,23 @@
 POST http://localhost/api/jabber/v1/connect
 ```
 
+## [Steps]()
+
+Session ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.com
+
+<p>
+    <figure>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/api-jb-id.png" alt="Session ID API" />
+        <figcaption>Setting Session ID API</figcaption>
+    </figure>
+</p>
+<p>
+    <figure>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-jb-label.png" alt="OtomaX IM Label" />
+        <figcaption>Setting OtomaX IM Label</figcaption>
+    </figure>
+</p>
+
 ## [Options]()
 
 ### [Params]()
