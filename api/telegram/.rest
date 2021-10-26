@@ -14,7 +14,7 @@ Content-Type: application/json
 { "_id": "123456", "user":"name", "pass":"word" }
 
 ### Delete Telegram
-DELETE http://localhost/api/telegram/v1/123456
+DELETE http://localhost/api/telegram/v1/ndiing_bot
 
 
 
@@ -29,7 +29,11 @@ DELETE http://localhost/api/telegram/v1/123456
 POST http://localhost/api/telegram/v1/connect
 Content-Type: application/json
 
-{ "_id": "ndiing_bot", "token": "1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0" }
+{"_id":"ndiing_bot","token":"1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0"}
+
+# {"_id":"api_otomax_bot","token":"2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"}
+
+# {"_id":"ndiing_center_1_bot","token":"2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"}
 
 ###
 POST http://localhost/api/telegram/v1/disconnect

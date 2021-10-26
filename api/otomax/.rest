@@ -28,6 +28,9 @@ DELETE http://localhost/api/otomax/v1/123456
 ### Web SMS Sender
 GET http://localhost/api/otomax/v1/web-sms-sender?code=[code]&to=[to]&to2=[to2]&message=[message]&msg=[msg]
 
+### Report
+GET http://localhost/api/otomax/v1/report
+
 ### Reseller
 GET http://localhost/api/otomax/v1/reseller
 

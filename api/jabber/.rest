@@ -1,0 +1,62 @@
+### Post Jabber
+POST http://localhost/api/jabber/v1/
+Content-Type: application/x-www-form-urlencoded
+
+_id=123456&user=name&pass=word
+
+### Get Jabber
+GET http://localhost/api/jabber/v1/    
+
+### Patch Jabber
+PATCH http://localhost/api/jabber/v1/1
+Content-Type: application/json
+
+{ "_id": "123456", "user":"name", "pass":"word" }
+
+### Delete Jabber
+DELETE http://localhost/api/jabber/v1/ndiing_bot
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/jabber/v1/connect
+Content-Type: application/json
+
+{"_id":"ndiing","jid":"ndiing@jabb.im","password":"S2N#Wcm8rnKbpsg","host":"jabb.im","port":5222}
+
+# {"_id":"ndiing_center_1", "jid":"ndiing_center_1@jabb.im","password":"@8d.yAkRiMA7Qpj","host":"jabb.im","port":5222}
+
+###
+POST http://localhost/api/jabber/v1/disconnect
+Content-Type: application/json
+
+{ "_id": "ndiing" }
+
+###
+POST http://localhost/api/jabber/v1/send-message
+Content-Type: application/json
+
+{ "_id": "ndiing", "penerima": "ndiing2@jabb.im", "pesan": "pesan" }
+
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/jabber/v1/send-message
+Content-Type: application/json
+
+{ "penerima": "ndiing2@jabb.im", "pesan": "pesan" }

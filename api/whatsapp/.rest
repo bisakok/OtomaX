@@ -1,0 +1,61 @@
+### Post Whatsapp
+POST http://localhost/api/whatsapp/v1/
+Content-Type: application/x-www-form-urlencoded
+
+_id=123456&user=name&pass=word
+
+### Get Whatsapp
+GET http://localhost/api/whatsapp/v1/    
+
+### Patch Whatsapp
+PATCH http://localhost/api/whatsapp/v1/1
+Content-Type: application/json
+
+{ "_id": "123456", "user":"name", "pass":"word" }
+
+### Delete Whatsapp
+DELETE http://localhost/api/whatsapp/v1/ndiing_bot
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/whatsapp/v1/connect
+Content-Type: application/json
+
+{ "_id": "6281938064470" }
+
+# { "_id": "+6283845311393" }
+
+###
+POST http://localhost/api/whatsapp/v1/disconnect
+Content-Type: application/json
+
+{ "_id": "6281938064470" }
+
+###
+POST http://localhost/api/whatsapp/v1/send-message
+Content-Type: application/json
+
+{ "_id": "6281938064470", "penerima": "6281935155404", "pesan": "pesan" }
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost/api/whatsapp/v1/send-message
+Content-Type: application/json
+
+{ "penerima": "6281935155404", "pesan": "pesan" }
