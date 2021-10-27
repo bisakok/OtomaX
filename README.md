@@ -42,6 +42,8 @@ npm run start
 - **[<code>POST</code> Buyer price list](./docs/digiflazz/buyer-price-list.md)**
 - **[<code>POST</code> Buyer deposit](./docs/digiflazz/buyer-deposit.md)**
 - **[<code>POST</code> Buyer transaction](./docs/digiflazz/buyer-transaction.md)**
+####
+- **[<code>POST</code> seller transaction](./docs/digiflazz/seller-transaction.md)**
 ### [jabber](#)
 ####
 - **[<code>POST</code> Post Jabber Session](./docs/jabber/post-jabber-session.md)**
