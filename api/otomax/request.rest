@@ -37,6 +37,9 @@ GET http://localhost/api/otomax/v1/report
 ### outbox callback
 GET http://localhost/api/otomax/v1/outbox-callback
 
+### parameter format
+GET http://localhost/api/otomax/v1/parameter-format
+
 
 
 

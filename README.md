@@ -48,6 +48,7 @@ npm run start
 - **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
 ####
 - **[<code>GET</code> Request Inbox](./docs/otomax/request-inbox.md)**
+- **[<code>GET</code> Lihat Data parameter format](./docs/otomax/lihat-data-parameter-format.md)**
 - **[<code>GET</code> Lihat Data Reseller](./docs/otomax/lihat-data-reseller.md)**
 - **[<code>GET</code> Lihat Data Pengirim](./docs/otomax/lihat-data-pengirim.md)**
 - **[<code>GET</code> Lihat Data Downline Reseller](./docs/otomax/lihat-data-downline-reseller.md)**
