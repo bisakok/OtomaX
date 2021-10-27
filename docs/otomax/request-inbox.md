@@ -8,6 +8,8 @@ GET /api/otomax/v1/:path
 
 ## [Path]()
 
+Params mungkin berbeda sesuai settingan pada `format request`
+
 Path | Params | Description
 --- | --- | ---
 `/inbox` | `pesan` | Request inbox manual
@@ -109,7 +111,12 @@ Path | Params | Description
 `/ubah-pin` | `pinlama`,`pinbaru` | Ubah PIN
 `/ubah-report-url` | `newurl`,`pin` | Change Report URL
 
-> Params mungkin berbeda sesuai settingan pada `format request`
+<p>
+    <figure>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-format-request.png" alt="Setting Format Request" />
+        <figcaption>Setting Format Request</figcaption>
+    </figure>
+</p>
 
 ## [Steps]()
 
