@@ -31,7 +31,7 @@ npm run start
 
 ## [API](#)
 
-### [digiflazz](#)
+### [Digiflazz](#)
 ####
 - **[<code>POST</code> Buyer cek saldo](./docs/digiflazz/buyer-cek-saldo.md)**
 - **[<code>POST</code> Buyer price list](./docs/digiflazz/buyer-price-list.md)**
@@ -39,7 +39,7 @@ npm run start
 - **[<code>POST</code> Buyer transaction](./docs/digiflazz/buyer-transaction.md)**
 ####
 - **[<code>POST</code> seller transaction](./docs/digiflazz/seller-transaction.md)**
-### [jabber](#)
+### [Jabber](#)
 ####
 - **[<code>GET</code> Get Jabber Session](./docs/jabber/get-jabber-session.md)**
 - **[<code>DELETE</code> Delete Jabber Session](./docs/jabber/delete-jabber-session.md)**
@@ -47,7 +47,7 @@ npm run start
 - **[<code>POST</code> Connect Jabber](./docs/jabber/connect-jabber.md)**
 - **[<code>POST</code> Disconnect Jabber](./docs/jabber/disconnect-jabber.md)**
 - **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
-### [otomax](#)
+### [Otomax](#)
 ####
 - **[<code>GET</code> Debug Report](./docs/otomax/debug-report.md)**
 - **[<code>GET</code> Debug Web Sms Sender](./docs/otomax/debug-web-sms-sender.md)**
@@ -67,7 +67,7 @@ npm run start
 - **[<code>GET</code> Lihat Operator](./docs/otomax/lihat-operator.md)**
 - **[<code>GET</code> Lihat Produk](./docs/otomax/lihat-produk.md)**
 - **[<code>GET</code> Lihat Mutasi](./docs/otomax/lihat-mutasi.md)**
-### [telegram](#)
+### [Telegram](#)
 ####
 - **[<code>GET</code> Get Telegram Session](./docs/telegram/get-telegram-session.md)**
 - **[<code>DELETE</code> Delete Telegram Session](./docs/telegram/delete-telegram-session.md)**
@@ -75,7 +75,7 @@ npm run start
 - **[<code>POST</code> Connect Telegram](./docs/telegram/connect-telegram.md)**
 - **[<code>POST</code> Disconnect Telegram](./docs/telegram/disconnect-telegram.md)**
 - **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
-### [whatsapp](#)
+### [Whatsapp](#)
 ####
 - **[<code>GET</code> Get Whatsapp Session](./docs/whatsapp/get-whatsapp-session.md)**
 - **[<code>DELETE</code> Delete Whatsapp Session](./docs/whatsapp/delete-whatsapp-session.md)**
