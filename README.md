@@ -2,6 +2,13 @@
 
 OtomaX - Orisinil Topup Machine Web Server.
 
+<p>
+    <figure>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax.png" height="360" alt="" />
+        <figcaption></figcaption>
+    </figure>
+</p>
+
 ## [Installation]()
 
 Pastikan komputer sudah terpasang **[nodejs](https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi)**.
