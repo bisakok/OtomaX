@@ -14,19 +14,19 @@ Request/permintaan dengan metode USSD secara default terpasang pada modul center
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-whatsapp.jpeg" alt="Request USSD pada whatsapp" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-whatsapp.jpeg" height="50" alt="Request USSD pada whatsapp" />
         <figcaption>Request USSD pada whatsapp</figcaption>
     </figure>
 </p>
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-telegram.jpeg" alt="Request USSD pada telegram" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-telegram.jpeg" height="50" alt="Request USSD pada telegram" />
         <figcaption>Request USSD pada telegram</figcaption>
     </figure>
 </p>
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-jabber.jpeg" alt="Request USSD pada jabber" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-jabber.jpeg" height="50" alt="Request USSD pada jabber" />
         <figcaption>Request USSD pada jabber</figcaption>
     </figure>
 </p>
