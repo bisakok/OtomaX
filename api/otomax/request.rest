@@ -97,6 +97,21 @@ Content-Type: application/json
 
 
 
+### USSD
+POST http://localhost/api/otomax/v1/ussd
+Content-Type: application/json
+
+{"pengirim":"+6281935155404","pesan":"1234"}
+
+
+
+
+
+
+
+
+
+
 ### Outbox > SMS
 POST http://localhost/api/otomax/v1/outbox
 Content-Type: application/json
