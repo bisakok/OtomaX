@@ -228,19 +228,19 @@ Content-Type: application/json
 
 
 
-### Cek Deposit > md5(username + apiKey + "depo") > cmd=deposit
+### Cek Deposit
 GET http://localhost/api/digiflazz/v1/cek-saldo?cmd=deposit&username=username
-### Daftar harga > md5(username + apiKey + "pricelist") > cmd=prepaid
+### Daftar harga
 GET http://localhost/api/digiflazz/v1/price-list?cmd=prepaid&username=username
-### Deposit > md5(username + apiKey + "deposit") > !cmd && !commands
+### Deposit
 GET http://localhost/api/digiflazz/v1/deposit?username=your-username&amount=10000000&Bank=BCA&owner_name=John+Doe
-### Topup > md5(username + apiKey + ref_id) > !cmd && !commands
+### Topup
 GET http://localhost/api/digiflazz/v1/transaction?username=username&buyer_sku_code=xld25&customer_no=087800001233&ref_id=some1d
-### Cek Tagihan > md5(username + apiKey + ref_id) > commands=inq-pasca
+### Cek Tagihan
 GET http://localhost/api/digiflazz/v1/transaction?commands=inq-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
-### Bayar Tagihan > md5(username + apiKey + ref_id) > commands=pay-pasca
+### Bayar Tagihan
 GET http://localhost/api/digiflazz/v1/transaction?commands=pay-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
-### Cek Status > md5(username + apiKey + ref_id) > commands=status-pasca
+### Cek Status
 GET http://localhost/api/digiflazz/v1/transaction?commands=status-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
 ### Inquiry PLN
 GET http://localhost/api/digiflazz/v1/transaction?commands=pln-subscribe&customer_no=1234554321
