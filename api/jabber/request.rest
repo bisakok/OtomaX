@@ -14,7 +14,7 @@ Content-Type: application/json
 { "_id": "123456", "user":"name", "pass":"word" }
 
 ### Delete Jabber
-DELETE http://localhost/api/jabber/v1/ndiing_bot
+DELETE http://localhost/api/jabber/v1/ndiing
 
 
 
