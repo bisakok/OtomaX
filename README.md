@@ -50,15 +50,15 @@ npm run start
 - **[<code>GET</code> Request Inbox](./docs/otomax/request-inbox.md)**
 - **[<code>GET</code> Request USSD](./docs/otomax/request-ussd.md)**
 ####
-- **[<code>GET</code> Lihat Data parameter format](./docs/otomax/lihat-data-parameter-format.md)**
-- **[<code>GET</code> Lihat Data Reseller](./docs/otomax/lihat-data-reseller.md)**
-- **[<code>GET</code> Lihat Data Pengirim](./docs/otomax/lihat-data-pengirim.md)**
-- **[<code>GET</code> Lihat Data Downline Reseller](./docs/otomax/lihat-data-downline-reseller.md)**
-- **[<code>GET</code> Lihat Data Level](./docs/otomax/lihat-data-level.md)**
-- **[<code>GET</code> Lihat Data Downline Level](./docs/otomax/lihat-data-downline-level.md)**
-- **[<code>GET</code> Lihat Data Operator](./docs/otomax/lihat-data-operator.md)**
-- **[<code>GET</code> Lihat Data Produk](./docs/otomax/lihat-data-produk.md)**
-- **[<code>GET</code> Lihat Data Mutasi](./docs/otomax/lihat-data-mutasi.md)**
+- **[<code>GET</code> Lihat format](./docs/otomax/lihat-format.md)**
+- **[<code>GET</code> Lihat Reseller](./docs/otomax/lihat-reseller.md)**
+- **[<code>GET</code> Lihat Pengirim](./docs/otomax/lihat-pengirim.md)**
+- **[<code>GET</code> Lihat Downline Reseller](./docs/otomax/lihat-downline-reseller.md)**
+- **[<code>GET</code> Lihat Level](./docs/otomax/lihat-level.md)**
+- **[<code>GET</code> Lihat Downline Level](./docs/otomax/lihat-downline-level.md)**
+- **[<code>GET</code> Lihat Operator](./docs/otomax/lihat-operator.md)**
+- **[<code>GET</code> Lihat Produk](./docs/otomax/lihat-produk.md)**
+- **[<code>GET</code> Lihat Mutasi](./docs/otomax/lihat-mutasi.md)**
 ### [telegram](#)
 ####
 - **[<code>POST</code> Post Telegram Session](./docs/telegram/post-telegram-session.md)**
