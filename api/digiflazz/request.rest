@@ -133,7 +133,7 @@ Content-Type: application/json
 
 
 ### Cek Deposit
-POST http://localhost/api/digiflazz/v1/cek-saldo
+POST http://localhost/api/digiflazz/v1/buyer/cek-saldo
 Content-Type: application/json
 
 {
@@ -142,7 +142,7 @@ Content-Type: application/json
 }
 
 ### Daftar harga
-POST http://localhost/api/digiflazz/v1/price-list
+POST http://localhost/api/digiflazz/v1/buyer/price-list
 Content-Type: application/json
 
 {
@@ -151,7 +151,7 @@ Content-Type: application/json
 }
 
 ### Deposit
-POST http://localhost/api/digiflazz/v1/deposit
+POST http://localhost/api/digiflazz/v1/buyer/deposit
 Content-Type: application/json
 
 {
@@ -162,7 +162,7 @@ Content-Type: application/json
 }
 
 ### Topup
-POST http://localhost/api/digiflazz/v1/transaction
+POST http://localhost/api/digiflazz/v1/buyer/transaction
 Content-Type: application/json
 
 {
@@ -173,7 +173,7 @@ Content-Type: application/json
 }
 
 ### Cek Tagihan
-POST http://localhost/api/digiflazz/v1/transaction
+POST http://localhost/api/digiflazz/v1/buyer/transaction
 Content-Type: application/json
 
 {
@@ -185,7 +185,7 @@ Content-Type: application/json
 }
 
 ### Bayar Tagihan
-POST http://localhost/api/digiflazz/v1/transaction
+POST http://localhost/api/digiflazz/v1/buyer/transaction
 
 Content-Type: application/json
 {
@@ -197,7 +197,7 @@ Content-Type: application/json
 }
 
 ### Cek Status
-POST http://localhost/api/digiflazz/v1/transaction
+POST http://localhost/api/digiflazz/v1/buyer/transaction
 Content-Type: application/json
 
 {
@@ -209,7 +209,7 @@ Content-Type: application/json
 }
 
 ### Inquiry PLN
-POST http://localhost/api/digiflazz/v1/transaction
+POST http://localhost/api/digiflazz/v1/buyer/transaction
 Content-Type: application/json
 
 {
@@ -229,18 +229,60 @@ Content-Type: application/json
 
 
 ### Cek Deposit
-GET http://localhost/api/digiflazz/v1/cek-saldo?cmd=deposit&username=username
+GET http://localhost/api/digiflazz/v1/buyer/cek-saldo?cmd=deposit&username=username
 ### Daftar harga
-GET http://localhost/api/digiflazz/v1/price-list?cmd=prepaid&username=username
+GET http://localhost/api/digiflazz/v1/buyer/price-list?cmd=prepaid&username=username
 ### Deposit
-GET http://localhost/api/digiflazz/v1/deposit?username=your-username&amount=10000000&Bank=BCA&owner_name=John+Doe
+GET http://localhost/api/digiflazz/v1/buyer/deposit?username=your-username&amount=10000000&Bank=BCA&owner_name=John+Doe
 ### Topup
-GET http://localhost/api/digiflazz/v1/transaction?username=username&buyer_sku_code=xld25&customer_no=087800001233&ref_id=some1d
+GET http://localhost/api/digiflazz/v1/buyer/transaction?username=username&buyer_sku_code=xld25&customer_no=087800001233&ref_id=some1d
 ### Cek Tagihan
-GET http://localhost/api/digiflazz/v1/transaction?commands=inq-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
+GET http://localhost/api/digiflazz/v1/buyer/transaction?commands=inq-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
 ### Bayar Tagihan
-GET http://localhost/api/digiflazz/v1/transaction?commands=pay-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
+GET http://localhost/api/digiflazz/v1/buyer/transaction?commands=pay-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
 ### Cek Status
-GET http://localhost/api/digiflazz/v1/transaction?commands=status-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
+GET http://localhost/api/digiflazz/v1/buyer/transaction?commands=status-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
 ### Inquiry PLN
-GET http://localhost/api/digiflazz/v1/transaction?commands=pln-subscribe&customer_no=1234554321
+GET http://localhost/api/digiflazz/v1/buyer/transaction?commands=pln-subscribe&customer_no=1234554321
+
+
+
+
+
+
+
+
+
+
+### transaction
+POST http://localhost/api/digiflazz/v1/seller/transaction
+Content-Type: application/json
+
+{
+    "commands": "topup"
+}
+
+### transaction
+POST http://localhost/api/digiflazz/v1/seller/transaction
+Content-Type: application/json
+
+{
+    "commands": "inq-pasca"
+}
+
+### transaction
+POST http://localhost/api/digiflazz/v1/seller/transaction
+Content-Type: application/json
+
+{
+    "commands": "pay-pasca"
+}
+
+### transaction
+POST http://localhost/api/digiflazz/v1/seller/transaction
+Content-Type: application/json
+
+{
+    "commands": "checkstatus"
+}
+

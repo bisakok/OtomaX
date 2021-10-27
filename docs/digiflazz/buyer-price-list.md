@@ -5,5 +5,5 @@
 -->
 
 ```bash
-POST /api/digiflazz/v1/price-list
+POST /api/digiflazz/v1/buyer/price-list
 ```
