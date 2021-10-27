@@ -23,17 +23,17 @@ npm run start
 
 
 ## [Example](#)
-### Digiflazz
+### [digiflazz]()
 - **[<code>REST</code> /api/digiflazz/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/digiflazz/request.rest)**
-### Jabber
+### [jabber]()
 - **[<code>REST</code> /api/jabber/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest)**
-### Otomax
+### [otomax]()
 - **[<code>REST</code> /api/otomax/request-method-get.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-get.rest)**
 - **[<code>REST</code> /api/otomax/request-method-post.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-post.rest)**
 - **[<code>REST</code> /api/otomax/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request.rest)**
-### Telegram
+### [telegram]()
 - **[<code>REST</code> /api/telegram/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/telegram/request.rest)**
-### Whatsapp
+### [whatsapp]()
 - **[<code>REST</code> /api/whatsapp/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/whatsapp/request.rest)**
 
 ## [API](#)
