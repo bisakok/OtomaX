@@ -79,4 +79,7 @@ api/*/*.js
 data
 lib
 index.js
+!dist
+!dist/*.js
 otomax_web_server.json
+webpack.config.js
