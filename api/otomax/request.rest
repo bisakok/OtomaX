@@ -37,18 +37,17 @@ GET http://localhost/api/otomax/v1/report
 ### outbox callback
 GET http://localhost/api/otomax/v1/outbox-callback
 
+
+
+
+
+
+
+
+
+
 ### parameter format
 GET http://localhost/api/otomax/v1/parameter-format
-
-
-
-
-
-
-
-
-
-
 
 ### Reseller
 GET http://localhost/api/otomax/v1/reseller?pengirim=%2B6281935155404
@@ -84,49 +83,40 @@ GET http://localhost/api/otomax/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal
 
 
 ### Inbox
-GET http://localhost/api/otomax/v1/inbox?penerima=&pengirim=%2B6281935155404&tipe_pengirim=S&pesan=sal.1234
-
-### Outbox
-GET http://localhost/api/otomax/v1/outbox?pengirim=&penerima=%2B6281935155404&tipe_penerima=S&pesan=sal.1234
-
-
-
-
-
-
-
-
-
-
-### Inbox
-POST http://localhost/api/otomax/v1/inbox
-Content-Type: application/json
-
-{"penerima":"","pengirim":"+6281935155404","tipe_pengirim":"S","pesan":"sal.1234"}
-
-### Outbox
-POST http://localhost/api/otomax/v1/outbox
-Content-Type: application/json
-
-{"pengirim":"","penerima":"+6281935155404","tipe_penerima":"S","pesan":"sal.1234"}
-
-
-
-
-
-
-
-
-
-
-### Inbox
 POST http://localhost/api/otomax/v1/inbox
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pesan":"sal.1234"}
 
-### Outbox
+
+
+
+
+
+
+
+
+
+### Outbox > SMS
 POST http://localhost/api/otomax/v1/outbox
 Content-Type: application/json
 
 {"penerima":"+6281935155404","pesan":"sal.1234"}
+
+### Outbox > Whatsapp
+POST http://localhost/api/otomax/v1/outbox
+Content-Type: application/json
+
+{"penerima":"6281935155404","tipe_penerima":"W","pesan":"sal.1234"}
+
+### Outbox > Jabber
+POST http://localhost/api/otomax/v1/outbox
+Content-Type: application/json
+
+{"penerima":"ndiing2@jabb.im","tipe_penerima":"G","pesan":"sal.1234"}
+
+### Outbox > Telegram
+POST http://localhost/api/otomax/v1/outbox
+Content-Type: application/json
+
+{"penerima":"1344008938","tipe_penerima":"Y","pesan":"sal.1234"}
