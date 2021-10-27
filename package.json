@@ -1,7 +1,7 @@
 {
-  "name": "ndiing",
+  "name": "otomax",
   "version": "1.0.0",
-  "description": "## [API]() - [**<code>API</code>** /api/example]() - [**<code>API</code>** /api/otomax]()",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node --no-warnings index.js",

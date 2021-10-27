@@ -41,9 +41,7 @@ npm run start
 - **[<code>POST</code> seller transaction](./docs/digiflazz/seller-transaction.md)**
 ### [jabber](#)
 ####
-- **[<code>POST</code> Post Jabber Session](./docs/jabber/post-jabber-session.md)**
 - **[<code>GET</code> Get Jabber Session](./docs/jabber/get-jabber-session.md)**
-- **[<code>PATCH</code> Patch Jabber Session](./docs/jabber/patch-jabber-session.md)**
 - **[<code>DELETE</code> Delete Jabber Session](./docs/jabber/delete-jabber-session.md)**
 ####
 - **[<code>POST</code> Connect Jabber](./docs/jabber/connect-jabber.md)**
@@ -71,9 +69,7 @@ npm run start
 - **[<code>GET</code> Lihat Mutasi](./docs/otomax/lihat-mutasi.md)**
 ### [telegram](#)
 ####
-- **[<code>POST</code> Post Telegram Session](./docs/telegram/post-telegram-session.md)**
 - **[<code>GET</code> Get Telegram Session](./docs/telegram/get-telegram-session.md)**
-- **[<code>PATCH</code> Patch Telegram Session](./docs/telegram/patch-telegram-session.md)**
 - **[<code>DELETE</code> Delete Telegram Session](./docs/telegram/delete-telegram-session.md)**
 ####
 - **[<code>POST</code> Connect Telegram](./docs/telegram/connect-telegram.md)**
@@ -81,9 +77,7 @@ npm run start
 - **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
 ### [whatsapp](#)
 ####
-- **[<code>POST</code> Post Whatsapp Session](./docs/whatsapp/post-whatsapp-session.md)**
 - **[<code>GET</code> Get Whatsapp Session](./docs/whatsapp/get-whatsapp-session.md)**
-- **[<code>PATCH</code> Patch Whatsapp Session](./docs/whatsapp/patch-whatsapp-session.md)**
 - **[<code>DELETE</code> Delete Whatsapp Session](./docs/whatsapp/delete-whatsapp-session.md)**
 ####
 - **[<code>POST</code> Connect Whatsapp](./docs/whatsapp/connect-whatsapp.md)**
