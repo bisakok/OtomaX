@@ -1,0 +1,245 @@
+### Post Digiflazz
+POST http://localhost/api/digiflazz/v1/
+Content-Type: application/x-www-form-urlencoded
+
+_id=123456&user=name&pass=word
+
+### Get Digiflazz
+GET http://localhost/api/digiflazz/v1/    
+
+### Patch Digiflazz
+PATCH http://localhost/api/digiflazz/v1/1
+Content-Type: application/json
+
+{ "_id": "123456", "user":"name", "pass":"word" }
+
+### Delete Digiflazz
+DELETE http://localhost/api/digiflazz/v1/ndiing
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Cek Deposit
+POST https://api.digiflazz.com/v1/cek-saldo
+Content-Type: application/json
+
+{
+    "cmd": "deposit",
+    "username": "username",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Daftar harga
+POST https://api.digiflazz.com/v1/price-list
+Content-Type: application/json
+
+{
+  "cmd" : "prepaid",
+  "username": "username",
+  "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Deposit
+POST https://api.digiflazz.com/v1/deposit
+Content-Type: application/json
+
+{
+    "username": "your-username",
+    "amount": 10000000,
+    "Bank": "BCA",
+    "owner_name": "John Doe",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Topup
+POST https://api.digiflazz.com/v1/transaction
+Content-Type: application/json
+
+{
+    "username": "username",
+    "buyer_sku_code": "xld25",
+    "customer_no": "087800001233",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Cek Tagihan
+POST https://api.digiflazz.com/v1/transaction
+Content-Type: application/json
+
+{
+    "commands": "inq-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Bayar Tagihan
+POST https://api.digiflazz.com/v1/transaction
+
+Content-Type: application/json
+{
+    "commands": "pay-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Cek Status
+POST https://api.digiflazz.com/v1/transaction
+Content-Type: application/json
+
+{
+    "commands": "status-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Inquiry PLN
+POST https://api.digiflazz.com/v1/transaction
+Content-Type: application/json
+
+{
+    "commands": "pln-subscribe",
+    "customer_no": "1234554321"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Cek Deposit
+POST http://localhost/api/digiflazz/v1/cek-saldo
+Content-Type: application/json
+
+{
+    "cmd": "deposit",
+    "username": "username"
+}
+
+### Daftar harga
+POST http://localhost/api/digiflazz/v1/price-list
+Content-Type: application/json
+
+{
+  "cmd" : "prepaid",
+  "username": "username"
+}
+
+### Deposit
+POST http://localhost/api/digiflazz/v1/deposit
+Content-Type: application/json
+
+{
+    "username": "your-username",
+    "amount": 10000000,
+    "Bank": "BCA",
+    "owner_name": "John Doe"
+}
+
+### Topup
+POST http://localhost/api/digiflazz/v1/transaction
+Content-Type: application/json
+
+{
+    "username": "username",
+    "buyer_sku_code": "xld25",
+    "customer_no": "087800001233",
+    "ref_id": "some1d"
+}
+
+### Cek Tagihan
+POST http://localhost/api/digiflazz/v1/transaction
+Content-Type: application/json
+
+{
+    "commands": "inq-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d"
+}
+
+### Bayar Tagihan
+POST http://localhost/api/digiflazz/v1/transaction
+
+Content-Type: application/json
+{
+    "commands": "pay-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d"
+}
+
+### Cek Status
+POST http://localhost/api/digiflazz/v1/transaction
+Content-Type: application/json
+
+{
+    "commands": "status-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d"
+}
+
+### Inquiry PLN
+POST http://localhost/api/digiflazz/v1/transaction
+Content-Type: application/json
+
+{
+    "commands": "pln-subscribe",
+    "customer_no": "1234554321"
+}
+
+
+
+
+
+
+
+
+
+
+
+### Cek Deposit > md5(username + apiKey + "depo") > cmd=deposit
+GET http://localhost/api/digiflazz/v1/cek-saldo?cmd=deposit&username=username
+### Daftar harga > md5(username + apiKey + "pricelist") > cmd=prepaid
+GET http://localhost/api/digiflazz/v1/price-list?cmd=prepaid&username=username
+### Deposit > md5(username + apiKey + "deposit") > !cmd && !commands
+GET http://localhost/api/digiflazz/v1/deposit?username=your-username&amount=10000000&Bank=BCA&owner_name=John+Doe
+### Topup > md5(username + apiKey + ref_id) > !cmd && !commands
+GET http://localhost/api/digiflazz/v1/transaction?username=username&buyer_sku_code=xld25&customer_no=087800001233&ref_id=some1d
+### Cek Tagihan > md5(username + apiKey + ref_id) > commands=inq-pasca
+GET http://localhost/api/digiflazz/v1/transaction?commands=inq-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
+### Bayar Tagihan > md5(username + apiKey + ref_id) > commands=pay-pasca
+GET http://localhost/api/digiflazz/v1/transaction?commands=pay-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
+### Cek Status > md5(username + apiKey + ref_id) > commands=status-pasca
+GET http://localhost/api/digiflazz/v1/transaction?commands=status-pasca&username=username&buyer_sku_code=pln&customer_no=530000000003&ref_id=some1d
+### Inquiry PLN
+GET http://localhost/api/digiflazz/v1/transaction?commands=pln-subscribe&customer_no=1234554321

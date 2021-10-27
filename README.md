@@ -17,6 +17,8 @@ npm run start
 
 ## [Example](#)
 ####
+- **[<code>REST</code> /api/digiflazz/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/digiflazz/request.rest)**
+####
 - **[<code>REST</code> /api/jabber/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest)**
 ####
 - **[<code>REST</code> /api/otomax/request-method-get.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-get.rest)**
@@ -29,6 +31,17 @@ npm run start
 
 ## [API](#)
 
+### [digiflazz](#)
+####
+- **[<code>POST</code> Post Digiflazz Session](./docs/digiflazz/post-digiflazz-session.md)**
+- **[<code>GET</code> Get Digiflazz Session](./docs/digiflazz/get-digiflazz-session.md)**
+- **[<code>PATCH</code> Patch Digiflazz Session](./docs/digiflazz/patch-digiflazz-session.md)**
+- **[<code>DELETE</code> Delete Digiflazz Session](./docs/digiflazz/delete-digiflazz-session.md)**
+####
+- **[<code>undefined</code> Buyer cek saldo](./docs/digiflazz/buyer-cek-saldo.md)**
+- **[<code>undefined</code> Buyer price list](./docs/digiflazz/buyer-price-list.md)**
+- **[<code>undefined</code> Buyer deposit](./docs/digiflazz/buyer-deposit.md)**
+- **[<code>undefined</code> Buyer transaction](./docs/digiflazz/buyer-transaction.md)**
 ### [jabber](#)
 ####
 - **[<code>POST</code> Post Jabber Session](./docs/jabber/post-jabber-session.md)**
