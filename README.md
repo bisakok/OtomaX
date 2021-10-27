@@ -38,10 +38,10 @@ npm run start
 - **[<code>PATCH</code> Patch Digiflazz Session](./docs/digiflazz/patch-digiflazz-session.md)**
 - **[<code>DELETE</code> Delete Digiflazz Session](./docs/digiflazz/delete-digiflazz-session.md)**
 ####
-- **[<code>undefined</code> Buyer cek saldo](./docs/digiflazz/buyer-cek-saldo.md)**
-- **[<code>undefined</code> Buyer price list](./docs/digiflazz/buyer-price-list.md)**
-- **[<code>undefined</code> Buyer deposit](./docs/digiflazz/buyer-deposit.md)**
-- **[<code>undefined</code> Buyer transaction](./docs/digiflazz/buyer-transaction.md)**
+- **[<code>POST</code> Buyer cek saldo](./docs/digiflazz/buyer-cek-saldo.md)**
+- **[<code>POST</code> Buyer price list](./docs/digiflazz/buyer-price-list.md)**
+- **[<code>POST</code> Buyer deposit](./docs/digiflazz/buyer-deposit.md)**
+- **[<code>POST</code> Buyer transaction](./docs/digiflazz/buyer-transaction.md)**
 ### [jabber](#)
 ####
 - **[<code>POST</code> Post Jabber Session](./docs/jabber/post-jabber-session.md)**
