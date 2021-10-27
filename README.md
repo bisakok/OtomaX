@@ -33,11 +33,6 @@ npm run start
 
 ### [digiflazz](#)
 ####
-- **[<code>POST</code> Post Digiflazz Session](./docs/digiflazz/post-digiflazz-session.md)**
-- **[<code>GET</code> Get Digiflazz Session](./docs/digiflazz/get-digiflazz-session.md)**
-- **[<code>PATCH</code> Patch Digiflazz Session](./docs/digiflazz/patch-digiflazz-session.md)**
-- **[<code>DELETE</code> Delete Digiflazz Session](./docs/digiflazz/delete-digiflazz-session.md)**
-####
 - **[<code>POST</code> Buyer cek saldo](./docs/digiflazz/buyer-cek-saldo.md)**
 - **[<code>POST</code> Buyer price list](./docs/digiflazz/buyer-price-list.md)**
 - **[<code>POST</code> Buyer deposit](./docs/digiflazz/buyer-deposit.md)**
