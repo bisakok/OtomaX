@@ -113,7 +113,7 @@ Path | Params | Description
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-format-request.png" alt="Setting Format Request" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-request-format.png" alt="Setting Format Request" />
         <figcaption>Setting Format Request</figcaption>
     </figure>
 </p>
@@ -124,7 +124,7 @@ Tambahkan label `otomax_web_server` di im center untuk menggunakan request inbox
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-ox-label.png" alt="OtomaX IM Label" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-web-server.png" alt="OtomaX IM Label" />
         <figcaption>Setting OtomaX IM Label</figcaption>
     </figure>
 </p>

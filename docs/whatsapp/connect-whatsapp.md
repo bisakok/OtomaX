@@ -14,13 +14,13 @@ Session ID dan Label harus menggunakan nomor wa yang digunakan
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/api-wa-id.png" alt="Session ID API" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/wa-connect.png" alt="Session ID API" />
         <figcaption>Setting Session ID API</figcaption>
     </figure>
 </p>
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-wa-label.png" alt="OtomaX WA Label" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/wa-center.png" alt="OtomaX WA Label" />
         <figcaption>Setting OtomaX WA Label</figcaption>
     </figure>
 </p>

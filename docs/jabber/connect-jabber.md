@@ -14,13 +14,13 @@ Session ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.c
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/api-jb-id.png" alt="Session ID API" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-connect.png" alt="Session ID API" />
         <figcaption>Setting Session ID API</figcaption>
     </figure>
 </p>
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-jb-label.png" alt="OtomaX IM Label" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jaber-center.png" alt="OtomaX IM Label" />
         <figcaption>Setting OtomaX IM Label</figcaption>
     </figure>
 </p>
