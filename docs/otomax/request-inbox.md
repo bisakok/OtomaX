@@ -134,11 +134,31 @@ Tambahkan label `otomax_web_server` di im center untuk menggunakan request inbox
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/inbox
+GET http://localhost/api/otomax/v1/aktifkan-dl?pengirim=%2B6281935155404&kodereseller=OX0004&pin=1234
 ```
 
 ### [Response]()
 
 ```json
-{"code":200,"message":"OK","data":[]}
+{
+  "code": 200,
+  "message": "OK",
+  "data": {
+    "kode": 3036,
+    "tgl_entri": "Oct 27 2021  4:57PM",
+    "penerima": "+6281935155404",
+    "tipe_penerima": "Y",
+    "pesan": "OtomaX: Reseller OX0004 - Dodik sudah berhasil diaktifkan * TRX Normal",
+    "status": 0,
+    "tgl_status": "Oct 27 2021  4:57PM",
+    "kode_inbox": 2664,
+    "kode_reseller": "OX0001",
+    "bebas_biaya": 1,
+    "is_perintah": 0,
+    "prioritas": 3,
+    "modul_proses": ",",
+    "pengirim": "otomax_web_server",
+    "kode_terminal": 11
+  }
+}
 ```
