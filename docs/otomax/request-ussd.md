@@ -1,7 +1,7 @@
 # [Request USSD]()
 
 <!--
-@category Common
+@category Request
 -->
 
 ```bash

@@ -1,6 +1,6 @@
 # [Request Inbox]()
 
-<!-- @category Common -->
+<!-- @category Request -->
 
 ```bash
 GET /api/otomax/v1/:path
