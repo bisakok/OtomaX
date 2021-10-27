@@ -79,4 +79,4 @@ api/*/*.js
 data
 lib
 index.js
-wa.json
+otomax_web_server.json
