@@ -1,7 +1,7 @@
 # [Daftar harga]()
 
 <!--
-@category digiflazz
+@category Endpoint2
 -->
 
 ```bash

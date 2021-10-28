@@ -1,7 +1,7 @@
 # [Topup]()
 
 <!--
-@category digiflazz
+@category Endpoint2
 -->
 
 ```bash

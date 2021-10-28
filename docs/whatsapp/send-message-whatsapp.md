@@ -1,7 +1,7 @@
 # [Send Message Whatsapp]()
 
 <!--
-@category Common
+@category Endpoint
 -->
 
 ```bash

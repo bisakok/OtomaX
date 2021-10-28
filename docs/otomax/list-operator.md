@@ -1,6 +1,6 @@
 # [List Operator]()
 
-<!-- @category Common -->
+<!-- @category Endpoint -->
 
 ```bash
 GET /api/v1/operator

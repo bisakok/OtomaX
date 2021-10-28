@@ -1,7 +1,7 @@
 # [Disconnect Jabber]()
 
 <!--
-@category Common
+@category Endpoint
 -->
 
 ```bash

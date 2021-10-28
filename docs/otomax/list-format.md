@@ -1,6 +1,6 @@
 # [List Format]()
 
-<!-- @category Common -->
+<!-- @category Endpoint -->
 
 ```bash
 GET /api/v1/parameter-format

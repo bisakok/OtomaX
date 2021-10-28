@@ -1,7 +1,7 @@
 # [Send Message Telegram]()
 
 <!--
-@category Common
+@category Endpoint
 -->
 
 ```bash

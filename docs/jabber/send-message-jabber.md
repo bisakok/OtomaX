@@ -1,7 +1,7 @@
 # [Send Message Jabber]()
 
 <!--
-@category Common
+@category Endpoint
 -->
 
 ```bash

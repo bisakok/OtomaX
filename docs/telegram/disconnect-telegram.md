@@ -1,7 +1,7 @@
 # [Disconnect Telegram]()
 
 <!--
-@category Common
+@category Endpoint
 -->
 
 ```bash

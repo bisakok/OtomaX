@@ -1,7 +1,7 @@
 # [Disconnect Whatsapp]()
 
 <!--
-@category Common
+@category Endpoint
 -->
 
 ```bash

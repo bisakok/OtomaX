@@ -1,7 +1,7 @@
 # [Connect Telegram]()
 
 <!--
-@category Common
+@category Endpoint
 -->
 
 ```bash

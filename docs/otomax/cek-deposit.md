@@ -1,7 +1,7 @@
 # [Cek Deposit]()
 
 <!--
-@category digiflazz
+@category Endpoint2
 -->
 
 ```bash

@@ -1,6 +1,6 @@
 # [List Downline Reseller]()
 
-<!-- @category Common -->
+<!-- @category Endpoint -->
 
 ```bash
 GET /api/v1/downline-reseller

@@ -1,6 +1,6 @@
 # [List Mutasi]()
 
-<!-- @category Common -->
+<!-- @category Endpoint -->
 
 ```bash
 GET /api/v1/mutasi
