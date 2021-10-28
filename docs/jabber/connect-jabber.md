@@ -20,7 +20,7 @@ Session ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.c
 </p>
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jaber-center.png" alt="OtomaX IM Label" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-center.png" alt="OtomaX IM Label" />
         <figcaption>Setting OtomaX IM Label</figcaption>
     </figure>
 </p>
