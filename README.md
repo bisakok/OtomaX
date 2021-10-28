@@ -23,16 +23,16 @@ npm run start
 
 
 ## Example
-### jabber
+### Jabber
 - **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest)**
-### otomax
+### Otomax
 - **[<code>REST</code> Request Method Get](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-get.rest)**
 - **[<code>REST</code> Request Method Post](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-post.rest)**
 - **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request.rest)**
 - **[<code>REST</code> Request2](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request2.rest)**
-### telegram
+### Telegram
 - **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/telegram/request.rest)**
-### whatsapp
+### Whatsapp
 - **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/whatsapp/request.rest)**
 
 ## API
