@@ -1,7 +1,7 @@
 # Daftar Sesi
 
 <!--
-@category Sesi
+@category Session
 -->
 
 ```bash

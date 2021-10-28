@@ -1,7 +1,7 @@
 # Hapus Sesi
 
 <!--
-@category Sesi
+@category Session
 -->
 
 ```bash

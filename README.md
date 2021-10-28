@@ -48,7 +48,7 @@ npm run start
 #### Seller
 - **[<code>POST</code> Transaction](./docs/digiflazz/transaction.md)**
 ### Jabber
-#### Sesi
+#### Session
 - **[<code>GET</code> Daftar Sesi](./docs/jabber/daftar-sesi.md)**
 - **[<code>DELETE</code> Hapus Sesi](./docs/jabber/hapus-sesi.md)**
 #### Common
@@ -80,7 +80,7 @@ npm run start
 - **[<code>POST</code> Deposit](./docs/otomax/deposit.md)**
 - **[<code>POST</code> Topup](./docs/otomax/topup.md)**
 ### Telegram
-#### Sesi
+#### Session
 - **[<code>GET</code> Daftar Sesi](./docs/telegram/daftar-sesi.md)**
 - **[<code>DELETE</code> Hapus Sesi](./docs/telegram/hapus-sesi.md)**
 #### Common
@@ -88,7 +88,7 @@ npm run start
 - **[<code>POST</code> Disconnect](./docs/telegram/disconnect.md)**
 - **[<code>POST</code> Send Message](./docs/telegram/send-message.md)**
 ### Whatsapp
-#### Sesi
+#### Session
 - **[<code>GET</code> Daftar Sesi](./docs/whatsapp/daftar-sesi.md)**
 - **[<code>DELETE</code> Hapus Sesi](./docs/whatsapp/hapus-sesi.md)**
 #### Common
