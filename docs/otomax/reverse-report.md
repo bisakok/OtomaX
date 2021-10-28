@@ -1,4 +1,4 @@
-# [Reverse Report]()
+# Reverse Report
 
 <!--
 @category Private
@@ -8,15 +8,15 @@
 GET /api/v1/report
 ```
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/report
 ```
 
-### [Response]()
+### Response
 
 ```json
 {"code":200,"message":"OK","data":[]}

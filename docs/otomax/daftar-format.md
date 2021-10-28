@@ -1,4 +1,4 @@
-# [Daftar Format]()
+# Daftar Format
 
 <!-- @category Endpoint -->
 
@@ -6,15 +6,15 @@
 GET /api/v1/parameter-format
 ```
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/parameter-format
 ```
 
-### [Response]()
+### Response
 
 ```json
 {

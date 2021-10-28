@@ -1,4 +1,4 @@
-# [Transaction]()
+# Transaction
 
 <!--
 @category Seller

@@ -1,4 +1,4 @@
-# [Connect]()
+# Connect
 
 <!--
 @category Endpoint
@@ -8,7 +8,7 @@
 POST http://localhost/api/telegram/v1/connect
 ```
 
-## [Steps]()
+## Steps
 
 Sesi ID dan Label harus menggunakan nama bot telegram yang digunakan
 
@@ -25,18 +25,18 @@ Sesi ID dan Label harus menggunakan nama bot telegram yang digunakan
     </figure>
 </p>
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `_id` |  | Sesi ID
 `token` |  | token Telegram
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 POST http://localhost/api/telegram/v1/connect
@@ -45,7 +45,7 @@ Content-Type: application/json
 {"_id":"api_otomax_bot","token":"2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"}
 ```
 
-### [Response]()
+### Response
 
 ```json
 { "code":200, "message": "OK" }

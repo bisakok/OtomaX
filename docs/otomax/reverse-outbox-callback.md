@@ -1,4 +1,4 @@
-# [Reverse Outbox Callback]()
+# Reverse Outbox Callback
 
 <!--
 @category Private
@@ -8,15 +8,15 @@
 GET /api/v1/outbox-callback
 ```
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/outbox-callback
 ```
 
-### [Response]()
+### Response
 
 ```json
 {"code":200,"message":"OK","data":[]}

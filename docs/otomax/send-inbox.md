@@ -1,4 +1,4 @@
-# [Send Inbox]()
+# Send Inbox
 
 <!-- @category Endpoint -->
 
@@ -6,7 +6,7 @@
 GET /api/v1/:path
 ```
 
-## [Path]()
+## Path
 
 Params mungkin berbeda sesuai settingan pada `format request`
 
@@ -118,7 +118,7 @@ Path | Params | Description
     </figure>
 </p>
 
-## [Steps]()
+## Steps
 
 Tambahkan label `otomax_web_server` di im center untuk menggunakan request inbox
 
@@ -129,15 +129,15 @@ Tambahkan label `otomax_web_server` di im center untuk menggunakan request inbox
     </figure>
 </p>
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/aktifkan-dl?pengirim=%2B6281935155404&kodereseller=OX0004&pin=1234
 ```
 
-### [Response]()
+### Response
 
 ```json
 {

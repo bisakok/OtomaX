@@ -1,4 +1,4 @@
-# [Daftar Level]()
+# Daftar Level
 
 <!-- @category Endpoint -->
 
@@ -6,23 +6,23 @@
 GET /api/v1/level
 ```
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `kode_reseller` | null | Isi kode reseller untuk melihat data downline
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/level
 ```
 
-### [Response]()
+### Response
 
 ```json
 {

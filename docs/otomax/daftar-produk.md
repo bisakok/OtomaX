@@ -1,4 +1,4 @@
-# [Daftar Produk]()
+# Daftar Produk
 
 <!-- @category Endpoint -->
 
@@ -6,24 +6,24 @@
 GET /api/v1/produk
 ```
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `kode_operator` | null | Isi kode operator
 `kode_reseller` | null | Isi kode reseller untuk melihat data downline
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/produk?kode_operator=TEST
 ```
 
-### [Response]()
+### Response
 
 ```json
 {

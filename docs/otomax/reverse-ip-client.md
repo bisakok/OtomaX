@@ -1,4 +1,4 @@
-# [Reverse Ip Client]()
+# Reverse Ip Client
 
 <!--
 @category Private
@@ -8,15 +8,15 @@
 GET /api/v1/ip-client
 ```
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/ip-client
 ```
 
-### [Response]()
+### Response
 
 ```json
 {"code":200,"message":"OK","data":[]}

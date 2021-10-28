@@ -1,4 +1,4 @@
-# [Hapus Sesi]()
+# Hapus Sesi
 
 <!--
 @category Sesi
@@ -8,23 +8,23 @@
 DELETE /api/telegram/v1/:_id
 ```
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `:_id` |  | Document ID
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 DELETE http://localhost/api/telegram/v1/1
 ```
 
-### [Response]()
+### Response
 
 ```json
 { "code":200, "message": "OK" }

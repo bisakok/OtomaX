@@ -1,4 +1,4 @@
-# [Connect]()
+# Connect
 
 <!--
 @category Endpoint
@@ -8,7 +8,7 @@
 POST http://localhost/api/jabber/v1/connect
 ```
 
-## [Steps]()
+## Steps
 
 Sesi ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.com
 
@@ -25,9 +25,9 @@ Sesi ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.com
     </figure>
 </p>
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
@@ -37,9 +37,9 @@ Name | Default | Description
 `host` |  | host Jabber
 `port` |  | port Jabber
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 POST http://localhost/api/jabber/v1/connect
@@ -48,7 +48,7 @@ Content-Type: application/json
 {"_id":"ndiing","jid":"ndiing@jabb.im","password":"S2N#Wcm8rnKbpsg","host":"jabb.im","port":5222}
 ```
 
-### [Response]()
+### Response
 
 ```json
 { "code":200, "message": "OK" }

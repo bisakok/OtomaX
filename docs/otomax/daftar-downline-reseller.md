@@ -1,4 +1,4 @@
-# [Daftar Downline Reseller]()
+# Daftar Downline Reseller
 
 <!-- @category Endpoint -->
 
@@ -6,23 +6,23 @@
 GET /api/v1/downline-reseller
 ```
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `kode_reseller` | null | Isi kode reseller untuk melihat data downline
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/downline-reseller
 ```
 
-### [Response]()
+### Response
 
 ```json
 {"code":200,"message":"OK","data":[]}

@@ -1,4 +1,4 @@
-# [Reverse Web Sms Sender]()
+# Reverse Web Sms Sender
 
 <!--
 @category Private
@@ -8,15 +8,15 @@
 GET /api/v1/web-sms-sender
 ```
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/web-sms-sender
 ```
 
-### [Response]()
+### Response
 
 ```json
 {"code":200,"message":"OK","data":[]}

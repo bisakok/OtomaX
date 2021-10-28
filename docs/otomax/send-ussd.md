@@ -1,4 +1,4 @@
-# [Send USSD]()
+# Send USSD
 
 <!--
 @category Endpoint
@@ -8,7 +8,7 @@
 GET /api/v1/ussd
 ```
 
-## [Usage]()
+## Usage
 
 Request/permintaan dengan metode USSD secara default terpasang pada modul center dengan default request `format`
 
@@ -31,9 +31,9 @@ Request/permintaan dengan metode USSD secara default terpasang pada modul center
     </figure>
 </p>
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 POST http://localhost/api/v1/ussd
@@ -42,7 +42,7 @@ Content-Type: application/json
 {"pengirim":"+6281935155404","pesan":"1234"}
 ```
 
-### [Response]()
+### Response
 
 ```json
 {"code":200,"message":"OK","data":[]}

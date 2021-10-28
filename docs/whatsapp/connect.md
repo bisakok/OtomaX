@@ -1,4 +1,4 @@
-# [Connect]()
+# Connect
 
 <!--
 @category Endpoint
@@ -8,7 +8,7 @@
 POST http://localhost/api/whatsapp/v1/connect
 ```
 
-## [Steps]()
+## Steps
 
 Sesi ID dan Label harus menggunakan nomor wa yang digunakan
 
@@ -25,9 +25,9 @@ Sesi ID dan Label harus menggunakan nomor wa yang digunakan
     </figure>
 </p>
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
@@ -37,9 +37,9 @@ Name | Default | Description
 `host` |  | host Whatsapp
 `port` |  | port Whatsapp
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 POST http://localhost/api/whatsapp/v1/connect
@@ -48,7 +48,7 @@ Content-Type: application/json
 { "_id": "+6283845311393" }
 ```
 
-### [Response]()
+### Response
 
 ```json
 { "code":200, "message": "OK" }

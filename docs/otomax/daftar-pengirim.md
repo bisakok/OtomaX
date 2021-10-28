@@ -1,4 +1,4 @@
-# [Daftar Pengirim]()
+# Daftar Pengirim
 
 <!-- @category Endpoint -->
 
@@ -6,23 +6,23 @@
 GET /api/v1/pengirim
 ```
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `kode_reseller` | null | Isi kode reseller untuk melihat data downline
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/pengirim
 ```
 
-### [Response]()
+### Response
 
 ```json
 {

@@ -1,4 +1,4 @@
-# [Disconnect]()
+# Disconnect
 
 <!--
 @category Endpoint
@@ -8,17 +8,17 @@
 POST http://localhost/api/jabber/v1/disconnect
 ```
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `_id` |  | Sesi ID
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 POST http://localhost/api/jabber/v1/disconnect
@@ -27,7 +27,7 @@ Content-Type: application/json
 { "_id": "ndiing" }
 ```
 
-### [Response]()
+### Response
 
 ```json
 { "code":200, "message": "OK" }

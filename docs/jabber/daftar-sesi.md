@@ -1,4 +1,4 @@
-# [Daftar Sesi]()
+# Daftar Sesi
 
 <!--
 @category Sesi
@@ -8,23 +8,23 @@
 GET /api/jabber/v1/:_id?
 ```
 
-## [Options]()
+## Options
 
-### [Params]()
+### Params
 
 Name | Default | Description
 --- | --- | ---
 `:_id` |  | Document ID
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/jabber/v1/
 ```
 
-### [Response]()
+### Response
 
 ```json
 { "code":200, "message": "OK" }

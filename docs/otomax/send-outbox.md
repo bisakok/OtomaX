@@ -1,4 +1,4 @@
-# [Send Outbox]()
+# Send Outbox
 
 <!--
 @category Private
@@ -8,15 +8,15 @@
 GET /api/v1/outbox
 ```
 
-## [Example]()
+## Example
 
-### [Request]()
+### Request
 
 ```bash
 GET http://localhost/api/v1/outbox
 ```
 
-### [Response]()
+### Response
 
 ```json
 {"code":200,"message":"OK","data":[]}

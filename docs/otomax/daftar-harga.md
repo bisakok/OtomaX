@@ -1,4 +1,4 @@
-# [Daftar harga]()
+# Daftar harga
 
 <!--
 @category Endpoint2
