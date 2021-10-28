@@ -4,7 +4,7 @@ OtomaX - Orisinil Topup Machine Web Server.
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax.png" height="256" alt="" />
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax.png" height="360" alt="" />
         <figcaption></figcaption>
     </figure>
 </p>
