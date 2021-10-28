@@ -120,7 +120,7 @@ Path | Params | Description
 
 ## Steps
 
-Tambahkan label `otomax_web_server` di im center untuk menggunakan request inbox
+Tambahkan label `web_server` di im center untuk menggunakan request inbox
 
 <p>
     <figure>
