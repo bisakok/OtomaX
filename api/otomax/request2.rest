@@ -1,0 +1,43 @@
+### Cek Deposit
+POST https://api.digiflazz.com/v1/cek-saldo
+Content-Type: application/json
+
+{
+    "cmd": "deposit",
+    "username": "username",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Daftar harga
+POST https://api.digiflazz.com/v1/price-list
+Content-Type: application/json
+
+{
+  "cmd" : "prepaid",
+  "username": "username",
+  "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Deposit
+POST https://api.digiflazz.com/v1/deposit
+Content-Type: application/json
+
+{
+    "username": "your-username",
+    "amount": 10000000,
+    "Bank": "BCA",
+    "owner_name": "John Doe",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Topup
+POST https://api.digiflazz.com/v1/transaction
+Content-Type: application/json
+
+{
+    "username": "username",
+    "buyer_sku_code": "xld25",
+    "customer_no": "087800001233",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}

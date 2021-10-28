@@ -31,6 +31,7 @@ npm run start
 - **[<code>REST</code> /api/otomax/request-method-get.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-get.rest)**
 - **[<code>REST</code> /api/otomax/request-method-post.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-post.rest)**
 - **[<code>REST</code> /api/otomax/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request.rest)**
+- **[<code>REST</code> /api/otomax/request2.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request2.rest)**
 ### [telegram]()
 - **[<code>REST</code> /api/telegram/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/telegram/request.rest)**
 ### [whatsapp]()
