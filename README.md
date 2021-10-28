@@ -24,16 +24,16 @@ npm run start
 
 ## Example
 ### jabber
-- **[<code>REST</code> /api/jabber/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest)**
+- **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest)**
 ### otomax
-- **[<code>REST</code> /api/otomax/request-method-get.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-get.rest)**
-- **[<code>REST</code> /api/otomax/request-method-post.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-post.rest)**
-- **[<code>REST</code> /api/otomax/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request.rest)**
-- **[<code>REST</code> /api/otomax/request2.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request2.rest)**
+- **[<code>REST</code> Request Method Get](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-get.rest)**
+- **[<code>REST</code> Request Method Post](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request-method-post.rest)**
+- **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request.rest)**
+- **[<code>REST</code> Request2](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request2.rest)**
 ### telegram
-- **[<code>REST</code> /api/telegram/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/telegram/request.rest)**
+- **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/telegram/request.rest)**
 ### whatsapp
-- **[<code>REST</code> /api/whatsapp/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/whatsapp/request.rest)**
+- **[<code>REST</code> Request](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/whatsapp/request.rest)**
 
 ## API
 
