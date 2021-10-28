@@ -47,11 +47,11 @@ npm run start
 - **[<code>POST</code> Send Message](./docs/jabber/send-message.md)**
 ### Otomax
 #### Private
-- **[<code>GET</code> Reverse Report](./docs/otomax/reverse-report.md)**
-- **[<code>GET</code> Reverse Web Sms Sender](./docs/otomax/reverse-web-sms-sender.md)**
-- **[<code>GET</code> Reverse Ip Client](./docs/otomax/reverse-ip-client.md)**
+- **[<code>GET</code> Test Report](./docs/otomax/test-report.md)**
+- **[<code>GET</code> Test Web Sms Sender](./docs/otomax/test-web-sms-sender.md)**
+- **[<code>GET</code> Test Ip Client](./docs/otomax/test-ip-client.md)**
 - **[<code>GET</code> Send Outbox](./docs/otomax/send-outbox.md)**
-- **[<code>GET</code> Reverse Outbox Callback](./docs/otomax/reverse-outbox-callback.md)**
+- **[<code>GET</code> Test Outbox Callback](./docs/otomax/test-outbox-callback.md)**
 #### Common
 - **[<code>GET</code> Send Inbox](./docs/otomax/send-inbox.md)**
 - **[<code>GET</code> Send USSD](./docs/otomax/send-ussd.md)**
