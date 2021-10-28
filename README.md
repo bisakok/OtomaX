@@ -1,5 +1,7 @@
 # OtomaX Web Server
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ndiing/OtomaX?color=green&label=Otomax%20Web%20Server&style=flat-square)
+
 OtomaX - Orisinil Topup Machine Web Server.
 
 <p>
