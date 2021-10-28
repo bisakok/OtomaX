@@ -1,7 +1,7 @@
 # [Reverse Outbox Callback]()
 
 <!--
-@category Internal
+@category Private
 -->
 
 ```bash

@@ -56,16 +56,15 @@ npm run start
 - **[<code>POST</code> Disconnect](./docs/jabber/disconnect.md)**
 - **[<code>POST</code> Send Message](./docs/jabber/send-message.md)**
 ### [Otomax](#)
-#### Internal
+#### Private
 - **[<code>GET</code> Reverse Report](./docs/otomax/reverse-report.md)**
 - **[<code>GET</code> Reverse Web Sms Sender](./docs/otomax/reverse-web-sms-sender.md)**
 - **[<code>GET</code> Reverse Ip Client](./docs/otomax/reverse-ip-client.md)**
 - **[<code>GET</code> Send Outbox](./docs/otomax/send-outbox.md)**
 - **[<code>GET</code> Reverse Outbox Callback](./docs/otomax/reverse-outbox-callback.md)**
-#### Request
+#### Endpoint
 - **[<code>GET</code> Send Inbox](./docs/otomax/send-inbox.md)**
 - **[<code>GET</code> Send USSD](./docs/otomax/send-ussd.md)**
-#### Endpoint
 - **[<code>GET</code> Daftar Format](./docs/otomax/daftar-format.md)**
 - **[<code>GET</code> Daftar Reseller](./docs/otomax/daftar-reseller.md)**
 - **[<code>GET</code> Daftar Pengirim](./docs/otomax/daftar-pengirim.md)**

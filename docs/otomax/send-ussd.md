@@ -1,7 +1,7 @@
 # [Send USSD]()
 
 <!--
-@category Request
+@category Endpoint
 -->
 
 ```bash

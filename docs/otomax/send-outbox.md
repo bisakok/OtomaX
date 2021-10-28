@@ -1,7 +1,7 @@
 # [Send Outbox]()
 
 <!--
-@category Internal
+@category Private
 -->
 
 ```bash

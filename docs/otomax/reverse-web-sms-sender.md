@@ -1,7 +1,7 @@
 # [Reverse Web Sms Sender]()
 
 <!--
-@category Internal
+@category Private
 -->
 
 ```bash

@@ -1,6 +1,6 @@
 # [Send Inbox]()
 
-<!-- @category Request -->
+<!-- @category Endpoint -->
 
 ```bash
 GET /api/v1/:path

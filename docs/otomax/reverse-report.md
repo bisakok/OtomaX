@@ -1,7 +1,7 @@
 # [Reverse Report]()
 
 <!--
-@category Internal
+@category Private
 -->
 
 ```bash

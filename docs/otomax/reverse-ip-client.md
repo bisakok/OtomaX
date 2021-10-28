@@ -1,7 +1,7 @@
 # [Reverse Ip Client]()
 
 <!--
-@category Internal
+@category Private
 -->
 
 ```bash
