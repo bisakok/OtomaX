@@ -5,7 +5,7 @@
 -->
 
 ```bash
-GET /api/otomax/v1/ussd
+GET /api/v1/ussd
 ```
 
 ## [Usage]()
@@ -36,7 +36,7 @@ Request/permintaan dengan metode USSD secara default terpasang pada modul center
 ### [Request]()
 
 ```bash
-POST http://localhost/api/otomax/v1/ussd
+POST http://localhost/api/v1/ussd
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pesan":"1234"}

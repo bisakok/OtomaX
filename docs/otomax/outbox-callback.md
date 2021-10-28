@@ -5,7 +5,7 @@
 -->
 
 ```bash
-GET /api/otomax/v1/outbox-callback
+GET /api/v1/outbox-callback
 ```
 
 ## [Example]()
@@ -13,7 +13,7 @@ GET /api/otomax/v1/outbox-callback
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/outbox-callback
+GET http://localhost/api/v1/outbox-callback
 ```
 
 ### [Response]()

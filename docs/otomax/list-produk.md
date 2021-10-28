@@ -3,7 +3,7 @@
 <!-- @category Common -->
 
 ```bash
-GET /api/otomax/v1/produk
+GET /api/v1/produk
 ```
 
 ## [Options]()
@@ -20,7 +20,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/produk?kode_operator=TEST
+GET http://localhost/api/v1/produk?kode_operator=TEST
 ```
 
 ### [Response]()

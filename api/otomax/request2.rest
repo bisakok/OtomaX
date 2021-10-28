@@ -1,28 +1,32 @@
 ### Cek Deposit
-POST https://api.digiflazz.com/v1/cek-saldo
+POST http://localhost/api/v2/cek-saldo
 Content-Type: application/json
 
 {
+    "pengirim": "+6281935155404",
     "cmd": "deposit",
     "username": "username",
     "sign": "740b00a1b8784e028cc8078edf66d12b"
 }
 
 ### Daftar harga
-POST https://api.digiflazz.com/v1/price-list
+POST http://localhost/api/v2/price-list
 Content-Type: application/json
 
 {
-  "cmd" : "prepaid",
-  "username": "username",
-  "sign": "740b00a1b8784e028cc8078edf66d12b"
+    "pengirim": "+6281935155404",
+    "code": "TEST",
+    "cmd" : "prepaid",
+    "username": "username",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
 }
 
 ### Deposit
-POST https://api.digiflazz.com/v1/deposit
+POST http://localhost/api/v2/deposit
 Content-Type: application/json
 
 {
+    "pengirim": "+6281935155404",
     "username": "your-username",
     "amount": 10000000,
     "Bank": "BCA",
@@ -31,13 +35,66 @@ Content-Type: application/json
 }
 
 ### Topup
-POST https://api.digiflazz.com/v1/transaction
+POST http://localhost/api/v2/transaction
 Content-Type: application/json
 
 {
+    "pengirim": "+6281935155404",
     "username": "username",
     "buyer_sku_code": "xld25",
     "customer_no": "087800001233",
     "ref_id": "some1d",
     "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Cek Tagihan
+POST http://localhost/api/v2/transaction
+Content-Type: application/json
+
+{
+    "pengirim": "+6281935155404",
+    "commands": "inq-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Bayar Tagihan
+POST http://localhost/api/v2/transaction
+Content-Type: application/json
+
+{
+    "pengirim": "+6281935155404",
+    "commands": "pay-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Cek Status
+POST http://localhost/api/v2/transaction
+Content-Type: application/json
+
+{
+    "pengirim": "+6281935155404",
+    "commands": "status-pasca",
+    "username": "username",
+    "buyer_sku_code": "pln",
+    "customer_no": "530000000003",
+    "ref_id": "some1d",
+    "sign": "740b00a1b8784e028cc8078edf66d12b"
+}
+
+### Inquiry PLN
+POST http://localhost/api/v2/transaction
+Content-Type: application/json
+
+{
+    "pengirim": "+6281935155404",
+    "commands": "pln-subscribe",
+    "customer_no": "1234554321"
 }

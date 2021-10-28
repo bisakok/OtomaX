@@ -5,7 +5,7 @@
 -->
 
 ```bash
-GET /api/otomax/v1/ip-client
+GET /api/v1/ip-client
 ```
 
 ## [Example]()
@@ -13,7 +13,7 @@ GET /api/otomax/v1/ip-client
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/ip-client
+GET http://localhost/api/v1/ip-client
 ```
 
 ### [Response]()

@@ -3,7 +3,7 @@
 <!-- @category Common -->
 
 ```bash
-GET /api/otomax/v1/parameter-format
+GET /api/v1/parameter-format
 ```
 
 ## [Example]()
@@ -11,7 +11,7 @@ GET /api/otomax/v1/parameter-format
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/parameter-format
+GET http://localhost/api/v1/parameter-format
 ```
 
 ### [Response]()

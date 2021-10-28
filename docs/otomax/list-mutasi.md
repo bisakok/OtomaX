@@ -3,7 +3,7 @@
 <!-- @category Common -->
 
 ```bash
-GET /api/otomax/v1/mutasi
+GET /api/v1/mutasi
 ```
 
 ## [Options]()
@@ -19,7 +19,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/mutasi
+GET http://localhost/api/v1/mutasi
 ```
 
 ### [Response]()

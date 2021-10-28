@@ -3,7 +3,7 @@
 <!-- @category Request -->
 
 ```bash
-GET /api/otomax/v1/:path
+GET /api/v1/:path
 ```
 
 ## [Path]()
@@ -134,7 +134,7 @@ Tambahkan label `otomax_web_server` di im center untuk menggunakan request inbox
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/aktifkan-dl?pengirim=%2B6281935155404&kodereseller=OX0004&pin=1234
+GET http://localhost/api/v1/aktifkan-dl?pengirim=%2B6281935155404&kodereseller=OX0004&pin=1234
 ```
 
 ### [Response]()

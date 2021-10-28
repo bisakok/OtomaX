@@ -3,7 +3,7 @@
 <!-- @category Common -->
 
 ```bash
-GET /api/otomax/v1/reseller
+GET /api/v1/reseller
 ```
 
 ## [Options]()
@@ -19,7 +19,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/reseller
+GET http://localhost/api/v1/reseller
 ```
 
 ### [Response]()
@@ -45,7 +45,7 @@ GET http://localhost/api/otomax/v1/reseller
     "oid": "9876543216549876543216549876543212654987",
     "poin": null,
     "alamat_ip": "127.0.0.1",
-    "url_report": "http://localhost/api/otomax/v1/report",
+    "url_report": "http://localhost/api/v1/report",
     "tgl_data": "2021-10-26T17:30:37.240Z",
     "suspend": null,
     "nomor_ktp": null,

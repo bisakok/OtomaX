@@ -3,7 +3,7 @@
 <!-- @category Common -->
 
 ```bash
-GET /api/otomax/v1/downline-level
+GET /api/v1/downline-level
 ```
 
 ## [Options]()
@@ -19,7 +19,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/downline-level
+GET http://localhost/api/v1/downline-level
 ```
 
 ### [Response]()

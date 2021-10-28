@@ -75,6 +75,11 @@ npm run start
 - **[<code>GET</code> List Operator](./docs/otomax/list-operator.md)**
 - **[<code>GET</code> List Produk](./docs/otomax/list-produk.md)**
 - **[<code>GET</code> List Mutasi](./docs/otomax/list-mutasi.md)**
+####
+- **[<code>POST</code> Cek Deposit](./docs/otomax/cek-deposit.md)**
+- **[<code>POST</code> Daftar harga](./docs/otomax/daftar-harga.md)**
+- **[<code>POST</code> Deposit](./docs/otomax/deposit.md)**
+- **[<code>POST</code> Topup](./docs/otomax/topup.md)**
 ### [Telegram](#)
 ####
 - **[<code>GET</code> Get Telegram Session](./docs/telegram/get-telegram-session.md)**
