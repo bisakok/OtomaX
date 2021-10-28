@@ -1,4 +1,4 @@
-# [List Produk]()
+# [Daftar Produk]()
 
 <!-- @category Endpoint -->
 

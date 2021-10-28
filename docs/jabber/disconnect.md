@@ -1,11 +1,11 @@
-# [Send Message Jabber]()
+# [Disconnect]()
 
 <!--
 @category Endpoint
 -->
 
 ```bash
-POST http://localhost/api/jabber/v1/send-message
+POST http://localhost/api/jabber/v1/disconnect
 ```
 
 ## [Options]()
@@ -14,17 +14,17 @@ POST http://localhost/api/jabber/v1/send-message
 
 Name | Default | Description
 --- | --- | ---
-`_id` |  | Session ID
+`_id` |  | Sesi ID
 
 ## [Example]()
 
 ### [Request]()
 
 ```bash
-POST http://localhost/api/jabber/v1/send-message
+POST http://localhost/api/jabber/v1/disconnect
 Content-Type: application/json
 
-{ "_id": "ndiing", "penerima": "ndiing2@jabb.im", "pesan": "pesan" }
+{ "_id": "ndiing" }
 ```
 
 ### [Response]()

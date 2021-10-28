@@ -1,4 +1,4 @@
-# [List Operator]()
+# [Daftar Operator]()
 
 <!-- @category Endpoint -->
 

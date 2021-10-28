@@ -1,11 +1,11 @@
-# [Send Message Telegram]()
+# [Disconnect]()
 
 <!--
 @category Endpoint
 -->
 
 ```bash
-POST http://localhost/api/telegram/v1/send-message
+POST http://localhost/api/telegram/v1/disconnect
 ```
 
 ## [Options]()
@@ -14,17 +14,17 @@ POST http://localhost/api/telegram/v1/send-message
 
 Name | Default | Description
 --- | --- | ---
-`_id` |  | Session ID
+`_id` |  | Sesi ID
 
 ## [Example]()
 
 ### [Request]()
 
 ```bash
-POST http://localhost/api/telegram/v1/send-message
+POST http://localhost/api/telegram/v1/disconnect
 Content-Type: application/json
 
-{ "_id": "api_otomax_bot", "penerima": 1344008938, "pesan": "pesan" }
+{ "_id": "api_otomax_bot" }
 ```
 
 ### [Response]()

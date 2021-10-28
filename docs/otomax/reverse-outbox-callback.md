@@ -1,11 +1,11 @@
-# [Test Report]()
+# [Reverse Outbox Callback]()
 
 <!--
 @category Internal
 -->
 
 ```bash
-GET /api/v1/report
+GET /api/v1/outbox-callback
 ```
 
 ## [Example]()
@@ -13,7 +13,7 @@ GET /api/v1/report
 ### [Request]()
 
 ```bash
-GET http://localhost/api/v1/report
+GET http://localhost/api/v1/outbox-callback
 ```
 
 ### [Response]()

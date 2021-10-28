@@ -1,9 +1,9 @@
-# [List Downline Reseller]()
+# [Daftar Mutasi]()
 
 <!-- @category Endpoint -->
 
 ```bash
-GET /api/v1/downline-reseller
+GET /api/v1/mutasi
 ```
 
 ## [Options]()
@@ -19,7 +19,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/v1/downline-reseller
+GET http://localhost/api/v1/mutasi
 ```
 
 ### [Response]()

@@ -1,11 +1,11 @@
-# [Test Ip Client]()
+# [Reverse Web Sms Sender]()
 
 <!--
 @category Internal
 -->
 
 ```bash
-GET /api/v1/ip-client
+GET /api/v1/web-sms-sender
 ```
 
 ## [Example]()
@@ -13,7 +13,7 @@ GET /api/v1/ip-client
 ### [Request]()
 
 ```bash
-GET http://localhost/api/v1/ip-client
+GET http://localhost/api/v1/web-sms-sender
 ```
 
 ### [Response]()

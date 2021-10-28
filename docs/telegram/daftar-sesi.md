@@ -1,11 +1,11 @@
-# [Delete Telegram Session]()
+# [Daftar Sesi]()
 
 <!--
-@category Session
+@category Sesi
 -->
 
 ```bash
-DELETE /api/telegram/v1/:_id
+GET /api/telegram/v1/:_id?
 ```
 
 ## [Options]()
@@ -21,7 +21,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-DELETE http://localhost/api/telegram/v1/1
+GET http://localhost/api/telegram/v1/
 ```
 
 ### [Response]()

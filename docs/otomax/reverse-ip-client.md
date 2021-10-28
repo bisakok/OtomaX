@@ -1,11 +1,11 @@
-# [Outbox Callback]()
+# [Reverse Ip Client]()
 
 <!--
 @category Internal
 -->
 
 ```bash
-GET /api/v1/outbox-callback
+GET /api/v1/ip-client
 ```
 
 ## [Example]()
@@ -13,7 +13,7 @@ GET /api/v1/outbox-callback
 ### [Request]()
 
 ```bash
-GET http://localhost/api/v1/outbox-callback
+GET http://localhost/api/v1/ip-client
 ```
 
 ### [Response]()

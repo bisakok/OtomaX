@@ -48,51 +48,51 @@ npm run start
 #### Seller
 - **[<code>POST</code> Transaction](./docs/digiflazz/transaction.md)**
 ### [Jabber](#)
-#### Session
-- **[<code>GET</code> Get Jabber Session](./docs/jabber/get-jabber-session.md)**
-- **[<code>DELETE</code> Delete Jabber Session](./docs/jabber/delete-jabber-session.md)**
+#### Sesi
+- **[<code>GET</code> Daftar Sesi](./docs/jabber/daftar-sesi.md)**
+- **[<code>DELETE</code> Hapus Sesi](./docs/jabber/hapus-sesi.md)**
 #### Endpoint
-- **[<code>POST</code> Connect Jabber](./docs/jabber/connect-jabber.md)**
-- **[<code>POST</code> Disconnect Jabber](./docs/jabber/disconnect-jabber.md)**
-- **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
+- **[<code>POST</code> Connect](./docs/jabber/connect.md)**
+- **[<code>POST</code> Disconnect](./docs/jabber/disconnect.md)**
+- **[<code>POST</code> Send Message](./docs/jabber/send-message.md)**
 ### [Otomax](#)
 #### Internal
-- **[<code>GET</code> Test Report](./docs/otomax/test-report.md)**
-- **[<code>GET</code> Test Web Sms Sender](./docs/otomax/test-web-sms-sender.md)**
-- **[<code>GET</code> Test Ip Client](./docs/otomax/test-ip-client.md)**
+- **[<code>GET</code> Reverse Report](./docs/otomax/reverse-report.md)**
+- **[<code>GET</code> Reverse Web Sms Sender](./docs/otomax/reverse-web-sms-sender.md)**
+- **[<code>GET</code> Reverse Ip Client](./docs/otomax/reverse-ip-client.md)**
 - **[<code>GET</code> Send Outbox](./docs/otomax/send-outbox.md)**
-- **[<code>GET</code> Outbox Callback](./docs/otomax/outbox-callback.md)**
+- **[<code>GET</code> Reverse Outbox Callback](./docs/otomax/reverse-outbox-callback.md)**
 #### Request
 - **[<code>GET</code> Send Inbox](./docs/otomax/send-inbox.md)**
-- **[<code>GET</code> Send Inbox USSD](./docs/otomax/send-inbox-ussd.md)**
+- **[<code>GET</code> Send USSD](./docs/otomax/send-ussd.md)**
 #### Endpoint
-- **[<code>GET</code> List Format](./docs/otomax/list-format.md)**
-- **[<code>GET</code> List Reseller](./docs/otomax/list-reseller.md)**
-- **[<code>GET</code> List Pengirim](./docs/otomax/list-pengirim.md)**
-- **[<code>GET</code> List Downline Reseller](./docs/otomax/list-downline-reseller.md)**
-- **[<code>GET</code> List Level](./docs/otomax/list-level.md)**
-- **[<code>GET</code> List Downline Level](./docs/otomax/list-downline-level.md)**
-- **[<code>GET</code> List Operator](./docs/otomax/list-operator.md)**
-- **[<code>GET</code> List Produk](./docs/otomax/list-produk.md)**
-- **[<code>GET</code> List Mutasi](./docs/otomax/list-mutasi.md)**
+- **[<code>GET</code> Daftar Format](./docs/otomax/daftar-format.md)**
+- **[<code>GET</code> Daftar Reseller](./docs/otomax/daftar-reseller.md)**
+- **[<code>GET</code> Daftar Pengirim](./docs/otomax/daftar-pengirim.md)**
+- **[<code>GET</code> Daftar Downline Reseller](./docs/otomax/daftar-downline-reseller.md)**
+- **[<code>GET</code> Daftar Level](./docs/otomax/daftar-level.md)**
+- **[<code>GET</code> Daftar Downline Level](./docs/otomax/daftar-downline-level.md)**
+- **[<code>GET</code> Daftar Operator](./docs/otomax/daftar-operator.md)**
+- **[<code>GET</code> Daftar Produk](./docs/otomax/daftar-produk.md)**
+- **[<code>GET</code> Daftar Mutasi](./docs/otomax/daftar-mutasi.md)**
 #### Endpoint2
 - **[<code>POST</code> Cek Deposit](./docs/otomax/cek-deposit.md)**
 - **[<code>POST</code> Daftar harga](./docs/otomax/daftar-harga.md)**
 - **[<code>POST</code> Deposit](./docs/otomax/deposit.md)**
 - **[<code>POST</code> Topup](./docs/otomax/topup.md)**
 ### [Telegram](#)
-#### Session
-- **[<code>GET</code> Get Telegram Session](./docs/telegram/get-telegram-session.md)**
-- **[<code>DELETE</code> Delete Telegram Session](./docs/telegram/delete-telegram-session.md)**
+#### Sesi
+- **[<code>GET</code> Daftar Sesi](./docs/telegram/daftar-sesi.md)**
+- **[<code>DELETE</code> Hapus Sesi](./docs/telegram/hapus-sesi.md)**
 #### Endpoint
-- **[<code>POST</code> Connect Telegram](./docs/telegram/connect-telegram.md)**
-- **[<code>POST</code> Disconnect Telegram](./docs/telegram/disconnect-telegram.md)**
-- **[<code>POST</code> Send Message Telegram](./docs/telegram/send-message-telegram.md)**
+- **[<code>POST</code> Connect](./docs/telegram/connect.md)**
+- **[<code>POST</code> Disconnect](./docs/telegram/disconnect.md)**
+- **[<code>POST</code> Send Message](./docs/telegram/send-message.md)**
 ### [Whatsapp](#)
-#### Session
-- **[<code>GET</code> Get Whatsapp Session](./docs/whatsapp/get-whatsapp-session.md)**
-- **[<code>DELETE</code> Delete Whatsapp Session](./docs/whatsapp/delete-whatsapp-session.md)**
+#### Sesi
+- **[<code>GET</code> Daftar Sesi](./docs/whatsapp/daftar-sesi.md)**
+- **[<code>DELETE</code> Hapus Sesi](./docs/whatsapp/hapus-sesi.md)**
 #### Endpoint
-- **[<code>POST</code> Connect Whatsapp](./docs/whatsapp/connect-whatsapp.md)**
-- **[<code>POST</code> Disconnect Whatsapp](./docs/whatsapp/disconnect-whatsapp.md)**
-- **[<code>POST</code> Send Message Whatsapp](./docs/whatsapp/send-message-whatsapp.md)**
+- **[<code>POST</code> Connect](./docs/whatsapp/connect.md)**
+- **[<code>POST</code> Disconnect](./docs/whatsapp/disconnect.md)**
+- **[<code>POST</code> Send Message](./docs/whatsapp/send-message.md)**

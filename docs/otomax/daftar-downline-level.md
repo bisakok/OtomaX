@@ -1,9 +1,9 @@
-# [List Mutasi]()
+# [Daftar Downline Level]()
 
 <!-- @category Endpoint -->
 
 ```bash
-GET /api/v1/mutasi
+GET /api/v1/downline-level
 ```
 
 ## [Options]()
@@ -19,7 +19,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/v1/mutasi
+GET http://localhost/api/v1/downline-level
 ```
 
 ### [Response]()

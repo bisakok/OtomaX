@@ -1,11 +1,11 @@
-# [Disconnect Whatsapp]()
+# [Send Message]()
 
 <!--
 @category Endpoint
 -->
 
 ```bash
-POST http://localhost/api/whatsapp/v1/disconnect
+POST http://localhost/api/whatsapp/v1/send-message
 ```
 
 ## [Options]()
@@ -14,17 +14,17 @@ POST http://localhost/api/whatsapp/v1/disconnect
 
 Name | Default | Description
 --- | --- | ---
-`_id` |  | Session ID
+`_id` |  | Sesi ID
 
 ## [Example]()
 
 ### [Request]()
 
 ```bash
-POST http://localhost/api/whatsapp/v1/disconnect
+POST http://localhost/api/whatsapp/v1/send-message
 Content-Type: application/json
 
-{ "_id": "6283845311393" }
+{ "_id": "6283845311393", "penerima": "6281935155404", "pesan": "pesan" }
 ```
 
 ### [Response]()

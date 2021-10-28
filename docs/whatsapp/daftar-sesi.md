@@ -1,11 +1,11 @@
-# [Delete Jabber Session]()
+# [Daftar Sesi]()
 
 <!--
-@category Session
+@category Sesi
 -->
 
 ```bash
-DELETE /api/jabber/v1/:_id
+GET /api/whatsapp/v1/:_id?
 ```
 
 ## [Options]()
@@ -21,7 +21,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-DELETE http://localhost/api/jabber/v1/1
+GET http://localhost/api/whatsapp/v1/
 ```
 
 ### [Response]()

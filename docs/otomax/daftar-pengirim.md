@@ -1,4 +1,4 @@
-# [List Pengirim]()
+# [Daftar Pengirim]()
 
 <!-- @category Endpoint -->
 

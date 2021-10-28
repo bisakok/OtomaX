@@ -1,4 +1,4 @@
-# [Connect Jabber]()
+# [Connect]()
 
 <!--
 @category Endpoint
@@ -10,12 +10,12 @@ POST http://localhost/api/jabber/v1/connect
 
 ## [Steps]()
 
-Session ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.com
+Sesi ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.com
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-connect.png" alt="Session ID API" />
-        <figcaption>Setting Session ID API</figcaption>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-connect.png" alt="Sesi ID API" />
+        <figcaption>Setting Sesi ID API</figcaption>
     </figure>
 </p>
 <p>
@@ -31,7 +31,7 @@ Session ID dan Label harus menggunakan jid jabber yang digunakan tanpa @domain.c
 
 Name | Default | Description
 --- | --- | ---
-`_id` |  | Session ID
+`_id` |  | Sesi ID
 `jid` |  | jid Jabber
 `password` |  | password Jabber
 `host` |  | host Jabber

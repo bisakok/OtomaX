@@ -1,11 +1,11 @@
-# [Get Whatsapp Session]()
+# [Hapus Sesi]()
 
 <!--
-@category Session
+@category Sesi
 -->
 
 ```bash
-GET /api/whatsapp/v1/:_id?
+DELETE /api/telegram/v1/:_id
 ```
 
 ## [Options]()
@@ -21,7 +21,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/whatsapp/v1/
+DELETE http://localhost/api/telegram/v1/1
 ```
 
 ### [Response]()

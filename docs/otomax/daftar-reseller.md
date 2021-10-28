@@ -1,4 +1,4 @@
-# [List Reseller]()
+# [Daftar Reseller]()
 
 <!-- @category Endpoint -->
 

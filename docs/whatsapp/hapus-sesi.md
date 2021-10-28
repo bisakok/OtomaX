@@ -1,7 +1,7 @@
-# [Delete Whatsapp Session]()
+# [Hapus Sesi]()
 
 <!--
-@category Session
+@category Sesi
 -->
 
 ```bash

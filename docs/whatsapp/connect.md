@@ -1,4 +1,4 @@
-# [Connect Whatsapp]()
+# [Connect]()
 
 <!--
 @category Endpoint
@@ -10,12 +10,12 @@ POST http://localhost/api/whatsapp/v1/connect
 
 ## [Steps]()
 
-Session ID dan Label harus menggunakan nomor wa yang digunakan
+Sesi ID dan Label harus menggunakan nomor wa yang digunakan
 
 <p>
     <figure>
-        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/wa-connect.png" alt="Session ID API" />
-        <figcaption>Setting Session ID API</figcaption>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/wa-connect.png" alt="Sesi ID API" />
+        <figcaption>Setting Sesi ID API</figcaption>
     </figure>
 </p>
 <p>
@@ -31,7 +31,7 @@ Session ID dan Label harus menggunakan nomor wa yang digunakan
 
 Name | Default | Description
 --- | --- | ---
-`_id` |  | Session ID
+`_id` |  | Sesi ID
 `jid` |  | jid Whatsapp
 `password` |  | password Whatsapp
 `host` |  | host Whatsapp

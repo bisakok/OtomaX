@@ -1,11 +1,11 @@
-# [Get Telegram Session]()
+# [Daftar Sesi]()
 
 <!--
-@category Session
+@category Sesi
 -->
 
 ```bash
-GET /api/telegram/v1/:_id?
+GET /api/jabber/v1/:_id?
 ```
 
 ## [Options]()
@@ -21,7 +21,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/telegram/v1/
+GET http://localhost/api/jabber/v1/
 ```
 
 ### [Response]()

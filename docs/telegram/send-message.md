@@ -1,11 +1,11 @@
-# [Disconnect Jabber]()
+# [Send Message]()
 
 <!--
 @category Endpoint
 -->
 
 ```bash
-POST http://localhost/api/jabber/v1/disconnect
+POST http://localhost/api/telegram/v1/send-message
 ```
 
 ## [Options]()
@@ -14,17 +14,17 @@ POST http://localhost/api/jabber/v1/disconnect
 
 Name | Default | Description
 --- | --- | ---
-`_id` |  | Session ID
+`_id` |  | Sesi ID
 
 ## [Example]()
 
 ### [Request]()
 
 ```bash
-POST http://localhost/api/jabber/v1/disconnect
+POST http://localhost/api/telegram/v1/send-message
 Content-Type: application/json
 
-{ "_id": "ndiing" }
+{ "_id": "api_otomax_bot", "penerima": 1344008938, "pesan": "pesan" }
 ```
 
 ### [Response]()

@@ -1,11 +1,11 @@
-# [Get Jabber Session]()
+# [Hapus Sesi]()
 
 <!--
-@category Session
+@category Sesi
 -->
 
 ```bash
-GET /api/jabber/v1/:_id?
+DELETE /api/jabber/v1/:_id
 ```
 
 ## [Options]()
@@ -21,7 +21,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/jabber/v1/
+DELETE http://localhost/api/jabber/v1/1
 ```
 
 ### [Response]()

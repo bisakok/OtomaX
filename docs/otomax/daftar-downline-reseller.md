@@ -1,9 +1,9 @@
-# [List Downline Level]()
+# [Daftar Downline Reseller]()
 
 <!-- @category Endpoint -->
 
 ```bash
-GET /api/v1/downline-level
+GET /api/v1/downline-reseller
 ```
 
 ## [Options]()
@@ -19,7 +19,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/v1/downline-level
+GET http://localhost/api/v1/downline-reseller
 ```
 
 ### [Response]()
