@@ -1,4 +1,4 @@
-# [Request USSD]()
+# [Send Inbox USSD]()
 
 <!--
 @category Request

@@ -1,4 +1,4 @@
-# [Buyer cek saldo]()
+# [Buyer Cek Saldo]()
 
 <!--
 @category Buyer

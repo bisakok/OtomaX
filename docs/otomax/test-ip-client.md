@@ -1,11 +1,11 @@
-# [Post Outbox]()
+# [Test Ip Client]()
 
 <!--
 @category Internal
 -->
 
 ```bash
-GET /api/otomax/v1/outbox
+GET /api/otomax/v1/ip-client
 ```
 
 ## [Example]()
@@ -13,7 +13,7 @@ GET /api/otomax/v1/outbox
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/outbox
+GET http://localhost/api/otomax/v1/ip-client
 ```
 
 ### [Response]()

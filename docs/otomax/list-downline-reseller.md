@@ -1,9 +1,9 @@
-# [Lihat Mutasi]()
+# [List Downline Reseller]()
 
 <!-- @category Common -->
 
 ```bash
-GET /api/otomax/v1/mutasi
+GET /api/otomax/v1/downline-reseller
 ```
 
 ## [Options]()
@@ -19,7 +19,7 @@ Name | Default | Description
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/mutasi
+GET http://localhost/api/otomax/v1/downline-reseller
 ```
 
 ### [Response]()

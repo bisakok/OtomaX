@@ -1,4 +1,4 @@
-# [Debug Web Sms Sender]()
+# [Test Web Sms Sender]()
 
 <!--
 @category Internal

@@ -1,11 +1,11 @@
-# [Handle Outbox Callback]()
+# [Test Report]()
 
 <!--
 @category Internal
 -->
 
 ```bash
-GET /api/otomax/v1/outbox-callback
+GET /api/otomax/v1/report
 ```
 
 ## [Example]()
@@ -13,7 +13,7 @@ GET /api/otomax/v1/outbox-callback
 ### [Request]()
 
 ```bash
-GET http://localhost/api/otomax/v1/outbox-callback
+GET http://localhost/api/otomax/v1/report
 ```
 
 ### [Response]()

@@ -1,4 +1,4 @@
-# [Lihat Operator]()
+# [List Operator]()
 
 <!-- @category Common -->
 

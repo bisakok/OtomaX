@@ -40,12 +40,12 @@ npm run start
 
 ### [Digiflazz](#)
 ####
-- **[<code>POST</code> Buyer cek saldo](./docs/digiflazz/buyer-cek-saldo.md)**
-- **[<code>POST</code> Buyer price list](./docs/digiflazz/buyer-price-list.md)**
-- **[<code>POST</code> Buyer deposit](./docs/digiflazz/buyer-deposit.md)**
-- **[<code>POST</code> Buyer transaction](./docs/digiflazz/buyer-transaction.md)**
+- **[<code>POST</code> Buyer Cek Saldo](./docs/digiflazz/buyer-cek-saldo.md)**
+- **[<code>POST</code> Buyer Price List](./docs/digiflazz/buyer-price-list.md)**
+- **[<code>POST</code> Buyer Deposit](./docs/digiflazz/buyer-deposit.md)**
+- **[<code>POST</code> Buyer Transaction](./docs/digiflazz/buyer-transaction.md)**
 ####
-- **[<code>POST</code> seller transaction](./docs/digiflazz/seller-transaction.md)**
+- **[<code>POST</code> Seller Transaction](./docs/digiflazz/seller-transaction.md)**
 ### [Jabber](#)
 ####
 - **[<code>GET</code> Get Jabber Session](./docs/jabber/get-jabber-session.md)**
@@ -56,24 +56,24 @@ npm run start
 - **[<code>POST</code> Send Message Jabber](./docs/jabber/send-message-jabber.md)**
 ### [Otomax](#)
 ####
-- **[<code>GET</code> Debug Report](./docs/otomax/debug-report.md)**
-- **[<code>GET</code> Debug Web Sms Sender](./docs/otomax/debug-web-sms-sender.md)**
-- **[<code>GET</code> Debug Ip Client](./docs/otomax/debug-ip-client.md)**
-- **[<code>GET</code> Post Outbox](./docs/otomax/post-outbox.md)**
-- **[<code>GET</code> Handle Outbox Callback](./docs/otomax/handle-outbox-callback.md)**
+- **[<code>GET</code> Test Report](./docs/otomax/test-report.md)**
+- **[<code>GET</code> Test Web Sms Sender](./docs/otomax/test-web-sms-sender.md)**
+- **[<code>GET</code> Test Ip Client](./docs/otomax/test-ip-client.md)**
+- **[<code>GET</code> Send Outbox](./docs/otomax/send-outbox.md)**
+- **[<code>GET</code> Outbox Callback](./docs/otomax/outbox-callback.md)**
 ####
-- **[<code>GET</code> Request Inbox](./docs/otomax/request-inbox.md)**
-- **[<code>GET</code> Request USSD](./docs/otomax/request-ussd.md)**
+- **[<code>GET</code> Send Inbox](./docs/otomax/send-inbox.md)**
+- **[<code>GET</code> Send Inbox USSD](./docs/otomax/send-inbox-ussd.md)**
 ####
-- **[<code>GET</code> Lihat format](./docs/otomax/lihat-format.md)**
-- **[<code>GET</code> Lihat Reseller](./docs/otomax/lihat-reseller.md)**
-- **[<code>GET</code> Lihat Pengirim](./docs/otomax/lihat-pengirim.md)**
-- **[<code>GET</code> Lihat Downline Reseller](./docs/otomax/lihat-downline-reseller.md)**
-- **[<code>GET</code> Lihat Level](./docs/otomax/lihat-level.md)**
-- **[<code>GET</code> Lihat Downline Level](./docs/otomax/lihat-downline-level.md)**
-- **[<code>GET</code> Lihat Operator](./docs/otomax/lihat-operator.md)**
-- **[<code>GET</code> Lihat Produk](./docs/otomax/lihat-produk.md)**
-- **[<code>GET</code> Lihat Mutasi](./docs/otomax/lihat-mutasi.md)**
+- **[<code>GET</code> List Format](./docs/otomax/list-format.md)**
+- **[<code>GET</code> List Reseller](./docs/otomax/list-reseller.md)**
+- **[<code>GET</code> List Pengirim](./docs/otomax/list-pengirim.md)**
+- **[<code>GET</code> List Downline Reseller](./docs/otomax/list-downline-reseller.md)**
+- **[<code>GET</code> List Level](./docs/otomax/list-level.md)**
+- **[<code>GET</code> List Downline Level](./docs/otomax/list-downline-level.md)**
+- **[<code>GET</code> List Operator](./docs/otomax/list-operator.md)**
+- **[<code>GET</code> List Produk](./docs/otomax/list-produk.md)**
+- **[<code>GET</code> List Mutasi](./docs/otomax/list-mutasi.md)**
 ### [Telegram](#)
 ####
 - **[<code>GET</code> Get Telegram Session](./docs/telegram/get-telegram-session.md)**

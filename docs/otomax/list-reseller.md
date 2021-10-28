@@ -1,4 +1,4 @@
-# [Lihat Reseller]()
+# [List Reseller]()
 
 <!-- @category Common -->
 

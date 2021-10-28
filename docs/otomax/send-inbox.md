@@ -1,4 +1,4 @@
-# [Request Inbox]()
+# [Send Inbox]()
 
 <!-- @category Request -->
 
