@@ -40,13 +40,6 @@ npm run start
 ## API
 
 ### Digiflazz
-#### Buyer
-- **[<code>POST</code> Cek Saldo](./docs/digiflazz/cek-saldo.md)**
-- **[<code>POST</code> Price List](./docs/digiflazz/price-list.md)**
-- **[<code>POST</code> Deposit](./docs/digiflazz/deposit.md)**
-- **[<code>POST</code> Transaction](./docs/digiflazz/transaction.md)**
-#### Seller
-- **[<code>POST</code> Transaction](./docs/digiflazz/transaction.md)**
 ### Jabber
 #### Session
 - **[<code>GET</code> Daftar Sesi](./docs/jabber/daftar-sesi.md)**
