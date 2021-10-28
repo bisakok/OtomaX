@@ -1,6 +1,6 @@
 # Daftar Operator
 
-<!-- @category Endpoint -->
+<!-- @category Common -->
 
 ```bash
 GET /api/v1/operator

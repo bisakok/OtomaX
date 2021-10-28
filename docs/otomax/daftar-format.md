@@ -1,6 +1,6 @@
 # Daftar Format
 
-<!-- @category Endpoint -->
+<!-- @category Common -->
 
 ```bash
 GET /api/v1/parameter-format

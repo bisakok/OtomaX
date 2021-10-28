@@ -51,7 +51,7 @@ npm run start
 #### Sesi
 - **[<code>GET</code> Daftar Sesi](./docs/jabber/daftar-sesi.md)**
 - **[<code>DELETE</code> Hapus Sesi](./docs/jabber/hapus-sesi.md)**
-#### Endpoint
+#### Common
 - **[<code>POST</code> Connect](./docs/jabber/connect.md)**
 - **[<code>POST</code> Disconnect](./docs/jabber/disconnect.md)**
 - **[<code>POST</code> Send Message](./docs/jabber/send-message.md)**
@@ -62,7 +62,7 @@ npm run start
 - **[<code>GET</code> Reverse Ip Client](./docs/otomax/reverse-ip-client.md)**
 - **[<code>GET</code> Send Outbox](./docs/otomax/send-outbox.md)**
 - **[<code>GET</code> Reverse Outbox Callback](./docs/otomax/reverse-outbox-callback.md)**
-#### Endpoint
+#### Common
 - **[<code>GET</code> Send Inbox](./docs/otomax/send-inbox.md)**
 - **[<code>GET</code> Send USSD](./docs/otomax/send-ussd.md)**
 - **[<code>GET</code> Daftar Format](./docs/otomax/daftar-format.md)**
@@ -74,7 +74,7 @@ npm run start
 - **[<code>GET</code> Daftar Operator](./docs/otomax/daftar-operator.md)**
 - **[<code>GET</code> Daftar Produk](./docs/otomax/daftar-produk.md)**
 - **[<code>GET</code> Daftar Mutasi](./docs/otomax/daftar-mutasi.md)**
-#### Endpoint2
+#### Common2
 - **[<code>POST</code> Cek Deposit](./docs/otomax/cek-deposit.md)**
 - **[<code>POST</code> Daftar harga](./docs/otomax/daftar-harga.md)**
 - **[<code>POST</code> Deposit](./docs/otomax/deposit.md)**
@@ -83,7 +83,7 @@ npm run start
 #### Sesi
 - **[<code>GET</code> Daftar Sesi](./docs/telegram/daftar-sesi.md)**
 - **[<code>DELETE</code> Hapus Sesi](./docs/telegram/hapus-sesi.md)**
-#### Endpoint
+#### Common
 - **[<code>POST</code> Connect](./docs/telegram/connect.md)**
 - **[<code>POST</code> Disconnect](./docs/telegram/disconnect.md)**
 - **[<code>POST</code> Send Message](./docs/telegram/send-message.md)**
@@ -91,7 +91,7 @@ npm run start
 #### Sesi
 - **[<code>GET</code> Daftar Sesi](./docs/whatsapp/daftar-sesi.md)**
 - **[<code>DELETE</code> Hapus Sesi](./docs/whatsapp/hapus-sesi.md)**
-#### Endpoint
+#### Common
 - **[<code>POST</code> Connect](./docs/whatsapp/connect.md)**
 - **[<code>POST</code> Disconnect](./docs/whatsapp/disconnect.md)**
 - **[<code>POST</code> Send Message](./docs/whatsapp/send-message.md)**

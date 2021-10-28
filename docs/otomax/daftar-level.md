@@ -1,6 +1,6 @@
 # Daftar Level
 
-<!-- @category Endpoint -->
+<!-- @category Common -->
 
 ```bash
 GET /api/v1/level

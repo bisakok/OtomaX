@@ -1,6 +1,6 @@
 # Daftar Mutasi
 
-<!-- @category Endpoint -->
+<!-- @category Common -->
 
 ```bash
 GET /api/v1/mutasi

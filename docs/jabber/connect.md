@@ -1,7 +1,7 @@
 # Connect
 
 <!--
-@category Endpoint
+@category Common
 -->
 
 ```bash

@@ -1,7 +1,7 @@
 # Disconnect
 
 <!--
-@category Endpoint
+@category Common
 -->
 
 ```bash

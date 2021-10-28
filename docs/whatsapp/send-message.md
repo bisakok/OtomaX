@@ -1,7 +1,7 @@
 # Send Message
 
 <!--
-@category Endpoint
+@category Common
 -->
 
 ```bash

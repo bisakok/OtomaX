@@ -1,7 +1,7 @@
 # Cek Deposit
 
 <!--
-@category Endpoint2
+@category Common2
 -->
 
 ```bash

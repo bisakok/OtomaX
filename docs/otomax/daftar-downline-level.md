@@ -1,6 +1,6 @@
 # Daftar Downline Level
 
-<!-- @category Endpoint -->
+<!-- @category Common -->
 
 ```bash
 GET /api/v1/downline-level

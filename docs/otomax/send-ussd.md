@@ -1,7 +1,7 @@
 # Send USSD
 
 <!--
-@category Endpoint
+@category Common
 -->
 
 ```bash
