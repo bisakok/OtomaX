@@ -1,7 +1,7 @@
-# [Seller Transaction]()
+# [Transaction]()
 
 <!--
-@category seller
+@category Seller
 -->
 
 ```bash

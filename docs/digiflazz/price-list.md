@@ -1,4 +1,4 @@
-# [Buyer Price List]()
+# [Price List]()
 
 <!--
 @category Buyer

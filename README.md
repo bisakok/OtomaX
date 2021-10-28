@@ -41,12 +41,12 @@ npm run start
 
 ### [Digiflazz](#)
 #### Buyer
-- **[<code>POST</code> Buyer Cek Saldo](./docs/digiflazz/buyer-cek-saldo.md)**
-- **[<code>POST</code> Buyer Price List](./docs/digiflazz/buyer-price-list.md)**
-- **[<code>POST</code> Buyer Deposit](./docs/digiflazz/buyer-deposit.md)**
-- **[<code>POST</code> Buyer Transaction](./docs/digiflazz/buyer-transaction.md)**
-#### seller
-- **[<code>POST</code> Seller Transaction](./docs/digiflazz/seller-transaction.md)**
+- **[<code>POST</code> Cek Saldo](./docs/digiflazz/cek-saldo.md)**
+- **[<code>POST</code> Price List](./docs/digiflazz/price-list.md)**
+- **[<code>POST</code> Deposit](./docs/digiflazz/deposit.md)**
+- **[<code>POST</code> Transaction](./docs/digiflazz/transaction.md)**
+#### Seller
+- **[<code>POST</code> Transaction](./docs/digiflazz/transaction.md)**
 ### [Jabber](#)
 #### Session
 - **[<code>GET</code> Get Jabber Session](./docs/jabber/get-jabber-session.md)**

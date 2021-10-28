@@ -1,4 +1,4 @@
-# [Buyer Deposit]()
+# [Deposit]()
 
 <!--
 @category Buyer
