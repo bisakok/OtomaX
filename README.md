@@ -23,8 +23,6 @@ npm run start
 
 
 ## Example
-### digiflazz
-- **[<code>REST</code> /api/digiflazz/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/digiflazz/request.rest)**
 ### jabber
 - **[<code>REST</code> /api/jabber/request.rest](https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest)**
 ### otomax
@@ -39,7 +37,6 @@ npm run start
 
 ## API
 
-### Digiflazz
 ### Jabber
 #### Session
 - **[<code>GET</code> Daftar Sesi](./docs/jabber/daftar-sesi.md)**
