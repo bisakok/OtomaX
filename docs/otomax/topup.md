@@ -29,4 +29,19 @@ Content-Type: application/json
 ### Response
 
 ```json
+{
+  "data": {
+    "ref_id": 228,
+    "customer_no": "087800001233",
+    "buyer_sku_code": "TEST5",
+    "message": "Sukses",
+    "status": "Sukses",
+    "rc": 20,
+    "sn": "928413070557",
+    "buyer_last_saldo": 987700,
+    "price": 5050,
+    "tele": "",
+    "wa": ""
+  }
+}
 ```
