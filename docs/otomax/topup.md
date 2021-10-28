@@ -7,6 +7,16 @@
 ```bash
 POST /api/v2/transaction
 ```
+## Steps
+
+Tambahkan label `web_server_v2` di im center untuk menggunakan request inbox
+
+<p>
+    <figure>
+        <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/otomax-web-server-v2.png" alt="OtomaX IM Label" />
+        <figcaption>Setting OtomaX IM Label</figcaption>
+    </figure>
+</p>
 
 ## Example
 
