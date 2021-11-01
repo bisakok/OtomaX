@@ -83,3 +83,4 @@ index.js
 !dist/*.js
 otomax_web_server.json
 webpack.config.js
+temp.json
