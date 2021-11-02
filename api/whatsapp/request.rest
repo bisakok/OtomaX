@@ -14,7 +14,7 @@ Content-Type: application/json
 { "_id": "123456", "user":"name", "pass":"word" }
 
 ### Delete Whatsapp
-DELETE http://localhost/api/whatsapp/v1/6281938064470
+DELETE http://localhost/api/whatsapp/v1/6283845311393
 
 
 
