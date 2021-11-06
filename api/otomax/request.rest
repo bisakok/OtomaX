@@ -49,11 +49,29 @@ GET http://localhost/api/v1/reseller?pengirim=%2B6281935155409
 ### Cek Reseller (Downline)
 GET http://localhost/api/v1/reseller?pengirim=%2B6281935155404&kode_reseller=ox0009
 
+
+
+
+
+
+
+
+
+
 ### Cek Pengirim
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404
 
 ### Cek Pengirim (Downline)
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404&kode_reseller=ox0004
+
+
+
+
+
+
+
+
+
 
 ### Cek Downline
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404
@@ -61,20 +79,56 @@ GET http://localhost/api/v1/downline?pengirim=%2B6281935155404
 ### Cek Downline (Downline)
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404&kode_reseller=ox0004
 
+
+
+
+
+
+
+
+
+
 ### Cek Operator
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404
 
 ### Cek Operator (Downline)
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404&kode_reseller=ox0004
 
+
+
+
+
+
+
+
+
+
 ### Cek Produk
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TESTS
 
 ### Cek Produk (Downline)
-GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TESTS&kode_reseller=ox0004
+GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TEST&kode_reseller=ox0004
+
+
+
+
+
+
+
+
+
 
 ### Cek Mutasi
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T
 
 ### Cek Mutasi (Downline)
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T&kode_reseller=ox0004
+
+
+
+
+
+
+
+
+
