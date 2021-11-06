@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8715],{2839:function(s){s.exports=JSON.parse('{"allTagsPath":"/OtomaX/blog/tags","slug":"/OtomaX/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/OtomaX/blog/tags/docusaurus"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7229],{7026:function(e){e.exports=JSON.parse('{"allTagsPath":"/OtomaX/blog/tags","slug":"/OtomaX/blog/tags/hello","name":"hello","count":2,"permalink":"/OtomaX/blog/tags/hello"}')}}]);

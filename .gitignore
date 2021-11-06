@@ -75,12 +75,4 @@ typings/
 # FuseBox cache
 .fusebox/
 
-api/*/*.js
-data
-lib
-index.js
-!dist
-!dist/*.js
-otomax_web_server.json
-webpack.config.js
-temp.json
+*

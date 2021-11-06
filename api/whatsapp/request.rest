@@ -1,87 +1,63 @@
-### Post Whatsapp
-POST http://localhost/api/whatsapp/v1/
-Content-Type: application/x-www-form-urlencoded
-
-_id=123456&user=name&pass=word
-
-### Get Whatsapp
-GET http://localhost/api/whatsapp/v1/    
-
-### Patch Whatsapp
-PATCH http://localhost/api/whatsapp/v1/1
-Content-Type: application/json
-
-{ "_id": "123456", "user":"name", "pass":"word" }
-
-### Delete Whatsapp
-DELETE http://localhost/api/whatsapp/v1/6283845311393
-
-
-
-
-
-
-
-
-
-
-###
+### connect
 POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
-{ "_id": "6281938064470" }
+{
+    "label": "6281938064470"
+}
 
-###
-POST http://localhost/api/whatsapp/v1/disconnect
-Content-Type: application/json
-
-{ "_id": "6281938064470" }
-
-###
-POST http://localhost/api/whatsapp/v1/send-message
-Content-Type: application/json
-
-{ "_id": "6281938064470", "penerima": "6281935155404", "pesan": "pesan" }
-
-
-
-
-
-
-
-
-
-
-###
+### connect
 POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
-{ "_id": "+6283845311393" }
+{
+    "label": "6283845311393"
+}
 
-
-###
+### disconnect
 POST http://localhost/api/whatsapp/v1/disconnect
 Content-Type: application/json
 
-{ "_id": "6283845311393" }
+{
+    "kode_terminal": 26
+}
 
-###
-POST http://localhost/api/whatsapp/v1/send-message
+### send
+POST http://localhost/api/whatsapp/v1/send
 Content-Type: application/json
 
-{ "_id": "6283845311393", "penerima": "6281935155404", "pesan": "pesan" }
+{
+    "penerima": "6281935155404",
+    "pesan": "pesan",
+    "kode_terminal": 1
+}
 
+### send
+GET http://localhost/api/whatsapp/v1/send?penerima=6281935155404&pesan=pesan&kode_terminal=1
 
-
-
-
-
-
-
-
-
-###
-POST http://localhost/api/whatsapp/v1/send-message
+### send next counter
+POST http://localhost/api/whatsapp/v1/send
 Content-Type: application/json
 
-{ "penerima": "6281935155404", "pesan": "pesan" }
+{
+    "penerima": "6281935155404",
+    "pesan": "pesan"
+}
+
+
+
+
+
+
+
+
+
+
+### Get Sessions
+GET http://localhost/api/whatsapp/v1/
+
+### Get Session
+GET http://localhost/api/whatsapp/v1/1
+
+### Delete Session
+DELETE http://localhost/api/whatsapp/v1/26

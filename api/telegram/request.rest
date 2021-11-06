@@ -1,116 +1,73 @@
-### Post Telegram
-POST http://localhost/api/telegram/v1/
-Content-Type: application/x-www-form-urlencoded
-
-_id=123456&user=name&pass=word
-
-### Get Telegram
-GET http://localhost/api/telegram/v1/    
-
-### Patch Telegram
-PATCH http://localhost/api/telegram/v1/1
-Content-Type: application/json
-
-{ "_id": "123456", "user":"name", "pass":"word" }
-
-### Delete Telegram
-DELETE http://localhost/api/telegram/v1/ndiing_bot
-
-
-
-
-
-
-
-
-
-
-
-
-
-###
+### connect
 POST http://localhost/api/telegram/v1/connect
 Content-Type: application/json
 
-{"_id":"ndiing_bot","token":"1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0"}
+{
+    "label": "ndiing_bot",
+    "password": "1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0"
+}
 
-###
-POST http://localhost/api/telegram/v1/disconnect
-Content-Type: application/json
-
-{ "_id": "ndiing_bot" }
-
-###
-POST http://localhost/api/telegram/v1/send-message
-Content-Type: application/json
-
-{ "_id": "ndiing_bot", "penerima": 1344008938, "pesan": "pesan" }
-
-
-
-
-
-
-
-
-
-
-###
+### connect
 POST http://localhost/api/telegram/v1/connect
 Content-Type: application/json
 
-{"_id":"api_otomax_bot","token":"2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"}
-
-###
-POST http://localhost/api/telegram/v1/disconnect
-Content-Type: application/json
-
-{ "_id": "api_otomax_bot" }
-
-###
-POST http://localhost/api/telegram/v1/send-message
-Content-Type: application/json
-
-{ "_id": "api_otomax_bot", "penerima": 1344008938, "pesan": "pesan" }
-
-
-
-
-
-
-
-
-
-
-###
+{
+    "label": "ndiing_center_1_bot",
+    "password": "2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"
+}
+### connect
 POST http://localhost/api/telegram/v1/connect
 Content-Type: application/json
 
-{"_id":"ndiing_center_1_bot","token":"2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"}
+{
+    "label": "api_otomax_bot",
+    "password": "2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"
+}
 
-###
+### disconnect
 POST http://localhost/api/telegram/v1/disconnect
 Content-Type: application/json
 
-{ "_id": "ndiing_center_1_bot" }
+{
+    "kode_terminal": 23
+}
 
-###
-POST http://localhost/api/telegram/v1/send-message
+### send
+POST http://localhost/api/telegram/v1/send
 Content-Type: application/json
 
-{ "_id": "ndiing_center_1_bot", "penerima": 1344008938, "pesan": "pesan" }
+{
+    "penerima": "1344008938",
+    "pesan": "pesan",
+    "kode_terminal": 1
+}
 
+### send
+GET http://localhost/api/telegram/v1/send?penerima=1344008938&pesan=pesan&kode_terminal=1
 
-
-
-
-
-
-
-
-
-###
-POST http://localhost/api/telegram/v1/send-message
+### send next counter
+POST http://localhost/api/telegram/v1/send
 Content-Type: application/json
 
-{ "penerima": 1344008938, "pesan": "pesan" }
+{
+    "penerima": "1344008938",
+    "pesan": "pesan"
+}
+
+
+
+
+
+
+
+
+
+
+### Get Sessions
+GET http://localhost/api/telegram/v1/
+
+### Get Session
+GET http://localhost/api/telegram/v1/1
+
+### Delete Session
+DELETE http://localhost/api/telegram/v1/23

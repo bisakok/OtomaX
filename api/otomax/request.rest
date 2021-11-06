@@ -1,137 +1,17 @@
-### Post Otomax
-POST http://localhost/api/v1/
-Content-Type: application/x-www-form-urlencoded
+###
+GET http://localhost/api/v1/
 
-_id=123456&user=name&pass=word
+###
+POST http://localhost/api/v1/outbox-callback
 
-### Get Otomax
-GET http://localhost/api/v1/    
-
-### Patch Otomax
-PATCH http://localhost/api/v1/1
-Content-Type: application/json
-
-{ "_id": "123456", "user":"name", "pass":"word" }
-
-### Delete Otomax
-DELETE http://localhost/api/v1/123456
-
-
-
-
-
-
-
-
-
-
-### Web SMS Sender
-GET http://localhost/api/v1/web-sms-sender?code=[code]&to=[to]&to2=[to2]&message=[message]&msg=[msg]
-
-### ip client
-GET http://localhost/api/v1/ip-client?code=[code]&to=[to]&to2=[to2]&message=[message]&msg=[msg]
-
-### Report
-GET http://localhost/api/v1/report
-
-### outbox callback
-GET http://localhost/api/v1/outbox-callback
-
-
-
-
-
-
-
-
-
-
-### parameter format
-GET http://localhost/api/v1/parameter-format
-
-### Reseller
-GET http://localhost/api/v1/reseller?pengirim=%2B6281935155404
-
-### Pengirim
-GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404
-
-### Downline Reseller
-GET http://localhost/api/v1/downline-reseller?pengirim=%2B6281935155404
-
-### Level
-GET http://localhost/api/v1/level?pengirim=%2B6281935155404
-
-### Downline Level
-GET http://localhost/api/v1/downline-level?pengirim=%2B6281935155404
-
-### Operator
-GET http://localhost/api/v1/operator?pengirim=%2B6281935155404
-
-### Produk
-GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TEST
-
-### Mutasi
-GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-01-01T00%3A00%3A00&tanggal_akhir=2021-10-25T23%3A59%3A59&jenis=T&page=1&limit=5
-
-
-
-
-
-
-
-
-
-
-### Inbox
+###
 POST http://localhost/api/v1/inbox
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","pesan":"sal.1234"}
+{
+    "pengirim": "+6281935155404",
+    "pesan": "sal.1234"
+}
 
-
-
-
-
-
-
-
-
-
-### USSD
-POST http://localhost/api/v1/ussd
-Content-Type: application/json
-
-{ "pengirim": "+6281935155404", "pesan": "6" }
-
-
-
-
-
-
-
-
-
-
-### Outbox > SMS
-POST http://localhost/api/v1/outbox
-Content-Type: application/json
-
-{"penerima":"+6281935155404","pesan":"sal.1234"}
-
-### Outbox > Whatsapp
-POST http://localhost/api/v1/outbox
-Content-Type: application/json
-
-{"penerima":"6281935155404","tipe_penerima":"W","pesan":"sal.1234"}
-
-### Outbox > Jabber
-POST http://localhost/api/v1/outbox
-Content-Type: application/json
-
-{"penerima":"ndiing2@jabb.im","tipe_penerima":"G","pesan":"sal.1234"}
-
-### Outbox > Telegram
-POST http://localhost/api/v1/outbox
-Content-Type: application/json
-
-{"penerima":"1344008938","tipe_penerima":"Y","pesan":"sal.1234"}
+###
+GET http://localhost/api/v1/inbox?pengirim=%2B6281935155404&pesan=sal.1234
