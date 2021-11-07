@@ -1,4 +1,4 @@
-### connect
+### POST /connect
 POST http://localhost/api/jabber/v1/connect
 Content-Type: application/json
 
@@ -7,7 +7,7 @@ Content-Type: application/json
     "password": "S2N#Wcm8rnKbpsg"
 }
 
-### connect
+### POST /connect
 POST http://localhost/api/jabber/v1/connect
 Content-Type: application/json
 
@@ -16,7 +16,7 @@ Content-Type: application/json
     "password": "@8d.yAkRiMA7Qpj"
 }
 
-### disconnect
+### POST /disconnect
 POST http://localhost/api/jabber/v1/disconnect
 Content-Type: application/json
 
@@ -24,7 +24,7 @@ Content-Type: application/json
     "kode_terminal": 25
 }
 
-### send
+### POST /send
 POST http://localhost/api/jabber/v1/send
 Content-Type: application/json
 
@@ -34,10 +34,10 @@ Content-Type: application/json
     "kode_terminal": 1
 }
 
-### send
+### GET /send
 GET http://localhost/api/jabber/v1/send?penerima=ndiing2%40jabb.im&pesan=pesan&kode_terminal=1
 
-### send
+### POST /send
 POST http://localhost/api/jabber/v1/send
 Content-Type: application/json
 
@@ -46,11 +46,11 @@ Content-Type: application/json
     "pesan": "pesan"
 }
 
-### jabber
+### GET
 GET http://localhost/api/jabber/v1/
 
-### jabber
+### GET
 GET http://localhost/api/jabber/v1/1
 
-### jabber
+### DELETE
 DELETE http://localhost/api/jabber/v1/26

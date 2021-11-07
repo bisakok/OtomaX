@@ -1,16 +1,16 @@
-### web-sms-sender
+### GET /web-sms-sender
 GET http://localhost/api/v1/web-sms-sender
 
-### ip-client
+### GET /ip-client
 GET http://localhost/api/v1/ip-client
 
-### report
+### GET /report
 GET http://localhost/api/v1/report
 
-### outbox-callback
+### POST /outbox-callback
 POST http://localhost/api/v1/outbox-callback
 
-### inbox
+### POST /inbox
 POST http://localhost/api/v1/inbox
 Content-Type: application/json
 
@@ -18,44 +18,45 @@ Content-Type: application/json
     "pengirim": "+6281935155404",
     "pesan": "sal.1234"
 }
-### inbox
+
+### GET /inbox
 GET http://localhost/api/v1/inbox?pengirim=%2B6281935155404&pesan=sal.1234
 
-### format
+### GET /format
 GET http://localhost/api/v1/format
 
-### reseller
+### GET /reseller
 GET http://localhost/api/v1/reseller?pengirim=%2B6281935155409
 
-### reseller kode_reseller=ox0004
+### GET /reseller
 GET http://localhost/api/v1/reseller?pengirim=%2B6281935155404&kode_reseller=ox0009
 
-### pengirim
+### GET /pengirim
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404
 
-### pengirim kode_reseller=ox0004
+### GET /pengirim
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-### downline
+### GET /downline
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404
 
-### downline kode_reseller=ox0004
+### GET /downline
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-### operator
+### GET /operator
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404
 
-### operator kode_reseller=ox0004
+### GET /operator
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-### produk
+### GET /produk
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TESTS
 
-### produk kode_reseller=ox0004
+### GET /produk
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TEST&kode_reseller=ox0004
 
-### mutasi
+### GET /mutasi
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T
 
-### mutasi kode_reseller=ox0004
+### GET /mutasi
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T&kode_reseller=ox0004
