@@ -5,6 +5,14 @@ Content-Type: application/json
 {
     "label": "6281938064470"
 }
+### connect
+POST http://localhost/api/whatsapp/v1/connect
+Content-Type: application/json
+
+{
+    "label": "6281938064470",
+    "beta": true
+}
 
 ### connect
 POST http://localhost/api/whatsapp/v1/connect
