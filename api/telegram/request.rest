@@ -45,7 +45,7 @@ Content-Type: application/json
 ### send
 GET http://localhost/api/telegram/v1/send?penerima=1344008938&pesan=pesan&kode_terminal=1
 
-### send next counter
+### send
 POST http://localhost/api/telegram/v1/send
 Content-Type: application/json
 
@@ -54,20 +54,11 @@ Content-Type: application/json
     "pesan": "pesan"
 }
 
-
-
-
-
-
-
-
-
-
-### Get Sessions
+### telegram
 GET http://localhost/api/telegram/v1/
 
-### Get Session
+### telegram
 GET http://localhost/api/telegram/v1/1
 
-### Delete Session
+### telegram
 DELETE http://localhost/api/telegram/v1/23

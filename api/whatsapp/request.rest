@@ -1,11 +1,11 @@
-### connect wa biasa
+### connect
 POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
 {
     "label": "6281938064470"
 }
-### connect wa beta
+### connect
 POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
@@ -43,7 +43,7 @@ Content-Type: application/json
 ### send
 GET http://localhost/api/whatsapp/v1/send?penerima=6281935155404&pesan=pesan&kode_terminal=1
 
-### send next counter
+### send
 POST http://localhost/api/whatsapp/v1/send
 Content-Type: application/json
 
@@ -52,20 +52,11 @@ Content-Type: application/json
     "pesan": "pesan"
 }
 
-
-
-
-
-
-
-
-
-
-### Get Sessions
+### whatsapp
 GET http://localhost/api/whatsapp/v1/
 
-### Get Session
-GET http://localhost/api/whatsapp/v1/1
+### whatsapp
+GET http://localhost/api/whatsapp/v1/12
 
-### Delete Session
+### whatsapp
 DELETE http://localhost/api/whatsapp/v1/12

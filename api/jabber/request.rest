@@ -37,7 +37,7 @@ Content-Type: application/json
 ### send
 GET http://localhost/api/jabber/v1/send?penerima=ndiing2%40jabb.im&pesan=pesan&kode_terminal=1
 
-### send next counter
+### send
 POST http://localhost/api/jabber/v1/send
 Content-Type: application/json
 
@@ -46,20 +46,11 @@ Content-Type: application/json
     "pesan": "pesan"
 }
 
-
-
-
-
-
-
-
-
-
-### Get Sessions
+### jabber
 GET http://localhost/api/jabber/v1/
 
-### Get Session
+### jabber
 GET http://localhost/api/jabber/v1/1
 
-### Delete Session
+### jabber
 DELETE http://localhost/api/jabber/v1/26

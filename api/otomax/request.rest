@@ -1,28 +1,16 @@
-### Private simulate 
-GET http://localhost/api/v1/
-
-### Private simulate web-sms-sender
+### web-sms-sender
 GET http://localhost/api/v1/web-sms-sender
 
-### Private simulate ip-client
+### ip-client
 GET http://localhost/api/v1/ip-client
 
-### Private simulate report
+### report
 GET http://localhost/api/v1/report
 
-### Private simulate outbox-callback
+### outbox-callback
 POST http://localhost/api/v1/outbox-callback
 
-
-
-
-
-
-
-
-
-
-### Send inbox
+### inbox
 POST http://localhost/api/v1/inbox
 Content-Type: application/json
 
@@ -30,108 +18,44 @@ Content-Type: application/json
     "pengirim": "+6281935155404",
     "pesan": "sal.1234"
 }
-
-### Send inbox
+### inbox
 GET http://localhost/api/v1/inbox?pengirim=%2B6281935155404&pesan=sal.1234
-
-
-
-
-
-
-
-
-
 
 ### format
 GET http://localhost/api/v1/format
 
-
-
-
-
-
-
-
-
-
-### Cek Reseller
+### reseller
 GET http://localhost/api/v1/reseller?pengirim=%2B6281935155409
 
-### Cek Reseller (Downline)
+### reseller kode_reseller=ox0004
 GET http://localhost/api/v1/reseller?pengirim=%2B6281935155404&kode_reseller=ox0009
 
-
-
-
-
-
-
-
-
-
-### Cek Pengirim
+### pengirim
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404
 
-### Cek Pengirim (Downline)
+### pengirim kode_reseller=ox0004
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-
-
-
-
-
-
-
-
-
-### Cek Downline
+### downline
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404
 
-### Cek Downline (Downline)
+### downline kode_reseller=ox0004
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-
-
-
-
-
-
-
-
-
-### Cek Operator
+### operator
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404
 
-### Cek Operator (Downline)
+### operator kode_reseller=ox0004
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-
-
-
-
-
-
-
-
-
-### Cek Produk
+### produk
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TESTS
 
-### Cek Produk (Downline)
+### produk kode_reseller=ox0004
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TEST&kode_reseller=ox0004
 
-
-
-
-
-
-
-
-
-
-### Cek Mutasi
+### mutasi
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T
 
-### Cek Mutasi (Downline)
+### mutasi kode_reseller=ox0004
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T&kode_reseller=ox0004
