@@ -1,11 +1,11 @@
 {
   "name": "otomax",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "set NODE_ENV=development&&nodemon index.js",
+    "start": "node --no-warnings dist/index.js",
+    "dev": "set NODE_ENV=development&&nodemon --no-warnings index.js",
     "pack": "webpack"
   },
   "repository": {
