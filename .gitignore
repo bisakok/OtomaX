@@ -83,3 +83,5 @@ typings/
 !key.pem
 !docs
 !docs/**
+docs/index.js
+docs/docs.js
