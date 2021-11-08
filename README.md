@@ -10,7 +10,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/jabber/v1/](./docs/jabber/GET-api-jabber-v1.md)**
 - **[<code>GET</code> /api/jabber/v1/1](./docs/jabber/GET-api-jabber-v1-1.md)**
 - **[<code>DELETE</code> /api/jabber/v1/26](./docs/jabber/DELETE-api-jabber-v1-26.md)**
-[jabber]: /jabber/
 ### [otomax][]
 #### request-get.rest
 - **[<code>GET</code> /api/v1/aktifkan-dl](./docs/otomax/GET-api-v1-aktifkan-dl.md)**
@@ -222,7 +221,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/operator](./docs/otomax/GET-api-v1-operator.md)**
 - **[<code>GET</code> /api/v1/produk](./docs/otomax/GET-api-v1-produk.md)**
 - **[<code>GET</code> /api/v1/mutasi](./docs/otomax/GET-api-v1-mutasi.md)**
-[otomax]: /otomax/
 ### [telegram][]
 #### request.rest
 - **[<code>POST</code> /api/telegram/v1/connect](./docs/telegram/POST-api-telegram-v1-connect.md)**
@@ -232,7 +230,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/telegram/v1/](./docs/telegram/GET-api-telegram-v1.md)**
 - **[<code>GET</code> /api/telegram/v1/1](./docs/telegram/GET-api-telegram-v1-1.md)**
 - **[<code>DELETE</code> /api/telegram/v1/23](./docs/telegram/DELETE-api-telegram-v1-23.md)**
-[telegram]: /telegram/
 ### [whatsapp][]
 #### request.rest
 - **[<code>POST</code> /api/whatsapp/v1/connect](./docs/whatsapp/POST-api-whatsapp-v1-connect.md)**
@@ -242,4 +239,8 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/whatsapp/v1/](./docs/whatsapp/GET-api-whatsapp-v1.md)**
 - **[<code>GET</code> /api/whatsapp/v1/12](./docs/whatsapp/GET-api-whatsapp-v1-12.md)**
 - **[<code>DELETE</code> /api/whatsapp/v1/12](./docs/whatsapp/DELETE-api-whatsapp-v1-12.md)**
+
+[jabber]: /jabber/
+[otomax]: /otomax/
+[telegram]: /telegram/
 [whatsapp]: /whatsapp/
