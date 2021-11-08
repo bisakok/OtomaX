@@ -3,7 +3,6 @@
 GET /api/v1/web-sms-sender
 ```
 keterangan
-## Properties
 ## Contoh
 ### Request
 ```http

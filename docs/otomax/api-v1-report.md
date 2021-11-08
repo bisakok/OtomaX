@@ -3,7 +3,6 @@
 GET /api/v1/report
 ```
 keterangan
-## Properties
 ## Contoh
 ### Request
 ```http

@@ -3,7 +3,6 @@
 POST /api/v1/outbox-callback
 ```
 keterangan
-## Properties
 ## Contoh
 ### Request
 ```http

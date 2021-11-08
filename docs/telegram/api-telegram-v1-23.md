@@ -3,7 +3,6 @@
 DELETE /api/telegram/v1/23
 ```
 keterangan
-## Properties
 ## Contoh
 ### Request
 ```http

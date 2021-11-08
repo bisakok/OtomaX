@@ -3,7 +3,6 @@
 GET /api/whatsapp/v1/
 ```
 keterangan
-## Properties
 ## Contoh
 ### Request
 ```http

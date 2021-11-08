@@ -3,7 +3,6 @@
 DELETE /api/whatsapp/v1/12
 ```
 keterangan
-## Properties
 ## Contoh
 ### Request
 ```http

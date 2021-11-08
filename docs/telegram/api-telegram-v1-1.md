@@ -3,7 +3,6 @@
 GET /api/telegram/v1/1
 ```
 keterangan
-## Properties
 ## Contoh
 ### Request
 ```http
