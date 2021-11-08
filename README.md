@@ -24,28 +24,24 @@ Pengaturan center dan sender harus sama dengan ketentuan di OtomaX, secara defau
     <figcaption>Contoh jabber</figcaption>
 </figure>
 </p>
-
 <p>
 <figure>
     <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/telegram-center.png" alt="Contoh telegram">
     <figcaption>Contoh telegram</figcaption>
 </figure>
 </p>
-
 <p>
 <figure>
     <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/whatsapp-center.png" alt="Contoh whatsapp">
     <figcaption>Contoh whatsapp</figcaption>
 </figure>
 </p>
-
 <p>
 <figure>
     <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-format.png" alt="Contoh USSD Format">
     <figcaption>Contoh USSD Format</figcaption>
 </figure>
 </p>
-
 
 ## Sumber daya
 Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
