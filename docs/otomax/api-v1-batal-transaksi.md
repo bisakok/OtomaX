@@ -4,9 +4,6 @@ POST /api/v1/batal-transaksi
 ```
 keterangan
 ## Properties
-### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
 ### Body
 Nama | Tipe | Nilai | Keterangan
 --- | --- | --- | ---

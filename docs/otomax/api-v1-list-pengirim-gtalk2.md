@@ -4,9 +4,6 @@ POST /api/v1/list-pengirim-gtalk2
 ```
 keterangan
 ## Properties
-### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
 ### Body
 Nama | Tipe | Nilai | Keterangan
 --- | --- | --- | ---

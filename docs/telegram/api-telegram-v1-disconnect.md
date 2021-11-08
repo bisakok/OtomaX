@@ -4,9 +4,6 @@ POST /api/telegram/v1/disconnect
 ```
 keterangan
 ## Properties
-### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
 ### Body
 Nama | Tipe | Nilai | Keterangan
 --- | --- | --- | ---

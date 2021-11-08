@@ -4,9 +4,6 @@ DELETE /api/jabber/v1/26
 ```
 keterangan
 ## Properties
-### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
 ## Contoh
 ### Request
 ```http

@@ -4,12 +4,6 @@ POST /api/v1/outbox-callback
 ```
 keterangan
 ## Properties
-### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
 ## Contoh
 ### Request
 ```http

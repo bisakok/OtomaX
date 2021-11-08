@@ -4,9 +4,6 @@ GET /api/v1/format
 ```
 keterangan
 ## Properties
-### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
 ## Contoh
 ### Request
 ```http
