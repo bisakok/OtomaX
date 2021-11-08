@@ -240,7 +240,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/whatsapp/v1/12](./docs/whatsapp/GET-api-whatsapp-v1-12.md)**
 - **[<code>DELETE</code> /api/whatsapp/v1/12](./docs/whatsapp/DELETE-api-whatsapp-v1-12.md)**
 
-[jabber]: /jabber/
-[otomax]: /otomax/
-[telegram]: /telegram/
-[whatsapp]: /whatsapp/
+[jabber]: /./api/jabber/request.rest
+[otomax]: /./api/otomax/request.rest
+[telegram]: /./api/telegram/request.rest
+[whatsapp]: /./api/whatsapp/request.rest
