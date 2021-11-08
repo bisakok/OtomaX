@@ -15,7 +15,7 @@ POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
 {
-    "label": "6283845311393"
+    "label": "62838453xxxxx"
 }
 
 

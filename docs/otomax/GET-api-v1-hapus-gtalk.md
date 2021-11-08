@@ -13,7 +13,7 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-GET http://localhost/api/v1/hapus-gtalk?pengirim=%2B6281935155404&email=ndiing.inc%40gmail.com&pin=1234
+GET http://localhost/api/v1/hapus-gtalk?pengirim=%2B6281935155404&email=nxxxxx.inc%40gmail.com&pin=1234
 
 
 ```
