@@ -1,388 +1,290 @@
-### GET /aktifkan-dl
 ### Aktifkan downline/reseller
 GET http://localhost/api/v1/aktifkan-dl?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 
-### GET /batal-transaksi
 ### Batalkan transaksi yang belum diproses
 GET http://localhost/api/v1/batal-transaksi?pengirim=%2B6281935155404&trxid=123456&pin=1234
 
-### GET /batal-transfer-saldo
 ### Cancel balance transfer
 GET http://localhost/api/v1/batal-transfer-saldo?pengirim=%2B6281935155404&kodereseller=ox0004&jumlah=10000&pin=1234
 
-### GET /cek-harga
 ### Cek harga produk
 GET http://localhost/api/v1/cek-harga?pengirim=%2B6281935155404&kodeproduk=test5
 
-### GET /cek-markup
 ### Check downline's markup
 GET http://localhost/api/v1/cek-markup?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 
-### GET /cek-markup-produk
 ### Check product markup
 GET http://localhost/api/v1/cek-markup-produk?pengirim=%2B6281935155404&kodereseller=ox0004&kodeproduk=test5&pin=1234
 
-### GET /cek-markup-produk2
 ### Check all product markups
 GET http://localhost/api/v1/cek-markup-produk2?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 
-### GET /cek-mutasi
 ### Cek N (lihat Setting.LimitCekMutasi) mutasi saldo/deposit terakhir
 GET http://localhost/api/v1/cek-mutasi?pengirim=%2B6281935155404
 
-### GET /cek-mutasi2
 ### Cek mutasi saldo terakhir, khusus manual, tiket, dan transfer saldo
 GET http://localhost/api/v1/cek-mutasi2?pengirim=%2B6281935155404
 
-### GET /cek-oid
 ### Check current OID for OtomaX HTH
 GET http://localhost/api/v1/cek-oid?pengirim=%2B6281935155404&pin=1234
 
-### GET /cek-saldo
 ### Cek saldo akhir
 GET http://localhost/api/v1/cek-saldo?pengirim=%2B6281935155404&pin=1234
 
-### GET /cek-saldo-dl
 ### Cek saldo downline
 GET http://localhost/api/v1/cek-saldo-dl?pengirim=%2B6281935155404&kodereseller=ox0004
 
-### GET /cek-status-transaksi
 ### Cek status transaksi
 GET http://localhost/api/v1/cek-status-transaksi?pengirim=%2B6281935155404&nomor+tujuan=087758437457
 
-### GET /cek-status-transaksi2
 ### Cek status transaksi
 GET http://localhost/api/v1/cek-status-transaksi2?pengirim=%2B6281935155404&tujuan=087758437457
 
-### GET /cek-status-transaksi3
 ### Cek status transaksi
 GET http://localhost/api/v1/cek-status-transaksi3?pengirim=%2B6281935155404&tanggal=20&tujuan=087758437457
 
-### GET /cek-transaksi-akhir
 ### Cek status N (lihat Setting.LimitCekTransaksiAkhir) transaksi terakhir
 GET http://localhost/api/v1/cek-transaksi-akhir?pengirim=%2B6281935155404
 
-### GET /daftar-dl
 ### Daftarkan downline/reseller baru
 GET http://localhost/api/v1/daftar-dl?pengirim=%2B6281935155404&nama=Ridho&alamat=Pacitan&nomorhp=087758437457&pin=1234
 
-### GET /daftar-dl2
 ### Daftarkan downline/reseller baru
 GET http://localhost/api/v1/daftar-dl2?pengirim=%2B6281935155404&nama=Ridho&alamat=Pacitan&nomorhp=087758437457&markup=500&pin=1234
 
-### GET /daftar-dl3
 ### Daftarkan downline/reseller baru
 GET http://localhost/api/v1/daftar-dl3?pengirim=%2B6281935155404&nama=Ridho&alamat=Pacitan&nomorhp=087758437457&kodelevel=R&pin=1234
 
-### GET /daftar-non-member
 ### Registration of non member
 GET http://localhost/api/v1/daftar-non-member?pengirim=%2B6281935155404&name=Ridho&address=Pacitan&pin=1234
 
-### GET /hapus-gtalk
 ### Hapus pengirim tipe GTalk
 GET http://localhost/api/v1/hapus-gtalk?pengirim=%2B6281935155404&email=ndiing.inc%40gmail.com&pin=1234
 
-### GET /hapus-gtalk2
 ### Hapus pengirim tipe GTalk untuk downline
 GET http://localhost/api/v1/hapus-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004&email=ndiing.inc%40gmail.com&pin=1234
 
-### GET /hapus-markup-produk
 ### Delete product markup
 GET http://localhost/api/v1/hapus-markup-produk?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234&kodeproduk=test5
 
-### GET /hapus-markup-produk2
 ### Delete product markup
 GET http://localhost/api/v1/hapus-markup-produk2?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 
-### GET /hapus-markup-produk3
 ### Delete product markup
 GET http://localhost/api/v1/hapus-markup-produk3?pengirim=%2B6281935155404&kodeproduk=test5&pin=1234
 
-### GET /hapus-nomor
 ### Hapus pengirim tipe SMS
 GET http://localhost/api/v1/hapus-nomor?pengirim=%2B6281935155404&tujuan=087758437457&pin=1234
 
-### GET /hapus-nomor2
 ### Hapus pengirim tipe SMS
 GET http://localhost/api/v1/hapus-nomor2?pengirim=%2B6281935155404&kodereseller=ox0004&tujuan=087758437457&pin=1234
 
-### GET /hapus-wa
 ### Hapus nomor WA
 GET http://localhost/api/v1/hapus-wa?pengirim=%2B6281935155404&nomor=087758437457&pin=1234
 
-### GET /hapus-ym
 ### Hapus pengirim tipe YM
 GET http://localhost/api/v1/hapus-ym?pengirim=%2B6281935155404&yahooid=ndiing.inc%40yahoo.co.id&pin=1234
 
-### GET /hapus-ym2
 ### Hapus pengirim tipe YM dari downline
 GET http://localhost/api/v1/hapus-ym2?pengirim=%2B6281935155404&kodereseller=ox0004&yahooid=ndiing.inc%40yahoo.co.id&pin=1234
 
-### GET /laporan-mutasi
 ### Cek laporan mutasi saldo per tanggal
 GET http://localhost/api/v1/laporan-mutasi?pengirim=%2B6281935155404&tanggal=20
 
-### GET /laporan-transaksi
 ### Cek laporan transaksi per tanggal
 GET http://localhost/api/v1/laporan-transaksi?pengirim=%2B6281935155404&tanggal=20
 
-### GET /lihat-hadiah-poin
 ### View gift list
 GET http://localhost/api/v1/lihat-hadiah-poin?pengirim=%2B6281935155404
 
-### GET /list-dl
 ### Lihat daftar downline
 GET http://localhost/api/v1/list-dl?pengirim=%2B6281935155404
 
-### GET /list-dl2
 ### Lihat daftar downline dari downline (sub-downline)
 GET http://localhost/api/v1/list-dl2?pengirim=%2B6281935155404&kodereseller=ox0004
 
-### GET /list-pengirim
 ### Lihat daftar pengirim semua tipe
 GET http://localhost/api/v1/list-pengirim?pengirim=%2B6281935155404
 
-### GET /list-pengirim-gtalk
 ### Lihat daftar pengirim tipe GTalk
 GET http://localhost/api/v1/list-pengirim-gtalk?pengirim=%2B6281935155404
 
-### GET /list-pengirim-gtalk2
 ### Lihat daftar pengirim tipe GTalk untuk downline
 GET http://localhost/api/v1/list-pengirim-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004
 
-### GET /list-pengirim-sms
 ### Lihat daftar pengirim tipe SMS
 GET http://localhost/api/v1/list-pengirim-sms?pengirim=%2B6281935155404
 
-### GET /list-pengirim-sms2
 ### Lihat daftar pengirim tipe SMS dari downline
 GET http://localhost/api/v1/list-pengirim-sms2?pengirim=%2B6281935155404&kodereseller=ox0004
 
-### GET /list-pengirim-ym
 ### Lihat daftar pengirim tipe YM
 GET http://localhost/api/v1/list-pengirim-ym?pengirim=%2B6281935155404
 
-### GET /list-pengirim-ym2
 ### Lihat daftar pengirim tipe YM dari downline
 GET http://localhost/api/v1/list-pengirim-ym2?pengirim=%2B6281935155404&kodereseller=ox0004
 
-### GET /non-aktifkan-dl
 ### Non-aktifkan downline/reseller
 GET http://localhost/api/v1/non-aktifkan-dl?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 
-### GET /reset-pin
 ### Reset pin member
 GET http://localhost/api/v1/reset-pin?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 
-### GET /tambah-gtalk
 ### Tambah pengirim tipe GTalk
 GET http://localhost/api/v1/tambah-gtalk?pengirim=%2B6281935155404&email=ndiing.inc%40gmail.com&pin=1234
 
-### GET /tambah-gtalk2
 ### Tambah pengirim tipe GTalk untuk downline
 GET http://localhost/api/v1/tambah-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004&email=ndiing.inc%40gmail.com&pin=1234
 
-### GET /tambah-nomor
 ### Tambah pengirim tipe SMS
 GET http://localhost/api/v1/tambah-nomor?pengirim=%2B6281935155404&tujuan=087758437457&pin=1234
 
-### GET /tambah-nomor2
 ### Tambah pengirim tipe SMS untuk downline
 GET http://localhost/api/v1/tambah-nomor2?pengirim=%2B6281935155404&kodereseller=ox0004&tujuan=087758437457&pin=1234
 
-### GET /tambah-wa
 ### Tambah nomor WA
 GET http://localhost/api/v1/tambah-wa?pengirim=%2B6281935155404&number=087758437457&pin=1234
 
-### GET /tambah-ym
 ### Tambah pengirim tipe YM
 GET http://localhost/api/v1/tambah-ym?pengirim=%2B6281935155404&yahooid=ndiing.inc%40yahoo.co.id&pin=1234
 
-### GET /tambah-ym2
 ### Tambah pengirim tipe YM untuk downline
 GET http://localhost/api/v1/tambah-ym2?pengirim=%2B6281935155404&kodereseller=ox0004&yahooid=ndiing.inc%40yahoo.co.id&pin=1234
 
-### GET /tiket-deposit
 ### Tiket Deposit
 GET http://localhost/api/v1/tiket-deposit?pengirim=%2B6281935155404&jumlah=10000&pin=1234
 
-### GET /transaksi
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi?pengirim=%2B6281935155404&kodeproduk=test5&tujuan=087758437457&pin=1234
 
-### GET /transaksi10
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi10?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&tujuan=087758437457
 
-### GET /transaksi11
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi11?pengirim=%2B6281935155404&pin=1234&nominal=50&tujuan=087758437457
 
-### GET /transaksi12
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi12?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&nominal=50
 
-### GET /transaksi13
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi13?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&kodeproduk=test5
 
-### GET /transaksi14
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi14?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&counter=1&tujuan=087758437457
 
-### GET /transaksi15
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi15?pengirim=%2B6281935155404&tujuan=087758437457&nominal=50&counter=1&pin=1234
 
-### GET /transaksi16
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi16?pengirim=%2B6281935155404&pin=1234&nominal=50&tujuan=087758437457
 
-### GET /transaksi17
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi17?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&nominal=50
 
-### GET /transaksi18
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi18?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&kodeproduk=test5
 
-### GET /transaksi19
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi19?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&tujuan=087758437457
 
-### GET /transaksi2
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi2?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&tujuan=087758437457
 
-### GET /transaksi20
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi20?pengirim=%2B6281935155404&pin=1234&nominal=50&tujuan=087758437457
 
-### GET /transaksi21
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi21?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&nominal=50
 
-### GET /transaksi22
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi22?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&kodeproduk=test5
 
-### GET /transaksi23
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi23?pengirim=%2B6281935155404&tujuan=087758437457&pin=1234&kodeproduk=test5&qty=1
 
-### GET /transaksi24
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi24?pengirim=%2B6281935155404&kodeproduk=test5&qty=1&tujuan=087758437457&pin=1234&counter=1
 
-### GET /transaksi25
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi25?pengirim=%2B6281935155404&kodeproduk=test5&tujuan=087758437457&pin=1234&trxid=123456
 
-### GET /transaksi26
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi26?pengirim=%2B6281935155404&kodeproduk=test5&tujuan=087758437457&pin=1234&enduser=087758437457
 
-### GET /transaksi27
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi27?pengirim=%2B6281935155404
 
-### GET /transaksi28
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi28?pengirim=%2B6281935155404&nominal=50&counter=1&tujuan=087758437457&pin=1234
 
-### GET /transaksi29
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi29?pengirim=%2B6281935155404&kodeproduk=test5&qty=1&tujuan=087758437457&pin=1234
 
-### GET /transaksi3
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi3?pengirim=%2B6281935155404&counter=1&kodeproduk=test5&qty=1&tujuan=087758437457&pin=1234
 
-### GET /transaksi4
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi4?pengirim=%2B6281935155404&kodeproduk=test5&nominal=50&tujuan=087758437457&pin=1234&enduser=087758437457
 
-### GET /transaksi5
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi5?pengirim=%2B6281935155404
 
-### GET /transaksi6
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi6?pengirim=%2B6281935155404&kodeproduk=test5&pin=1234
 
-### GET /transaksi7
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi7?pengirim=%2B6281935155404&nominal=50
 
-### GET /transaksi8
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi8?pengirim=%2B6281935155404&kodeproduk=test5
 
-### GET /transaksi9
 ### Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi9?pengirim=%2B6281935155404&nominal=50&pin=1234
 
-### GET /transaksi-bebas-dobel
 ### Transaksi pengisian pulsa TANPA pengecekan dobel
 GET http://localhost/api/v1/transaksi-bebas-dobel?pengirim=%2B6281935155404
 
-### GET /transfer-saldo
 ### Transfer saldo/deposit ke downline/reseller
 GET http://localhost/api/v1/transfer-saldo?pengirim=%2B6281935155404&counter=1&kodereseller=ox0004&jumlah=10000&pin=1234
 
-### GET /transfer-saldo-lintas
 ### Allows transfer balance across the membership network
 GET http://localhost/api/v1/transfer-saldo-lintas?pengirim=%2B6281935155404
 
-### GET /tukar-komisi
 ### Tukar komisi tunda dalam bentuk deposit
 GET http://localhost/api/v1/tukar-komisi?pengirim=%2B6281935155404&jumlah=10000&pin=1234
 
-### GET /tukar-komisi2
 ### Tukar semua komisi tunda dalam bentuk deposit
 GET http://localhost/api/v1/tukar-komisi2?pengirim=%2B6281935155404
 
-### GET /tukar-poin
 ### Menukar poin
 GET http://localhost/api/v1/tukar-poin?pengirim=%2B6281935155404&kode=test5&pin=1234
 
-### GET /ubah-alamat-ip
 ### Change IP Address
 GET http://localhost/api/v1/ubah-alamat-ip?pengirim=%2B6281935155404&newip=127.0.0.1&pin=1234
 
-### GET /ubah-level
 ### Ubah level downline
 GET http://localhost/api/v1/ubah-level?pengirim=%2B6281935155404&kodereseller=ox0004&kodelevel=R&pin=1234
 
-### GET /ubah-markup
 ### Change downline's markup
 GET http://localhost/api/v1/ubah-markup?pengirim=%2B6281935155404&kodereseller=ox0004&markup=500&pin=1234
 
-### GET /ubah-markup-produk
 ### Change product markup
 GET http://localhost/api/v1/ubah-markup-produk?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234&kodeproduk=test5&markup=500
 
-### GET /ubah-markup-produk2
 ### Change product markup for all downlines
 GET http://localhost/api/v1/ubah-markup-produk2?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&markup=500
 
-### GET /ubah-nama
 ### Ubah nama
 GET http://localhost/api/v1/ubah-nama?pengirim=%2B6281935155404&nama=Ridho&pin=1234
 
-### GET /ubah-oid
 ### Change OID for OtomaX HTH
 GET http://localhost/api/v1/ubah-oid?pengirim=%2B6281935155404&oid=321654987asdfwerezveryt987f65gh1s54g89sr4gv&pin=1234
 
-### GET /ubah-password-ip
 ### Change IP Password
 GET http://localhost/api/v1/ubah-password-ip?pengirim=%2B6281935155404&oldpassword=1234&newpassword=1234&pin=1234
 
-### GET /ubah-pin
 ### Ubah PIN
 GET http://localhost/api/v1/ubah-pin?pengirim=%2B6281935155404&pinlama=1234&pinbaru=1234
 
-### GET /ubah-report-ur
 ### Change Report URL
 GET http://localhost/api/v1/ubah-report-url?pengirim=%2B6281935155404&newurl=http%3A%2F%2Flocalhost%2Fapi%2Fv1%2Freport&pin=1234
-

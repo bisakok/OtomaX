@@ -1,16 +1,16 @@
-### GET /web-sms-sender
+###
 GET http://localhost/api/v1/web-sms-sender
 
-### GET /ip-client
+###
 GET http://localhost/api/v1/ip-client
 
-### GET /report
+###
 GET http://localhost/api/v1/report
 
-### POST /outbox-callback
+### outbox callback
 POST http://localhost/api/v1/outbox-callback
 
-### POST /inbox
+###
 POST http://localhost/api/v1/inbox
 Content-Type: application/json
 
@@ -19,44 +19,44 @@ Content-Type: application/json
     "pesan": "sal.1234"
 }
 
-### GET /inbox
+###
 GET http://localhost/api/v1/inbox?pengirim=%2B6281935155404&pesan=sal.1234
 
-### GET /format
+###
 GET http://localhost/api/v1/format
 
-### GET /reseller
+###
 GET http://localhost/api/v1/reseller?pengirim=%2B6281935155409
 
-### GET /reseller
+###
 GET http://localhost/api/v1/reseller?pengirim=%2B6281935155404&kode_reseller=ox0009
 
-### GET /pengirim
+###
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404
 
-### GET /pengirim
+###
 GET http://localhost/api/v1/pengirim?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-### GET /downline
+###
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404
 
-### GET /downline
+###
 GET http://localhost/api/v1/downline?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-### GET /operator
+###
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404
 
-### GET /operator
+###
 GET http://localhost/api/v1/operator?pengirim=%2B6281935155404&kode_reseller=ox0004
 
-### GET /produk
+###
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TESTS
 
-### GET /produk
+###
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TEST&kode_reseller=ox0004
 
-### GET /mutasi
+###
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T
 
-### GET /mutasi
+###
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T&kode_reseller=ox0004

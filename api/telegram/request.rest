@@ -1,4 +1,4 @@
-### POST /connect
+###
 POST http://localhost/api/telegram/v1/connect
 Content-Type: application/json
 
@@ -7,7 +7,7 @@ Content-Type: application/json
     "password": "1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0"
 }
 
-### POST /connect
+###
 POST http://localhost/api/telegram/v1/connect
 Content-Type: application/json
 
@@ -16,7 +16,7 @@ Content-Type: application/json
     "password": "2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4"
 }
 
-### POST /connect
+###
 POST http://localhost/api/telegram/v1/connect
 Content-Type: application/json
 
@@ -25,7 +25,7 @@ Content-Type: application/json
     "password": "2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"
 }
 
-### POST /disconnect
+###
 POST http://localhost/api/telegram/v1/disconnect
 Content-Type: application/json
 
@@ -33,7 +33,7 @@ Content-Type: application/json
     "kode_terminal": 23
 }
 
-### POST /send
+###
 POST http://localhost/api/telegram/v1/send
 Content-Type: application/json
 
@@ -43,10 +43,10 @@ Content-Type: application/json
     "kode_terminal": 1
 }
 
-### GET /send
+###
 GET http://localhost/api/telegram/v1/send?penerima=1344008938&pesan=pesan&kode_terminal=1
 
-### POST /send
+###
 POST http://localhost/api/telegram/v1/send
 Content-Type: application/json
 
@@ -55,11 +55,11 @@ Content-Type: application/json
     "pesan": "pesan"
 }
 
-### GET /
+###
 GET http://localhost/api/telegram/v1/
 
-### GET /
+###
 GET http://localhost/api/telegram/v1/1
 
-### DELETE /
+###
 DELETE http://localhost/api/telegram/v1/23

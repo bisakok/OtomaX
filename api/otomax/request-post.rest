@@ -1,679 +1,581 @@
-### POST /aktifkan-dl
 ### Aktifkan downline/reseller
 POST http://localhost/api/v1/aktifkan-dl
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
 
-### POST /batal-transaksi
 ### Batalkan transaksi yang belum diproses
 POST http://localhost/api/v1/batal-transaksi
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","trxid":"123456","pin":"1234"}
 
-### POST /batal-transfer-saldo
 ### Cancel balance transfer
 POST http://localhost/api/v1/batal-transfer-saldo
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","jumlah":"10000","pin":"1234"}
 
-### POST /cek-harga
 ### Cek harga produk
 POST http://localhost/api/v1/cek-harga
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5"}
 
-### POST /cek-markup
 ### Check downline's markup
 POST http://localhost/api/v1/cek-markup
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
 
-### POST /cek-markup-produk
 ### Check product markup
 POST http://localhost/api/v1/cek-markup-produk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","kodeproduk":"test5","pin":"1234"}
 
-### POST /cek-markup-produk2
 ### Check all product markups
 POST http://localhost/api/v1/cek-markup-produk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
 
-### POST /cek-mutasi
 ### Cek N (lihat Setting.LimitCekMutasi) mutasi saldo/deposit terakhir
 POST http://localhost/api/v1/cek-mutasi
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /cek-mutasi2
 ### Cek mutasi saldo terakhir, khusus manual, tiket, dan transfer saldo
 POST http://localhost/api/v1/cek-mutasi2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /cek-oid
 ### Check current OID for OtomaX HTH
 POST http://localhost/api/v1/cek-oid
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234"}
 
-### POST /cek-saldo
 ### Cek saldo akhir
 POST http://localhost/api/v1/cek-saldo
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234"}
 
-### POST /cek-saldo-dl
 ### Cek saldo downline
 POST http://localhost/api/v1/cek-saldo-dl
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004"}
 
-### POST /cek-status-transaksi
 ### Cek status transaksi
 POST http://localhost/api/v1/cek-status-transaksi
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nomor tujuan":"087758437457"}
 
-### POST /cek-status-transaksi2
 ### Cek status transaksi
 POST http://localhost/api/v1/cek-status-transaksi2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tujuan":"087758437457"}
 
-### POST /cek-status-transaksi3
 ### Cek status transaksi
 POST http://localhost/api/v1/cek-status-transaksi3
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tanggal":"20","tujuan":"087758437457"}
 
-### POST /cek-transaksi-akhir
 ### Cek status N (lihat Setting.LimitCekTransaksiAkhir) transaksi terakhir
 POST http://localhost/api/v1/cek-transaksi-akhir
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /daftar-dl
 ### Daftarkan downline/reseller baru
 POST http://localhost/api/v1/daftar-dl
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nama":"Ridho","alamat":"Pacitan","nomorhp":"087758437457","pin":"1234"}
 
-### POST /daftar-dl2
 ### Daftarkan downline/reseller baru
 POST http://localhost/api/v1/daftar-dl2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nama":"Ridho","alamat":"Pacitan","nomorhp":"087758437457","markup":"500","pin":"1234"}
 
-### POST /daftar-dl3
 ### Daftarkan downline/reseller baru
 POST http://localhost/api/v1/daftar-dl3
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nama":"Ridho","alamat":"Pacitan","nomorhp":"087758437457","kodelevel":"R","pin":"1234"}
 
-### POST /daftar-non-member
 ### Registration of non member
 POST http://localhost/api/v1/daftar-non-member
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","name":"Ridho","address":"Pacitan","pin":"1234"}
 
-### POST /hapus-gtalk
 ### Hapus pengirim tipe GTalk
 POST http://localhost/api/v1/hapus-gtalk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","email":"ndiing.inc@gmail.com","pin":"1234"}
 
-### POST /hapus-gtalk2
 ### Hapus pengirim tipe GTalk untuk downline
 POST http://localhost/api/v1/hapus-gtalk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","email":"ndiing.inc@gmail.com","pin":"1234"}
 
-### POST /hapus-markup-produk
 ### Delete product markup
 POST http://localhost/api/v1/hapus-markup-produk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234","kodeproduk":"test5"}
 
-### POST /hapus-markup-produk2
 ### Delete product markup
 POST http://localhost/api/v1/hapus-markup-produk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
 
-### POST /hapus-markup-produk3
 ### Delete product markup
 POST http://localhost/api/v1/hapus-markup-produk3
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","pin":"1234"}
 
-### POST /hapus-nomor
 ### Hapus pengirim tipe SMS
 POST http://localhost/api/v1/hapus-nomor
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tujuan":"087758437457","pin":"1234"}
 
-### POST /hapus-nomor2
 ### Hapus pengirim tipe SMS
 POST http://localhost/api/v1/hapus-nomor2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","tujuan":"087758437457","pin":"1234"}
 
-### POST /hapus-wa
 ### Hapus nomor WA
 POST http://localhost/api/v1/hapus-wa
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nomor":"087758437457","pin":"1234"}
 
-### POST /hapus-ym
 ### Hapus pengirim tipe YM
 POST http://localhost/api/v1/hapus-ym
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
 
-### POST /hapus-ym2
 ### Hapus pengirim tipe YM dari downline
 POST http://localhost/api/v1/hapus-ym2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
 
-### POST /laporan-mutasi
 ### Cek laporan mutasi saldo per tanggal
 POST http://localhost/api/v1/laporan-mutasi
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tanggal":"20"}
 
-### POST /laporan-transaksi
 ### Cek laporan transaksi per tanggal
 POST http://localhost/api/v1/laporan-transaksi
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tanggal":"20"}
 
-### POST /lihat-hadiah-poin
 ### View gift list
 POST http://localhost/api/v1/lihat-hadiah-poin
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /list-dl
 ### Lihat daftar downline
 POST http://localhost/api/v1/list-dl
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /list-dl2
 ### Lihat daftar downline dari downline (sub-downline)
 POST http://localhost/api/v1/list-dl2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004"}
 
-### POST /list-pengirim
 ### Lihat daftar pengirim semua tipe
 POST http://localhost/api/v1/list-pengirim
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /list-pengirim-gtalk
 ### Lihat daftar pengirim tipe GTalk
 POST http://localhost/api/v1/list-pengirim-gtalk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /list-pengirim-gtalk2
 ### Lihat daftar pengirim tipe GTalk untuk downline
 POST http://localhost/api/v1/list-pengirim-gtalk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004"}
 
-### POST /list-pengirim-sms
 ### Lihat daftar pengirim tipe SMS
 POST http://localhost/api/v1/list-pengirim-sms
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /list-pengirim-sms2
 ### Lihat daftar pengirim tipe SMS dari downline
 POST http://localhost/api/v1/list-pengirim-sms2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004"}
 
-### POST /list-pengirim-ym
 ### Lihat daftar pengirim tipe YM
 POST http://localhost/api/v1/list-pengirim-ym
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /list-pengirim-ym2
 ### Lihat daftar pengirim tipe YM dari downline
 POST http://localhost/api/v1/list-pengirim-ym2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004"}
 
-### POST /non-aktifkan-dl
 ### Non-aktifkan downline/reseller
 POST http://localhost/api/v1/non-aktifkan-dl
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
 
-### POST /reset-pin
 ### Reset pin member
 POST http://localhost/api/v1/reset-pin
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
 
-### POST /tambah-gtalk
 ### Tambah pengirim tipe GTalk
 POST http://localhost/api/v1/tambah-gtalk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","email":"ndiing.inc@gmail.com","pin":"1234"}
 
-### POST /tambah-gtalk2
 ### Tambah pengirim tipe GTalk untuk downline
 POST http://localhost/api/v1/tambah-gtalk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","email":"ndiing.inc@gmail.com","pin":"1234"}
 
-### POST /tambah-nomor
 ### Tambah pengirim tipe SMS
 POST http://localhost/api/v1/tambah-nomor
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tujuan":"087758437457","pin":"1234"}
 
-### POST /tambah-nomor2
 ### Tambah pengirim tipe SMS untuk downline
 POST http://localhost/api/v1/tambah-nomor2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","tujuan":"087758437457","pin":"1234"}
 
-### POST /tambah-wa
 ### Tambah nomor WA
 POST http://localhost/api/v1/tambah-wa
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","number":"087758437457","pin":"1234"}
 
-### POST /tambah-ym
 ### Tambah pengirim tipe YM
 POST http://localhost/api/v1/tambah-ym
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
 
-### POST /tambah-ym2
 ### Tambah pengirim tipe YM untuk downline
 POST http://localhost/api/v1/tambah-ym2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
 
-### POST /tiket-deposit
 ### Tiket Deposit
 POST http://localhost/api/v1/tiket-deposit
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","jumlah":"10000","pin":"1234"}
 
-### POST /transaksi
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","tujuan":"087758437457","pin":"1234"}
 
-### POST /transaksi10
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi10
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","kodeproduk":"test5","tujuan":"087758437457"}
 
-### POST /transaksi11
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi11
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","nominal":"50","tujuan":"087758437457"}
 
-### POST /transaksi12
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi12
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","tujuan":"087758437457","nominal":"50"}
 
-### POST /transaksi13
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi13
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","tujuan":"087758437457","kodeproduk":"test5"}
 
-### POST /transaksi14
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi14
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","kodeproduk":"test5","counter":"1","tujuan":"087758437457"}
 
-### POST /transaksi15
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi15
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tujuan":"087758437457","nominal":"50","counter":"1","pin":"1234"}
 
-### POST /transaksi16
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi16
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","nominal":"50","tujuan":"087758437457"}
 
-### POST /transaksi17
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi17
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","tujuan":"087758437457","nominal":"50"}
 
-### POST /transaksi18
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi18
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","tujuan":"087758437457","kodeproduk":"test5"}
 
-### POST /transaksi19
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi19
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","kodeproduk":"test5","tujuan":"087758437457"}
 
-### POST /transaksi2
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","kodeproduk":"test5","tujuan":"087758437457"}
 
-### POST /transaksi20
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi20
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","nominal":"50","tujuan":"087758437457"}
 
-### POST /transaksi21
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi21
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","tujuan":"087758437457","nominal":"50"}
 
-### POST /transaksi22
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi22
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","tujuan":"087758437457","kodeproduk":"test5"}
 
-### POST /transaksi23
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi23
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tujuan":"087758437457","pin":"1234","kodeproduk":"test5","qty":"1"}
 
-### POST /transaksi24
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi24
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","qty":"1","tujuan":"087758437457","pin":"1234","counter":"1"}
 
-### POST /transaksi25
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi25
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","tujuan":"087758437457","pin":"1234","trxid":"123456"}
 
-### POST /transaksi26
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi26
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","tujuan":"087758437457","pin":"1234","enduser":"087758437457"}
 
-### POST /transaksi27
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi27
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /transaksi28
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi28
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nominal":"50","counter":"1","tujuan":"087758437457","pin":"1234"}
 
-### POST /transaksi29
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi29
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","qty":"1","tujuan":"087758437457","pin":"1234"}
 
-### POST /transaksi3
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi3
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","counter":"1","kodeproduk":"test5","qty":"1","tujuan":"087758437457","pin":"1234"}
 
-### POST /transaksi4
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi4
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","nominal":"50","tujuan":"087758437457","pin":"1234","enduser":"087758437457"}
 
-### POST /transaksi5
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi5
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /transaksi6
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi6
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5","pin":"1234"}
 
-### POST /transaksi7
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi7
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nominal":"50"}
 
-### POST /transaksi8
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi8
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodeproduk":"test5"}
 
-### POST /transaksi9
 ### Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi9
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nominal":"50","pin":"1234"}
 
-### POST /transaksi-bebas-dobel
 ### Transaksi pengisian pulsa TANPA pengecekan dobel
 POST http://localhost/api/v1/transaksi-bebas-dobel
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /transfer-saldo
 ### Transfer saldo/deposit ke downline/reseller
 POST http://localhost/api/v1/transfer-saldo
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","counter":"1","kodereseller":"ox0004","jumlah":"10000","pin":"1234"}
 
-### POST /transfer-saldo-lintas
 ### Allows transfer balance across the membership network
 POST http://localhost/api/v1/transfer-saldo-lintas
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /tukar-komisi
 ### Tukar komisi tunda dalam bentuk deposit
 POST http://localhost/api/v1/tukar-komisi
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","jumlah":"10000","pin":"1234"}
 
-### POST /tukar-komisi2
 ### Tukar semua komisi tunda dalam bentuk deposit
 POST http://localhost/api/v1/tukar-komisi2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
 
-### POST /tukar-poin
 ### Menukar poin
 POST http://localhost/api/v1/tukar-poin
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kode":"test5","pin":"1234"}
 
-### POST /ubah-alamat-ip
 ### Change IP Address
 POST http://localhost/api/v1/ubah-alamat-ip
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","newip":"127.0.0.1","pin":"1234"}
 
-### POST /ubah-level
 ### Ubah level downline
 POST http://localhost/api/v1/ubah-level
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","kodelevel":"R","pin":"1234"}
 
-### POST /ubah-markup
 ### Change downline's markup
 POST http://localhost/api/v1/ubah-markup
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","markup":"500","pin":"1234"}
 
-### POST /ubah-markup-produk
 ### Change product markup
 POST http://localhost/api/v1/ubah-markup-produk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234","kodeproduk":"test5","markup":"500"}
 
-### POST /ubah-markup-produk2
 ### Change product markup for all downlines
 POST http://localhost/api/v1/ubah-markup-produk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","kodeproduk":"test5","markup":"500"}
 
-### POST /ubah-nama
 ### Ubah nama
 POST http://localhost/api/v1/ubah-nama
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nama":"Ridho","pin":"1234"}
 
-### POST /ubah-oid
 ### Change OID for OtomaX HTH
 POST http://localhost/api/v1/ubah-oid
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","oid":"321654987asdfwerezveryt987f65gh1s54g89sr4gv","pin":"1234"}
 
-### POST /ubah-password-ip
 ### Change IP Password
 POST http://localhost/api/v1/ubah-password-ip
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","oldpassword":"1234","newpassword":"1234","pin":"1234"}
 
-### POST /ubah-pin
 ### Ubah PIN
 POST http://localhost/api/v1/ubah-pin
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pinlama":"1234","pinbaru":"1234"}
 
-### POST /ubah-report-ur
 ### Change Report URL
 POST http://localhost/api/v1/ubah-report-url
-Content {"-/Type: application/json
+Content-Type: application/json
 
 {"pengirim":"+6281935155404","newurl":"http://localhost/api/v1/report","pin":"1234"}
-

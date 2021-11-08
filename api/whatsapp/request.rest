@@ -1,4 +1,4 @@
-### POST /connect
+###
 POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
@@ -6,7 +6,7 @@ Content-Type: application/json
     "label": "6281938064470"
 }
 
-### POST /connect
+###
 POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
@@ -15,7 +15,7 @@ Content-Type: application/json
     "beta": true
 }
 
-### POST /connect
+###
 POST http://localhost/api/whatsapp/v1/connect
 Content-Type: application/json
 
@@ -23,7 +23,7 @@ Content-Type: application/json
     "label": "6283845311393"
 }
 
-### POST /disconnect
+###
 POST http://localhost/api/whatsapp/v1/disconnect
 Content-Type: application/json
 
@@ -31,7 +31,7 @@ Content-Type: application/json
     "kode_terminal": 12
 }
 
-### POST /send
+###
 POST http://localhost/api/whatsapp/v1/send
 Content-Type: application/json
 
@@ -41,10 +41,10 @@ Content-Type: application/json
     "kode_terminal": 1
 }
 
-### GET /send
+###
 GET http://localhost/api/whatsapp/v1/send?penerima=6281935155404&pesan=pesan&kode_terminal=1
 
-### POST /send
+###
 POST http://localhost/api/whatsapp/v1/send
 Content-Type: application/json
 
@@ -53,11 +53,11 @@ Content-Type: application/json
     "pesan": "pesan"
 }
 
-### GET
+###
 GET http://localhost/api/whatsapp/v1/
 
-### GET
+###
 GET http://localhost/api/whatsapp/v1/12
 
-### DELETE
+###
 DELETE http://localhost/api/whatsapp/v1/12
