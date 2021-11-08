@@ -2,7 +2,7 @@
 ## Sumber daya
 Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 ### jabber
-#### request.rest
+#### [request.rest][]
 - **[<code>POST</code> /api/jabber/v1/connect](./docs/jabber/POST-api-jabber-v1-connect.md)**
 - **[<code>POST</code> /api/jabber/v1/disconnect](./docs/jabber/POST-api-jabber-v1-disconnect.md)**
 - **[<code>POST</code> /api/jabber/v1/send](./docs/jabber/POST-api-jabber-v1-send.md)**
@@ -11,7 +11,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/jabber/v1/1](./docs/jabber/GET-api-jabber-v1-1.md)**
 - **[<code>DELETE</code> /api/jabber/v1/26](./docs/jabber/DELETE-api-jabber-v1-26.md)**
 ### otomax
-#### request-get.rest
+#### [request-get.rest][]
 - **[<code>GET</code> /api/v1/aktifkan-dl](./docs/otomax/GET-api-v1-aktifkan-dl.md)**
 - **[<code>GET</code> /api/v1/batal-transaksi](./docs/otomax/GET-api-v1-batal-transaksi.md)**
 - **[<code>GET</code> /api/v1/batal-transfer-saldo](./docs/otomax/GET-api-v1-batal-transfer-saldo.md)**
@@ -109,7 +109,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/ubah-password-ip](./docs/otomax/GET-api-v1-ubah-password-ip.md)**
 - **[<code>GET</code> /api/v1/ubah-pin](./docs/otomax/GET-api-v1-ubah-pin.md)**
 - **[<code>GET</code> /api/v1/ubah-report-url](./docs/otomax/GET-api-v1-ubah-report-url.md)**
-#### request-post.rest
+#### [request-post.rest][]
 - **[<code>POST</code> /api/v1/aktifkan-dl](./docs/otomax/POST-api-v1-aktifkan-dl.md)**
 - **[<code>POST</code> /api/v1/batal-transaksi](./docs/otomax/POST-api-v1-batal-transaksi.md)**
 - **[<code>POST</code> /api/v1/batal-transfer-saldo](./docs/otomax/POST-api-v1-batal-transfer-saldo.md)**
@@ -207,7 +207,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>POST</code> /api/v1/ubah-password-ip](./docs/otomax/POST-api-v1-ubah-password-ip.md)**
 - **[<code>POST</code> /api/v1/ubah-pin](./docs/otomax/POST-api-v1-ubah-pin.md)**
 - **[<code>POST</code> /api/v1/ubah-report-url](./docs/otomax/POST-api-v1-ubah-report-url.md)**
-#### request.rest
+#### [request.rest][]
 - **[<code>GET</code> /api/v1/web-sms-sender](./docs/otomax/GET-api-v1-web-sms-sender.md)**
 - **[<code>GET</code> /api/v1/ip-client](./docs/otomax/GET-api-v1-ip-client.md)**
 - **[<code>GET</code> /api/v1/report](./docs/otomax/GET-api-v1-report.md)**
@@ -222,7 +222,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/produk](./docs/otomax/GET-api-v1-produk.md)**
 - **[<code>GET</code> /api/v1/mutasi](./docs/otomax/GET-api-v1-mutasi.md)**
 ### telegram
-#### request.rest
+#### [request.rest][]
 - **[<code>POST</code> /api/telegram/v1/connect](./docs/telegram/POST-api-telegram-v1-connect.md)**
 - **[<code>POST</code> /api/telegram/v1/disconnect](./docs/telegram/POST-api-telegram-v1-disconnect.md)**
 - **[<code>POST</code> /api/telegram/v1/send](./docs/telegram/POST-api-telegram-v1-send.md)**
@@ -231,7 +231,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/telegram/v1/1](./docs/telegram/GET-api-telegram-v1-1.md)**
 - **[<code>DELETE</code> /api/telegram/v1/23](./docs/telegram/DELETE-api-telegram-v1-23.md)**
 ### whatsapp
-#### request.rest
+#### [request.rest][]
 - **[<code>POST</code> /api/whatsapp/v1/connect](./docs/whatsapp/POST-api-whatsapp-v1-connect.md)**
 - **[<code>POST</code> /api/whatsapp/v1/disconnect](./docs/whatsapp/POST-api-whatsapp-v1-disconnect.md)**
 - **[<code>POST</code> /api/whatsapp/v1/send](./docs/whatsapp/POST-api-whatsapp-v1-send.md)**
