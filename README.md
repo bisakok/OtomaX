@@ -38,7 +38,7 @@ Atur center dan sender di otomax dalam ke adaan off pada settingan `IM Center` m
 </p>
 <p>
 <figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-format.jpeg" height="360" alt="Contoh USSD Format untuk semua center">
+    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-format.jpeg" height="480" alt="Contoh USSD Format untuk semua center">
     <figcaption>Contoh USSD Format untuk semua center</figcaption>
 </figure>
 </p>
