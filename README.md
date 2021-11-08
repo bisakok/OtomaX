@@ -32,7 +32,7 @@ Pengaturan center dan sender harus sama dengan ketentuan di OtomaX, secara defau
 </p>
 <p>
 <figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/whatsapp-center.png" height="360" alt="Contoh whatsapp">
+    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/whatsapp-center.png" width="360" alt="Contoh whatsapp">
     <figcaption>Contoh whatsapp</figcaption>
 </figure>
 </p>
