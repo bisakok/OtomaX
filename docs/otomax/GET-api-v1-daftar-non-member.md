@@ -14,7 +14,6 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-GET http://localhost/api/v1/daftar-non-member?pengirim=%2B6281935155404&name=Ridho&address=Pacitan&pin=1234
-
+GET http://localhost/api/v1/daftar-non-member?pengirim=%2B6281935155501&name=Ridho&address=Pacitan&pin=1234
 
 ```

@@ -1,4 +1,4 @@
-# OtomaX Web Server
+# OtomaX Web
 Unofficial extended OtomaX software
 ## Memulai
 Anda akan membutuhkan node.js yang diinstal pada komputer Anda untuk membangun aplikasi ini.
@@ -252,6 +252,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>POST</code> /api/v1/ubah-password-ip](./docs/otomax/POST-api-v1-ubah-password-ip.md)**
 - **[<code>POST</code> /api/v1/ubah-pin](./docs/otomax/POST-api-v1-ubah-pin.md)**
 - **[<code>POST</code> /api/v1/ubah-report-url](./docs/otomax/POST-api-v1-ubah-report-url.md)**
+- **[<code>GET</code> /api/v1/daftar-non-member](./docs/otomax/GET-api-v1-daftar-non-member.md)**
 #### request.rest
 - **[<code>GET</code> /api/v1/web-sms-sender](./docs/otomax/GET-api-v1-web-sms-sender.md)**
 - **[<code>GET</code> /api/v1/ip-client](./docs/otomax/GET-api-v1-ip-client.md)**
