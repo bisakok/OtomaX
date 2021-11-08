@@ -18,6 +18,7 @@ Secara default, Anda dapat mengkonfigurasi server OtomaX menggunakan file `env.j
 }
 ```
 Pengaturan center dan sender harus sama dengan ketentuan di OtomaX, secara default `whatsapp` di identifikasi pada `label`, `jabber` menggunakan `username` dan `telegram` menggunakan `label`, secara otomatis kode terminal akan di ambil pada waktu di koneksikan.
+
 <figure>
     <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-center.png" alt="Contoh jabber">
     <figcaption>Contoh jabber</figcaption>
@@ -34,6 +35,7 @@ Pengaturan center dan sender harus sama dengan ketentuan di OtomaX, secara defau
     <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-format.png" alt="Contoh USSD Format">
     <figcaption>Contoh USSD Format</figcaption>
 </figure>
+
 ## Sumber daya
 Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 ### [jabber][]
