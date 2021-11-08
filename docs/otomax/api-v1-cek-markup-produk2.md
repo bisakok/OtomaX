@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Check all product markups
 POST http://localhost/api/v1/cek-markup-produk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
+
+
 ```

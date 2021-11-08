@@ -14,9 +14,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Hapus pengirim tipe SMS
 POST http://localhost/api/v1/hapus-nomor2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","tujuan":"087758437457","pin":"1234"}
+
+
 ```

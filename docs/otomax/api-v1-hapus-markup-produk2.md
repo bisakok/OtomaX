@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Delete product markup
 POST http://localhost/api/v1/hapus-markup-produk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
+
+
 ```

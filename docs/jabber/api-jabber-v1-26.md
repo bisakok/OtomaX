@@ -7,4 +7,5 @@ keterangan
 ### Request
 ```http
 DELETE http://localhost/api/jabber/v1/26
+
 ```

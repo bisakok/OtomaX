@@ -13,9 +13,9 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Change Report URL
 POST http://localhost/api/v1/ubah-report-url
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","newurl":"http://localhost/api/v1/report","pin":"1234"}
+
 ```

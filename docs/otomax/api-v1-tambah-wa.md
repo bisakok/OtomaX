@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Tambah nomor WA
 POST http://localhost/api/v1/tambah-wa
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","number":"087758437457","pin":"1234"}
+
+
 ```

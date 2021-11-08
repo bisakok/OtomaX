@@ -12,9 +12,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Cek saldo downline
 POST http://localhost/api/v1/cek-saldo-dl
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004"}
+
+
 ```

@@ -15,9 +15,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi14
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","kodeproduk":"test5","counter":"1","tujuan":"087758437457"}
+
+
 ```

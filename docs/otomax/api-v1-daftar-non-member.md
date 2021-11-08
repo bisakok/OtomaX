@@ -14,9 +14,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Registration of non member
 POST http://localhost/api/v1/daftar-non-member
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","name":"Ridho","address":"Pacitan","pin":"1234"}
+
+
 ```

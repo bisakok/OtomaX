@@ -11,9 +11,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Lihat daftar pengirim semua tipe
 POST http://localhost/api/v1/list-pengirim
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
+
+
 ```

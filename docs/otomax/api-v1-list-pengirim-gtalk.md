@@ -11,9 +11,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Lihat daftar pengirim tipe GTalk
 POST http://localhost/api/v1/list-pengirim-gtalk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
+
+
 ```

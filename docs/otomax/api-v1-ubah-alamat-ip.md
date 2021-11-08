@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Change IP Address
 POST http://localhost/api/v1/ubah-alamat-ip
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","newip":"127.0.0.1","pin":"1234"}
+
+
 ```

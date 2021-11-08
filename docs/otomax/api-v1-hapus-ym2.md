@@ -14,9 +14,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Hapus pengirim tipe YM dari downline
 POST http://localhost/api/v1/hapus-ym2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
+
+
 ```

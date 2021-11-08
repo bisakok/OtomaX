@@ -7,4 +7,6 @@ keterangan
 ### Request
 ```http
 GET http://localhost/api/jabber/v1/
+
+
 ```

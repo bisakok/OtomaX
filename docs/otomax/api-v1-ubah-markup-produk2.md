@@ -14,9 +14,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Change product markup for all downlines
 POST http://localhost/api/v1/ubah-markup-produk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234","kodeproduk":"test5","markup":"500"}
+
+
 ```

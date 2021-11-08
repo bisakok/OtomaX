@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Tambah pengirim tipe GTalk
 POST http://localhost/api/v1/tambah-gtalk
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","email":"ndiing.inc@gmail.com","pin":"1234"}
+
+
 ```

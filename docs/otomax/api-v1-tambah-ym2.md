@@ -14,9 +14,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Tambah pengirim tipe YM untuk downline
 POST http://localhost/api/v1/tambah-ym2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
+
+
 ```

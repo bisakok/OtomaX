@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Change OID for OtomaX HTH
 POST http://localhost/api/v1/ubah-oid
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","oid":"321654987asdfwerezveryt987f65gh1s54g89sr4gv","pin":"1234"}
+
+
 ```

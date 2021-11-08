@@ -16,4 +16,5 @@ Nama | Tipe | Nilai | Keterangan
 ### Request
 ```http
 GET http://localhost/api/v1/mutasi?pengirim=%2B6281935155404&tanggal_awal=2021-10-01+00%3A00%3A00&tanggal_akhir=2021-10-31+23%3A59%3A59&jenis=T&kode_reseller=ox0004
+
 ```

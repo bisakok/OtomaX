@@ -12,9 +12,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi7
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nominal":"50"}
+
+
 ```

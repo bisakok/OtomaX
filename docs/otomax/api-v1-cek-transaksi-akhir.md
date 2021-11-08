@@ -11,9 +11,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Cek status N (lihat Setting.LimitCekTransaksiAkhir) transaksi terakhir
 POST http://localhost/api/v1/cek-transaksi-akhir
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
+
+
 ```

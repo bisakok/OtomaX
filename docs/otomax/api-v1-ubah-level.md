@@ -14,9 +14,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Ubah level downline
 POST http://localhost/api/v1/ubah-level
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","kodelevel":"R","pin":"1234"}
+
+
 ```

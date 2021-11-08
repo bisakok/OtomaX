@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Tambah pengirim tipe YM
 POST http://localhost/api/v1/tambah-ym
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
+
+
 ```

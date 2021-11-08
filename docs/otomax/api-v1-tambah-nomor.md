@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Tambah pengirim tipe SMS
 POST http://localhost/api/v1/tambah-nomor
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","tujuan":"087758437457","pin":"1234"}
+
+
 ```

@@ -14,9 +14,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Tambah pengirim tipe GTalk untuk downline
 POST http://localhost/api/v1/tambah-gtalk2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","email":"ndiing.inc@gmail.com","pin":"1234"}
+
+
 ```

@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Hapus nomor WA
 POST http://localhost/api/v1/hapus-wa
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","nomor":"087758437457","pin":"1234"}
+
+
 ```

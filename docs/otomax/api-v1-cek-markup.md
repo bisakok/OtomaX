@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Check downline's markup
 POST http://localhost/api/v1/cek-markup
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
+
+
 ```

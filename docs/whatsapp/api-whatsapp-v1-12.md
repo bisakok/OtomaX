@@ -7,4 +7,5 @@ keterangan
 ### Request
 ```http
 DELETE http://localhost/api/whatsapp/v1/12
+
 ```

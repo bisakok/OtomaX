@@ -14,4 +14,6 @@ Nama | Tipe | Nilai | Keterangan
 ### Request
 ```http
 GET http://localhost/api/v1/produk?pengirim=%2B6281935155404&kode_operator=TEST&kode_reseller=ox0004
+
+
 ```

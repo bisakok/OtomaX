@@ -19,4 +19,6 @@ Content-Type: application/json
     "label": "api_otomax_bot",
     "password": "2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms"
 }
+
+
 ```

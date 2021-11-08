@@ -12,9 +12,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Check current OID for OtomaX HTH
 POST http://localhost/api/v1/cek-oid
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","pin":"1234"}
+
+
 ```

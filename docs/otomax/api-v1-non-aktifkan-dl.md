@@ -13,9 +13,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Non-aktifkan downline/reseller
 POST http://localhost/api/v1/non-aktifkan-dl
 Content-Type: application/json
 
 {"pengirim":"+6281935155404","kodereseller":"ox0004","pin":"1234"}
+
+
 ```

@@ -11,9 +11,10 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-Tukar semua komisi tunda dalam bentuk deposit
 POST http://localhost/api/v1/tukar-komisi2
 Content-Type: application/json
 
 {"pengirim":"+6281935155404"}
+
+
 ```
