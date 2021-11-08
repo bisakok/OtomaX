@@ -16,7 +16,7 @@ POST http://localhost/api/jabber/v1/send
 Content-Type: application/json
 
 {
-    "penerima": "ndiing2@jabb.im",
+    "penerima": "nxxxxx2@jabb.im",
     "pesan": "pesan"
 }
 

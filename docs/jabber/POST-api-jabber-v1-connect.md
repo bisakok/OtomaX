@@ -16,8 +16,8 @@ POST http://localhost/api/jabber/v1/connect
 Content-Type: application/json
 
 {
-    "username": "ndiing_center_1@jabb.im",
-    "password": "@8d.yAkRiMA7Qpj"
+    "username": "nxxxxx_center_1@jabb.im",
+    "password": "@8d.yAkRiMxxxxx"
 }
 
 
