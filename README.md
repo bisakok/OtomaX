@@ -20,25 +20,25 @@ Secara default, Anda dapat mengkonfigurasi server OtomaX menggunakan file `env.j
 Pengaturan center dan sender harus sama dengan ketentuan di OtomaX, secara default `whatsapp` di identifikasi pada `label`, `jabber` menggunakan `username` dan `telegram` menggunakan `label`, secara otomatis kode terminal akan di ambil pada waktu di koneksikan.
 <p>
 <figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-center.png" alt="Contoh jabber">
+    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-center.png" height="360" alt="Contoh jabber">
     <figcaption>Contoh jabber</figcaption>
 </figure>
 </p>
 <p>
 <figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/telegram-center.png" alt="Contoh telegram">
+    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/telegram-center.png" height="360" alt="Contoh telegram">
     <figcaption>Contoh telegram</figcaption>
 </figure>
 </p>
 <p>
 <figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/whatsapp-center.png" alt="Contoh whatsapp">
+    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/whatsapp-center.png" height="360" alt="Contoh whatsapp">
     <figcaption>Contoh whatsapp</figcaption>
 </figure>
 </p>
 <p>
 <figure>
-    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-format.jpeg" alt="Contoh USSD Format untuk semua center">
+    <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/ussd-format.jpeg" height="360" alt="Contoh USSD Format untuk semua center">
     <figcaption>Contoh USSD Format untuk semua center</figcaption>
 </figure>
 </p>
