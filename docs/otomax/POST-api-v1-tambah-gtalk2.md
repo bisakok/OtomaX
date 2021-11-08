@@ -17,7 +17,7 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/tambah-gtalk2
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","kodereseller":"ox0004","email":"nxxxxx.inc@gmail.com","pin":"1234"}
+{"pengirim":"+6281935155404","kodereseller":"ox0004","email":"ndiing.inc@gmail.com","pin":"1234"}
 
 
 ```

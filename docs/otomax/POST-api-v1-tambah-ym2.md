@@ -17,7 +17,7 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/tambah-ym2
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","kodereseller":"ox0004","yahooid":"nxxxxx.inc@yahoo.co.id","pin":"1234"}
+{"pengirim":"+6281935155404","kodereseller":"ox0004","yahooid":"ndiing.inc@yahoo.co.id","pin":"1234"}
 
 
 ```

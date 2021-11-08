@@ -16,7 +16,7 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/hapus-gtalk
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","email":"nxxxxx.inc@gmail.com","pin":"1234"}
+{"pengirim":"+6281935155404","email":"ndiing.inc@gmail.com","pin":"1234"}
 
 
 ```
