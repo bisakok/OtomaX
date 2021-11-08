@@ -18,7 +18,13 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/transaksi28
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","nominal":"50","counter":"1","tujuan":"087758437457","pin":"1234"}
+{
+    "pengirim": "+6281935155404",
+    "nominal": "50",
+    "counter": "1",
+    "tujuan": "087758437457",
+    "pin": "1234"
+}
 
 
 ```

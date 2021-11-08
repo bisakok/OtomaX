@@ -15,7 +15,10 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/transaksi8
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","kodeproduk":"test5"}
+{
+    "pengirim": "+6281935155404",
+    "kodeproduk": "test5"
+}
 
 
 ```

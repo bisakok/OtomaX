@@ -14,7 +14,9 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/transfer-saldo-lintas
 Content-Type: application/json
 
-{"pengirim":"+6281935155404"}
+{
+    "pengirim": "+6281935155404"
+}
 
 
 ```

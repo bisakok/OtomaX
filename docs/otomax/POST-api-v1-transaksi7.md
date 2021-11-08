@@ -15,7 +15,10 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/transaksi7
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","nominal":"50"}
+{
+    "pengirim": "+6281935155404",
+    "nominal": "50"
+}
 
 
 ```

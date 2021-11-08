@@ -19,7 +19,14 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/daftar-dl2
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","nama":"Ridho","alamat":"Pacitan","nomorhp":"087758437457","markup":"500","pin":"1234"}
+{
+    "pengirim": "+6281935155404",
+    "nama": "Ridho",
+    "alamat": "Pacitan",
+    "nomorhp": "087758437457",
+    "markup": "500",
+    "pin": "1234"
+}
 
 
 ```

@@ -16,7 +16,11 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/cek-status-transaksi3
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","tanggal":"20","tujuan":"087758437457"}
+{
+    "pengirim": "+6281935155404",
+    "tanggal": "20",
+    "tujuan": "087758437457"
+}
 
 
 ```

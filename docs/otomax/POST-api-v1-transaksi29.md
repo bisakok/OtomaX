@@ -18,7 +18,13 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/transaksi29
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","kodeproduk":"test5","qty":"1","tujuan":"087758437457","pin":"1234"}
+{
+    "pengirim": "+6281935155404",
+    "kodeproduk": "test5",
+    "qty": "1",
+    "tujuan": "087758437457",
+    "pin": "1234"
+}
 
 
 ```

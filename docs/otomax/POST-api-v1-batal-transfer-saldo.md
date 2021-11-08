@@ -17,7 +17,12 @@ Nama | Tipe | Nilai | Keterangan
 POST http://localhost/api/v1/batal-transfer-saldo
 Content-Type: application/json
 
-{"pengirim":"+6281935155404","kodereseller":"ox0004","jumlah":"10000","pin":"1234"}
+{
+    "pengirim": "+6281935155404",
+    "kodereseller": "ox0004",
+    "jumlah": "10000",
+    "pin": "1234"
+}
 
 
 ```
