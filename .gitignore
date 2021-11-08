@@ -81,3 +81,5 @@ typings/
 !api/**/*.rest
 !cert.pem
 !key.pem
+!docs
+!docs/**

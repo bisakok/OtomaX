@@ -1,0 +1,25 @@
+# Connect
+```http
+POST /api/jabber/v1/connect
+```
+keterangan
+## Properties
+### Query
+Nama | Tipe | Nilai | Keterangan
+--- | --- | --- | ---
+### Body
+Nama | Tipe | Nilai | Keterangan
+--- | --- | --- | ---
+<code>username</code> | String | null | null
+<code>password</code> | String | null | null
+## Contoh
+### Request
+```http
+POST http://localhost/api/jabber/v1/connect
+Content-Type: application/json
+
+{
+    "username": "ndiing_center_1@jabb.im",
+    "password": "@8d.yAkRiMA7Qpj"
+}
+```
