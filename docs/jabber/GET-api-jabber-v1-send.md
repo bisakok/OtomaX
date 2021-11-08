@@ -13,7 +13,7 @@ Nama | Tipe | Nilai | Keterangan
 ## Contoh
 ### Request
 ```http
-GET http://localhost/api/jabber/v1/send?penerima=ndiing2%40jabb.im&pesan=pesan&kode_terminal=1
+GET http://localhost/api/jabber/v1/send?penerima=nxxxxx2%40jabb.im&pesan=pesan&kode_terminal=1
 
 
 ```
