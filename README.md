@@ -48,7 +48,6 @@ Atur center dan sender di otomax dalam keadaan off pada settingan `IM Center` ma
 
 ## Sumber daya
 Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
-### [api.js][]
 ### [jabber][]
 
 <p>
