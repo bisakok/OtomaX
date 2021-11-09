@@ -286,7 +286,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
 
 <p>
-    <details >
+    <details open>
         <summary>request.rest</summary>
 <p>
 
