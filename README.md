@@ -51,7 +51,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 ### [jabber][]
 
 <p>
-    <details>
+    <details open>
         <summary>request.rest</summary>
 <p>
 
@@ -70,7 +70,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 ### [otomax][]
 
 <p>
-    <details>
+    <details >
         <summary>request-get.rest</summary>
 <p>
 
@@ -178,7 +178,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
 
 <p>
-    <details>
+    <details >
         <summary>request-post.rest</summary>
 <p>
 
@@ -286,7 +286,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
 
 <p>
-    <details>
+    <details >
         <summary>request.rest</summary>
 <p>
 
@@ -311,7 +311,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 ### [telegram][]
 
 <p>
-    <details>
+    <details open>
         <summary>request.rest</summary>
 <p>
 
@@ -330,7 +330,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 ### [whatsapp][]
 
 <p>
-    <details>
+    <details open>
         <summary>request.rest</summary>
 <p>
 
