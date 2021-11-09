@@ -63,7 +63,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
 ### [jabber][]
 
-<p>
     <details>
         <summary>request.rest</summary>
 
@@ -75,13 +74,10 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/jabber/v1/1](./docs/jabber/get-api-jabber-v1-1.md)**
 - **[<code>DELETE</code> /api/jabber/v1/26](./docs/jabber/delete-api-jabber-v1-26.md)**
 
-      </details>
-
-  </p>
+    </details>
 
 ### [otomax][]
 
-<p>
     <details>
         <summary>request-get.rest</summary>
 
@@ -183,11 +179,8 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/ubah-pin](./docs/otomax/get-api-v1-ubah-pin.md)**
 - **[<code>GET</code> /api/v1/ubah-report-url](./docs/otomax/get-api-v1-ubah-report-url.md)**
 
-      </details>
+    </details>
 
-  </p>
-
-<p>
     <details>
         <summary>request-post.rest</summary>
 
@@ -289,11 +282,8 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>POST</code> /api/v1/ubah-password-ip](./docs/otomax/post-api-v1-ubah-password-ip.md)**
 - **[<code>POST</code> /api/v1/ubah-report-url](./docs/otomax/post-api-v1-ubah-report-url.md)**
 
-      </details>
+    </details>
 
-  </p>
-
-<p>
     <details>
         <summary>request.rest</summary>
 
@@ -310,13 +300,11 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/operator](./docs/otomax/get-api-v1-operator.md)**
 - **[<code>GET</code> /api/v1/produk](./docs/otomax/get-api-v1-produk.md)**
 - **[<code>GET</code> /api/v1/mutasi](./docs/otomax/get-api-v1-mutasi.md)**
-  </details>
 
-  </p>
+    </details>
 
 ### [telegram][]
 
-<p>
     <details>
         <summary>request.rest</summary>
 
@@ -328,13 +316,10 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/telegram/v1/1](./docs/telegram/get-api-telegram-v1-1.md)**
 - **[<code>DELETE</code> /api/telegram/v1/23](./docs/telegram/delete-api-telegram-v1-23.md)**
 
-      </details>
-
-  </p>
+    </details>
 
 ### [whatsapp][]
 
-<p>
     <details>
         <summary>request.rest</summary>
 
@@ -346,9 +331,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/whatsapp/v1/12](./docs/whatsapp/get-api-whatsapp-v1-12.md)**
 - **[<code>DELETE</code> /api/whatsapp/v1/12](./docs/whatsapp/delete-api-whatsapp-v1-12.md)**
 
-      </details>
-
-  </p>
+    </details>
 
 [api.js]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/api.js/request.rest
 [jabber]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest
