@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-View gift list
 POST http://localhost/api/v1/lihat-hadiah-poin
 Content-Type: application/json
 

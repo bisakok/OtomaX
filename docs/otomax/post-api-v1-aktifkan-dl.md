@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Aktifkan downline/reseller
 POST http://localhost/api/v1/aktifkan-dl
 Content-Type: application/json
 

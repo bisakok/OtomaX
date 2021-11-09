@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Hapus pengirim tipe SMS
 GET http://localhost/api/v1/hapus-nomor?pengirim=%2B6281935155404&tujuan=087758437457&pin=1234
 ```

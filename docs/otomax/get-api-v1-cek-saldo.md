@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek saldo akhir
 GET http://localhost/api/v1/cek-saldo?pengirim=%2B6281935155404&pin=1234
 ```

@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Batalkan transaksi yang belum diproses
 GET http://localhost/api/v1/batal-transaksi?pengirim=%2B6281935155404&trxid=123456&pin=1234
 ```

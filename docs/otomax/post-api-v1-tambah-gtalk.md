@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah pengirim tipe GTalk
 POST http://localhost/api/v1/tambah-gtalk
 Content-Type: application/json
 

@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah pengirim tipe GTalk
 GET http://localhost/api/v1/tambah-gtalk?pengirim=%2B6281935155404&email=nxxxxx.inc%40gmail.com&pin=1234
 ```

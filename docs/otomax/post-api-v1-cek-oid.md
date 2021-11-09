@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Check current OID for OtomaX HTH
 POST http://localhost/api/v1/cek-oid
 Content-Type: application/json
 

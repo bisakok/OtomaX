@@ -16,6 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Registration of non member
 GET http://localhost/api/v1/daftar-non-member?pengirim=%2B6281935155404&name=Ridho&address=Pacitan&pin=1234
 ```

@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar downline
 POST http://localhost/api/v1/list-dl
 Content-Type: application/json
 

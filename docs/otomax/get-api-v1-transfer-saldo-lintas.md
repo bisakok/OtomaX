@@ -13,6 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Allows transfer balance across the membership network
 GET http://localhost/api/v1/transfer-saldo-lintas?pengirim=%2B6281935155404
 ```

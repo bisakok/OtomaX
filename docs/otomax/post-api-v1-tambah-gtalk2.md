@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah pengirim tipe GTalk untuk downline
 POST http://localhost/api/v1/tambah-gtalk2
 Content-Type: application/json
 

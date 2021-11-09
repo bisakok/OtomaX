@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Hapus pengirim tipe SMS
 POST http://localhost/api/v1/hapus-nomor2
 Content-Type: application/json
 

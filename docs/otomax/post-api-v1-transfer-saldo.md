@@ -17,7 +17,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Transfer saldo/deposit ke downline/reseller
 POST http://localhost/api/v1/transfer-saldo
 Content-Type: application/json
 

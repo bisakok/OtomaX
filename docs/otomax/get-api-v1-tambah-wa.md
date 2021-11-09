@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah nomor WA
 GET http://localhost/api/v1/tambah-wa?pengirim=%2B6281935155404&number=087758437457&pin=1234
 ```

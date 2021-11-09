@@ -18,6 +18,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi24?pengirim=%2B6281935155404&kodeproduk=test5&qty=1&tujuan=087758437457&pin=1234&counter=1
 ```

@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Menukar poin
 POST http://localhost/api/v1/tukar-poin
 Content-Type: application/json
 

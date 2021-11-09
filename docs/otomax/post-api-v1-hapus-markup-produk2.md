@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Delete product markup
 POST http://localhost/api/v1/hapus-markup-produk2
 Content-Type: application/json
 

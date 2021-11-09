@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Hapus pengirim tipe YM
 POST http://localhost/api/v1/hapus-ym
 Content-Type: application/json
 

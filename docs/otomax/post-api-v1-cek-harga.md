@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek harga produk
 POST http://localhost/api/v1/cek-harga
 Content-Type: application/json
 

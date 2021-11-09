@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek status transaksi
 POST http://localhost/api/v1/cek-status-transaksi3
 Content-Type: application/json
 

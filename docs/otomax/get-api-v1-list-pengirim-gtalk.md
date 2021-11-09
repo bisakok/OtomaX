@@ -13,6 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar pengirim tipe GTalk
 GET http://localhost/api/v1/list-pengirim-gtalk?pengirim=%2B6281935155404
 ```

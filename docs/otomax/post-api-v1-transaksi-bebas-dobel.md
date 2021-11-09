@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Transaksi pengisian pulsa TANPA pengecekan dobel
 POST http://localhost/api/v1/transaksi-bebas-dobel
 Content-Type: application/json
 

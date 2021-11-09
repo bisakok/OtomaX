@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek saldo akhir
 POST http://localhost/api/v1/cek-saldo
 Content-Type: application/json
 

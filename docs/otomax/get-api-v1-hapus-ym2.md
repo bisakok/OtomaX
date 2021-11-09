@@ -16,6 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Hapus pengirim tipe YM dari downline
 GET http://localhost/api/v1/hapus-ym2?pengirim=%2B6281935155404&kodereseller=ox0004&yahooid=nxxxxx.inc%40yahoo.co.id&pin=1234
 ```

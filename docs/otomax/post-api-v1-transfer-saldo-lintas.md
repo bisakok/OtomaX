@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Allows transfer balance across the membership network
 POST http://localhost/api/v1/transfer-saldo-lintas
 Content-Type: application/json
 

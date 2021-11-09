@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi6
 Content-Type: application/json
 

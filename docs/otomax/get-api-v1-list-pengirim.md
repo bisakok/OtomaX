@@ -13,6 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar pengirim semua tipe
 GET http://localhost/api/v1/list-pengirim?pengirim=%2B6281935155404
 ```

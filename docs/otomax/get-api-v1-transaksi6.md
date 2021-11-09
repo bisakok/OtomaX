@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi6?pengirim=%2B6281935155404&kodeproduk=test5&pin=1234
 ```

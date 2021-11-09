@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar pengirim tipe YM
 POST http://localhost/api/v1/list-pengirim-ym
 Content-Type: application/json
 

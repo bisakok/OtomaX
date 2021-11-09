@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change IP Password
 POST http://localhost/api/v1/ubah-password-ip
 Content-Type: application/json
 

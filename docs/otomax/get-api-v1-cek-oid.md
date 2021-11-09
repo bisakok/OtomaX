@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Check current OID for OtomaX HTH
 GET http://localhost/api/v1/cek-oid?pengirim=%2B6281935155404&pin=1234
 ```

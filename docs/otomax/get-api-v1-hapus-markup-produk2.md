@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Delete product markup
 GET http://localhost/api/v1/hapus-markup-produk2?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 ```

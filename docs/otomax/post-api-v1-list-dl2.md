@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar downline dari downline (sub-downline)
 POST http://localhost/api/v1/list-dl2
 Content-Type: application/json
 

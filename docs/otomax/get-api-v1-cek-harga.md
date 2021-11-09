@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek harga produk
 GET http://localhost/api/v1/cek-harga?pengirim=%2B6281935155404&kodeproduk=test5
 ```

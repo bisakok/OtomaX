@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah pengirim tipe SMS untuk downline
 POST http://localhost/api/v1/tambah-nomor2
 Content-Type: application/json
 

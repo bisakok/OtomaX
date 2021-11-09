@@ -13,6 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-View gift list
 GET http://localhost/api/v1/lihat-hadiah-poin?pengirim=%2B6281935155404
 ```

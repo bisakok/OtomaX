@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek laporan transaksi per tanggal
 GET http://localhost/api/v1/laporan-transaksi?pengirim=%2B6281935155404&tanggal=20
 ```

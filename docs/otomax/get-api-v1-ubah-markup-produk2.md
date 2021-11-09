@@ -16,6 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change product markup for all downlines
 GET http://localhost/api/v1/ubah-markup-produk2?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&markup=500
 ```

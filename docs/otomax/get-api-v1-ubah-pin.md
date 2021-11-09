@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Ubah PIN
 GET http://localhost/api/v1/ubah-pin?pengirim=%2B6281935155404&pinlama=1234&pinbaru=1234
 ```

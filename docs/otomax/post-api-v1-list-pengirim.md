@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar pengirim semua tipe
 POST http://localhost/api/v1/list-pengirim
 Content-Type: application/json
 

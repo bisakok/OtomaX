@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Ubah PIN
 POST http://localhost/api/v1/ubah-pin
 Content-Type: application/json
 

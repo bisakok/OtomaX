@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Reset pin member
 GET http://localhost/api/v1/reset-pin?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 ```

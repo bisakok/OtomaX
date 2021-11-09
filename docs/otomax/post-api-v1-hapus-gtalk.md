@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Hapus pengirim tipe GTalk
 POST http://localhost/api/v1/hapus-gtalk
 Content-Type: application/json
 

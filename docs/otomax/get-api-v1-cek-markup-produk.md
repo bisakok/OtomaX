@@ -16,6 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Check product markup
 GET http://localhost/api/v1/cek-markup-produk?pengirim=%2B6281935155404&kodereseller=ox0004&kodeproduk=test5&pin=1234
 ```

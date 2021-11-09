@@ -13,6 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar pengirim tipe YM
 GET http://localhost/api/v1/list-pengirim-ym?pengirim=%2B6281935155404
 ```

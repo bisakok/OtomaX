@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Reset pin member
 POST http://localhost/api/v1/reset-pin
 Content-Type: application/json
 

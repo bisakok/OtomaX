@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change downline's markup
 POST http://localhost/api/v1/ubah-markup
 Content-Type: application/json
 

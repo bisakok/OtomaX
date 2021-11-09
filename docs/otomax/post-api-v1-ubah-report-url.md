@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change Report URL
 POST http://localhost/api/v1/ubah-report-url
 Content-Type: application/json
 

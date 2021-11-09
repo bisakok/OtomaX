@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cancel balance transfer
 POST http://localhost/api/v1/batal-transfer-saldo
 Content-Type: application/json
 

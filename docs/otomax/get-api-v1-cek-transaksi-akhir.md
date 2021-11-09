@@ -13,6 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek status N (lihat Setting.LimitCekTransaksiAkhir) transaksi terakhir
 GET http://localhost/api/v1/cek-transaksi-akhir?pengirim=%2B6281935155404
 ```

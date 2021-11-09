@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah nomor WA
 POST http://localhost/api/v1/tambah-wa
 Content-Type: application/json
 

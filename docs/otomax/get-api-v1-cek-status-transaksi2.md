@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek status transaksi
 GET http://localhost/api/v1/cek-status-transaksi2?pengirim=%2B6281935155404&tujuan=087758437457
 ```

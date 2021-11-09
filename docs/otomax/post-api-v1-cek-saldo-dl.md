@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek saldo downline
 POST http://localhost/api/v1/cek-saldo-dl
 Content-Type: application/json
 

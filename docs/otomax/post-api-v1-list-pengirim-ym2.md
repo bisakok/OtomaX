@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar pengirim tipe YM dari downline
 POST http://localhost/api/v1/list-pengirim-ym2
 Content-Type: application/json
 

@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tukar semua komisi tunda dalam bentuk deposit
 POST http://localhost/api/v1/tukar-komisi2
 Content-Type: application/json
 

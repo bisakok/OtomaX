@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Lihat daftar pengirim tipe GTalk untuk downline
 GET http://localhost/api/v1/list-pengirim-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004
 ```

@@ -17,6 +17,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change product markup
 GET http://localhost/api/v1/ubah-markup-produk?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234&kodeproduk=test5&markup=500
 ```

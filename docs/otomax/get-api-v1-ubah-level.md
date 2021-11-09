@@ -16,6 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Ubah level downline
 GET http://localhost/api/v1/ubah-level?pengirim=%2B6281935155404&kodereseller=ox0004&kodelevel=R&pin=1234
 ```

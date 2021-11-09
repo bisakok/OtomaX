@@ -18,7 +18,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Daftarkan downline/reseller baru
 POST http://localhost/api/v1/daftar-dl3
 Content-Type: application/json
 

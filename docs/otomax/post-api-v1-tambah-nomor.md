@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah pengirim tipe SMS
 POST http://localhost/api/v1/tambah-nomor
 Content-Type: application/json
 

@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek saldo downline
 GET http://localhost/api/v1/cek-saldo-dl?pengirim=%2B6281935155404&kodereseller=ox0004
 ```

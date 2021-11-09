@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek laporan transaksi per tanggal
 POST http://localhost/api/v1/laporan-transaksi
 Content-Type: application/json
 

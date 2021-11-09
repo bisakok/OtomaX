@@ -14,6 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek laporan mutasi saldo per tanggal
 GET http://localhost/api/v1/laporan-mutasi?pengirim=%2B6281935155404&tanggal=20
 ```

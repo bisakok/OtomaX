@@ -14,7 +14,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek laporan mutasi saldo per tanggal
 POST http://localhost/api/v1/laporan-mutasi
 Content-Type: application/json
 

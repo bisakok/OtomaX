@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change OID for OtomaX HTH
 GET http://localhost/api/v1/ubah-oid?pengirim=%2B6281935155404&oid=321654987asdfwerezveryt987f65gh1s54g89sr4gv&pin=1234
 ```

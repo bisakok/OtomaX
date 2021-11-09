@@ -15,6 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Hapus pengirim tipe YM
 GET http://localhost/api/v1/hapus-ym?pengirim=%2B6281935155404&yahooid=nxxxxx.inc%40yahoo.co.id&pin=1234
 ```

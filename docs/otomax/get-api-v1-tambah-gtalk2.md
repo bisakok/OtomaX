@@ -16,6 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah pengirim tipe GTalk untuk downline
 GET http://localhost/api/v1/tambah-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004&email=nxxxxx.inc%40gmail.com&pin=1234
 ```

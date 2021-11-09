@@ -17,7 +17,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change product markup
 POST http://localhost/api/v1/ubah-markup-produk
 Content-Type: application/json
 

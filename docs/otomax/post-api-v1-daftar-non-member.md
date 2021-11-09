@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Registration of non member
 POST http://localhost/api/v1/daftar-non-member
 Content-Type: application/json
 

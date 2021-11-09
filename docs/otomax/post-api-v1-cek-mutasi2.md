@@ -13,7 +13,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Cek mutasi saldo terakhir, khusus manual, tiket, dan transfer saldo
 POST http://localhost/api/v1/cek-mutasi2
 Content-Type: application/json
 

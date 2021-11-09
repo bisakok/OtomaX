@@ -13,6 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tukar semua komisi tunda dalam bentuk deposit
 GET http://localhost/api/v1/tukar-komisi2?pengirim=%2B6281935155404
 ```

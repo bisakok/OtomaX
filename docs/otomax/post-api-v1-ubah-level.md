@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Ubah level downline
 POST http://localhost/api/v1/ubah-level
 Content-Type: application/json
 

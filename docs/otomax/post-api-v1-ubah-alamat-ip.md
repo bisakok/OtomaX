@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change IP Address
 POST http://localhost/api/v1/ubah-alamat-ip
 Content-Type: application/json
 

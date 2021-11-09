@@ -16,7 +16,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Check product markup
 POST http://localhost/api/v1/cek-markup-produk
 Content-Type: application/json
 

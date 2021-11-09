@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Hapus nomor WA
 POST http://localhost/api/v1/hapus-wa
 Content-Type: application/json
 

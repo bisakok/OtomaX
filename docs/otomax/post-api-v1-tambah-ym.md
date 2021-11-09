@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tambah pengirim tipe YM
 POST http://localhost/api/v1/tambah-ym
 Content-Type: application/json
 

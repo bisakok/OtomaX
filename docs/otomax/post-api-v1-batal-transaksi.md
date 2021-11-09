@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Batalkan transaksi yang belum diproses
 POST http://localhost/api/v1/batal-transaksi
 Content-Type: application/json
 

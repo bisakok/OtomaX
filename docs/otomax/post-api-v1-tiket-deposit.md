@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Tiket Deposit
 POST http://localhost/api/v1/tiket-deposit
 Content-Type: application/json
 

@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change OID for OtomaX HTH
 POST http://localhost/api/v1/ubah-oid
 Content-Type: application/json
 

@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Check downline's markup
 POST http://localhost/api/v1/cek-markup
 Content-Type: application/json
 

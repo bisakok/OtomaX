@@ -16,6 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Change IP Password
 GET http://localhost/api/v1/ubah-password-ip?pengirim=%2B6281935155404&oldpassword=1234&newpassword=1234&pin=1234
 ```

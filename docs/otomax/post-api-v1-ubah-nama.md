@@ -15,7 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-Ubah nama
 POST http://localhost/api/v1/ubah-nama
 Content-Type: application/json
 
