@@ -11,9 +11,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>oldpassword</code> | String | null | null
 <code>newpassword</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Change IP Password
 POST http://localhost/api/v1/ubah-password-ip
 Content-Type: application/json
 
@@ -23,6 +26,4 @@ Content-Type: application/json
     "newpassword": "1234",
     "pin": "1234"
 }
-
-
 ```

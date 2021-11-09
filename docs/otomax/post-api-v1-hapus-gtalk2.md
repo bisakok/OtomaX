@@ -11,9 +11,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>email</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Hapus pengirim tipe GTalk untuk downline
 POST http://localhost/api/v1/hapus-gtalk2
 Content-Type: application/json
 
@@ -23,6 +26,4 @@ Content-Type: application/json
     "email": "nxxxxx.inc@gmail.com",
     "pin": "1234"
 }
-
-
 ```

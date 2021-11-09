@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>nama</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Ubah nama
 POST http://localhost/api/v1/ubah-nama
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "nama": "Ridho",
     "pin": "1234"
 }
-
-
 ```

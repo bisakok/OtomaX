@@ -11,9 +11,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>kodelevel</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Ubah level downline
 POST http://localhost/api/v1/ubah-level
 Content-Type: application/json
 
@@ -23,6 +26,4 @@ Content-Type: application/json
     "kodelevel": "R",
     "pin": "1234"
 }
-
-
 ```

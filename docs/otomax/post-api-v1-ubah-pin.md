@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>pinlama</code> | String | null | null
 <code>pinbaru</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Ubah PIN
 POST http://localhost/api/v1/ubah-pin
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "pinlama": "1234",
     "pinbaru": "1234"
 }
-
-
 ```

@@ -11,9 +11,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>markup</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Change downline's markup
 POST http://localhost/api/v1/ubah-markup
 Content-Type: application/json
 
@@ -23,6 +26,4 @@ Content-Type: application/json
     "markup": "500",
     "pin": "1234"
 }
-
-
 ```

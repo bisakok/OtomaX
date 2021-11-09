@@ -46,6 +46,7 @@ Atur center dan sender di otomax dalam ke adaan off pada settingan `IM Center` m
 
 ## Sumber daya
 Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
+### [api.js][]
 ### [jabber][]
 #### request.rest
 - **[<code>POST</code> /api/jabber/v1/connect](./docs/jabber/post-api-jabber-v1-connect.md)**
@@ -285,6 +286,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/whatsapp/v1/12](./docs/whatsapp/get-api-whatsapp-v1-12.md)**
 - **[<code>DELETE</code> /api/whatsapp/v1/12](./docs/whatsapp/delete-api-whatsapp-v1-12.md)**
 
+[api.js]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/api.js/request.rest
 [jabber]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest
 [otomax]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/otomax/request.rest
 [telegram]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/telegram/request.rest

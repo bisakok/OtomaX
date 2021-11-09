@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>newip</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Change IP Address
 POST http://localhost/api/v1/ubah-alamat-ip
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "newip": "127.0.0.1",
     "pin": "1234"
 }
-
-
 ```

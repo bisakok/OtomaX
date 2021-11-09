@@ -12,9 +12,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>tujuan</code> | String | null | null
 <code>pin</code> | String | null | null
 <code>trxid</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi25
 Content-Type: application/json
 
@@ -25,6 +28,4 @@ Content-Type: application/json
     "pin": "1234",
     "trxid": "123456"
 }
-
-
 ```

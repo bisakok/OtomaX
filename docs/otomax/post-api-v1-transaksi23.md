@@ -12,9 +12,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pin</code> | String | null | null
 <code>kodeproduk</code> | String | null | null
 <code>qty</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi23
 Content-Type: application/json
 
@@ -25,6 +28,4 @@ Content-Type: application/json
     "kodeproduk": "test5",
     "qty": "1"
 }
-
-
 ```

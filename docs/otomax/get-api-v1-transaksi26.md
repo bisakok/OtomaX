@@ -12,10 +12,11 @@ Nama | Tipe | Nilai | Keterangan
 <code>tujuan</code> | String | null | null
 <code>pin</code> | String | null | null
 <code>enduser</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Transaksi pengisian pulsa
 GET http://localhost/api/v1/transaksi26?pengirim=%2B6281935155404&kodeproduk=test5&tujuan=087758437457&pin=1234&enduser=087758437457
-
-
 ```

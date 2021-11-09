@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>trxid</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Batalkan transaksi yang belum diproses
 POST http://localhost/api/v1/batal-transaksi
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "trxid": "123456",
     "pin": "1234"
 }
-
-
 ```

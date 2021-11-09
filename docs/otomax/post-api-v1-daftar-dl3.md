@@ -13,9 +13,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>nomorhp</code> | String | null | null
 <code>kodelevel</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Daftarkan downline/reseller baru
 POST http://localhost/api/v1/daftar-dl3
 Content-Type: application/json
 
@@ -27,6 +30,4 @@ Content-Type: application/json
     "kodelevel": "R",
     "pin": "1234"
 }
-
-
 ```

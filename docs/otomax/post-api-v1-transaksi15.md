@@ -12,9 +12,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>nominal</code> | String | null | null
 <code>counter</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Transaksi pengisian pulsa
 POST http://localhost/api/v1/transaksi15
 Content-Type: application/json
 
@@ -25,6 +28,4 @@ Content-Type: application/json
     "counter": "1",
     "pin": "1234"
 }
-
-
 ```

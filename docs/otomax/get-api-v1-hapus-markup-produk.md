@@ -11,10 +11,11 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>pin</code> | String | null | null
 <code>kodeproduk</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Delete product markup
 GET http://localhost/api/v1/hapus-markup-produk?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234&kodeproduk=test5
-
-
 ```

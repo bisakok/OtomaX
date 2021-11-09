@@ -11,9 +11,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>name</code> | String | null | null
 <code>address</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Registration of non member
 POST http://localhost/api/v1/daftar-non-member
 Content-Type: application/json
 
@@ -23,6 +26,4 @@ Content-Type: application/json
     "address": "Pacitan",
     "pin": "1234"
 }
-
-
 ```

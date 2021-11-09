@@ -13,10 +13,11 @@ Nama | Tipe | Nilai | Keterangan
 <code>nomorhp</code> | String | null | null
 <code>markup</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Daftarkan downline/reseller baru
 GET http://localhost/api/v1/daftar-dl2?pengirim=%2B6281935155404&nama=Ridho&alamat=Pacitan&nomorhp=087758437457&markup=500&pin=1234
-
-
 ```

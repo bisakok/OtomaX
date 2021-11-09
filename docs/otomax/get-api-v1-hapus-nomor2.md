@@ -11,10 +11,11 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>tujuan</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Hapus pengirim tipe SMS
 GET http://localhost/api/v1/hapus-nomor2?pengirim=%2B6281935155404&kodereseller=ox0004&tujuan=087758437457&pin=1234
-
-
 ```

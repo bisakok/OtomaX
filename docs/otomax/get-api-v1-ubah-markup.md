@@ -11,10 +11,11 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>markup</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Change downline's markup
 GET http://localhost/api/v1/ubah-markup?pengirim=%2B6281935155404&kodereseller=ox0004&markup=500&pin=1234
-
-
 ```

@@ -11,9 +11,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>tujuan</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Tambah pengirim tipe SMS untuk downline
 POST http://localhost/api/v1/tambah-nomor2
 Content-Type: application/json
 
@@ -23,6 +26,4 @@ Content-Type: application/json
     "tujuan": "087758437457",
     "pin": "1234"
 }
-
-
 ```

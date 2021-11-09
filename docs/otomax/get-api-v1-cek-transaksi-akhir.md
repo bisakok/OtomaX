@@ -8,10 +8,11 @@ keterangan
 Nama | Tipe | Nilai | Keterangan
 --- | --- | --- | ---
 <code>pengirim</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Cek status N (lihat Setting.LimitCekTransaksiAkhir) transaksi terakhir
 GET http://localhost/api/v1/cek-transaksi-akhir?pengirim=%2B6281935155404
-
-
 ```

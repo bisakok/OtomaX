@@ -11,9 +11,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>jumlah</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Cancel balance transfer
 POST http://localhost/api/v1/batal-transfer-saldo
 Content-Type: application/json
 
@@ -23,6 +26,4 @@ Content-Type: application/json
     "jumlah": "10000",
     "pin": "1234"
 }
-
-
 ```

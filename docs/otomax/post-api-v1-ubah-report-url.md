@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>newurl</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Change Report URL
 POST http://localhost/api/v1/ubah-report-url
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "newurl": "http://localhost/api/v1/report",
     "pin": "1234"
 }
-
-
 ```

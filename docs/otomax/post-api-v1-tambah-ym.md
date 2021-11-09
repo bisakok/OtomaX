@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>yahooid</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Tambah pengirim tipe YM
 POST http://localhost/api/v1/tambah-ym
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "yahooid": "nxxxxx.inc@yahoo.co.id",
     "pin": "1234"
 }
-
-
 ```

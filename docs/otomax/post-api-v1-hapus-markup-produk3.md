@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>kodeproduk</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Delete product markup
 POST http://localhost/api/v1/hapus-markup-produk3
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "kodeproduk": "test5",
     "pin": "1234"
 }
-
-
 ```

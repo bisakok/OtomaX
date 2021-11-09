@@ -12,9 +12,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>kodereseller</code> | String | null | null
 <code>jumlah</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Transfer saldo/deposit ke downline/reseller
 POST http://localhost/api/v1/transfer-saldo
 Content-Type: application/json
 
@@ -25,6 +28,4 @@ Content-Type: application/json
     "jumlah": "10000",
     "pin": "1234"
 }
-
-
 ```

@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>kode</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Menukar poin
 POST http://localhost/api/v1/tukar-poin
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "kode": "test5",
     "pin": "1234"
 }
-
-
 ```

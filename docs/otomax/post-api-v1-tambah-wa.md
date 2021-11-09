@@ -10,9 +10,12 @@ Nama | Tipe | Nilai | Keterangan
 <code>pengirim</code> | String | null | null
 <code>number</code> | String | null | null
 <code>pin</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Tambah nomor WA
 POST http://localhost/api/v1/tambah-wa
 Content-Type: application/json
 
@@ -21,6 +24,4 @@ Content-Type: application/json
     "number": "087758437457",
     "pin": "1234"
 }
-
-
 ```

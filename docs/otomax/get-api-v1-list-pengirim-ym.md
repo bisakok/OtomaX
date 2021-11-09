@@ -8,10 +8,11 @@ keterangan
 Nama | Tipe | Nilai | Keterangan
 --- | --- | --- | ---
 <code>pengirim</code> | String | null | null
+
 ## Contoh
+
 ### Request
 ```http
+Lihat daftar pengirim tipe YM
 GET http://localhost/api/v1/list-pengirim-ym?pengirim=%2B6281935155404
-
-
 ```
