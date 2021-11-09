@@ -50,6 +50,7 @@ Atur center dan sender di otomax dalam keadaan off pada settingan `IM Center` ma
 Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 ### [api.js][]
 ### [jabber][]
+
 <p>
     <details>
         <summary>request.rest</summary>
@@ -64,7 +65,9 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
+
 ### [otomax][]
+
 <p>
     <details>
         <summary>request-get.rest</summary>
@@ -169,6 +172,8 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
+
+
 <p>
     <details>
         <summary>request-post.rest</summary>
@@ -273,6 +278,8 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
+
+
 <p>
     <details>
         <summary>request.rest</summary>
@@ -293,7 +300,9 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
+
 ### [telegram][]
+
 <p>
     <details>
         <summary>request.rest</summary>
@@ -308,7 +317,9 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
+
 ### [whatsapp][]
+
 <p>
     <details>
         <summary>request.rest</summary>
@@ -323,6 +334,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
+
 
 [api.js]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/api.js/request.rest
 [jabber]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest
