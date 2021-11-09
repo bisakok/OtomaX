@@ -1,24 +1,17 @@
 # OtomaX Web
-
 <code>@since 11/10/2021</code>
 <code>@version 0.5.13</code>
 Unofficial extended OtomaX software
-
 ## Memulai
-
 Anda akan membutuhkan node.js yang diinstal pada komputer Anda untuk membangun aplikasi ini.
-
 ```bash
 git clone https://github.com/ndiing/OtomaX.git
 cd OtomaX
 npm i
 npm run start
 ```
-
 ## Konfigurasi
-
 Secara default, Anda dapat mengkonfigurasi server OtomaX menggunakan file `env.json`, yang biasanya diharapkan pada root di mana pun Anda menjalankannya
-
 ```bash
 {
     "HTTP_PORT": 80,
@@ -27,9 +20,7 @@ Secara default, Anda dapat mengkonfigurasi server OtomaX menggunakan file `env.j
     "RSA_KEY": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIEpQIBAAKCAQEAulwHTUoSZLw35+4fAYllddDM6xEqdg70xV6xMGgkH8UmZkMV\r\nOOZ8ojPx+x3nI7Ao9K5MdKLV4XnkO2Xya07VP0PwniLiEj9/iPHJsI+vZ/FxoV0k\r\npd/GdF/IqgWhrEyMM2fQUvKisHa3Zq+m5ghr66v/7MR2u7L2jJEx9aKwoFRg4Pez\r\nH7BY9cWjwURjDyBiB+NAgXJyfr6C6nNSiuwXdgbL2qC+cxOAm59lQzsgNh+NpCEd\r\n1tdvAAKiBF6fwmmZKrXWUchNJ34KdQVdiKrQu6AAIxGNw6BBNdAVbw+33rERzM1u\r\nThFNeiYn+eAgrYR1r77gLDaPrHL3JPT2IFTTlQIDAQABAoIBAD1KWxRuUhJTXMeo\r\npwXoXDgdTefZo29kh9gJxpi3B3pzaqejVG18UG1ATEtckFJKc43VbUvG6jTX09o9\r\nMzdbnALMo2w+6L87pwQxETZCa1vyKn75lT4AlNJdVi+k3oE+Q7X8ZKWDK0KCKNta\r\n1bc9+dBupyMFkk81EqU0c4vnz9NKnUY627zNyXNM0FT2arzkxWQhCtp0LmtgrOQi\r\nj0bkFpNzBHnefP+JJRAjygFyzcQo+DpsNcwqyZrY8kyQeSOSl7df8Luh4/gwjERX\r\nWhGbsZPhCKZ29Se4wOaKYphW144NyZdtSspD+ml1xU/bJW/RFe6vTS9Hcr/ZcBhw\r\nK5l4XwECgYEA3vJUmXuoTnqrGAKRplNyaDTw+0yQuzExAFFc8DAqOGH+lIXfmPPC\r\n59ZvBySYtqo9G8GmN/9h5mgCNsdcWZoeaeLEK4Wfb6vTcbHzi02EcpOPLWYK/u1Y\r\n0lnwRLIZyQzcyBdAo95f5eC1bWfhSY/+4Jbbg3eHuTpUIC0VISfmVmECgYEA1f0U\r\nATObpaeduLDRGUm8cFjkRHPRe0HgXKcb5vUex+A0frnXXsTFS2MlFSfRVhqdh2/i\r\nWFtJ2iWF7ZuQx5H6zwFZr5nXM+Bg4bmATCyXYGsRvkq5gOiwj+jUL6C/TJ1dI/8n\r\nbbqCh4glIirNJ5tv5dEoxhKr0g9AvN0ftO4fYbUCgYEA2RzJAkcIGpUfNVybFozB\r\nJ3YXD8L6VzGKdLLHfSiKlSnpUB4nJ76LGlca/KvJBGo45GTrSDEt18GGFm6DIscR\r\nwzAQtgmEwK1mVpxjfk9ZInNMxXtQTf45t2/aqit/LOmXwEvUqUCPxz/Trt2w6YCP\r\nR4vh7d9jjyCceFEu+IDwsUECgYEA1IhGjSb3ySDgOqaLF0Wv/hmbpg0uGvCD6SIk\r\nSVBdYQFiwhbMPJjMp6JyGz/v30gR+4l5Um5gvGSWTzc6JazsYRsjO5BdOG37a1W1\r\ngnKrap0NA2XuNoVlj5kc3a0XMv38mxr5yzb6G6hx0SyXlGYCTkxd5dR3iOuTTcGF\r\nk0sKKh0CgYEAmrGW6Zm4VX1gvDH2CI96Hci7RYk5bBjrb/AHKp8Y7ha7dUPrEh+k\r\n83sM2n1gWlec3Wn5M6rYFt55HvTKKo85LQ/wv1XzqE5c1J2WBEFbiwHCuCgP1M4t\r\nXEEosqNVAqia/1mm3jFgeC4UTCoTr+c/w7+WyVxiZaW1Ahoh3z0LLMU=\r\n-----END RSA PRIVATE KEY-----\r\n"
 }
 ```
-
 Atur center dan sender di otomax dalam keadaan off pada settingan `IM Center` maupun `WA Center` jika akun yang digunakan di aktifkan menggunakan aplikasi ini. berikut juga dengan menjalankan secara bersamaan.
-
 <p>
 <figure>
     <img src="https://raw.githubusercontent.com/ndiing/OtomaX/main/docs/images/jabber-center.png" height="360" alt="Contoh jabber">
@@ -56,16 +47,14 @@ Atur center dan sender di otomax dalam keadaan off pada settingan `IM Center` ma
 </p>
 
 ## Sumber daya
-
 Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
-
 ### [api.js][]
-
 ### [jabber][]
 
-<div>
+<p>
     <details>
         <summary>request.rest</summary>
+<p>
 
 - **[<code>POST</code> /api/jabber/v1/connect](./docs/jabber/post-api-jabber-v1-connect.md)**
 - **[<code>POST</code> /api/jabber/v1/disconnect](./docs/jabber/post-api-jabber-v1-disconnect.md)**
@@ -75,15 +64,16 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/jabber/v1/1](./docs/jabber/get-api-jabber-v1-1.md)**
 - **[<code>DELETE</code> /api/jabber/v1/26](./docs/jabber/delete-api-jabber-v1-26.md)**
 
-      </details>
-
-  </div>
+</p>
+    </details>
+</p>
 
 ### [otomax][]
 
-<div>
+<p>
     <details>
         <summary>request-get.rest</summary>
+<p>
 
 - **[<code>GET</code> /api/v1/aktifkan-dl](./docs/otomax/get-api-v1-aktifkan-dl.md)**
 - **[<code>GET</code> /api/v1/batal-transaksi](./docs/otomax/get-api-v1-batal-transaksi.md)**
@@ -183,13 +173,15 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/ubah-pin](./docs/otomax/get-api-v1-ubah-pin.md)**
 - **[<code>GET</code> /api/v1/ubah-report-url](./docs/otomax/get-api-v1-ubah-report-url.md)**
 
-      </details>
+</p>
+    </details>
+</p>
 
-  </div>
 
-<div>
+<p>
     <details>
         <summary>request-post.rest</summary>
+<p>
 
 - **[<code>POST</code> /api/v1/cek-saldo-dl](./docs/otomax/post-api-v1-cek-saldo-dl.md)**
 - **[<code>POST</code> /api/v1/transaksi](./docs/otomax/post-api-v1-transaksi.md)**
@@ -289,13 +281,15 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>POST</code> /api/v1/ubah-password-ip](./docs/otomax/post-api-v1-ubah-password-ip.md)**
 - **[<code>POST</code> /api/v1/ubah-report-url](./docs/otomax/post-api-v1-ubah-report-url.md)**
 
-      </details>
+</p>
+    </details>
+</p>
 
-  </div>
 
-<div>
+<p>
     <details>
         <summary>request.rest</summary>
+<p>
 
 - **[<code>GET</code> /api/v1/web-sms-sender](./docs/otomax/get-api-v1-web-sms-sender.md)**
 - **[<code>GET</code> /api/v1/ip-client](./docs/otomax/get-api-v1-ip-client.md)**
@@ -311,15 +305,16 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/produk](./docs/otomax/get-api-v1-produk.md)**
 - **[<code>GET</code> /api/v1/mutasi](./docs/otomax/get-api-v1-mutasi.md)**
 
-      </details>
-
-  </div>
+</p>
+    </details>
+</p>
 
 ### [telegram][]
 
-<div>
+<p>
     <details>
         <summary>request.rest</summary>
+<p>
 
 - **[<code>POST</code> /api/telegram/v1/connect](./docs/telegram/post-api-telegram-v1-connect.md)**
 - **[<code>POST</code> /api/telegram/v1/disconnect](./docs/telegram/post-api-telegram-v1-disconnect.md)**
@@ -329,16 +324,15 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/telegram/v1/1](./docs/telegram/get-api-telegram-v1-1.md)**
 - **[<code>DELETE</code> /api/telegram/v1/23](./docs/telegram/delete-api-telegram-v1-23.md)**
 
-      </details>
-
-  </div>
+</p>
+    </details>
+</p>
 
 ### [whatsapp][]
 
-<div>
+<p>
     <details>
         <summary>request.rest</summary>
-
 <p>
 
 - **[<code>POST</code> /api/whatsapp/v1/connect](./docs/whatsapp/post-api-whatsapp-v1-connect.md)**
@@ -350,10 +344,9 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>DELETE</code> /api/whatsapp/v1/12](./docs/whatsapp/delete-api-whatsapp-v1-12.md)**
 
 </p>
-
     </details>
+</p>
 
-</div>
 
 [api.js]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/api.js/request.rest
 [jabber]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest
