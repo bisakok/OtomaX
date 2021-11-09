@@ -5,9 +5,9 @@ POST /api/whatsapp/v1/disconnect
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>kode_terminal</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>kode_terminal</code> | ? | ?
 
 ## Contoh
 

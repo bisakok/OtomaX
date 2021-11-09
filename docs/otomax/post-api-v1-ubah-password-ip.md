@@ -5,12 +5,12 @@ POST /api/v1/ubah-password-ip
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>oldpassword</code> | String | null | null
-<code>newpassword</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>oldpassword</code> | ? | ?
+<code>newpassword</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

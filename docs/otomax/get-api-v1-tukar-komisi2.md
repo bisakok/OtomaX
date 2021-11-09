@@ -5,9 +5,9 @@ GET /api/v1/tukar-komisi2
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
 
 ## Contoh
 

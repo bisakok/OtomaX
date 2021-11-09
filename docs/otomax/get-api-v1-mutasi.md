@@ -5,13 +5,13 @@ GET /api/v1/mutasi
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>tanggal_awal</code> | String | null | null
-<code>tanggal_akhir</code> | String | null | null
-<code>jenis</code> | String | null | null
-<code>kode_reseller</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>tanggal_awal</code> | ? | ?
+<code>tanggal_akhir</code> | ? | ?
+<code>jenis</code> | ? | ?
+<code>kode_reseller</code> | ? | ?
 
 ## Contoh
 

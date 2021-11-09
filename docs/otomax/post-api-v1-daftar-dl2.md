@@ -5,14 +5,14 @@ POST /api/v1/daftar-dl2
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>nama</code> | String | null | null
-<code>alamat</code> | String | null | null
-<code>nomorhp</code> | String | null | null
-<code>markup</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>nama</code> | ? | ?
+<code>alamat</code> | ? | ?
+<code>nomorhp</code> | ? | ?
+<code>markup</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

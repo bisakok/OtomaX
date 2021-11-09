@@ -5,11 +5,11 @@ GET /api/v1/ubah-nama
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>nama</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>nama</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

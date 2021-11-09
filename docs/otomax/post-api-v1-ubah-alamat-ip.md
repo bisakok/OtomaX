@@ -5,11 +5,11 @@ POST /api/v1/ubah-alamat-ip
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>newip</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>newip</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

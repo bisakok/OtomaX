@@ -5,12 +5,12 @@ GET /api/v1/daftar-non-member
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>name</code> | String | null | null
-<code>address</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>name</code> | ? | ?
+<code>address</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

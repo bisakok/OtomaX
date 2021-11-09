@@ -5,11 +5,11 @@ GET /api/v1/hapus-markup-produk3
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>kodeproduk</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>kodeproduk</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

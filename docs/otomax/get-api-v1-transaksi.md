@@ -5,12 +5,12 @@ GET /api/v1/transaksi
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>kodeproduk</code> | String | null | null
-<code>tujuan</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>kodeproduk</code> | ? | ?
+<code>tujuan</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

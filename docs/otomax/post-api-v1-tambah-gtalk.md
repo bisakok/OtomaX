@@ -5,11 +5,11 @@ POST /api/v1/tambah-gtalk
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>email</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>email</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

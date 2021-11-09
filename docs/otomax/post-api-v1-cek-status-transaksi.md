@@ -5,10 +5,10 @@ POST /api/v1/cek-status-transaksi
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>nomor tujuan</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>nomor tujuan</code> | ? | ?
 
 ## Contoh
 

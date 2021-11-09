@@ -5,11 +5,11 @@ POST /api/whatsapp/v1/send
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>penerima</code> | String | null | null
-<code>pesan</code> | String | null | null
-<code>kode_terminal</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>penerima</code> | ? | ?
+<code>pesan</code> | ? | ?
+<code>kode_terminal</code> | ? | ?
 
 ## Contoh
 

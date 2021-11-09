@@ -5,11 +5,11 @@ GET /api/v1/ubah-pin
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>pinlama</code> | String | null | null
-<code>pinbaru</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>pinlama</code> | ? | ?
+<code>pinbaru</code> | ? | ?
 
 ## Contoh
 

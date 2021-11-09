@@ -5,10 +5,10 @@ POST /api/jabber/v1/connect
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>username</code> | String | null | null
-<code>password</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>username</code> | ? | ?
+<code>password</code> | ? | ?
 
 ## Contoh
 

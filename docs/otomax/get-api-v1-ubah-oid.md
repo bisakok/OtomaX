@@ -5,11 +5,11 @@ GET /api/v1/ubah-oid
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>oid</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>oid</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

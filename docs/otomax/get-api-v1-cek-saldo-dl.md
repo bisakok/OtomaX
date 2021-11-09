@@ -5,10 +5,10 @@ GET /api/v1/cek-saldo-dl
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>kodereseller</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>kodereseller</code> | ? | ?
 
 ## Contoh
 

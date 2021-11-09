@@ -5,10 +5,10 @@ POST /api/v1/laporan-transaksi
 keterangan
 ## Properties
 ### Body
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>tanggal</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>tanggal</code> | ? | ?
 
 ## Contoh
 

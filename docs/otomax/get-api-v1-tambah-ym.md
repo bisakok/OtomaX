@@ -5,11 +5,11 @@ GET /api/v1/tambah-ym
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>yahooid</code> | String | null | null
-<code>pin</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>yahooid</code> | ? | ?
+<code>pin</code> | ? | ?
 
 ## Contoh
 

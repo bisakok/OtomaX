@@ -5,10 +5,10 @@ GET /api/v1/reseller
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>kode_reseller</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>kode_reseller</code> | ? | ?
 
 ## Contoh
 

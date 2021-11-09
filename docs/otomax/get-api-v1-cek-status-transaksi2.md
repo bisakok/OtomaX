@@ -5,10 +5,10 @@ GET /api/v1/cek-status-transaksi2
 keterangan
 ## Properties
 ### Query
-Nama | Tipe | Nilai | Keterangan
---- | --- | --- | ---
-<code>pengirim</code> | String | null | null
-<code>tujuan</code> | String | null | null
+Nama  | Nilai | Keterangan
+--- | --- | ---
+<code>pengirim</code> | ? | ?
+<code>tujuan</code> | ? | ?
 
 ## Contoh
 
