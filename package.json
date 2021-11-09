@@ -5,9 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node --no-warnings dist/index.js",
-    "dev": "set NODE_ENV=development&&nodemon --no-warnings index.js",
-    "pack": "webpack",
-    "docs": "node docs/index.js"
+    "dev": "set NODE_ENV=development&&nodemon --no-warnings index.js"
   },
   "repository": {
     "type": "git",
