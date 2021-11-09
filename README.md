@@ -64,7 +64,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
-</details>
 ### [otomax][]
 <p>
     <details>
@@ -170,7 +169,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
-</details>
 <p>
     <details>
         <summary>request-post.rest</summary>
@@ -275,7 +273,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
-</details>
 <p>
     <details>
         <summary>request.rest</summary>
@@ -296,7 +293,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
-</details>
 ### [telegram][]
 <p>
     <details>
@@ -312,7 +308,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
-</details>
 ### [whatsapp][]
 <p>
     <details>
@@ -328,7 +323,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
     </details>
 </p>
-</details>
 
 [api.js]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/api.js/request.rest
 [jabber]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/jabber/request.rest
