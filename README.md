@@ -295,5 +295,8 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 [whatsapp]: https://raw.githubusercontent.com/ndiing/OtomaX/main/api/whatsapp/request.rest
 <details>
  <summary>Summary Goes Here</summary>
- ...this is hidden, collapsable content...
+
+- **[<code>POST</code> /api/jabber/v1/connect](./docs/jabber/post-api-jabber-v1-connect.md)**
+- **[<code>POST</code> /api/jabber/v1/disconnect](./docs/jabber/post-api-jabber-v1-disconnect.md)**
+
 </details>
