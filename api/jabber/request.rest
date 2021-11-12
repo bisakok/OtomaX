@@ -21,7 +21,7 @@ POST http://localhost/api/jabber/v1/disconnect
 Content-Type: application/json
 
 {
-    "kode_terminal": 25
+    "kode_terminal": 26
 }
 
 ###
@@ -53,4 +53,4 @@ GET http://localhost/api/jabber/v1/
 GET http://localhost/api/jabber/v1/1
 
 ###
-DELETE http://localhost/api/jabber/v1/26
+DELETE http://localhost/api/jabber/v1/25
