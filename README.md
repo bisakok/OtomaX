@@ -18,10 +18,10 @@ Secara default, Anda dapat mengkonfigurasi server OtomaX menggunakan file `env.j
     "HTTPS_PORT": 443,
     "RSA_CERT": "-----BEGIN CERTIFICATE-----\r\nMIIDETCCAfkCFEuIMBGGqYIF/qfI4bIokhM/Wa0fMA0GCSqGSIb3DQEBCwUAMEUx\r\nCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRl\r\ncm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMjExMTAxMjE1ODE4WhcNNDkwMzE4MjE1\r\nODE4WjBFMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UE\r\nCgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOC\r\nAQ8AMIIBCgKCAQEAulwHTUoSZLw35+4fAYllddDM6xEqdg70xV6xMGgkH8UmZkMV\r\nOOZ8ojPx+x3nI7Ao9K5MdKLV4XnkO2Xya07VP0PwniLiEj9/iPHJsI+vZ/FxoV0k\r\npd/GdF/IqgWhrEyMM2fQUvKisHa3Zq+m5ghr66v/7MR2u7L2jJEx9aKwoFRg4Pez\r\nH7BY9cWjwURjDyBiB+NAgXJyfr6C6nNSiuwXdgbL2qC+cxOAm59lQzsgNh+NpCEd\r\n1tdvAAKiBF6fwmmZKrXWUchNJ34KdQVdiKrQu6AAIxGNw6BBNdAVbw+33rERzM1u\r\nThFNeiYn+eAgrYR1r77gLDaPrHL3JPT2IFTTlQIDAQABMA0GCSqGSIb3DQEBCwUA\r\nA4IBAQBSi71wCBK6S1aMIo/M0r7o9qJzY0peoy1xkIZ3JyFLq5zt1s6pkfeUwng6\r\nJIRc9/mm9WgEmwmALtzlfZtZx12y4KoD2Mc2NNKHWB23e4HUg5iWr6Dhx57vWncg\r\niR9lkBIFeWhYLKzQuD7FhMDs+OPAfol2JO4c3f+ed9idQTX8rY2qPfVJO8alzRTF\r\nY4B8P+39yDAw5QGJW7CEAlfW5Tg/wlI/EThtI4tGie3nifjO07nWdJ57YTvbam4R\r\nH/6BJh37Rjg5g+lI8Weidxz+OpiEVFlUMWwSMTVSChHjjgrp43gXHJL8bFyI9IIa\r\nq34CrnEG7PW+9wAUaSYOhZ8N5qN5\r\n-----END CERTIFICATE-----\r\n",
     "RSA_KEY": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIEpQIBAAKCAQEAulwHTUoSZLw35+4fAYllddDM6xEqdg70xV6xMGgkH8UmZkMV\r\nOOZ8ojPx+x3nI7Ao9K5MdKLV4XnkO2Xya07VP0PwniLiEj9/iPHJsI+vZ/FxoV0k\r\npd/GdF/IqgWhrEyMM2fQUvKisHa3Zq+m5ghr66v/7MR2u7L2jJEx9aKwoFRg4Pez\r\nH7BY9cWjwURjDyBiB+NAgXJyfr6C6nNSiuwXdgbL2qC+cxOAm59lQzsgNh+NpCEd\r\n1tdvAAKiBF6fwmmZKrXWUchNJ34KdQVdiKrQu6AAIxGNw6BBNdAVbw+33rERzM1u\r\nThFNeiYn+eAgrYR1r77gLDaPrHL3JPT2IFTTlQIDAQABAoIBAD1KWxRuUhJTXMeo\r\npwXoXDgdTefZo29kh9gJxpi3B3pzaqejVG18UG1ATEtckFJKc43VbUvG6jTX09o9\r\nMzdbnALMo2w+6L87pwQxETZCa1vyKn75lT4AlNJdVi+k3oE+Q7X8ZKWDK0KCKNta\r\n1bc9+dBupyMFkk81EqU0c4vnz9NKnUY627zNyXNM0FT2arzkxWQhCtp0LmtgrOQi\r\nj0bkFpNzBHnefP+JJRAjygFyzcQo+DpsNcwqyZrY8kyQeSOSl7df8Luh4/gwjERX\r\nWhGbsZPhCKZ29Se4wOaKYphW144NyZdtSspD+ml1xU/bJW/RFe6vTS9Hcr/ZcBhw\r\nK5l4XwECgYEA3vJUmXuoTnqrGAKRplNyaDTw+0yQuzExAFFc8DAqOGH+lIXfmPPC\r\n59ZvBySYtqo9G8GmN/9h5mgCNsdcWZoeaeLEK4Wfb6vTcbHzi02EcpOPLWYK/u1Y\r\n0lnwRLIZyQzcyBdAo95f5eC1bWfhSY/+4Jbbg3eHuTpUIC0VISfmVmECgYEA1f0U\r\nATObpaeduLDRGUm8cFjkRHPRe0HgXKcb5vUex+A0frnXXsTFS2MlFSfRVhqdh2/i\r\nWFtJ2iWF7ZuQx5H6zwFZr5nXM+Bg4bmATCyXYGsRvkq5gOiwj+jUL6C/TJ1dI/8n\r\nbbqCh4glIirNJ5tv5dEoxhKr0g9AvN0ftO4fYbUCgYEA2RzJAkcIGpUfNVybFozB\r\nJ3YXD8L6VzGKdLLHfSiKlSnpUB4nJ76LGlca/KvJBGo45GTrSDEt18GGFm6DIscR\r\nwzAQtgmEwK1mVpxjfk9ZInNMxXtQTf45t2/aqit/LOmXwEvUqUCPxz/Trt2w6YCP\r\nR4vh7d9jjyCceFEu+IDwsUECgYEA1IhGjSb3ySDgOqaLF0Wv/hmbpg0uGvCD6SIk\r\nSVBdYQFiwhbMPJjMp6JyGz/v30gR+4l5Um5gvGSWTzc6JazsYRsjO5BdOG37a1W1\r\ngnKrap0NA2XuNoVlj5kc3a0XMv38mxr5yzb6G6hx0SyXlGYCTkxd5dR3iOuTTcGF\r\nk0sKKh0CgYEAmrGW6Zm4VX1gvDH2CI96Hci7RYk5bBjrb/AHKp8Y7ha7dUPrEh+k\r\n83sM2n1gWlec3Wn5M6rYFt55HvTKKo85LQ/wv1XzqE5c1J2WBEFbiwHCuCgP1M4t\r\nXEEosqNVAqia/1mm3jFgeC4UTCoTr+c/w7+WyVxiZaW1Ahoh3z0LLMU=\r\n-----END RSA PRIVATE KEY-----\r\n",
-    "AES_KEY": "44e9564abc60ab07f62527093a90caad",
-    "AES_IV": "ee1a2ad4809b8f7a",
-    "E2E_KEY": "b790f10c68b3ae11d248fec256930681",
-    "E2E_IV": "c35ffd061d1eca56",
+    "AES_KEY": "92a58090a7e9509fada189dda7b94d40",
+    "AES_IV": "166b68faa8d612b7",
+    "E2E_KEY": "9bf595a97eb7304891c247b80b4caa97",
+    "E2E_IV": "8414c42b1b009f92",
     "PERMISSIONS": [
         {
             "nama": "jabber",
@@ -37,6 +37,62 @@ Secara default, Anda dapat mengkonfigurasi server OtomaX menggunakan file `env.j
             "nama": "whatsapp",
             "pathname": "/api/whatsapp/v1",
             "kode_level": {}
+        },
+        {
+            "nama": "otomaxFormat",
+            "pathname": "/api/v1/format",
+            "kode_level": {
+                "N": "(?:)"
+            }
+        },
+        {
+            "nama": "otomaxDaftarNonMember",
+            "pathname": "/api/v1/daftar-non-member",
+            "kode_level": {
+                "N": "(?:)"
+            }
+        },
+        {
+            "nama": "otomaxSign",
+            "pathname": "/api/v1/sign",
+            "kode_level": {
+                "N": "(?:)"
+            }
+        },
+        {
+            "nama": "otomaxVerify",
+            "pathname": "/api/v1/verify",
+            "kode_level": {
+                "N": "(?:)"
+            }
+        },
+        {
+            "nama": "otomaxRefresh",
+            "pathname": "/api/v1/refresh",
+            "kode_level": {
+                "N": "(?:)"
+            }
+        },
+        {
+            "nama": "otomaxGenerate",
+            "pathname": "/api/v1/generate",
+            "kode_level": {
+                "R": "(?:)"
+            }
+        },
+        {
+            "nama": "otomaxToken",
+            "pathname": "/api/v1/token",
+            "kode_level": {
+                "R": "(?:)"
+            }
+        },
+        {
+            "nama": "otomaxRevoke",
+            "pathname": "/api/v1/revoke",
+            "kode_level": {
+                "R": "(?:)"
+            }
         },
         {
             "nama": "otomaxReseller",
@@ -87,67 +143,11 @@ Secara default, Anda dapat mengkonfigurasi server OtomaX menggunakan file `env.j
             }
         },
         {
-            "nama": "otomaxFormat",
-            "pathname": "/api/v1/format",
-            "kode_level": {
-                "N": "(?:)"
-            }
-        },
-        {
-            "nama": "otomaxDaftarNonMember",
-            "pathname": "/api/v1/daftar-non-member",
-            "kode_level": {
-                "N": "(?:)"
-            }
-        },
-        {
             "nama": "otomaxInbox",
             "pathname": "/api/v1/(?:t(?:rans(?:fer-saldo-lintas|aksi(?:2[0-9]|1[0-9]|[3-9]))|iket-deposit|ukar-poin)|(?:transaksi-bebas-dobe|ubah-(?:report-ur|leve))l|cek-(?:s(?:tatus-transaksi[23]|aldo-dl)|transaksi-akhir|m(?:arkup-produk|utasi)2|harga|oid)|cek-(?:s(?:tatus-transaksi|aldo)|m(?:arkup(?:-produk)?|utasi))|batal-trans(?:fer-saldo|aksi)|(?:list-pengirim|tambah|hapus)-gtalk2|(?:hapus-markup-produk|daftar-dl)[23]|(?:list-pengirim|tambah|hapus)-gtalk|hapus-markup-produk|ubah-markup-produk2|ubah-markup(?:-produk)?|(?:list-(?:pengirim-sms|dl)|(?:list-pengirim|hapus)-ym|tambah-(?:nomor|ym)|tukar-komisi|hapus-nomor)2|list-(?:pengirim-sms|dl)|laporan-(?:transak|muta)si|lihat-hadiah-poin|daftar-non-member|(?:list-pengirim|hapus)-ym|ubah-(?:password|alamat)-ip|(?:non-)?aktifkan-dl|trans(?:fer-saldo|aksi2?)|list-pengirim|tambah-(?:nomor|ym)|tukar-komisi|hapus-nomor|daftar-dl|reset-pin|(?:ubah-nam|tambah-w|hapus-w)a|ubah-pin|ubah-oid|inbox)",
             "kode_level": {
                 "R": "(?:)",
                 "P": "(?:)"
-            }
-        },
-        {
-            "nama": "otomaxSign",
-            "pathname": "/api/v1/sign",
-            "kode_level": {
-                "N": "(?:)"
-            }
-        },
-        {
-            "nama": "otomaxVerify",
-            "pathname": "/api/v1/verify",
-            "kode_level": {
-                "N": "(?:)"
-            }
-        },
-        {
-            "nama": "otomaxRefresh",
-            "pathname": "/api/v1/refresh",
-            "kode_level": {
-                "N": "(?:)"
-            }
-        },
-        {
-            "nama": "otomaxGenerate",
-            "pathname": "/api/v1/generate",
-            "kode_level": {
-                "R": "(?:)"
-            }
-        },
-        {
-            "nama": "otomaxToken",
-            "pathname": "/api/v1/token",
-            "kode_level": {
-                "R": "(?:)"
-            }
-        },
-        {
-            "nama": "otomaxRevoke",
-            "pathname": "/api/v1/revoke",
-            "kode_level": {
-                "R": "(?:)"
             }
         }
     ],
