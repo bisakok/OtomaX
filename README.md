@@ -207,6 +207,23 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
 <p>
     <details >
+        <summary>request-auth.rest</summary>
+<p>
+
+- **[<code>POST</code> /api/v1/sign](./docs/otomax/post-api-v1-sign.md)**
+- **[<code>POST</code> /api/v1/verify](./docs/otomax/post-api-v1-verify.md)**
+- **[<code>POST</code> /api/v1/refresh](./docs/otomax/post-api-v1-refresh.md)**
+- **[<code>POST</code> /api/v1/generate](./docs/otomax/post-api-v1-generate.md)**
+- **[<code>GET</code> /api/v1/token](./docs/otomax/get-api-v1-token.md)**
+- **[<code>DELETE</code> /api/v1/revoke/00b100a2-003a-4003-801a-00bf0066009b](./docs/otomax/delete-api-v1-revoke-00b100a2-003a-4003-801a-00bf0066009b.md)**
+
+</p>
+    </details>
+</p>
+
+
+<p>
+    <details >
         <summary>request-get.rest</summary>
 <p>
 
@@ -422,14 +439,25 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 
 
 <p>
-    <details open>
-        <summary>request.rest</summary>
+    <details >
+        <summary>request-private.rest</summary>
 <p>
 
 - **[<code>GET</code> /api/v1/web-sms-sender](./docs/otomax/get-api-v1-web-sms-sender.md)**
 - **[<code>GET</code> /api/v1/ip-client](./docs/otomax/get-api-v1-ip-client.md)**
 - **[<code>GET</code> /api/v1/report](./docs/otomax/get-api-v1-report.md)**
 - **[<code>POST</code> /api/v1/outbox-callback](./docs/otomax/post-api-v1-outbox-callback.md)**
+
+</p>
+    </details>
+</p>
+
+
+<p>
+    <details open>
+        <summary>request.rest</summary>
+<p>
+
 - **[<code>POST</code> /api/v1/inbox](./docs/otomax/post-api-v1-inbox.md)**
 - **[<code>GET</code> /api/v1/inbox](./docs/otomax/get-api-v1-inbox.md)**
 - **[<code>GET</code> /api/v1/format](./docs/otomax/get-api-v1-format.md)**
@@ -439,12 +467,6 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/operator](./docs/otomax/get-api-v1-operator.md)**
 - **[<code>GET</code> /api/v1/produk](./docs/otomax/get-api-v1-produk.md)**
 - **[<code>GET</code> /api/v1/mutasi](./docs/otomax/get-api-v1-mutasi.md)**
-- **[<code>POST</code> /api/v1/sign](./docs/otomax/post-api-v1-sign.md)**
-- **[<code>POST</code> /api/v1/verify](./docs/otomax/post-api-v1-verify.md)**
-- **[<code>POST</code> /api/v1/refresh](./docs/otomax/post-api-v1-refresh.md)**
-- **[<code>POST</code> /api/v1/generate](./docs/otomax/post-api-v1-generate.md)**
-- **[<code>GET</code> /api/v1/token](./docs/otomax/get-api-v1-token.md)**
-- **[<code>DELETE</code> /api/v1/revoke/00b100a2-003a-4003-801a-00bf0066009b](./docs/otomax/delete-api-v1-revoke-00b100a2-003a-4003-801a-00bf0066009b.md)**
 
 </p>
     </details>
