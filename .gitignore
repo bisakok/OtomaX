@@ -84,3 +84,5 @@ typings/
 !docs
 !docs/**
 docs/index.js
+!dist
+!dist/*
