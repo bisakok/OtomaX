@@ -1,4 +1,4 @@
-# Refresh
+# Perbarui token jika kadaluarsa
 ```http
 POST /api/v1/refresh
 ```

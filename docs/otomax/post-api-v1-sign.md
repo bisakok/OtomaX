@@ -1,4 +1,4 @@
-# Sign
+# Login
 ```http
 POST /api/v1/sign
 ```

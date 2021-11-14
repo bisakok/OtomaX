@@ -1,4 +1,4 @@
-# Verify
+# Verifikasi login dengan OTP yang diterima
 ```http
 POST /api/v1/verify
 ```

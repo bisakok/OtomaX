@@ -1,4 +1,4 @@
-# Token
+# Lihat semua token yang dibuat
 ```http
 GET /api/v1/token
 ```

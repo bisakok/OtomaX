@@ -1,4 +1,4 @@
-# Generate
+# Create personal access token
 ```http
 POST /api/v1/generate
 ```
