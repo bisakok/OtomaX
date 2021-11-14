@@ -1,5 +1,5 @@
 # OtomaX Web
-<code>@since 11/13/2021</code>
+<code>@since 11/14/2021</code>
 <code>@version 0.5.16</code>
 Unofficial extended OtomaX software
 ## Memulai
@@ -307,6 +307,10 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/operator](./docs/otomax/get-api-v1-operator.md)**
 - **[<code>GET</code> /api/v1/produk](./docs/otomax/get-api-v1-produk.md)**
 - **[<code>GET</code> /api/v1/mutasi](./docs/otomax/get-api-v1-mutasi.md)**
+- **[<code>POST</code> /api/v1/sign](./docs/otomax/post-api-v1-sign.md)**
+- **[<code>POST</code> /api/v1/verify](./docs/otomax/post-api-v1-verify.md)**
+- **[<code>POST</code> /api/v1/refresh](./docs/otomax/post-api-v1-refresh.md)**
+- **[<code>POST</code> /api/v1/personal](./docs/otomax/post-api-v1-personal.md)**
 
 </p>
     </details>

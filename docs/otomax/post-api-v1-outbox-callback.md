@@ -8,7 +8,7 @@ keterangan
 
 ### Request
 ```http
-POST http://localhost/api/v1/outbox-callback
+POST http://nxxxxx.myddns.me/api/v1/outbox-callback
 Content-Type: application/json
 
 {}

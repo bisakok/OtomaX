@@ -1,6 +1,6 @@
-# Inbox
+# Sign
 ```http
-POST /api/v1/inbox
+POST /api/v1/sign
 ```
 keterangan
 ## Properties
@@ -8,17 +8,15 @@ keterangan
 Nama  | Nilai | Keterangan
 --- | --- | ---
 <code>pengirim</code> | ? | ?
-<code>pesan</code> | ? | ?
 
 ## Contoh
 
 ### Request
 ```http
-POST http://nxxxxx.myddns.me/api/v1/inbox
+POST http://nxxxxx.myddns.me/api/v1/sign
 Content-Type: application/json
 
 {
-    "pengirim": "+6281935155404",
-    "pesan": "sal.1234"
+    "pengirim": "+6281935155404"
 }
 ```

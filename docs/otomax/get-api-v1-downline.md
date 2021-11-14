@@ -14,10 +14,10 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/downline?pengirim=%2B6281935155404&kode_reseller=ox0004
+GET http://nxxxxx.myddns.me/api/v1/downline?pengirim=%2B6281935155404&kode_reseller=ox0004
 ```
 
 ### Request
 ```http
-GET http://localhost/api/v1/downline?pengirim=%2B6281935155404
+GET http://nxxxxx.myddns.me/api/v1/downline?pengirim=%2B6281935155404
 ```

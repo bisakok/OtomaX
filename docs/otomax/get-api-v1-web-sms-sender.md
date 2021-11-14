@@ -8,5 +8,5 @@ keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/web-sms-sender
+GET http://nxxxxx.myddns.me/api/v1/web-sms-sender
 ```
