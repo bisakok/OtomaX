@@ -1,6 +1,4 @@
 # OtomaX Web
-<code>@since 11/15/2021</code>
-<code>@version 0.6.0</code>
 Unofficial extended OtomaX software
 ## Memulai
 Anda akan membutuhkan node.js yang diinstal pada komputer Anda untuk membangun aplikasi ini.
