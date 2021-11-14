@@ -310,7 +310,7 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>POST</code> /api/v1/sign](./docs/otomax/post-api-v1-sign.md)**
 - **[<code>POST</code> /api/v1/verify](./docs/otomax/post-api-v1-verify.md)**
 - **[<code>POST</code> /api/v1/refresh](./docs/otomax/post-api-v1-refresh.md)**
-- **[<code>POST</code> /api/v1/personal](./docs/otomax/post-api-v1-personal.md)**
+- **[<code>POST</code> /api/v1/generate](./docs/otomax/post-api-v1-generate.md)**
 
 </p>
     </details>
