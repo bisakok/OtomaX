@@ -16,5 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET https://nxxxxx.myddns.me/api/v1/daftar-non-member?pengirim=%2B6281935155404&name=Ridho&address=Pacitan&pin=1234
+GET http://nxxxxx.myddns.me/api/v1/daftar-non-member?pengirim=%2B6281935155404&name=Ridho&address=Pacitan&pin=1234
 ```

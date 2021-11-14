@@ -18,7 +18,7 @@ POST http://nxxxxx.myddns.me/api/v1/verify
 Content-Type: application/json
 
 {
-    "_id": "00aa0098-00c1-4003-8011-00000072008d",
-    "token": "044388"
+    "_id": "002d0020-0016-4006-8073-00e400190084",
+    "token": "198988"
 }
 ```

@@ -7,7 +7,6 @@ keterangan
 ### Query
 Nama  | Nilai | Keterangan
 --- | --- | ---
-<code>pengirim</code> | ? | ?
 <code>kodereseller</code> | ? | ?
 <code>email</code> | ? | ?
 <code>pin</code> | ? | ?
@@ -16,5 +15,6 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET https://nxxxxx.myddns.me/api/v1/hapus-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004&email=nxxxxx.inc%40gmail.com&pin=1234
+GET http://nxxxxx.myddns.me/api/v1/hapus-gtalk2?kodereseller=ox0004&email=nxxxxx.inc%40gmail.com&pin=1234
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.MzhhYjQ0NDFlODFiYjlkYjc4NTE1OTk1NGI1ZWE2MzBhMjgzODJlM2UzMDBmNTIwZWNhM2Q1NjFlOTlhNTUzOGFiZWMzMWI5MjJkOGRiMjBlYWZlNDNhMmY5MTNlOWQ3MzVhMGNjMmM3NjcxMWMyMTFlMDA1OWUwMDllNWJiNzQ2NTE4MGVhODI4MWE4MTExODBhMDQyOGNlMmY4OWU2ZmJkODc3ZjNiN2ExMjk2ZGU4NzRiMjY1MDc5Y2FiY2I4ZWVjYjBmZTAwNGI4YzI3NGRhMGVmZTdhMWQyYjYzMjVhOTRiZGI4YjI0ZDVjMTJlMDkyZDYzMzNlMDM3Njk2Mzk0Njc3MDk3NzU3NWI3NjI0MTA3MjJkMWJmOGIxOGQ2MjgyY2I5YmFkNzhiNjUyMjAzNjNiNzY5NTkyZTc1YzcxOTc4NmMyNDMxYWI3MGQxMmI1OGIyNTYxNzI1YWQ1NDk2Nzk4ZmEwN2UxMjlkNTAwZmE0NzIzOGRjMWFjMjVjNWIxNTAyYWYyM2VkYThjZTY0YjQ3NGE1ZTUwYTM2N2E=.MWJjMDY3OTkxMDE3YjFhZDhhMjI2Y2FjZTRkYjQ5NTRmYWVhMDY5NDliMzU5MWE0ZWQ0ZGMyZWRiYTM3MGE3Zg==
 ```
