@@ -15,5 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/ubah-alamat-ip?pengirim=%2B6281935155404&newip=127.0.0.1&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/ubah-alamat-ip?pengirim=%2B6281935155404&newip=127.0.0.1&pin=1234
 ```

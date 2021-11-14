@@ -16,5 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/ubah-password-ip?pengirim=%2B6281935155404&oldpassword=1234&newpassword=1234&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/ubah-password-ip?pengirim=%2B6281935155404&oldpassword=1234&newpassword=1234&pin=1234
 ```

@@ -16,5 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/tambah-nomor2?pengirim=%2B6281935155404&kodereseller=ox0004&tujuan=087758437457&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/tambah-nomor2?pengirim=%2B6281935155404&kodereseller=ox0004&tujuan=087758437457&pin=1234
 ```

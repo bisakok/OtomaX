@@ -15,5 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/cek-status-transaksi3?pengirim=%2B6281935155404&tanggal=20&tujuan=087758437457
+GET https://nxxxxx.myddns.me/api/v1/cek-status-transaksi3?pengirim=%2B6281935155404&tanggal=20&tujuan=087758437457
 ```

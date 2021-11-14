@@ -15,5 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/aktifkan-dl?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/aktifkan-dl?pengirim=%2B6281935155404&kodereseller=ox0004&pin=1234
 ```

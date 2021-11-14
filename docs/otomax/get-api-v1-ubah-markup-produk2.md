@@ -16,5 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/ubah-markup-produk2?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&markup=500
+GET https://nxxxxx.myddns.me/api/v1/ubah-markup-produk2?pengirim=%2B6281935155404&pin=1234&kodeproduk=test5&markup=500
 ```

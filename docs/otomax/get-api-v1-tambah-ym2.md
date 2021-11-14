@@ -16,5 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/tambah-ym2?pengirim=%2B6281935155404&kodereseller=ox0004&yahooid=nxxxxx.inc%40yahoo.co.id&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/tambah-ym2?pengirim=%2B6281935155404&kodereseller=ox0004&yahooid=nxxxxx.inc%40yahoo.co.id&pin=1234
 ```

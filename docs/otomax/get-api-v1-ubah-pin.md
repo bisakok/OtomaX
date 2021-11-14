@@ -15,5 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/ubah-pin?pengirim=%2B6281935155404&pinlama=1234&pinbaru=1234
+GET https://nxxxxx.myddns.me/api/v1/ubah-pin?pengirim=%2B6281935155404&pinlama=1234&pinbaru=1234
 ```

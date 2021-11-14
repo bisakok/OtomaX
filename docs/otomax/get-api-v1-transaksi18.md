@@ -16,5 +16,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/transaksi18?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&kodeproduk=test5
+GET https://nxxxxx.myddns.me/api/v1/transaksi18?pengirim=%2B6281935155404&pin=1234&tujuan=087758437457&kodeproduk=test5
 ```

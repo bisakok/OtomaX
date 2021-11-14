@@ -15,5 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/ubah-report-url?pengirim=%2B6281935155404&newurl=http%3A%2F%2Flocalhost%2Fapi%2Fv1%2Freport&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/ubah-report-url?pengirim=%2B6281935155404&newurl=http%https://nxxxxx.myddns.me/2Fapi%2Fv1%2Freport&pin=1234
 ```

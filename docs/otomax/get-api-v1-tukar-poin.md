@@ -15,5 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/tukar-poin?pengirim=%2B6281935155404&kode=test5&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/tukar-poin?pengirim=%2B6281935155404&kode=test5&pin=1234
 ```

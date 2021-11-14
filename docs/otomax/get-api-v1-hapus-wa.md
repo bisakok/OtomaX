@@ -15,5 +15,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/hapus-wa?pengirim=%2B6281935155404&nomor=087758437457&pin=1234
+GET https://nxxxxx.myddns.me/api/v1/hapus-wa?pengirim=%2B6281935155404&nomor=087758437457&pin=1234
 ```

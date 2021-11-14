@@ -13,5 +13,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/list-pengirim-ym?pengirim=%2B6281935155404
+GET https://nxxxxx.myddns.me/api/v1/list-pengirim-ym?pengirim=%2B6281935155404
 ```

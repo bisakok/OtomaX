@@ -14,5 +14,5 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-GET http://localhost/api/v1/list-pengirim-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004
+GET https://nxxxxx.myddns.me/api/v1/list-pengirim-gtalk2?pengirim=%2B6281935155404&kodereseller=ox0004
 ```
