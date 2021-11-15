@@ -26,7 +26,7 @@ Content-Type: application/json
 {
     "pin": "1234",
     "kodeproduk": "test5",
-    "counter": "1",
+    "counter": "2",
     "tujuan": "087758437457"
 }
 
