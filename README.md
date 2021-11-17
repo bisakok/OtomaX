@@ -468,8 +468,8 @@ Untuk deskripsi sumber daya yang tersedia, lihat Tinjauan Sumber Daya.
 - **[<code>GET</code> /api/v1/pengirim](./docs/otomax/get-api-v1-pengirim.md)**
 - **[<code>GET</code> /api/v1/downline](./docs/otomax/get-api-v1-downline.md)**
 - **[<code>GET</code> /api/v1/operator](./docs/otomax/get-api-v1-operator.md)**
-- **[<code>GET</code> /api/v1/produk](./docs/otomax/get-api-v1-produk.md)**
 - **[<code>GET</code> /api/v1/mutasi](./docs/otomax/get-api-v1-mutasi.md)**
+- **[<code>GET</code> /api/v1/produk](./docs/otomax/get-api-v1-produk.md)**
 
 </p>
     </details>
