@@ -1,0 +1,318 @@
+{
+    "info": {
+        "name": "Telegram",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"label\":\"ndiing_bot\",\"password\":\"1938532379:AAEedETbB6AbfavfTi7iyam0SrLPqWStlR0\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"label\":\"ndiing_center_1_bot\",\"password\":\"2049378584:AAH0mEAeNWYSNSQe7flTTwYAwej5im1nJb4\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"label\":\"api_otomax_bot\",\"password\":\"2049367740:AAFl5EPPT9D-EBFhuzxqlbf67Yn6tdQAfms\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post disconnect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"kode_terminal\":23}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/disconnect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "disconnect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post send",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"penerima\":\"1344008938\",\"pesan\":\"pesan\",\"kode_terminal\":1}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/send",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "send"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get send",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/send?penerima=1344008938&pesan=pesan&kode_terminal=1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "send"
+                    ],
+                    "query": [
+                        {
+                            "key": "penerima",
+                            "value": "1344008938"
+                        },
+                        {
+                            "key": "pesan",
+                            "value": "pesan"
+                        },
+                        {
+                            "key": "kode_terminal",
+                            "value": "1"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post send",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"penerima\":\"1344008938\",\"pesan\":\"pesan\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/send",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "send"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        ""
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get 1",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "1"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Delete 23",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/telegram/v1/23",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "telegram",
+                        "v1",
+                        "23"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}

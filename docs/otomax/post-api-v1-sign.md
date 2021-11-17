@@ -13,7 +13,7 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-POST http://nxxxxx.myddns.me/api/v1/sign
+POST http://localhost/api/v1/sign
 Content-Type: application/json
 
 {

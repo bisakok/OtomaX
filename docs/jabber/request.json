@@ -1,0 +1,288 @@
+{
+    "info": {
+        "name": "Jabber",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"username\":\"ndiing@jabb.im\",\"password\":\"S2N#Wcm8rnKbpsg\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"username\":\"ndiing_center_1@jabb.im\",\"password\":\"@8d.yAkRiMA7Qpj\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post disconnect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"kode_terminal\":26}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/disconnect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "disconnect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post send",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"penerima\":\"ndiing2@jabb.im\",\"pesan\":\"pesan\",\"kode_terminal\":1}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/send",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "send"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get send",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/send?penerima=ndiing2%40jabb.im&pesan=pesan&kode_terminal=1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "send"
+                    ],
+                    "query": [
+                        {
+                            "key": "penerima",
+                            "value": "ndiing2@jabb.im"
+                        },
+                        {
+                            "key": "pesan",
+                            "value": "pesan"
+                        },
+                        {
+                            "key": "kode_terminal",
+                            "value": "1"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post send",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"penerima\":\"ndiing2@jabb.im\",\"pesan\":\"pesan\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/send",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "send"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        ""
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get 1",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "1"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Delete 25",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/jabber/v1/25",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "jabber",
+                        "v1",
+                        "25"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}

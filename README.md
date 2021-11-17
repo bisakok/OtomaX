@@ -1,5 +1,10 @@
 # OtomaX Web
 Unofficial extended OtomaX software
+## Postman
+- **[OtomaX](https://documenter.getpostman.com/view/5128413/UVCBBQVF)**
+- **[Jabber](https://documenter.getpostman.com/view/5128413/UVCBBQVD)**
+- **[Telegram](https://documenter.getpostman.com/view/5128413/UVCBBQVH)**
+- **[Whatsapp](https://documenter.getpostman.com/view/5128413/UVCBBQVJ)**
 ## Memulai
 Anda akan membutuhkan node.js yang diinstal pada komputer Anda untuk membangun aplikasi ini.
 ```bash

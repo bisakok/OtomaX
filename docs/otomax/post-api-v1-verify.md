@@ -14,7 +14,7 @@ Nama  | Nilai | Keterangan
 
 ### Request
 ```http
-POST http://nxxxxx.myddns.me/api/v1/verify
+POST http://localhost/api/v1/verify
 Content-Type: application/json
 
 {

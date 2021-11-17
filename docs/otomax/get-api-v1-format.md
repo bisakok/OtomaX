@@ -8,5 +8,5 @@ keterangan
 
 ### Request
 ```http
-GET http://nxxxxx.myddns.me/api/v1/format
+GET http://localhost/api/v1/format
 ```

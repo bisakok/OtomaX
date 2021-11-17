@@ -1,0 +1,318 @@
+{
+    "info": {
+        "name": "Whatsapp",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"label\":\"6281938064470\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"label\":\"6281938064470\",\"beta\":true}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post connect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"label\":\"6283845311393\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/connect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "connect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post disconnect",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"kode_terminal\":12}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/disconnect",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "disconnect"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post send",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"penerima\":\"6281935155404\",\"pesan\":\"pesan\",\"kode_terminal\":1}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/send",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "send"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get send",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/send?penerima=6281935155404&pesan=pesan&kode_terminal=1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "send"
+                    ],
+                    "query": [
+                        {
+                            "key": "penerima",
+                            "value": "6281935155404"
+                        },
+                        {
+                            "key": "pesan",
+                            "value": "pesan"
+                        },
+                        {
+                            "key": "kode_terminal",
+                            "value": "1"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Post send",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"penerima\":\"6281935155404\",\"pesan\":\"pesan\"}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/send",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "send"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        ""
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get 12",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/12",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "12"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Delete 12",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost/api/whatsapp/v1/12",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "whatsapp",
+                        "v1",
+                        "12"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}

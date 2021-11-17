@@ -82,7 +82,9 @@ typings/
 !cert.pem
 !key.pem
 !docs
-!docs/**
-docs/index.js
+!docs/*
+!docs/*/*.rest
+!docs/*/*.json
+docs/*.js
 !dist
 !dist/*
